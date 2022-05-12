@@ -3,11 +3,6 @@ const app = express()
 const port = 3000
 const fs = require('fs')
 
-app.listen(process.env.PORT || 3000, () => {
-    console.log(`Example app listening on port ${port}`)
-})
-
-
 let dictionary = require('./fullDictionary.json')
 
 app.get('/wiki', (req, res) => {
@@ -46,3 +41,6 @@ app.get('/', (req, res) => {
     res.send("Hello, I\'m a databse for Pathfinder 2!")
 })
 
+app.listen(process.env.PORT || 3000, () => {
+    console.log(`Example app listening on port ${port}`)
+})
