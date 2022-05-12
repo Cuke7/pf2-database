@@ -17,12 +17,12 @@ app.get('/wiki', (req, res) => {
             res.json(err)
         } else {
             console.log(data)
-            let description = data.split("Description (fr) ------\r\n")[1]
+            let descriptionFR = data//.split("Description (fr) ------\r\n")[1]
 
             // if (description) {
             let regex =
                 /@Compendium\[pf2e\.[ ]*?([A-z-0-9]*?)\.[ ]*?([A-z0-9]*?)\]\{(.*?)\}/gm;
-            let descriptionFR = description;
+            // let descriptionFR = description;
             let matchs = descriptionFR.matchAll(regex);
             for (const match of matchs) {
                 descriptionFR = descriptionFR.replace(
