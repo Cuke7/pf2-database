@@ -16,22 +16,24 @@ app.get('/wiki', (req, res) => {
         if (err) {
             res.json(err)
         } else {
-            console.log(data)
-            let descriptionFR = data//.split("Description (fr) ------\r\n")[1]
 
-            // if (description) {
-            let regex =
-                /@Compendium\[pf2e\.[ ]*?([A-z-0-9]*?)\.[ ]*?([A-z0-9]*?)\]\{(.*?)\}/gm;
-            // let descriptionFR = description;
-            let matchs = descriptionFR.matchAll(regex);
-            for (const match of matchs) {
-                descriptionFR = descriptionFR.replace(
-                    match[0],
-                    "<a href='/" + match[1] + "/" + match[2] + "'>" + match[3] + "</a>"
-                );
+            let description = data.split("Description (fr) ------\n")[1]
+
+            if (description) {
+                let regex =
+                    /@Compendium\[pf2e\.[ ]*?([A-z-0-9]*?)\.[ ]*?([A-z0-9]*?)\]\{(.*?)\}/gm;
+                let descriptionFR = description;
+                let matchs = descriptionFR.matchAll(regex);
+                for (const match of matchs) {
+                    descriptionFR = descriptionFR.replace(
+                        match[0],
+                        "<a href='/" + match[1] + "/" + match[2] + "'>" + match[3] + "</a>"
+                    );
+                }
+                res.json({ descriptionFR })
+            } else {
+                res.json({ descriptionFR: null })
             }
-            res.json({ descriptionFR })
-            // } 
         }
     })
 })
