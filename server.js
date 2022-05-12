@@ -16,7 +16,7 @@ app.get('/wiki', (req, res) => {
         if (err) {
             res.json(err)
         } else {
-            console.log(description)
+            console.log(data)
             let description = data.split("Description (fr) ------\r\n")[1]
 
             // if (description) {
