@@ -1,5 +1,5 @@
 {
-  "name": "pf2server",
+  "name": "pf2-database",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
