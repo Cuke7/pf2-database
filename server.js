@@ -5,7 +5,7 @@ const fs = require('fs')
 
 let dictionary = require('./fullDictionary.json')
 
-app.get('/', (req, res) => {
+app.get('/wiki', (req, res) => {
     let shortID = req.query.id
 
     let item = dictionary.find(item => item.link.split("/")[1].includes(shortID))
@@ -20,6 +20,10 @@ app.get('/', (req, res) => {
             res.json({ descriptionFR })
         }
     })
+})
+
+app.get('/', (req, res) => {
+    res.send("Hello, I\'m a databse for Pathfinder 2!")
 })
 
 app.listen(port, () => {
