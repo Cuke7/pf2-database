@@ -5,7 +5,7 @@ const fs = require('fs')
 
 let dictionary = require('./DataProcessing/fullDictionary.json')
 
-let PROD = false
+let PROD = true
 
 app.get('/wiki', (req, res) => {
     let shortID = req.query.id
