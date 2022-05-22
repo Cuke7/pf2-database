@@ -1,4 +1,5 @@
 const express = require('express')
+var glob = require("glob")
 const app = express()
 const port = 3000
 const fs = require('fs')
@@ -45,6 +46,31 @@ app.get('/wiki', (req, res) => {
         }
     })
 })
+
+app.get('/getDataSets', (req, res) => {
+    let category = req.query.cat
+    glob("PF2E_data_EN/" + category + ".db/*.json", function (er, files) {
+        readFiles(files).then(result => {
+            res.json(result)
+        })
+    })
+})
+
+async function readFiles(files) {
+    let out = []
+    for (const file of files) {
+        // console.log(file)
+        const data = await fs.promises.readFile(file);
+        let nameEN = file.split("/")[2].split(".json")[0]
+        let fileData = Buffer.from(data);
+        let temp = {}
+        temp[nameEN] = JSON.parse(fileData.toString())
+        out.push(temp)
+        // out.push({ nameEN, data: JSON.parse(fileData.toString()) })
+    }
+    // console.log(out)
+    return out
+}
 
 app.get('/', (req, res) => {
     res.send("Hello, I\'m a databse for Pathfinder 2!")
