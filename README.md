@@ -6,7 +6,7 @@ Base de données pour Pathfinder 2nd édition.
 
 Les données sont issues de [Foundry VTT - Pathfinder 2e](https://gitlab.com/hooking/foundry-vtt---pathfinder-2e/-/tree/master/packs/data).
 
-L'API permet d'obtenir un fichier JSON qui comprend les données d'un **_dossier_** spécifié.
+L'API permet d'obtenir un fichier JSON qui comprend les données d'un **_dossier_** spécifié. La liste des dossiers possibles se trouve [ici](https://github.com/Cuke7/pf2-database/tree/master/PF2E_data_EN)
 
 **Exemples** :
 
