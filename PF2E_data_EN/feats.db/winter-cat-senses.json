@@ -1,0 +1,45 @@
+{
+    "_id": "Ds1waj86N4Z2gCMN",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your eyes are keen and accustomed to winter conditions. You ignore concealment caused by ice and snow.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 1
+        },
+        "location": "",
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Winter Catfolk Heritage"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Lost Omens: Ancestry Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "catfolk"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Winter Cat Senses",
+    "type": "feat"
+}

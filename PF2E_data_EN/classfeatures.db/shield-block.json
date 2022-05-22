@@ -1,0 +1,48 @@
+{
+    "_id": "eZNCckLzbH3GyncH",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You gain the @Compendium[pf2e.feats-srd.Shield Block]{Shield Block} general feat, a reaction that lets you reduce damage with your shield.</p>"
+        },
+        "featType": {
+            "value": "classfeature"
+        },
+        "level": {
+            "value": 1
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "GrantItem",
+                "uuid": "Compendium.pf2e.feats-srd.Shield Block"
+            }
+        ],
+        "source": {
+            "value": ""
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "champion",
+                "druid",
+                "fighter"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/classes/shield-block.webp",
+    "name": "Shield Block",
+    "type": "feat"
+}

@@ -1,0 +1,97 @@
+{
+    "_id": "X5gNhaYNx1xu6NoH",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You've learned how to land daring blows when you have @Compendium[pf2e.classfeatures.Panache]{Panache}.</p>\n<p>You gain the @Compendium[pf2e.classfeatures.Precise Strike]{Precise Strike} class feature but you deal 1 addition damage on a hit and 1d6 damage on a finisher. This damage doesn't increase as you gain levels. In addition, you gain the @Compendium[pf2e.actionspf2e.Basic Finisher]{Basic Finisher} action.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 4
+        },
+        "location": "",
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Swashbuckler Dedication"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "key": "GrantItem",
+                "uuid": "Compendium.pf2e.actionspf2e.Basic Finisher"
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "Compendium.pf2e.classfeatures.Precise Strike"
+            },
+            {
+                "damageCategory": "precision",
+                "key": "FlatModifier",
+                "predicate": {
+                    "all": [
+                        "panache",
+                        "melee"
+                    ],
+                    "any": [
+                        "finesse",
+                        "agile"
+                    ],
+                    "not": [
+                        "finisher",
+                        "class:swashbuckler"
+                    ]
+                },
+                "selector": "strike-damage",
+                "slug": "dedication-precise-strike",
+                "value": 1
+            },
+            {
+                "category": "precision",
+                "diceNumber": 1,
+                "dieSize": "d6",
+                "key": "DamageDice",
+                "predicate": {
+                    "all": [
+                        "finisher",
+                        "panache",
+                        "melee"
+                    ],
+                    "any": [
+                        "finesse",
+                        "agile"
+                    ],
+                    "not": [
+                        "class:swashbuckler"
+                    ]
+                },
+                "selector": "strike-damage",
+                "slug": "dedication-finisher"
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Advanced Player's Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "archetype"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Finishing Precision",
+    "type": "feat"
+}

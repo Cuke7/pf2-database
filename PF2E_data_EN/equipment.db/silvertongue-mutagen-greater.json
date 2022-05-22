@@ -1,0 +1,113 @@
+{
+    "_id": "uggpIk6vguWFXVli",
+    "data": {
+        "activation": {
+            "condition": "",
+            "cost": 0,
+            "type": ""
+        },
+        "autoDestroy": {
+            "_deprecated": true,
+            "value": true
+        },
+        "autoUse": {
+            "_deprecated": true,
+            "value": true
+        },
+        "baseItem": null,
+        "charges": {
+            "_deprecated": true,
+            "max": 1,
+            "value": 1
+        },
+        "consumableType": {
+            "value": "mutagen"
+        },
+        "consume": {
+            "_deprecated": true,
+            "value": ""
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p><strong>Activate</strong> <span class=\"pf2-icon\">A</span> Interact</p>\n<hr />\n<p>Your features become striking and your voice becomes musical and commanding, though facts and figures become hazy for you and emotion clouds your ability to reason.</p>\n<p><strong>Benefit</strong> You gain a +3 item bonus to Deception, Diplomacy, Intimidation and Performance checks. Your critical failures with any of these skills become failures instead.</p>\n<p><strong>Drawback</strong> You take a -2 item penalty to Arcana, Crafting, Lore, Occultism, and Society checks. Choose one skill in which you are trained; for the duration, you become untrained in that skill. All your failures to @Compendium[pf2e.actionspf2e.Recall Knowledge (Lore)]{Recall Knowledge} become critical failures.</p>\n<p><strong>Duration</strong> 1 hour.</p>\n<p>@Compendium[pf2e.consumable-effects.Effect: Silvertongue Mutagen (Greater)]{Effect: Silvertongue Mutagen (Greater)}</p>"
+        },
+        "duration": {
+            "units": "",
+            "value": null
+        },
+        "equippedBulk": {
+            "value": ""
+        },
+        "hardness": 0,
+        "hp": {
+            "brokenThreshold": 0,
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 11
+        },
+        "negateBulk": {
+            "value": "0"
+        },
+        "preciousMaterial": {
+            "value": ""
+        },
+        "preciousMaterialGrade": {
+            "value": ""
+        },
+        "price": {
+            "value": {
+                "gp": 300
+            }
+        },
+        "quantity": 1,
+        "range": {
+            "long": null,
+            "units": "",
+            "value": null
+        },
+        "rules": [],
+        "size": "med",
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "spell": {
+            "data": null,
+            "heightenedLevel": null
+        },
+        "stackGroup": null,
+        "target": {
+            "type": "",
+            "units": "",
+            "value": null
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "alchemical",
+                "consumable",
+                "elixir",
+                "mutagen",
+                "polymorph"
+            ]
+        },
+        "usage": {
+            "value": "held-in-one-hand"
+        },
+        "uses": {
+            "autoDestroy": true,
+            "autoUse": true,
+            "max": 0,
+            "per": null,
+            "value": 0
+        },
+        "weight": {
+            "value": "L"
+        }
+    },
+    "img": "systems/pf2e/icons/equipment/alchemical-items/alchemical-elixirs/silvertongue-mutagen.webp",
+    "name": "Silvertongue Mutagen (Greater)",
+    "type": "consumable"
+}

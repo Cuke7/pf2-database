@@ -1,0 +1,45 @@
+{
+    "_id": "f1acyuIGYVp2BpKc",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You blend in to your surroundings so well that others have trouble telling you apart from the terrain. While in natural terrain, you're always @Compendium[pf2e.conditionitems.Concealed]{Concealed} from all foes if you choose to be, except for your hunted prey.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 18
+        },
+        "location": "",
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Camouflage"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "ranger"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Shadow Hunter",
+    "type": "feat"
+}

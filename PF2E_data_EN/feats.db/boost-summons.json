@@ -1,0 +1,41 @@
+{
+    "_id": "gHc9mqHiMqayiOIx",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Augmenting your eidolon extends to creatures you summon. When you cast <em>boost eidolon</em>, in addition to your eidolon, it also targets your summoned creatures within 60 feet.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 8
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": ""
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "summoner"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Boost Summons",
+    "type": "feat"
+}

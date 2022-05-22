@@ -1,0 +1,8 @@
+{
+    "_id": "cgoOcef3miRd16bt",
+    "content": "<p>Play after you fail an attack roll.</p>\n<hr />\n<p>You get a success on the attack roll rather than a failure.</p>",
+    "name": "Reverse Strike",
+    "permission": {
+        "default": 0
+    }
+}

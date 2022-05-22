@@ -1,0 +1,44 @@
+{
+    "_id": "FnGOkNyLF4w3FyqZ",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You have filed your teeth into jagged points and have an unusually powerful jaw, making your mouth a dangerous weapon. If you're an irongut goblin, you gain a jaws unarmed attack that deals 1d4 piercing damage, and if you're a razortooth goblin, your jaws unarmed attack deals 1d8 piercing damage and loses the finesse trait. Whenever you score a critical hit with your jaws unarmed attack, your target takes [[/r {1}[persistent,bleed]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Bleed Damage} per weapon damage die.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "irongut goblin or razortooth goblin heritage"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Lost Omens: Character Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "goblin"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Fang Sharpener",
+    "type": "feat"
+}

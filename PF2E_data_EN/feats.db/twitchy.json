@@ -1,0 +1,103 @@
+{
+    "_id": "Bni2NcuQn6Z546RE",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You are naturally suspicious and wary of danger, especially when you suspect someone might be leading you into an ambush. You gain a +1 circumstance bonus to AC and saves against hazards, and to all of your initiative rolls.</p>\n<p>If at least one of your opponents is using Deception or Diplomacy to determine their initiative, your bonus to initiative from this feat increases to +4.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 1
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "domain": "all",
+                "key": "RollOption",
+                "label": "Saving or defending against hazards",
+                "option": "hazard",
+                "toggleable": true
+            },
+            {
+                "domain": "all",
+                "key": "RollOption",
+                "label": "Opponent rolling Deception or Diplomacy for initiative",
+                "option": "twitchyDeceptionDiplomacy",
+                "toggleable": true
+            },
+            {
+                "key": "FlatModifier",
+                "label": "Twitchy",
+                "selector": "initiative",
+                "type": "circumstance",
+                "value": 1
+            },
+            {
+                "key": "FlatModifier",
+                "label": "Twitchy (Opponent rolling Deception or Diplomacy)",
+                "predicate": {
+                    "all": [
+                        "twitchyDeceptionDiplomacy"
+                    ]
+                },
+                "selector": "initiative",
+                "type": "circumstance",
+                "value": 4
+            },
+            {
+                "key": "FlatModifier",
+                "predicate": {
+                    "all": [
+                        "hazard"
+                    ]
+                },
+                "roll-options": [
+                    "all"
+                ],
+                "selector": "ac",
+                "type": "circumstance",
+                "value": 1
+            },
+            {
+                "key": "FlatModifier",
+                "predicate": {
+                    "all": [
+                        "hazard"
+                    ]
+                },
+                "roll-options": [
+                    "all"
+                ],
+                "selector": "saving-throw",
+                "type": "circumstance",
+                "value": 1
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Advanced Player's Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "goblin"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Twitchy",
+    "type": "feat"
+}

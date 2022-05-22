@@ -1,0 +1,113 @@
+{
+    "_id": "5koINU0dy5nPL8Cg",
+    "data": {
+        "activation": {
+            "condition": "",
+            "cost": 0,
+            "type": ""
+        },
+        "autoDestroy": {
+            "_deprecated": true,
+            "value": true
+        },
+        "autoUse": {
+            "_deprecated": true,
+            "value": true
+        },
+        "baseItem": null,
+        "charges": {
+            "_deprecated": true,
+            "max": 0,
+            "value": 0
+        },
+        "consumableType": {
+            "value": "snare"
+        },
+        "consume": {
+            "_deprecated": true,
+            "value": ""
+        },
+        "containerId": "null",
+        "description": {
+            "value": "<p>Sharp metal jaws wind tightly into the pressure plate mechanism of this snare. When triggered, the jaws clamp shut and spin, damaging limbs in the process. The snare deals [[/r {10d8}[piercing]]]{10d8 piercing damage} to the first creature to enter the square; that creature must attempt a @Check[type:reflex|dc:33|showDC:all] save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage and is @Compendium[pf2e.conditionitems.Flat-Footed]{Flat-Footed} until the end of its next turn.</p>\n<p><strong>Failure</strong> The creature takes full damage plus @Localize[PF2E.PersistentDamage.Bleed2d6.success], and it becomes @Compendium[pf2e.conditionitems.Clumsy]{Clumsy 2} for 1 round.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage plus [[/r {4d6}[persistent,bleed]]] persistent bleed damage, and it becomes clumsy 2 for 1 minute.</p>"
+        },
+        "duration": {
+            "units": "",
+            "value": null
+        },
+        "equippedBulk": {
+            "value": ""
+        },
+        "hardness": 0,
+        "hp": {
+            "brokenThreshold": 0,
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 14
+        },
+        "negateBulk": {
+            "value": "0"
+        },
+        "preciousMaterial": {
+            "value": null
+        },
+        "preciousMaterialGrade": {
+            "value": null
+        },
+        "price": {
+            "value": {
+                "gp": 700
+            }
+        },
+        "quantity": 1,
+        "range": {
+            "long": null,
+            "units": "",
+            "value": null
+        },
+        "rules": [],
+        "size": "med",
+        "source": {
+            "value": "Pathfinder Lost Omens: The Grand Bazaar"
+        },
+        "spell": {
+            "data": null,
+            "heightenedLevel": null
+        },
+        "stackGroup": null,
+        "target": {
+            "type": "",
+            "units": "",
+            "value": null
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "uncommon",
+            "value": [
+                "consumable",
+                "kobold",
+                "mechanical",
+                "snare",
+                "trap"
+            ]
+        },
+        "usage": {
+            "value": "held-in-one-hand"
+        },
+        "uses": {
+            "autoDestroy": true,
+            "autoUse": true,
+            "max": 0,
+            "per": null,
+            "value": 0
+        },
+        "weight": {
+            "value": "-"
+        }
+    },
+    "img": "systems/pf2e/icons/default-icons/consumable.svg",
+    "name": "Rending Snare",
+    "type": "consumable"
+}

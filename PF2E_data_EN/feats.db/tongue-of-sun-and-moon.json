@@ -1,0 +1,40 @@
+{
+    "_id": "ct4dJHBn1Dj4cx4B",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You have transcended the barriers between words and meaning. You can speak and understand all spoken languages.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "monk"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Tongue of Sun and Moon",
+    "type": "feat"
+}

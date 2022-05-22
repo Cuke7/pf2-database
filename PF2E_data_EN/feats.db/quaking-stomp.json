@@ -1,0 +1,43 @@
+{
+    "_id": "FMjihpGLn9eQ14Gw",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per 10 minutes</p>\n<hr />\n<p>You stomp the ground with such force that it creates a minor earthquake, with the effects of the <em>@Compendium[pf2e.spells-srd.Earthquake]{Earthquake}</em> spell.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 20
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "barbarian",
+                "manipulate",
+                "rage"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Quaking Stomp",
+    "type": "feat"
+}

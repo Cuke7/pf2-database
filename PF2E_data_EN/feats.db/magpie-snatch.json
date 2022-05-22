@@ -1,0 +1,41 @@
+{
+    "_id": "NBwH9wEeUfKfOg8R",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 2
+        },
+        "description": {
+            "value": "<p>You move quickly, snatching a shiny item that catches your eye. Stride twice, and you can Interact to grab an unattended object at any point during your movement.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 5
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Lost Omens: Ancestry Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "tengu"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Magpie Snatch",
+    "type": "feat"
+}

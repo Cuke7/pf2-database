@@ -1,0 +1,126 @@
+{
+    "_id": "oJKZi8OQgmVXHOc0",
+    "data": {
+        "ability": {
+            "value": ""
+        },
+        "area": {
+            "areaType": "",
+            "value": ""
+        },
+        "areasize": {
+            "value": ""
+        },
+        "category": {
+            "value": "focus"
+        },
+        "components": {
+            "focus": false,
+            "material": false,
+            "somatic": true,
+            "verbal": true
+        },
+        "cost": {
+            "value": ""
+        },
+        "damage": {
+            "value": {
+                "0": {
+                    "applyMod": false,
+                    "type": {
+                        "categories": [],
+                        "subtype": "",
+                        "value": "fire"
+                    },
+                    "value": "2d6"
+                }
+            }
+        },
+        "description": {
+            "value": "<p>A blazing band of fire arcs through the air. Make a spell attack roll. The ray deals 2d6 fire damage.</p>\n<hr />\n<p><strong>Critical Success</strong> The ray deals double damage and [[/r {1d4}[persistent,fire]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Fire Damage}.</p>\n<p><strong>Success</strong> The ray deals full damage.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The ray's initial damage increases by 2d6, and the persistent fire damage on a critical success increases by 1d4.</p>"
+        },
+        "duration": {
+            "value": ""
+        },
+        "hasCounteractCheck": {
+            "value": false
+        },
+        "heightening": {
+            "damage": {
+                "0": "2d6"
+            },
+            "interval": 1,
+            "type": "interval"
+        },
+        "level": {
+            "value": 1
+        },
+        "location": {
+            "value": ""
+        },
+        "materials": {
+            "value": ""
+        },
+        "prepared": {
+            "value": ""
+        },
+        "primarycheck": {
+            "value": ""
+        },
+        "range": {
+            "value": "60 feet"
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "override",
+                "path": "flags.pf2e.rollOptions.all.fire-domain",
+                "priority": 10,
+                "value": true
+            }
+        ],
+        "save": {
+            "basic": "",
+            "value": ""
+        },
+        "school": {
+            "value": "evocation"
+        },
+        "secondarycasters": {
+            "value": ""
+        },
+        "secondarycheck": {
+            "value": ""
+        },
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "spellType": {
+            "value": "attack"
+        },
+        "sustained": {
+            "value": false
+        },
+        "target": {
+            "value": "1 creature"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traditions": {
+            "value": []
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "uncommon",
+            "value": [
+                "attack",
+                "cleric",
+                "fire"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/spells/fire-ray.webp",
+    "name": "Fire Ray",
+    "type": "spell"
+}

@@ -1,0 +1,46 @@
+{
+    "_id": "HjinlKihkadhkQ4Z",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "description": {
+            "value": "<p>You unleash a terrifying howl. Attempt Intimidate checks to Demoralize each enemy within 30 feet. Regardless of the results of your checks, each enemy is then temporarily immune to Terrifying Howl for 1 minute.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Intimidating Glare"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "auditory",
+                "barbarian",
+                "rage"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Terrifying Howl",
+    "type": "feat"
+}

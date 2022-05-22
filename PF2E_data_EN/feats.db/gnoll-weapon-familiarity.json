@@ -1,0 +1,72 @@
+{
+    "_id": "zb7F0M3H8PN3XsdX",
+    "data": {
+        "actionCategory": {
+            "value": "offensive"
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You were taught to be a hunter and a raider. You are trained with @Compendium[pf2e.equipment-srd.Flail]{Flail}, @Compendium[pf2e.equipment-srd.Khopesh]{Khopesh}, @Compendium[pf2e.equipment-srd.Mambele]{Mambele}, @Compendium[pf2e.equipment-srd.Spear]{Spear}, and @Compendium[pf2e.equipment-srd.War Flail]{War Flail}.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 1
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "data.martial.weapon-base-flail.rank",
+                "value": 1
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "data.martial.weapon-base-khopesh.rank",
+                "value": 1
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "data.martial.weapon-base-mambele.rank",
+                "value": 1
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "data.martial.weapon-base-spear.rank",
+                "value": 1
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "data.martial.weapon-base-war-flail.rank",
+                "value": 1
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Lost Omens: The Mwangi Expanse"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "gnoll"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Gnoll Weapon Familiarity",
+    "type": "feat"
+}

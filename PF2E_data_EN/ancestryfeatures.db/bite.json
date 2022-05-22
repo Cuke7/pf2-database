@@ -1,0 +1,59 @@
+{
+    "_id": "jatezR4bENwhC6GL",
+    "data": {
+        "actionCategory": {
+            "value": "offensive"
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your sharp teeth and powerful jaws are fearsome weapons. You have a jaws unarmed attack that deals 1d6 piercing damage. Your jaws are in the brawling group.</p>"
+        },
+        "featType": {
+            "value": "ancestryfeature"
+        },
+        "level": {
+            "value": 0
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "category": "unarmed",
+                "damage": {
+                    "base": {
+                        "damageType": "piercing",
+                        "dice": 1,
+                        "die": "d6"
+                    }
+                },
+                "group": "brawling",
+                "key": "Strike",
+                "label": "Bite",
+                "range": null,
+                "traits": [
+                    "unarmed"
+                ]
+            }
+        ],
+        "source": {
+            "value": ""
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "gnoll"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "name": "Bite",
+    "type": "feat"
+}

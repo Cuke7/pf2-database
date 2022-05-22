@@ -1,0 +1,41 @@
+{
+    "_id": "9SYnbjFgyucjhN5e",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You capitalize on your enemies' fear to slip past their defenses. Any creature that has the @Compendium[pf2e.conditionitems.Frightened]{Frightened} condition is also @Compendium[pf2e.conditionitems.Flat-Footed]{Flat-Footed} against your attacks.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 4
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "rogue"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Dread Striker",
+    "type": "feat"
+}

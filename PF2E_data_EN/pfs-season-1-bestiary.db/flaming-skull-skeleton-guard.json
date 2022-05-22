@@ -1,0 +1,404 @@
+{
+    "_id": "uedXIip0UPHJ4Egt",
+    "data": {
+        "abilities": {
+            "cha": {
+                "mod": 0
+            },
+            "con": {
+                "mod": 0
+            },
+            "dex": {
+                "mod": 4
+            },
+            "int": {
+                "mod": -5
+            },
+            "str": {
+                "mod": 0
+            },
+            "wis": {
+                "mod": 0
+            }
+        },
+        "attributes": {
+            "ac": {
+                "details": "",
+                "value": 16
+            },
+            "allSaves": {
+                "value": ""
+            },
+            "hp": {
+                "details": "",
+                "max": 4,
+                "temp": 0,
+                "value": 4
+            },
+            "initiative": {
+                "ability": "perception"
+            },
+            "perception": {
+                "value": 2
+            },
+            "speed": {
+                "otherSpeeds": [],
+                "value": "25"
+            }
+        },
+        "details": {
+            "alignment": {
+                "value": "NE"
+            },
+            "blurb": "",
+            "creatureType": "",
+            "level": {
+                "value": -1
+            },
+            "privateNotes": "",
+            "publicNotes": "",
+            "source": {
+                "value": "Pathfinder Society: Season 1"
+            }
+        },
+        "resources": {},
+        "saves": {
+            "fortitude": {
+                "saveDetail": "",
+                "value": 2
+            },
+            "reflex": {
+                "saveDetail": "",
+                "value": 8
+            },
+            "will": {
+                "saveDetail": "",
+                "value": 2
+            }
+        },
+        "traits": {
+            "ci": [],
+            "di": {
+                "custom": "",
+                "value": [
+                    "death-effects",
+                    "disease",
+                    "fire",
+                    "mental",
+                    "paralyzed",
+                    "poison",
+                    "unconscious"
+                ]
+            },
+            "dr": [
+                {
+                    "label": "Cold",
+                    "type": "cold",
+                    "value": "5"
+                },
+                {
+                    "label": "Electricity",
+                    "type": "electricity",
+                    "value": "5"
+                },
+                {
+                    "label": "Piercing",
+                    "type": "piercing",
+                    "value": "5"
+                },
+                {
+                    "label": "Slashing",
+                    "type": "slashing",
+                    "value": "5"
+                }
+            ],
+            "dv": [],
+            "languages": {
+                "custom": "",
+                "selected": [],
+                "value": []
+            },
+            "rarity": "common",
+            "senses": {
+                "value": "darkvision"
+            },
+            "size": {
+                "value": "med"
+            },
+            "traits": {
+                "custom": "",
+                "value": [
+                    "mindless",
+                    "skeleton",
+                    "undead"
+                ]
+            }
+        }
+    },
+    "img": "systems/pf2e/icons/default-icons/npc.svg",
+    "items": [
+        {
+            "_id": "LrvmVeB8MiygRC5C",
+            "data": {
+                "baseItem": null,
+                "containerId": null,
+                "description": {
+                    "value": ""
+                },
+                "equipped": {
+                    "carryType": "worn",
+                    "handsHeld": 0,
+                    "invested": null
+                },
+                "equippedBulk": {
+                    "value": ""
+                },
+                "hardness": 0,
+                "hp": {
+                    "brokenThreshold": 0,
+                    "max": 0,
+                    "value": 0
+                },
+                "level": {
+                    "value": 0
+                },
+                "negateBulk": {
+                    "value": "0"
+                },
+                "preciousMaterial": {
+                    "value": ""
+                },
+                "preciousMaterialGrade": {
+                    "value": ""
+                },
+                "price": {
+                    "value": {}
+                },
+                "quantity": 1,
+                "rules": [],
+                "size": "med",
+                "slug": null,
+                "source": {
+                    "value": ""
+                },
+                "stackGroup": null,
+                "traits": {
+                    "custom": "",
+                    "rarity": "common",
+                    "value": []
+                },
+                "usage": {
+                    "value": "held-in-one-hand"
+                },
+                "weight": {
+                    "value": 0
+                }
+            },
+            "img": "systems/pf2e/icons/default-icons/equipment.svg",
+            "name": "shortbow (20 arrows)",
+            "sort": 100000,
+            "type": "equipment"
+        },
+        {
+            "_id": "mNSySFxoKw9hBRzQ",
+            "data": {
+                "attack": {
+                    "value": ""
+                },
+                "attackEffects": {
+                    "value": []
+                },
+                "bonus": {
+                    "value": 6
+                },
+                "damageRolls": {
+                    "i1dbe7ezkrgqa8ogbyzb": {
+                        "damage": "1d4",
+                        "damageType": "piercing"
+                    },
+                    "vzsvu71tz2qw0kk1e27o": {
+                        "damage": "1d4",
+                        "damageType": "fire"
+                    }
+                },
+                "description": {
+                    "value": ""
+                },
+                "rules": [],
+                "slug": null,
+                "source": {
+                    "value": ""
+                },
+                "traits": {
+                    "custom": "",
+                    "rarity": "common",
+                    "value": [
+                        "agile",
+                        "finesse"
+                    ]
+                },
+                "weaponType": {
+                    "value": "melee"
+                }
+            },
+            "img": "systems/pf2e/icons/default-icons/melee.svg",
+            "name": "Jaws",
+            "sort": 200000,
+            "type": "melee"
+        },
+        {
+            "_id": "bmH2NVZnGBhAiYxf",
+            "data": {
+                "attack": {
+                    "value": ""
+                },
+                "attackEffects": {
+                    "value": []
+                },
+                "bonus": {
+                    "value": 6
+                },
+                "damageRolls": {
+                    "k730b707awrvvxqrm37i": {
+                        "damage": "1d6",
+                        "damageType": "piercing"
+                    }
+                },
+                "description": {
+                    "value": "<p>(deadly 1d10, range increment 60 feet, reload 0)</p>"
+                },
+                "rules": [],
+                "slug": null,
+                "source": {
+                    "value": ""
+                },
+                "traits": {
+                    "custom": "",
+                    "rarity": "common",
+                    "value": [
+                        "deadly-d10",
+                        "range-increment-60",
+                        "reload-0"
+                    ]
+                },
+                "weaponType": {
+                    "value": "ranged"
+                }
+            },
+            "img": "systems/pf2e/icons/default-icons/melee.svg",
+            "name": "Shortbow",
+            "sort": 300000,
+            "type": "melee"
+        },
+        {
+            "_id": "nk39gb38JIlNQo9N",
+            "data": {
+                "actionCategory": {
+                    "value": "offensive"
+                },
+                "actionType": {
+                    "value": "action"
+                },
+                "actions": {
+                    "value": 2
+                },
+                "description": {
+                    "value": "<p>The skeleton removes its skull and throws it, making a jaws Strike with a range of 20 feet. It then attempts to Demoralize each foe within 10 feet of the target. The head bounces, rolls, or even flies back, returning to the skeleton at the start of its next turn. The skeleton is blinded until then.</p>"
+                },
+                "requirements": {
+                    "value": ""
+                },
+                "rules": [],
+                "slug": null,
+                "source": {
+                    "value": ""
+                },
+                "traits": {
+                    "custom": "",
+                    "rarity": "common",
+                    "value": [
+                        "auditory",
+                        "emotion",
+                        "fear",
+                        "mental"
+                    ]
+                },
+                "trigger": {
+                    "value": ""
+                },
+                "weapon": {
+                    "value": ""
+                }
+            },
+            "img": "systems/pf2e/icons/actions/TwoActions.webp",
+            "name": "Screaming Skull",
+            "sort": 400000,
+            "type": "action"
+        },
+        {
+            "_id": "BT2FT4qUZZbdbDXp",
+            "data": {
+                "description": {
+                    "value": ""
+                },
+                "mod": {
+                    "value": 6
+                },
+                "proficient": {
+                    "value": 0
+                },
+                "rules": [],
+                "slug": null,
+                "source": {
+                    "value": ""
+                },
+                "traits": {
+                    "custom": "",
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "img": "systems/pf2e/icons/default-icons/lore.svg",
+            "name": "Acrobatics",
+            "sort": 500000,
+            "type": "lore"
+        },
+        {
+            "_id": "pnfoQn0s6mY21Gek",
+            "data": {
+                "description": {
+                    "value": ""
+                },
+                "mod": {
+                    "value": 2
+                },
+                "proficient": {
+                    "value": 0
+                },
+                "rules": [],
+                "slug": null,
+                "source": {
+                    "value": ""
+                },
+                "traits": {
+                    "custom": "",
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "img": "systems/pf2e/icons/default-icons/lore.svg",
+            "name": "Athletics",
+            "sort": 600000,
+            "type": "lore"
+        }
+    ],
+    "name": "Flaming Skull Skeleton Guard",
+    "token": {
+        "disposition": -1,
+        "height": 1,
+        "img": "systems/pf2e/icons/default-icons/npc.svg",
+        "name": "Flaming Skull Skeleton Guard",
+        "width": 1
+    },
+    "type": "npc"
+}

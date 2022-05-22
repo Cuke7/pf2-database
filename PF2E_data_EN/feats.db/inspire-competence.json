@@ -1,0 +1,45 @@
+{
+    "_id": "eUXgY8W3fShlW7pd",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You learn the <em>@Compendium[pf2e.spells-srd.Inspire Competence]{Inspire Competence}</em> composition cantrip, which aids your allies' skills.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 2
+        },
+        "location": "",
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "maestro muse"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "bard"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Inspire Competence",
+    "type": "feat"
+}

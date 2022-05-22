@@ -1,0 +1,41 @@
+{
+    "_id": "bBGb1LcffXEqar0p",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You size up your prey with only a glance. You can use Hunt Prey as a free action if it's your first action of your turn.</p>"
+        },
+        "featType": {
+            "value": "classfeature"
+        },
+        "level": {
+            "value": 19
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": ""
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "ranger"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/classes/swift-prey.webp",
+    "name": "Swift Prey",
+    "type": "feat"
+}

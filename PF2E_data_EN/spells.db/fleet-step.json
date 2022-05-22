@@ -1,0 +1,99 @@
+{
+    "_id": "aEM2cttJ2eYcLssW",
+    "data": {
+        "ability": {
+            "value": ""
+        },
+        "area": {
+            "areaType": "",
+            "value": ""
+        },
+        "areasize": {
+            "value": ""
+        },
+        "category": {
+            "value": "spell"
+        },
+        "components": {
+            "material": false,
+            "somatic": true,
+            "verbal": true
+        },
+        "cost": {
+            "value": ""
+        },
+        "damage": {
+            "value": {}
+        },
+        "description": {
+            "value": "<p>You gain a +30-foot status bonus to your Speed.</p>\n<p>@Compendium[pf2e.spell-effects.Spell Effect: Fleet Step]{Spell Effect: Fleet Step}</p>"
+        },
+        "duration": {
+            "value": "1 minute"
+        },
+        "hasCounteractCheck": {
+            "value": false
+        },
+        "level": {
+            "value": 1
+        },
+        "location": {
+            "value": 147
+        },
+        "materials": {
+            "value": ""
+        },
+        "prepared": {
+            "value": ""
+        },
+        "primarycheck": {
+            "value": ""
+        },
+        "range": {
+            "value": ""
+        },
+        "rules": [],
+        "save": {
+            "basic": "",
+            "value": ""
+        },
+        "school": {
+            "value": "transmutation"
+        },
+        "secondarycasters": {
+            "value": ""
+        },
+        "secondarycheck": {
+            "value": ""
+        },
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "spellType": {
+            "value": "utility"
+        },
+        "sustained": {
+            "value": false
+        },
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "2"
+        },
+        "traditions": {
+            "value": [
+                "arcane",
+                "primal"
+            ]
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "img": "systems/pf2e/icons/spells/fleet-step.webp",
+    "name": "Fleet Step",
+    "type": "spell"
+}

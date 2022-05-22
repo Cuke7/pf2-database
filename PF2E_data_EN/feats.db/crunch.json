@@ -1,0 +1,52 @@
+{
+    "_id": "aOhZUMCn0o2ZMkdW",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your jaws can crush bone and bite through armor. Your jaws unarmed attack deals 1d8 piercing damage instead of 1d6 and gains the grapple trait.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 1
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "DamageDice",
+                "override": {
+                    "dieSize": "d8"
+                },
+                "selector": "bite-damage",
+                "traits": [
+                    "grapple"
+                ]
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Lost Omens: The Mwangi Expanse"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "gnoll"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/default-icons/feats.webp",
+    "name": "Crunch",
+    "type": "feat"
+}

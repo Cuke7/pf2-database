@@ -1,0 +1,40 @@
+{
+    "_id": "RFXzsfEgz7WbDCQO",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You won't allow others to restrain you. You can cast <em>@Compendium[pf2e.spells-srd.Freedom of Movement]{Freedom of Movement}</em> on yourself as a primal innate spell once per day.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 9
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Advanced Player's Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "halfling"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Unhampered Passage",
+    "type": "feat"
+}

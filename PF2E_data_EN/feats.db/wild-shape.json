@@ -1,0 +1,45 @@
+{
+    "_id": "VaIHQzOE5ibmbtqU",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You are one with the wild, always changing and adapting to meet any challenge. You gain the <em>@Compendium[pf2e.spells-srd.Wild Shape]{Wild Shape}</em> order spell, which lets you transform into a variety of forms that you can expand with druid feats.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 1
+        },
+        "location": "",
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "wild order"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "druid"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Wild Shape",
+    "type": "feat"
+}

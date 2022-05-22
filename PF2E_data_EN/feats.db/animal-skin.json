@@ -1,0 +1,135 @@
+{
+    "_id": "ZPclfDmiHzEqblry",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your proficiency in unarmored defense increases to expert.</p>\n<p>While you are raging and unarmored, your skin transforms into a thick hide. You gain a +2 item bonus to AC (+3 if you have the greater juggernaut class feature). The thickness of your hide gives you a Dexterity modifier cap to your AC of +3. This item bonus to AC is cumulative with armor potency runes on your explorer's clothing, mage armor, and bracers of armor.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 6
+        },
+        "location": "",
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Animal Instinct"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "key": "DexterityModifierCap",
+                "predicate": {
+                    "all": [
+                        "self:effect:rage"
+                    ]
+                },
+                "value": 3
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "flags.pf2e.animalSkinBonus",
+                "priority": 19,
+                "value": 2
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "flags.pf2e.animalSkinBonus",
+                "predicate": {
+                    "all": [
+                        "feature:greater-juggernaut"
+                    ]
+                },
+                "priority": 19,
+                "value": 3
+            },
+            {
+                "fromEquipment": false,
+                "hideIfDisabled": true,
+                "key": "FlatModifier",
+                "predicate": {
+                    "all": [
+                        "self:effect:rage"
+                    ]
+                },
+                "selector": "ac",
+                "type": "item",
+                "value": "@actor.data.flags.pf2e.animalSkinBonus"
+            },
+            {
+                "key": "AdjustModifier",
+                "mode": "add",
+                "predicate": {
+                    "all": [
+                        "self:effect:rage"
+                    ]
+                },
+                "relabel": "PF2E.SpecificRule.AnimalSkin.BracersOfArmor",
+                "selector": "ac",
+                "slug": "bracers-of-armor",
+                "value": "@actor.data.flags.pf2e.animalSkinBonus"
+            },
+            {
+                "key": "AdjustModifier",
+                "mode": "add",
+                "predicate": {
+                    "all": [
+                        "self:effect:rage"
+                    ]
+                },
+                "relabel": "PF2E.SpecificRule.AnimalSkin.ExplorersClothing",
+                "selector": "ac",
+                "slug": "explorers-clothing",
+                "value": "@actor.data.flags.pf2e.animalSkinBonus"
+            },
+            {
+                "key": "AdjustModifier",
+                "mode": "add",
+                "predicate": {
+                    "all": [
+                        "self:effect:rage"
+                    ]
+                },
+                "relabel": "PF2E.SpecificRule.AnimalSkin.MageArmor",
+                "selector": "ac",
+                "slug": "mage-armor",
+                "value": "@actor.data.flags.pf2e.animalSkinBonus"
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "data.martial.unarmored.rank",
+                "value": 2
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "barbarian",
+                "morph",
+                "primal",
+                "transmutation"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Animal Skin",
+    "type": "feat"
+}

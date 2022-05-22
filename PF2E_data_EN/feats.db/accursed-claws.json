@@ -1,0 +1,54 @@
+{
+    "_id": "KsFrWhIPVLOqxV07",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your claws carry your mother's hag magic. When you critically hit with a claw Strike, the target takes an additional [[/r {1d4}[persistent,mental]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Mental Damage}.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 9
+        },
+        "location": "",
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "claw unarmed attack"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "key": "Note",
+                "outcome": [
+                    "criticalSuccess"
+                ],
+                "selector": "claw-damage",
+                "text": "<p class='compact-text'><strong>{item|name}</strong> When you critically hit with your claws, you deal an additional [[/r {1d4}[persistent,mental]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Mental Damage}.</p>"
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Advanced Player's Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "changeling"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Accursed Claws",
+    "type": "feat"
+}

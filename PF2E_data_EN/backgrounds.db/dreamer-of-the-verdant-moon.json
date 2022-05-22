@@ -1,0 +1,53 @@
+{
+    "_id": "vBPu7RwNXGDQ1ThL",
+    "data": {
+        "boosts": {
+            "0": {
+                "value": [
+                    "str",
+                    "wis"
+                ]
+            },
+            "1": {
+                "value": [
+                    "cha",
+                    "con",
+                    "dex",
+                    "int",
+                    "str",
+                    "wis"
+                ]
+            }
+        },
+        "description": {
+            "value": "<p>You spent your early days in the aftermath of one of the great ravenings. You survived thanks to your resourcefulness and perhaps your patron's favor and were blessed with skills and drive thereafter, but you must always hold to his standards, lest the hunger from the depths seek you out once again.</p>\n<p>Choose two ability boosts. One must be to <strong>Strength</strong> or <strong>Wisdom</strong>, and one is a free ability boost.</p>\n<p>You're trained in the Survival skill and the Zevgavizeb Lore skill. You gain the @Compendium[pf2e.feats-srd.Ravening's Desperation]{Ravening's Desperation} skill feat.</p>"
+        },
+        "items": {
+            "wge7i": {
+                "id": "d8AjCqU30z7IOpos",
+                "img": "systems/pf2e/icons/features/feats/feats.webp",
+                "level": "1",
+                "name": "Ravening's Desperation",
+                "pack": "pf2e.feats-srd"
+            }
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder #153: Life's Long Shadows"
+        },
+        "trainedLore": "Zevgavizeb Lore",
+        "trainedSkills": {
+            "value": [
+                "sur"
+            ]
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "uncommon",
+            "value": []
+        }
+    },
+    "img": "systems/pf2e/icons/default-icons/background.svg",
+    "name": "Dreamer of the Verdant Moon",
+    "type": "background"
+}

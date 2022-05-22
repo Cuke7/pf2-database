@@ -1,0 +1,46 @@
+{
+    "_id": "R6rcqRsBR0KIho5n",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>As a anadi, you gain the @Compendium[pf2e.actionspf2e.Change Shape (Anadi)]{Change Shape (Anadi)} ability.</p>"
+        },
+        "featType": {
+            "value": "ancestryfeature"
+        },
+        "level": {
+            "value": 0
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "GrantItem",
+                "uuid": "Compendium.pf2e.actionspf2e.Change Shape (Anadi)"
+            }
+        ],
+        "source": {
+            "value": ""
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "anadi"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "name": "Change Shape (Anadi)",
+    "type": "feat"
+}

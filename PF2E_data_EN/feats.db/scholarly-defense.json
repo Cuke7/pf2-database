@@ -1,0 +1,45 @@
+{
+    "_id": "rFlBoYGI5OmfMvaO",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your knowledge of strange creatures and their bizarre anatomy allows you to anticipate their physical attacks and reduce the damage you take from them. You gain resistance to physical damage from melee attacks made by aberrations and oozes. This resistance is equal to one-third your level.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 6
+        },
+        "location": "",
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Eldritch Researcher Dedication"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder #164: Hands of the Devil"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "archetype"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/default-icons/feats.webp",
+    "name": "Scholarly Defense",
+    "type": "feat"
+}

@@ -1,0 +1,45 @@
+{
+    "_id": "oIfCpkpH0Jb1mzj9",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You gain the basic bounded spellcasting benefits.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 6
+        },
+        "location": "",
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Magus Dedication"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": ""
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "archetype"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Basic Magus Spellcasting",
+    "type": "feat"
+}

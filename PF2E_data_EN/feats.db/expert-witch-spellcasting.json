@@ -1,0 +1,55 @@
+{
+    "_id": "x7vMKBSrxXmfs5C2",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You gain the expert spellcasting benefits.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 12
+        },
+        "location": "",
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Basic Witch Spellcasting"
+                },
+                {
+                    "value": "master in the skill associated with your patron's tradition"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "data.proficiencies.traditions.{actor|data.proficiencies.aliases.witch}.rank",
+                "value": 2
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Advanced Player's Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "archetype"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Expert Witch Spellcasting",
+    "type": "feat"
+}

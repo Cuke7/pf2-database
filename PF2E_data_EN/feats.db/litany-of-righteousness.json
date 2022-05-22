@@ -1,0 +1,52 @@
+{
+    "_id": "RbHacJSoe6XHT8Ks",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You call upon righteousness to expose an evil foe's weakness.</p>\n<p>You can cast the <em>@Compendium[pf2e.spells-srd.Litany of Righteousness]{Litany of Righteousness}</em> devotion spell. Increase the number of Focus Points in your focus pool by 1.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 14
+        },
+        "location": "",
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "tenets of good"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "add",
+                "path": "data.resources.focus.max",
+                "value": 1
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "champion"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Litany of Righteousness",
+    "type": "feat"
+}

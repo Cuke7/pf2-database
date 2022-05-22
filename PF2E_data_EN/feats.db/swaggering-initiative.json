@@ -1,0 +1,53 @@
+{
+    "_id": "NHheDmNB7L4REmlr",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p><strong>Trigger</strong> You are about to roll initiative.</p>\n<hr />\n<p>You swagger readily into any fight-even an ambush. You gain a +2 circumstance bonus to your initiative roll and can @Compendium[pf2e.actionspf2e.Interact]{Interact} to draw a weapon.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 4
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "predicate": {
+                    "all": [
+                        "swaggering-initiative"
+                    ]
+                },
+                "selector": "initiative",
+                "type": "circumstance",
+                "value": 2
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Advanced Player's Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "swashbuckler"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Swaggering Initiative",
+    "type": "feat"
+}

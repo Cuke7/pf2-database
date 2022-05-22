@@ -1,0 +1,128 @@
+{
+    "_id": "V4LPaPABVm9YYqdH",
+    "data": {
+        "attributes": {
+            "ac": {
+                "value": 40
+            },
+            "hardness": 26,
+            "hasHealth": true,
+            "hp": {
+                "details": "",
+                "max": 104,
+                "temp": 0,
+                "tempmax": 0,
+                "value": 104
+            },
+            "stealth": {
+                "details": "<p>DC 42 (master) to spot the triggering rod beneath the black sand.</p>",
+                "value": 32
+            }
+        },
+        "creatureType": "",
+        "details": {
+            "description": "<p>A hidden stone rod causes two immense stone doors to fall forward from their gate, crushing anything beneath them. The doors also fall forward if touched.</p>",
+            "disable": "<p>Thievery DC 42 (expert) to secure the doors in place without triggering the trap</p>",
+            "isComplex": false,
+            "level": {
+                "value": 16
+            },
+            "reset": "",
+            "routine": ""
+        },
+        "saves": {
+            "fortitude": {
+                "saveDetail": "",
+                "value": 32
+            },
+            "reflex": {
+                "saveDetail": "",
+                "value": 25
+            },
+            "will": {
+                "saveDetail": "",
+                "value": 0
+            }
+        },
+        "source": {
+            "value": "Pathfinder #155: Lord of the Black Sands"
+        },
+        "statusEffects": [],
+        "traits": {
+            "ci": [],
+            "di": {
+                "custom": "",
+                "selected": {},
+                "value": [
+                    "critical-hits",
+                    "object-immunities",
+                    "precision"
+                ]
+            },
+            "dr": [],
+            "dv": [],
+            "rarity": "common",
+            "size": {
+                "value": "med"
+            },
+            "traits": {
+                "custom": "",
+                "value": []
+            }
+        }
+    },
+    "img": "systems/pf2e/icons/default-icons/hazard.svg",
+    "items": [
+        {
+            "_id": "RvNmrpkeCr0FxRBy",
+            "data": {
+                "actionCategory": {
+                    "value": ""
+                },
+                "actionType": {
+                    "value": "reaction"
+                },
+                "actions": {
+                    "value": null
+                },
+                "description": {
+                    "value": "<p><strong>Trigger</strong> The stone rod is moved or either door is touched</p>\n<hr />\n<p><strong>Effect</strong> The two falling doors deal [[/r {6d12+35}[bludgeoning]]]{6d12+35 bludgeoning damage} (@Check[type:reflex|dc:37|basic:true] save) to all creatures within 15 feet of the gate. On a failure, a creature is also pinned beneath the door and immobilized until the door is moved (<span data-pf2-action=\"forceOpen\" data-pf2-dc=\"34\" data-pf2-glyph=\"A\" data-pf2-show-dc=\"gm\">Athletics</span>) or destroyed; each door has the same AC, Fortitude save, Hardness, and Hit Points as the trap itself. On a critical failure, the creature is trapped in such a way that it can't attempt to free itself. Moving or destroying one door doesn't help free anyone trapped by the other door.</p>"
+                },
+                "requirements": {
+                    "value": ""
+                },
+                "rules": [],
+                "slug": null,
+                "source": {
+                    "value": ""
+                },
+                "traits": {
+                    "custom": "",
+                    "rarity": "common",
+                    "value": [
+                        "attack"
+                    ]
+                },
+                "trigger": {
+                    "value": ""
+                },
+                "weapon": {
+                    "value": ""
+                }
+            },
+            "img": "systems/pf2e/icons/actions/Reaction.webp",
+            "name": "Gate Collapse",
+            "sort": 100000,
+            "type": "action"
+        }
+    ],
+    "name": "Crushing Gate Trap",
+    "token": {
+        "disposition": 0,
+        "height": 1,
+        "img": "systems/pf2e/icons/default-icons/hazard.svg",
+        "name": "Crushing Gate Trap",
+        "width": 1
+    },
+    "type": "hazard"
+}

@@ -1,0 +1,44 @@
+{
+    "_id": "VqVgcqmG6xmYuDbK",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p><strong>Trigger</strong> You @Compendium[pf2e.actionspf2e.Rage]{Rage}.</p>\n<hr />\n<p>You emit a powerful surge of instinctual energy when you unleash your potential. Each adjacent creature takes damage equal to your level (basic Fortitude save against your class DC) of the same type as your additional damage during that Rage.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 6
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "an instinct that allows you to change your additional damage from Rage to a different damage type"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Advanced Player's Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "barbarian"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Scouring Rage",
+    "type": "feat"
+}

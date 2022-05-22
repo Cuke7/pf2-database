@@ -1,0 +1,54 @@
+{
+    "_id": "DYUlMxh7TDgEh9xB",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>The brutality of your critical hits shakes your foes' confidence.</p>\n<p>Whenever your Strike is a critical hit and deals damage, the target is @Compendium[pf2e.conditionitems.Frightened]{Frightened 1}.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 2
+        },
+        "location": "",
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "ruffian racket"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "key": "Note",
+                "outcome": [
+                    "criticalSuccess"
+                ],
+                "selector": "strike-damage",
+                "text": "<p class='compact-text'>When you critically hit and deal damage, the target is @Compendium[pf2e.conditionitems.Frightened]{Frightened 1}</p>"
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "rogue"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Brutal Beating",
+    "type": "feat"
+}

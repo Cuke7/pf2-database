@@ -1,0 +1,68 @@
+{
+    "_id": "6ZNSMR0lRSLwBJBe",
+    "data": {
+        "actionCategory": {
+            "value": "interaction"
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Living underground, you have learned to find your way without landmarks or even solid ground. If you roll a success on an Survival check to Sense Direction or an Athletics check to Climb, you get a critical success instead. You're not @Compendium[pf2e.conditionitems.Flat-Footed]{Flat-Footed} when you attempt to Climb.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 1
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "Note",
+                "outcome": [
+                    "success"
+                ],
+                "predicate": {
+                    "all": [
+                        "action:sense-direction"
+                    ]
+                },
+                "selector": "survival",
+                "text": "<p class='compact-text'><strong>Spelunker</strong> If you roll a success on an Survival check to Sense Direction you get a critical success instead.</p>"
+            },
+            {
+                "key": "Note",
+                "outcome": [
+                    "success"
+                ],
+                "predicate": {
+                    "all": [
+                        "action:climb"
+                    ]
+                },
+                "selector": "survival",
+                "text": "<p class='compact-text'><strong>Spelunker</strong> If you roll a success on an Athletics check to Climb you get a critical success instead.</p>"
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Lost Omens: The Mwangi Expanse"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "shisk"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/default-icons/feats.webp",
+    "name": "Spelunker",
+    "type": "feat"
+}

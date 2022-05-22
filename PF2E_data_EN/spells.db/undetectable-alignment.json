@@ -1,0 +1,99 @@
+{
+    "_id": "FzAtX8yXBjTaisJK",
+    "data": {
+        "ability": {
+            "value": ""
+        },
+        "area": {
+            "areaType": "",
+            "value": null
+        },
+        "areasize": {
+            "value": ""
+        },
+        "category": {
+            "value": "spell"
+        },
+        "components": {
+            "material": true,
+            "somatic": true,
+            "verbal": true
+        },
+        "cost": {
+            "value": ""
+        },
+        "damage": {
+            "value": {}
+        },
+        "description": {
+            "value": "<p>You shroud a creature or object in wards that hide its alignment. The target appears to be neutral to all effects that would detect its alignment.</p>"
+        },
+        "duration": {
+            "value": "until the next time you make your daily preparations"
+        },
+        "hasCounteractCheck": {
+            "value": false
+        },
+        "level": {
+            "value": 2
+        },
+        "location": {
+            "value": ""
+        },
+        "materials": {
+            "value": ""
+        },
+        "prepared": {
+            "value": ""
+        },
+        "primarycheck": {
+            "value": ""
+        },
+        "range": {
+            "value": "touch"
+        },
+        "rules": [],
+        "save": {
+            "basic": "",
+            "value": ""
+        },
+        "school": {
+            "value": "abjuration"
+        },
+        "secondarycasters": {
+            "value": ""
+        },
+        "secondarycheck": {
+            "value": ""
+        },
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "spellType": {
+            "value": "utility"
+        },
+        "sustained": {
+            "value": false
+        },
+        "target": {
+            "value": "1 creature or object"
+        },
+        "time": {
+            "value": "1 minute"
+        },
+        "traditions": {
+            "value": [
+                "divine",
+                "occult"
+            ]
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "uncommon",
+            "value": []
+        }
+    },
+    "img": "systems/pf2e/icons/spells/undetectable-alignment.webp",
+    "name": "Undetectable Alignment",
+    "type": "spell"
+}

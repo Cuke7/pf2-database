@@ -1,0 +1,60 @@
+{
+    "_id": "8nz6gvymeTvEfdo0",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You have a tail that serves as a potent weapon. You gain a tail unarmed attack that deals [[/r {1d6}[bludgeoning]]]{1d6 bludgeoning damage}, has the sweep trait, and is in the brawling weapon group.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 1
+        },
+        "location": null,
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "category": "unarmed",
+                "damage": {
+                    "base": {
+                        "damageType": "brawling",
+                        "dice": 1,
+                        "die": "d6"
+                    }
+                },
+                "group": "brawling",
+                "img": "systems/pf2e/icons/unarmed-attacks/tail.webp",
+                "key": "Strike",
+                "label": "PF2E.BattleForm.Attack.Tail",
+                "traits": [
+                    "sweep",
+                    "unarmed"
+                ]
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Lost Omens: Ancestry Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "ganzi"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Smashing Tail",
+    "type": "feat"
+}

@@ -1,0 +1,50 @@
+{
+    "_id": "p2aGtovaY1feytws",
+    "data": {
+        "description": {
+            "value": "<p>Granted by activating @Compendium[pf2e.equipment-srd.Aeon Stone (Black Pearl)]{Aeon Stone (Black Pearl)}</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "unlimited",
+            "value": -1
+        },
+        "level": {
+            "value": 12
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "label": "Black Pearl Aeon Stone (vs. a mental effect)",
+                "predicate": {
+                    "all": [
+                        "mental"
+                    ]
+                },
+                "selector": "saving-throw",
+                "type": "status",
+                "value": 4
+            }
+        ],
+        "source": {
+            "value": ""
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "img": "systems/pf2e/icons/equipment/worn-items/other-worn-items/aeon-stone-black-pearl.webp",
+    "name": "Effect: Aeon Stone (Black Pearl)",
+    "type": "effect"
+}

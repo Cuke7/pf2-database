@@ -1,0 +1,41 @@
+{
+    "_id": "TPX0fm9wxndpIqpk",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Much like morrignas, you feel an affinity for spiders. You can cast <em>@Compendium[pf2e.spells-srd.Animal Messenger]{Animal Messenger}</em>, <em>@Compendium[pf2e.spells-srd.Speak with Animals]{Speak with Animals}</em>, and <em>@Compendium[pf2e.spells-srd.Spider Climb]{Spider Climb}</em> each once per day as 2nd-level divine innate spells.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 9
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Lost Omens: Ancestry Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "duskwalker"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Morrigna's Spider Affinity",
+    "type": "feat"
+}

@@ -1,0 +1,37 @@
+{
+    "_id": "jZYRxGHyArCci6AF",
+    "data": {
+        "description": {
+            "value": "<p>Granted by @Compendium[pf2e.feats-srd.Endemic Herbs]{Endemic Herbs}</p>\n<p>For 1 hour, treat environmental heat effects as if they were one step less severe.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "hours",
+            "value": 1
+        },
+        "level": {
+            "value": 1
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Advanced Player's Guide"
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "img": "systems/pf2e/icons/spells/ancestral-defense.webp",
+    "name": "Effect: Desert Endemic Herbs",
+    "type": "effect"
+}

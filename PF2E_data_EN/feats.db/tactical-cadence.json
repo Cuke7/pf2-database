@@ -1,0 +1,44 @@
+{
+    "_id": "4dQcLroKQ13QYIT3",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your remarkable breath control and concise instructions allow you to coordinate your allies more effectively. When you grant allies the quickened condition using Cadence Call, they can use the extra action to either Stride or Strike, and they aren't @Compendium[pf2e.conditionitems.Slowed]{Slowed 1} on their following turn if they use the extra action.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Cadence Call"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Advanced Player's Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "archetype"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Tactical Cadence",
+    "type": "feat"
+}

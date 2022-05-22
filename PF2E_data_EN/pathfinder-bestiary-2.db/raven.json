@@ -1,0 +1,310 @@
+{
+    "_id": "hFbfXmjMkGEzMkQ1",
+    "data": {
+        "abilities": {
+            "cha": {
+                "mod": 0
+            },
+            "con": {
+                "mod": 0
+            },
+            "dex": {
+                "mod": 3
+            },
+            "int": {
+                "mod": -4
+            },
+            "str": {
+                "mod": -3
+            },
+            "wis": {
+                "mod": 3
+            }
+        },
+        "attributes": {
+            "ac": {
+                "details": "",
+                "value": 15
+            },
+            "allSaves": {
+                "value": ""
+            },
+            "hp": {
+                "details": "",
+                "max": 7,
+                "temp": 0,
+                "value": 7
+            },
+            "initiative": {
+                "ability": "perception"
+            },
+            "perception": {
+                "value": 5
+            },
+            "speed": {
+                "otherSpeeds": [
+                    {
+                        "type": "fly",
+                        "value": "40"
+                    }
+                ],
+                "value": "10"
+            }
+        },
+        "details": {
+            "alignment": {
+                "value": "N"
+            },
+            "blurb": "",
+            "creatureType": "Animal",
+            "level": {
+                "value": -1
+            },
+            "privateNotes": "",
+            "publicNotes": "<p>These omnivorous birds are cunning and opportunistic scavengers. Capable of solving simple puzzles in order to retrieve desired items, ravens gather at the periphery of civilization, raiding it as needed when they are not hunting in the wilds. Whether singularly, in pairs, or as a flock, ravens live off scraps as often as they do carrion or prey. They are also unusually social among their own kind, even alerting other ravens to large carcasses with loud, croaking cries; it is rumored that this extends between flocks as well.</p>",
+            "source": {
+                "value": "Pathfinder Bestiary 2"
+            }
+        },
+        "resources": {},
+        "saves": {
+            "fortitude": {
+                "saveDetail": "",
+                "value": 2
+            },
+            "reflex": {
+                "saveDetail": "",
+                "value": 7
+            },
+            "will": {
+                "saveDetail": "",
+                "value": 5
+            }
+        },
+        "traits": {
+            "attitude": {
+                "value": "hostile"
+            },
+            "ci": [],
+            "di": {
+                "custom": "",
+                "value": []
+            },
+            "dr": [],
+            "dv": [],
+            "languages": {
+                "custom": "",
+                "selected": [],
+                "value": []
+            },
+            "rarity": "common",
+            "senses": {
+                "value": "low-light vision"
+            },
+            "size": {
+                "value": "tiny"
+            },
+            "traits": {
+                "custom": "",
+                "value": [
+                    "animal"
+                ]
+            }
+        }
+    },
+    "img": "systems/pf2e/icons/default-icons/npc.svg",
+    "items": [
+        {
+            "_id": "rGvREWDBZrWzdUhd",
+            "data": {
+                "attack": {
+                    "value": ""
+                },
+                "attackEffects": {
+                    "value": []
+                },
+                "bonus": {
+                    "value": 7
+                },
+                "damageRolls": {
+                    "cf1wmftdxktdhni8cepj": {
+                        "damage": "1d6",
+                        "damageType": "piercing"
+                    }
+                },
+                "description": {
+                    "value": ""
+                },
+                "rules": [],
+                "slug": null,
+                "source": {
+                    "value": ""
+                },
+                "traits": {
+                    "custom": "",
+                    "rarity": "common",
+                    "value": [
+                        "finesse"
+                    ]
+                },
+                "weaponType": {
+                    "value": "melee"
+                }
+            },
+            "img": "systems/pf2e/icons/default-icons/melee.svg",
+            "name": "Beak",
+            "sort": 100000,
+            "type": "melee"
+        },
+        {
+            "_id": "G0091T8nIwBjmZUF",
+            "data": {
+                "actionCategory": {
+                    "value": "interaction"
+                },
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "description": {
+                    "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.LowLightVision]</p>"
+                },
+                "requirements": {
+                    "value": ""
+                },
+                "rules": [],
+                "slug": "low-light-vision",
+                "source": {
+                    "value": ""
+                },
+                "traits": {
+                    "custom": "",
+                    "rarity": "common",
+                    "value": []
+                },
+                "trigger": {
+                    "value": ""
+                },
+                "weapon": {
+                    "value": ""
+                }
+            },
+            "flags": {
+                "core": {
+                    "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.fFu2sZz4KB01fVRc"
+                }
+            },
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Low-Light Vision",
+            "sort": 200000,
+            "type": "action"
+        },
+        {
+            "_id": "4zEyOGGm0vwVrtmi",
+            "data": {
+                "actionCategory": {
+                    "value": "interaction"
+                },
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "description": {
+                    "value": "<p>A raven can use simple items as tools, such as poking a stick at an opening to tease out a piece of food. They are also quite adept at stealing objects. A raven can't use Thievery to @Compendium[pf2e.actionspf2e.Palm an Object]{Palm an Object}, @Compendium[pf2e.actionspf2e.Disable Device]{Disable Device}, or @Compendium[pf2e.actionspf2e.Pick a Lock]{Pick a Lock}, but it can use Thievery to @Compendium[pf2e.actionspf2e.Steal]{Steal} light objects that it can carry in its beak or talons or to accomplish other relatively simple tasks.</p>"
+                },
+                "requirements": {
+                    "value": ""
+                },
+                "rules": [],
+                "slug": null,
+                "source": {
+                    "value": ""
+                },
+                "traits": {
+                    "custom": "",
+                    "rarity": "common",
+                    "value": []
+                },
+                "trigger": {
+                    "value": ""
+                },
+                "weapon": {
+                    "value": ""
+                }
+            },
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Cunning",
+            "sort": 300000,
+            "type": "action"
+        },
+        {
+            "_id": "3PgP9zejZh2VWd7V",
+            "data": {
+                "description": {
+                    "value": ""
+                },
+                "mod": {
+                    "value": 5
+                },
+                "proficient": {
+                    "value": 0
+                },
+                "rules": [],
+                "slug": null,
+                "source": {
+                    "value": ""
+                },
+                "traits": {
+                    "custom": "",
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "img": "systems/pf2e/icons/default-icons/lore.svg",
+            "name": "Acrobatics",
+            "sort": 400000,
+            "type": "lore"
+        },
+        {
+            "_id": "oNFj4LHCZGHscvHI",
+            "data": {
+                "description": {
+                    "value": ""
+                },
+                "mod": {
+                    "value": 5
+                },
+                "proficient": {
+                    "value": 0
+                },
+                "rules": [],
+                "slug": null,
+                "source": {
+                    "value": ""
+                },
+                "traits": {
+                    "custom": "",
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "img": "systems/pf2e/icons/default-icons/lore.svg",
+            "name": "Thievery",
+            "sort": 500000,
+            "type": "lore"
+        }
+    ],
+    "name": "Raven",
+    "token": {
+        "disposition": -1,
+        "height": 0.5,
+        "img": "systems/pf2e/icons/default-icons/npc.svg",
+        "name": "Raven",
+        "width": 0.5
+    },
+    "type": "npc"
+}

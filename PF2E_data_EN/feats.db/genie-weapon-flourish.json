@@ -1,0 +1,108 @@
+{
+    "_id": "2kwLzw618QaIHOap",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Whenever you critically hit using a @Compendium[pf2e.equipment-srd.Falchion]{Falchion}, @Compendium[pf2e.equipment-srd.Ranseur]{Ranseur}, @Compendium[pf2e.equipment-srd.Scimitar]{Scimitar}, @Compendium[pf2e.equipment-srd.Trident]{Trident}, or a geniekin weapon, you apply the weapon's critical specialization effect.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 5
+        },
+        "location": "",
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Genie Weapon Familiarity"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "key": "Note",
+                "outcome": [
+                    "criticalSuccess"
+                ],
+                "selector": "falchion-damage",
+                "text": "<p class='compact-text'><strong>Critical Specialization</strong> The target is made off-balance by your attack, becoming @Compendium[pf2e.conditionitems.Flat-Footed]{Flat-Footed} until the start of your next turn.</p>"
+            },
+            {
+                "key": "Note",
+                "outcome": [
+                    "criticalSuccess"
+                ],
+                "selector": "ranseur-damage",
+                "text": "<p class='compact-text'><strong>Critical Specialization</strong> The target is moved 5 feet in a direction of your choice. This is forced movement.</p>"
+            },
+            {
+                "key": "Note",
+                "outcome": [
+                    "criticalSuccess"
+                ],
+                "selector": "scimitar-damage",
+                "text": "<p class='compact-text'><strong>Critical Specialization</strong> The target is made off-balance by your attack, becoming @Compendium[pf2e.conditionitems.Flat-Footed]{Flat-Footed} until the start of your next turn.</p>"
+            },
+            {
+                "key": "Note",
+                "outcome": [
+                    "criticalSuccess"
+                ],
+                "selector": "trident-damage",
+                "text": "<p class='compact-text'><strong>Critical Specialization</strong> The weapon pierces the target, weakening its attacks. The target is @Compendium[pf2e.conditionitems.Clumsy]{Clumsy 1} until the start of your next turn.</p>"
+            },
+            {
+                "key": "Note",
+                "outcome": [
+                    "criticalSuccess"
+                ],
+                "predicate": {
+                    "all": [
+                        "geniekin"
+                    ]
+                },
+                "selector": "sword-weapon-group-damage",
+                "text": "<p class='compact-text'><strong>Critical Specialization</strong> The target is made off-balance by your attack, becoming @Compendium[pf2e.conditionitems.Flat-Footed]{Flat-Footed} until the start of your next turn.</p>"
+            },
+            {
+                "key": "Note",
+                "outcome": [
+                    "criticalSuccess"
+                ],
+                "predicate": {
+                    "all": [
+                        "geniekin"
+                    ]
+                },
+                "selector": "knife-weapon-group-damage",
+                "text": "<p class='compact-text'><strong>Critical Specialization</strong> The target takes @Localize[PF2E.PersistentDamage.Bleed1d6.success]. You gain an item bonus to this bleed damage equal to the weapon's item bonus to attack rolls.</p>"
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Lost Omens: Ancestry Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "ifrit",
+                "oread",
+                "suli",
+                "sylph",
+                "undine"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Genie Weapon Flourish",
+    "type": "feat"
+}

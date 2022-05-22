@@ -1,0 +1,44 @@
+{
+    "_id": "kr537ZL3f8tCSgDK",
+    "data": {
+        "actionCategory": {
+            "value": "interaction"
+        },
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p>When you focus your eyes carefully, your gaze can pierce through all obfuscations, even magical ones. When you use True Gaze, you gain the effects of a 6th-level <em>@Compendium[pf2e.spells-srd.True Seeing]{True Seeing}</em> spell, using your Perception modifier for the counteract check.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 17
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Lost Omens: The Mwangi Expanse"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "arcane",
+                "concentrate",
+                "divination",
+                "goloma"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/default-icons/feats.webp",
+    "name": "True Gaze",
+    "type": "feat"
+}

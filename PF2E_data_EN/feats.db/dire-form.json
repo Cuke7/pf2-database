@@ -1,0 +1,41 @@
+{
+    "_id": "X5NRdQ1W0Y5t6MFi",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your hybrid shape is a hulking beast. While in your hybrid shape, you gain the effects of <em>@Compendium[pf2e.spells-srd.Enlarge]{Enlarge}</em>.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 13
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Lost Omens: Ancestry Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "beastkin"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Dire Form",
+    "type": "feat"
+}

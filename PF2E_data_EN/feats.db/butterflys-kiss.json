@@ -1,0 +1,45 @@
+{
+    "_id": "zMT3etCcdPdtAdOn",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You can make nonlethal Strikes with a butterfly sword without taking a penalty.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 6
+        },
+        "location": "",
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Butterfly Blade Dedication"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder #166: Despair on Danger Island"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "archetype"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/default-icons/feats.webp",
+    "name": "Butterfly's Kiss",
+    "type": "feat"
+}

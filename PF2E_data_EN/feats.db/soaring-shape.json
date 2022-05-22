@@ -1,0 +1,59 @@
+{
+    "_id": "wNHUryoRzlfDCFAd",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Wings free you from the shackles of the ground below.</p>\n<p>Add the bat and bird forms in <em>@Compendium[pf2e.spells-srd.Aerial Form]{Aerial Form}</em> to your <em>wild shape</em> list.</p>\n<p>If you have @Compendium[pf2e.feats-srd.Insect Shape]{Insect Shape}, you also add the wasp form to your <em>wild shape</em> list. If you have @Compendium[pf2e.feats-srd.Ferocious Shape]{Ferocious Shape}, you also add the pterosaur form to your <em>wild shape</em> list.</p>\n<p>Whenever you use <em>wild shape</em> to gain a form that grants you a specific Acrobatics modifier, you gain a +1 status bonus to Acrobatics checks.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 8
+        },
+        "location": "",
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Wild Shape"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "label": "In a form that gives an Acrobatics modifier",
+                "predicate": {
+                    "all": [
+                        "polymorph",
+                        "form-gives-acrobatics"
+                    ]
+                },
+                "selector": "acrobatics",
+                "type": "circumstance",
+                "value": 1
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "druid"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Soaring Shape",
+    "type": "feat"
+}

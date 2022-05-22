@@ -1,0 +1,129 @@
+{
+    "_id": "JhQqV8t4BPk2Ixg8",
+    "data": {
+        "attributes": {
+            "ac": {
+                "value": 16
+            },
+            "hardness": 5,
+            "hasHealth": true,
+            "hp": {
+                "details": "",
+                "max": 25,
+                "temp": 0,
+                "tempmax": 0,
+                "value": 25
+            },
+            "stealth": {
+                "details": "",
+                "value": -1
+            }
+        },
+        "creatureType": "",
+        "customModifiers": {},
+        "details": {
+            "description": "<p>This dangerously unsteady pile of miscellaneous goods stands 7 feet high and 10 feet wide</span></p>",
+            "disable": "<p>DC 15 Thievery to carefully excavate a path through the wall without upsetting its balance</p>\n<p>DC 17 Athletics to hold up any unstable portions</p>",
+            "isComplex": false,
+            "level": {
+                "value": 2
+            },
+            "reset": "",
+            "routine": ""
+        },
+        "saves": {
+            "fortitude": {
+                "saveDetail": "",
+                "value": 10
+            },
+            "reflex": {
+                "saveDetail": "",
+                "value": 2
+            },
+            "will": {
+                "saveDetail": "",
+                "value": 0
+            }
+        },
+        "source": {
+            "value": "Pathfinder Adventure: Little Trouble in Big Absalom"
+        },
+        "statusEffects": [],
+        "traits": {
+            "ci": [],
+            "di": {
+                "custom": "",
+                "selected": {},
+                "value": [
+                    "critical-hits",
+                    "object-immunities",
+                    "precision"
+                ]
+            },
+            "dr": [],
+            "dv": [],
+            "rarity": "common",
+            "size": {
+                "value": "med"
+            },
+            "traits": {
+                "custom": "",
+                "value": [
+                    "environmental"
+                ]
+            }
+        }
+    },
+    "img": "systems/pf2e/icons/default-icons/hazard.svg",
+    "items": [
+        {
+            "_id": "VtHcDRIcr6uZeQFk",
+            "data": {
+                "actionCategory": {
+                    "value": ""
+                },
+                "actionType": {
+                    "value": "reaction"
+                },
+                "actions": {
+                    "value": null
+                },
+                "description": {
+                    "value": "<p><strong>Trigger</strong> A creature attempts to climb or remove an object from the wall or the wall suffers a forceful impact</p>\n<hr />\n<p><strong>Effect</strong> The wall collapses, dealing [[/r {2d8}[bludgeoning]]]{2d8 bludgeoning damage} to creatures on it or within 10 feet of it. A creature that succeeds at a @Check[type:reflex|dc:18|traits:damaging-effect] save takes half damage and rolls out of the way in a random direction. On a critical success, they take no damage and can choose the direction.</p>"
+                },
+                "requirements": {
+                    "value": ""
+                },
+                "rules": [],
+                "slug": null,
+                "source": {
+                    "value": ""
+                },
+                "traits": {
+                    "custom": "",
+                    "rarity": "common",
+                    "value": []
+                },
+                "trigger": {
+                    "value": ""
+                },
+                "weapon": {
+                    "value": ""
+                }
+            },
+            "img": "systems/pf2e/icons/actions/Reaction.webp",
+            "name": "Collapse",
+            "sort": 200000,
+            "type": "action"
+        }
+    ],
+    "name": "Precarious Pile",
+    "token": {
+        "disposition": 0,
+        "height": 1,
+        "img": "systems/pf2e/icons/default-icons/hazard.svg",
+        "name": "Precarious Pile",
+        "width": 1
+    },
+    "type": "hazard"
+}

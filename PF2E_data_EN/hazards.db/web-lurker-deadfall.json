@@ -1,0 +1,124 @@
+{
+    "_id": "0dg9YrjsDi6Ap3jF",
+    "data": {
+        "attributes": {
+            "ac": {
+                "value": 19
+            },
+            "hardness": 0,
+            "hasHealth": true,
+            "hp": {
+                "details": "",
+                "max": 10,
+                "temp": 0,
+                "tempmax": 0,
+                "value": 10
+            },
+            "stealth": {
+                "details": "<p>DC 23</p>",
+                "value": 13
+            }
+        },
+        "creatureType": "",
+        "details": {
+            "description": "<p>A web tripwire lets loose a bundle of boulders that fall on all targets within a 10-foot square.</p>",
+            "disable": "<p>Survival (trained) or Thievery (expert) DC 20 to rearrange the webbing.</p>",
+            "isComplex": false,
+            "level": {
+                "value": 3
+            },
+            "reset": "",
+            "routine": ""
+        },
+        "saves": {
+            "fortitude": {
+                "saveDetail": "",
+                "value": 9
+            },
+            "reflex": {
+                "saveDetail": "",
+                "value": 9
+            },
+            "will": {
+                "saveDetail": "",
+                "value": 0
+            }
+        },
+        "source": {
+            "value": "Pathfinder Bestiary"
+        },
+        "statusEffects": [],
+        "traits": {
+            "ci": [],
+            "di": {
+                "custom": "",
+                "selected": {},
+                "value": []
+            },
+            "dr": [],
+            "dv": [],
+            "rarity": "common",
+            "size": {
+                "value": "med"
+            },
+            "traits": {
+                "custom": "",
+                "value": [
+                    "mechanical"
+                ]
+            }
+        }
+    },
+    "img": "systems/pf2e/icons/default-icons/hazard.svg",
+    "items": [
+        {
+            "_id": "j3QvHDCU1gvOInG4",
+            "data": {
+                "actionCategory": {
+                    "value": ""
+                },
+                "actionType": {
+                    "value": "reaction"
+                },
+                "actions": {
+                    "value": null
+                },
+                "description": {
+                    "value": "<p><strong>Trigger</strong> A creature steps into the square with the web tripwire.</p>\n<hr />\n<p><strong>Effect</strong> All creatures in the trap's 10-foot square take [[/r {2d6}[bludgeoning]]]{2d6 bludgeoning damage} (@Check[type:reflex|dc:20|basic:true] save).</p>"
+                },
+                "requirements": {
+                    "value": ""
+                },
+                "rules": [],
+                "slug": null,
+                "source": {
+                    "value": ""
+                },
+                "traits": {
+                    "custom": "",
+                    "rarity": "common",
+                    "value": []
+                },
+                "trigger": {
+                    "value": ""
+                },
+                "weapon": {
+                    "value": ""
+                }
+            },
+            "img": "systems/pf2e/icons/actions/Reaction.webp",
+            "name": "Deadfall",
+            "sort": 100000,
+            "type": "action"
+        }
+    ],
+    "name": "Web Lurker Deadfall",
+    "token": {
+        "disposition": 0,
+        "height": 1,
+        "img": "systems/pf2e/icons/default-icons/hazard.svg",
+        "name": "Web Lurker Deadfall",
+        "width": 1
+    },
+    "type": "hazard"
+}

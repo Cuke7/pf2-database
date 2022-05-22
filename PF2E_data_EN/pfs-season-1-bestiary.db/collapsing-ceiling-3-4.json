@@ -1,0 +1,129 @@
+{
+    "_id": "Qcl0FPQS2Ovr179p",
+    "data": {
+        "attributes": {
+            "ac": {
+                "value": 10
+            },
+            "hardness": 5,
+            "hasHealth": true,
+            "hp": {
+                "details": "",
+                "max": 1,
+                "temp": 0,
+                "tempmax": 0,
+                "value": 1
+            },
+            "stealth": {
+                "details": "<p>(trained)</p>",
+                "value": 20
+            }
+        },
+        "creatureType": "",
+        "customModifiers": {},
+        "details": {
+            "description": "<p>The damaged ceiling is the only thing stopping the centipedes lairing above from falling through.</p>",
+            "disable": "<p>Crafting DC 22 (trained) to reinforce the ceiling with boards from the broken door.</p>",
+            "isComplex": false,
+            "level": {
+                "value": 3
+            },
+            "reset": "",
+            "routine": ""
+        },
+        "saves": {
+            "fortitude": {
+                "saveDetail": "",
+                "value": 1
+            },
+            "reflex": {
+                "saveDetail": "",
+                "value": 1
+            },
+            "will": {
+                "saveDetail": "",
+                "value": 0
+            }
+        },
+        "source": {
+            "value": ""
+        },
+        "statusEffects": [],
+        "traits": {
+            "ci": [],
+            "di": {
+                "custom": "",
+                "selected": {},
+                "value": [
+                    "critical-hits",
+                    "object-immunities",
+                    "precision"
+                ]
+            },
+            "dr": [],
+            "dv": [],
+            "rarity": "common",
+            "size": {
+                "value": "med"
+            },
+            "traits": {
+                "custom": "",
+                "value": [
+                    "mechanical"
+                ]
+            }
+        }
+    },
+    "img": "systems/pf2e/icons/default-icons/hazard.svg",
+    "items": [
+        {
+            "_id": "MQ3CKYIdF6zrMg0x",
+            "data": {
+                "actionCategory": {
+                    "value": ""
+                },
+                "actionType": {
+                    "value": "reaction"
+                },
+                "actions": {
+                    "value": null
+                },
+                "description": {
+                    "value": "<p><strong>Trigger</strong> A creature walks into the area beneath the centipede lair.</p>\n<hr />\n<p><strong>Effect</strong> Hearing potential prey, the centipedes begin scrabbling above, causing the ceiling to collapse and centipedes to rain down, dealing [[/r {3d8+4}[bludgeoning]]]{3d8+4 bludgeoning damage} to each creature in the area; each creature in the area must attempt a @Check[type:reflex|dc:19|traits:damaging-effect] save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage and is knocked @Compendium[pf2e.conditionitems.Prone]{Prone}.</p>"
+                },
+                "requirements": {
+                    "value": ""
+                },
+                "rules": [],
+                "slug": null,
+                "source": {
+                    "value": ""
+                },
+                "traits": {
+                    "custom": "",
+                    "rarity": "common",
+                    "value": []
+                },
+                "trigger": {
+                    "value": ""
+                },
+                "weapon": {
+                    "value": ""
+                }
+            },
+            "img": "systems/pf2e/icons/actions/Reaction.webp",
+            "name": "Collapse",
+            "sort": 100000,
+            "type": "action"
+        }
+    ],
+    "name": "Collapsing Ceiling (3-4)",
+    "token": {
+        "disposition": 0,
+        "height": 1,
+        "img": "systems/pf2e/icons/default-icons/hazard.svg",
+        "name": "Collapsing Ceiling",
+        "width": 1
+    },
+    "type": "hazard"
+}

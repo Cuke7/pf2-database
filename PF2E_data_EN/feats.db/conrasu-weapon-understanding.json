@@ -1,0 +1,41 @@
+{
+    "_id": "NPATYCDg2cryH0Ya",
+    "data": {
+        "actionCategory": {
+            "value": "offensive"
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You have come to know conrasu weapons as you know yourself. Whenever you critically hit using a @Compendium[pf2e.equipment-srd.Composite Shortbow]{Composite Shortbow}, @Compendium[pf2e.equipment-srd.Glaive]{Glaive}, @Compendium[pf2e.equipment-srd.Longspear]{Longspear}, @Compendium[pf2e.equipment-srd.Longsword]{Longsword}, @Compendium[pf2e.equipment-srd.Shortbow]{Shortbow}, @Compendium[pf2e.equipment-srd.Spear]{Spear}, or a conrasu weapon(@Compendium[pf2e.equipment-srd.Buugeng]{Buugeng}), you apply the weapon's critical specialization effect.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 5
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Lost Omens: The Mwangi Expanse"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "conrasu"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Conrasu Weapon Understanding",
+    "type": "feat"
+}

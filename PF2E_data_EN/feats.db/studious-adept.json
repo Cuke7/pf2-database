@@ -1,0 +1,45 @@
+{
+    "_id": "C2PmqTxQgWGTHluf",
+    "data": {
+        "actionCategory": {
+            "value": "interaction"
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You achieve a breakthrough in your exploration of magic. You gain <em>@Compendium[pf2e.spells-srd.Humanoid Form]{Humanoid Form}</em> and <em>@Compendium[pf2e.spells-srd.Mirror Image]{Mirror Image}</em> as 2nd-level arcane innate spells. You can cast each of these arcane innate spells once per day.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 9
+        },
+        "location": "",
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Studious Magic"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Lost Omens: The Mwangi Expanse"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "anadi"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/default-icons/feats.webp",
+    "name": "Studious Adept",
+    "type": "feat"
+}

@@ -1,0 +1,100 @@
+{
+    "_id": "BH3sUerzMb2bWnv1",
+    "data": {
+        "ability": {
+            "value": ""
+        },
+        "area": {
+            "areaType": "",
+            "value": null
+        },
+        "areasize": {
+            "value": ""
+        },
+        "category": {
+            "value": "focus"
+        },
+        "components": {
+            "material": false,
+            "somatic": true,
+            "verbal": true
+        },
+        "cost": {
+            "value": ""
+        },
+        "damage": {
+            "value": {}
+        },
+        "description": {
+            "value": "<p>You fire a ray of sickening energy. Make a spell attack roll.</p>\n<hr />\n<p><strong>Critical Success</strong> The target becomes @Compendium[pf2e.conditionitems.Sickened]{Sickened 2} and @Compendium[pf2e.conditionitems.Slowed]{Slowed 1} as long as it's Sickened.</p>\n<p><strong>Success</strong> The target becomes @Compendium[pf2e.conditionitems.Sickened]{Sickened 1}.</p>\n<p><strong>Failure</strong> The target is unaffected.</p>"
+        },
+        "duration": {
+            "value": ""
+        },
+        "hasCounteractCheck": {
+            "value": false
+        },
+        "level": {
+            "value": 1
+        },
+        "location": {
+            "value": ""
+        },
+        "materials": {
+            "value": ""
+        },
+        "prepared": {
+            "value": ""
+        },
+        "primarycheck": {
+            "value": ""
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "rules": [],
+        "save": {
+            "basic": "",
+            "value": ""
+        },
+        "school": {
+            "value": "necromancy"
+        },
+        "secondarycasters": {
+            "value": ""
+        },
+        "secondarycheck": {
+            "value": ""
+        },
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "spellType": {
+            "value": "attack"
+        },
+        "sustained": {
+            "value": false
+        },
+        "target": {
+            "value": "1 living creature"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traditions": {
+            "custom": "",
+            "value": []
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "uncommon",
+            "value": [
+                "attack",
+                "wizard"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/spells/call-of-the-grave.webp",
+    "name": "Call of the Grave",
+    "type": "spell"
+}

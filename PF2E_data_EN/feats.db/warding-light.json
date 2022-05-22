@@ -1,0 +1,47 @@
+{
+    "_id": "J1MURfqf0kbxrKG9",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You gain a tattoo that serves as a special ward to defend you against Walkena's forces.</p>\n<p>The tattoo allows you to cast the <em>@Compendium[pf2e.spells-srd.Light]{Light}</em> cantrip as a divine innate spell at will. The cantrip is heightened to a spell level equal to half your level rounded up. If you die, the tattoo immediately casts <em>@Compendium[pf2e.spells-srd.Gentle Repose]{Gentle Repose}</em> on your corpse, heightened to the same spell level.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Bright Lion Dedication"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": ""
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "selected": {
+                "archetype": "Archetype"
+            },
+            "value": [
+                "archetype"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Warding Light",
+    "type": "feat"
+}

@@ -1,0 +1,60 @@
+{
+    "_id": "ZcKW5n7F0oAqRw5o",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your life has been spent challenging death itself, and proximity to that implacable foe only makes your heart beat harder.</p>\n<p>When you are taking persistent damage or your @Compendium[pf2e.conditionitems.Wounded]{Wounded} value is 1 or greater, you gain a +2 circumstance bonus to Fortitude saving throws.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 9
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "domain": "all",
+                "key": "RollOption",
+                "label": "Is taking Persistent Damage or is Wounded",
+                "option": "deaths-drums",
+                "toggleable": true
+            },
+            {
+                "key": "FlatModifier",
+                "predicate": {
+                    "any": [
+                        "deaths-drums"
+                    ]
+                },
+                "selector": "fortitude",
+                "type": "circumstance",
+                "value": 2
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Advanced Player's Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "orc"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Death's Drums",
+    "type": "feat"
+}

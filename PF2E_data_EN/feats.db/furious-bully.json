@@ -1,0 +1,59 @@
+{
+    "_id": "cA1IIy6UEsgETXiX",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You bully foes across the battlefield. While raging, you gain a +2 circumstance bonus to Athletics checks for attack actions.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 8
+        },
+        "location": "",
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "master in Athletics"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "label": "Furious Bully (Attack actions)",
+                "predicate": {
+                    "all": [
+                        "rage",
+                        "attack"
+                    ]
+                },
+                "selector": "athletics",
+                "type": "circumstance",
+                "value": 2
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "barbarian"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Furious Bully",
+    "type": "feat"
+}

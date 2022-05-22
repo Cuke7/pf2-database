@@ -1,0 +1,46 @@
+{
+    "_id": "4alr9e8w9H0RCLwI",
+    "data": {
+        "badge": null,
+        "description": {
+            "value": "<p>Granted by @Compendium[pf2e.feats-srd.Tiller's Drive]{Tiller's Drive}</p>\n<p>Members of your crop receive a +5-foot circumstance bonus to Speed.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "unlimited",
+            "value": -1
+        },
+        "level": {
+            "value": 1
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "label": "Tiller's Drive",
+                "selector": "speed",
+                "type": "circumstance",
+                "value": 5
+            }
+        ],
+        "source": {
+            "value": ""
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/tillers-drive.webp",
+    "name": "Effect: Tiller's Drive",
+    "type": "effect"
+}

@@ -1,0 +1,92 @@
+{
+    "_id": "Ywp05dNOBnfr40KG",
+    "data": {
+        "armor": {
+            "value": 2
+        },
+        "baseItem": null,
+        "category": "shield",
+        "check": {
+            "value": 0
+        },
+        "containerId": "null",
+        "description": {
+            "value": "<p>The burnished red faces of djezet‑alloy shields attract effects made of pure magic.</p>\n<p>While you have a djezet shield Raised, you can use the @Compendium[pf2e.feats-srd.Shield Block]{Shield Block} reaction when you would take energy damage in addition to the reaction's usual trigger. When taking energy damage from a spell, the shield's listed Hardness doubles.</p>\n<p><strong>Craft Requirements</strong> djezet worth at least 4,400 gp</p>"
+        },
+        "dex": {
+            "value": 0
+        },
+        "equippedBulk": {
+            "value": ""
+        },
+        "group": null,
+        "hardness": 8,
+        "hp": {
+            "brokenThreshold": 16,
+            "max": 0,
+            "value": 32
+        },
+        "level": {
+            "value": 16
+        },
+        "negateBulk": {
+            "value": "0"
+        },
+        "potencyRune": {
+            "value": 0
+        },
+        "preciousMaterial": {
+            "value": null
+        },
+        "preciousMaterialGrade": {
+            "value": null
+        },
+        "price": {
+            "value": {
+                "gp": 8800
+            }
+        },
+        "propertyRune1": {
+            "value": ""
+        },
+        "propertyRune2": {
+            "value": ""
+        },
+        "propertyRune3": {
+            "value": ""
+        },
+        "propertyRune4": {
+            "value": ""
+        },
+        "quantity": 1,
+        "resiliencyRune": {
+            "value": ""
+        },
+        "rules": [],
+        "size": "med",
+        "source": {
+            "value": "Pathfinder Lost Omens: The Grand Bazaar"
+        },
+        "speed": {
+            "value": 0
+        },
+        "stackGroup": null,
+        "strength": {
+            "value": 0
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "rare",
+            "value": []
+        },
+        "usage": {
+            "value": "held-in-one-hand"
+        },
+        "weight": {
+            "value": "1"
+        }
+    },
+    "img": "systems/pf2e/icons/default-icons/armor.svg",
+    "name": "Djezet Shield (High Grade)",
+    "type": "armor"
+}

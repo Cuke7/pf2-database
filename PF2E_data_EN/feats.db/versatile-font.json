@@ -1,0 +1,48 @@
+{
+    "_id": "yZ7EcM9CLddZz8Hl",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>As you explore your deity's aspects, you move beyond restrictions on healing or harming. You can prepare either <em>@Compendium[pf2e.spells-srd.Harm]{Harm}</em> or <em>@Compendium[pf2e.spells-srd.Heal]{Heal}</em>in the spell slots gained from the harmful font or healing font.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 2
+        },
+        "location": "",
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "harmful font or healing font"
+                },
+                {
+                    "value": "deity that allows clerics to have both fonts"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "cleric"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Versatile Font",
+    "type": "feat"
+}

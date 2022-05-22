@@ -1,0 +1,61 @@
+{
+    "_id": "rW1q7x5CMf9Rh1bi",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your proficiency rank in Perception increases to master.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 12
+        },
+        "location": "",
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Ranger Dedication"
+                },
+                {
+                    "value": "expert in Perception"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "data.attributes.perception.rank",
+                "value": 3
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "add",
+                "path": "data.custom.modifiers.ranger-dedication-count",
+                "value": 1
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "archetype"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Master Spotter (Ranger)",
+    "type": "feat"
+}

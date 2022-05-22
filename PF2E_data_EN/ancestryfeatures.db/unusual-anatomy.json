@@ -1,0 +1,54 @@
+{
+    "_id": "mEDTJi7d1bTEiwUD",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your unorthodox body resists physical afflictions meant for other creatures. You gain a +1 circumstance bonus to saves against diseases and poisons.</p>"
+        },
+        "featType": {
+            "value": "ancestryfeature"
+        },
+        "level": {
+            "value": 0
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "predicate": {
+                    "any": [
+                        "disease",
+                        "poison"
+                    ]
+                },
+                "selector": "fortitude",
+                "type": "circumstance",
+                "value": 1
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Lost Omens: Ancestry Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "fleshwarp"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/ancestry/unusual-anatomy.webp",
+    "name": "Unusual Anatomy",
+    "type": "feat"
+}

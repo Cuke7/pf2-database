@@ -1,0 +1,45 @@
+{
+    "_id": "xTLy2AyVW90TrQk6",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You gain resistance 10 from Elemental Bulwark instead of 5.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 13
+        },
+        "location": "",
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Elemental Bulwark"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Lost Omens: Ancestry Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "suli"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Improved Elemental Bulwark",
+    "type": "feat"
+}

@@ -1,0 +1,44 @@
+{
+    "_id": "EpNflrkmWzQ0lEb4",
+    "data": {
+        "description": {
+            "value": "<p>Granted by @Compendium[pf2e.equipment-srd.Glaive of the Artist]{Glaive of the Artist}.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "unlimited",
+            "value": -1
+        },
+        "level": {
+            "value": 14
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "performance",
+                "type": "item",
+                "value": 2
+            }
+        ],
+        "source": {
+            "value": ""
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "img": "systems/pf2e/icons/equipment/weapons/specific-magic-weapons/glaive-of-the-artist.webp",
+    "name": "Effect: Glaive of the Artist",
+    "type": "effect"
+}

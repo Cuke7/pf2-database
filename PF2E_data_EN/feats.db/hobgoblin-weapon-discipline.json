@@ -1,0 +1,45 @@
+{
+    "_id": "B6eoSmowSFNlhj9h",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You know how to efficiently utilize the weapons soldiers use in close quarters. Whenever you score a critical hit using a weapon of the polearm, spear, or sword group, you apply the weapon's critical specialization effect.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 5
+        },
+        "location": "",
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Hobgoblin Weapon Familiarity"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Lost Omens: Character Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "hobgoblin"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Hobgoblin Weapon Discipline",
+    "type": "feat"
+}

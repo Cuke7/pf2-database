@@ -1,0 +1,70 @@
+{
+    "_id": "COP89tjrNhEucuRW",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your hardiness lets you withstand more punishment than most before going down. Increase your maximum Hit Points by your level. When you have the @Compendium[pf2e.conditionitems.Dying]{Dying} condition, the DC of your recovery checks is equal to 9 + your dying value (instead of 10 + your dying value).</p>\n<p>If you also have the @Compendium[pf2e.feats-srd.Toughness]{Toughness} feat, the Hit Points gained from it and this feat are cumulative, and the DC of your recovery checks is equal to 6 + your dying value.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 9
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "hp",
+                "type": "untyped",
+                "value": "@actor.level"
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "downgrade",
+                "path": "data.attributes.dying.recoveryDC",
+                "predicate": {
+                    "not": [
+                        "feat:toughness"
+                    ]
+                },
+                "value": 9
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "downgrade",
+                "path": "data.attributes.dying.recoveryDC",
+                "predicate": {
+                    "all": [
+                        "feat:toughness"
+                    ]
+                },
+                "value": 6
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "dwarf"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Mountain's Stoutness",
+    "type": "feat"
+}

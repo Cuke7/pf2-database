@@ -1,0 +1,42 @@
+{
+    "_id": "WsEVkMFe8ZEIRKLu",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your eidolon grabs enemies. Choose one of the eidolon's unarmed attacks with the grapple trait. It gains the @Compendium[pf2e.bestiary-ability-glossary-srd.Grab]{Grab} action on that unarmed attack.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 12
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": ""
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "evolution",
+                "summoner"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Grasping Limbs",
+    "type": "feat"
+}

@@ -1,0 +1,44 @@
+{
+    "_id": "FkN9QX1W2Iv56bkn",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your performances inspire strength in your allies. You learn the <em>@Compendium[pf2e.spells-srd.Song of Strength]{Song of Strength}</em> composition cantrip.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "warrior muse"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Advanced Player's Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "bard"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Song Of Strength",
+    "type": "feat"
+}

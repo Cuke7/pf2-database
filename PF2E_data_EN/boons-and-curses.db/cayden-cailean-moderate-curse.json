@@ -1,0 +1,38 @@
+{
+    "_id": "x1QrKuvZ2TbTvLUY",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p><strong>Moderate Curse</strong> Cayden has afflicted you with cowardice. Whenever you roll a critical success on a saving throw against a fear effect, you get a success instead, and each time you roll a failure on a saving throw against a fear effect, you get a critical failure instead.</p>"
+        },
+        "featType": {
+            "value": "curse"
+        },
+        "level": {
+            "value": 0
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": ""
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "img": "systems/pf2e/icons/deity/Cayden%20Cailean.webp",
+    "name": "Cayden Cailean - Moderate Curse",
+    "type": "feat"
+}

@@ -1,0 +1,61 @@
+{
+    "_id": "m7KjpkAAh9PptJsY",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Whether through instinct, study, or magic, you feel a deeper connection to your ancestry. You gain a 1st-level ancestry feat.</p>"
+        },
+        "featType": {
+            "value": "general"
+        },
+        "level": {
+            "value": 3
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "adjustName": false,
+                "allowedDrops": {
+                    "all": [
+                        "item:feat-type:ancestry",
+                        "item:level:1"
+                    ],
+                    "label": "PF2E.SpecificRule.AncestralParagon.AllowedDrops"
+                },
+                "choices": {
+                    "query": "{\"data.featType.value\":\"ancestry\",\"data.level.value\":1,\"$or\":[{\"data.traits.value\":{\"$elemMatch\":\"{actor|data.details.ancestry.trait}\"}},{\"data.traits.value\":{\"$elemMatch\":\"{actor|data.details.heritage.trait}\"}}],\"$not\":{\"data.traits.value\":{\"$elemMatch\":\"lineage\"}}}"
+                },
+                "key": "ChoiceSet",
+                "prompt": "PF2E.SpecificRule.AncestralParagon.Prompt"
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "{item|flags.pf2e.rulesSelections.ancestralParagon}"
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "general"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Ancestral Paragon",
+    "type": "feat"
+}

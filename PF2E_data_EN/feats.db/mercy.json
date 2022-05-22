@@ -1,0 +1,47 @@
+{
+    "_id": "zilwynzk8lIujgZo",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "description": {
+            "value": "<p>Your touch relieves fear and restores movement.</p>\n<p>If the next action you use is to cast <em>@Compendium[pf2e.spells-srd.Lay on Hands]{Lay on Hands}</em>, you can attempt to counteract a fear effect or an effect imposing the @Compendium[pf2e.conditionitems.Paralyzed]{Paralyzed} condition on the target, in addition to the other benefits of lay on hands.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 4
+        },
+        "location": "",
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "devotion spell (lay on hands)"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "concentrate",
+                "champion",
+                "metamagic"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Mercy",
+    "type": "feat"
+}

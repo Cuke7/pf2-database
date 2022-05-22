@@ -1,0 +1,8 @@
+{
+    "_id": "mRJIxYZNnhNShgfj",
+    "content": "<p>Play when you take a Stride action.</p>\n<hr />\n<p>You make a ranged Strike at any point during this movement.</p>",
+    "name": "Run and Shoot",
+    "permission": {
+        "default": 0
+    }
+}

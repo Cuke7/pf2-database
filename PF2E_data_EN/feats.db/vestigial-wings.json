@@ -1,0 +1,50 @@
+{
+    "_id": "1MqvE1FL2mZRCnzo",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You possess small, weak wings that aid in balance. You gain the @Compendium[pf2e.feats-srd.Steady Balance]{Steady Balance} and @Compendium[pf2e.feats-srd.Cat Fall]{Cat Fall} skill feats as bonus feats, even if you aren't trained in Acrobatics.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 1
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "GrantItem",
+                "uuid": "Compendium.pf2e.feats-srd.Steady Balance"
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "Compendium.pf2e.feats-srd.Cat Fall"
+            }
+        ],
+        "source": {
+            "value": ""
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "ganzi"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Vestigial Wings",
+    "type": "feat"
+}

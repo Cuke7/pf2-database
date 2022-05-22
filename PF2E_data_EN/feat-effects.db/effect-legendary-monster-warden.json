@@ -1,0 +1,81 @@
+{
+    "_id": "aUpcWqaLBlmpnJgW",
+    "data": {
+        "description": {
+            "value": "<p>Granted by @Compendium[pf2e.feats-srd.Monster Warden]{Monster Warden} if you @Compendium[pf2e.feats-srd.Legendary Monster Hunter]{Legendary Monster Hunter}.</p>\n<p>You gain a +2 circumstance bonus to your next attack roll against that prey.</p>\n<p>You gain a +2 circumstance bonus to your next saving throw against that particular creature and to your AC against that creature's next attack against you.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "unlimited",
+            "value": -1
+        },
+        "level": {
+            "value": 16
+        },
+        "rules": [
+            {
+                "domain": "all",
+                "key": "RollOption",
+                "label": "Target is the subject of Monster Hunter",
+                "option": "monster-hunter",
+                "toggleable": true
+            },
+            {
+                "key": "FlatModifier",
+                "label": "Monster Warden",
+                "predicate": {
+                    "all": [
+                        "monster-hunter"
+                    ]
+                },
+                "selector": "saving-throw",
+                "type": "circumstance",
+                "value": 2
+            },
+            {
+                "key": "FlatModifier",
+                "label": "Monster Warden",
+                "predicate": {
+                    "all": [
+                        "monster-hunter"
+                    ]
+                },
+                "selector": "ac",
+                "type": "circumstance",
+                "value": 2
+            },
+            {
+                "key": "FlatModifier",
+                "label": "Monster Hunter",
+                "predicate": {
+                    "all": [
+                        "monster-hunter"
+                    ]
+                },
+                "selector": "attack",
+                "type": "circumstance",
+                "value": 2
+            }
+        ],
+        "source": {
+            "value": ""
+        },
+        "start": {
+            "initiative": null,
+            "value": 3648
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "img": "systems/pf2e/icons/spells/monstrosity-form.webp",
+    "name": "Effect: Legendary Monster Warden",
+    "type": "effect"
+}

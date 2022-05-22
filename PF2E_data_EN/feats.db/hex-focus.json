@@ -1,0 +1,40 @@
+{
+    "_id": "p2tFR4yBauu8t3mC",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your patron's teachings have allowed you to achieve a deeper focus. If you have spent at least 2 Focus Points since the last time you @Compendium[pf2e.actionspf2e.Refocus]{Refocused}, you recover 2 Focus Points when you Refocus instead of 1.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Advanced Player's Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "witch"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Hex Focus",
+    "type": "feat"
+}

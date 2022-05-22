@@ -1,0 +1,54 @@
+{
+    "_id": "PjYwPIUUrirQFiee",
+    "data": {
+        "actionCategory": {
+            "value": "defensive"
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>While underwater, the Kallas Devil can blend in with the surrounding environment and hide from other creatures by attempting a Stealth check. She has a +4 circumstance bonus for this check.</p>"
+        },
+        "requirements": {
+            "value": ""
+        },
+        "rules": [
+            {
+                "domain": "all",
+                "key": "RollOption",
+                "label": "Underwater",
+                "option": "terrain:underwater",
+                "toggleable": true
+            },
+            {
+                "key": "FlatModifier",
+                "predicate": {
+                    "all": [
+                        "terrain:underwater"
+                    ]
+                },
+                "selector": "stealth",
+                "type": "circumstance",
+                "value": 4
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Lost Omens: Monsters of Myth"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": []
+        },
+        "trigger": {
+            "value": ""
+        }
+    },
+    "img": "systems/pf2e/icons/actions/Passive.webp",
+    "name": "(Kallas Devil) Underwater Views",
+    "type": "action"
+}

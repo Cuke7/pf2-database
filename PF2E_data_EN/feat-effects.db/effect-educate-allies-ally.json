@@ -1,0 +1,54 @@
+{
+    "_id": "WrWSieH9Acy6XuzV",
+    "data": {
+        "description": {
+            "value": "<p>Granted by @Compendium[pf2e.feats-srd.Educate Allies]{Educate Allies}.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "rounds",
+            "value": 1
+        },
+        "level": {
+            "value": 1
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "label": "Educate Allies (vs. performative effects)",
+                "predicate": {
+                    "any": [
+                        "auditory",
+                        "illusion",
+                        "linguistic",
+                        "sonic",
+                        "visual"
+                    ]
+                },
+                "selector": "saving-throw",
+                "type": "circumstance",
+                "value": 1
+            }
+        ],
+        "source": {
+            "value": ""
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "img": "systems/pf2e/icons/spells/abyssal-pact.webp",
+    "name": "Effect: Educate Allies (Ally)",
+    "type": "effect"
+}

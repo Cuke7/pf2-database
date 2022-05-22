@@ -1,0 +1,51 @@
+{
+    "_id": "5EpkOj9CFOjt8vsK",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You can see in the darkness as easily as a true vampire. You gain @Compendium[pf2e.ancestryfeatures.Darkvision]{Darkvision}.</p>\n<p><strong>Special</strong> You can select this feat only at 1st level, and you can't retrain into or out of this feat.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 1
+        },
+        "onlyLevel1": true,
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "low-light vision"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "key": "Sense",
+                "label": "PF2E.SensesDarkvision",
+                "selector": "darkvision"
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Advanced Player's Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "dhampir"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Eyes of the Night",
+    "type": "feat"
+}

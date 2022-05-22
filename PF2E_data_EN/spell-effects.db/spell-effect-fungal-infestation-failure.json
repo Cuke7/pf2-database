@@ -1,0 +1,48 @@
+{
+    "_id": "AnCRD7kDcG0DDGKn",
+    "data": {
+        "description": {
+            "value": "<p>Granted by <em>@Compendium[pf2e.spells-srd.Fungal Infestation]{Fungal Infestation}</em></p>"
+        },
+        "duration": {
+            "expiry": "turn-end",
+            "sustained": false,
+            "unit": "unlimited",
+            "value": -1
+        },
+        "level": {
+            "value": 2
+        },
+        "rules": [
+            {
+                "key": "Weakness",
+                "type": "fire",
+                "value": "floor((@item.level)/2)"
+            },
+            {
+                "key": "Weakness",
+                "type": "slashing",
+                "value": "floor((@item.level)/2)"
+            }
+        ],
+        "source": {
+            "value": ""
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "img": "systems/pf2e/icons/spells/fungal-infestation.webp",
+    "name": "Spell Effect: Fungal Infestation (Failure)",
+    "type": "effect"
+}

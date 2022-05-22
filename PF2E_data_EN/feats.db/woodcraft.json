@@ -1,0 +1,80 @@
+{
+    "_id": "Y1bEisU8jVCsIYk3",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You have a innate familiarity with forested areas. When in a forest or jungle environment, if you roll a critical failure on a Survival skill check to Sense Direction, Subsist, or Cover Tracks, you get a failure instead, and if you roll a success, you get a critical success instead.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 1
+        },
+        "location": null,
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "adjustment": {
+                    "criticalFailure": "one-degree-better",
+                    "success": "one-degree-better"
+                },
+                "key": "AdjustDegreeOfSuccess",
+                "predicate": {
+                    "all": [
+                        {
+                            "or": [
+                                "action:sense-direction",
+                                "action:subsist",
+                                "action:cover-tracks"
+                            ]
+                        },
+                        {
+                            "or": [
+                                "terrain:forest",
+                                "terrain:jungle"
+                            ]
+                        }
+                    ]
+                },
+                "selector": "survival",
+                "type": "skill"
+            },
+            {
+                "key": "Note",
+                "predicate": {
+                    "any": [
+                        "action:sense-direction",
+                        "action:subsist",
+                        "action:cover-tracks"
+                    ]
+                },
+                "selector": "saving-throw",
+                "text": "<p class='compact-text'><strong>{item|name}</strong> @Localize[PF2E.SpecificRule.Elf.Woodcraft.Note]</p>"
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Lost Omens: Character Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "elf"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Woodcraft",
+    "type": "feat"
+}

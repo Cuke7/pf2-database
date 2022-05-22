@@ -1,0 +1,48 @@
+{
+    "_id": "m8iP2OCzit9WUrMD",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 2
+        },
+        "description": {
+            "value": "<p>With a single whisper carried on the wind, you enchant your ammunition to make a foe more vulnerable to your attacks.</p>\n<p>Make a bow Strike. On a hit, the target takes an additional [[/r {2d6}[mental]]]{2d6 mental damage}. On a critical hit, the target also becomes @Compendium[pf2e.conditionitems.Stunned]{Stunned 1}. The mental damage increases to 3d6 if your bow has a <em>greater striking</em> rune, or to 4d6 if your bow has a <em>major striking</em> rune.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Eldritch Archer Dedication"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Advanced Player's Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "archetype",
+                "emotion",
+                "enchantment",
+                "magical",
+                "mental"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Enchanting Arrow",
+    "type": "feat"
+}

@@ -1,0 +1,176 @@
+{
+    "_id": "DxlauoGqSVDZWBOM",
+    "data": {
+        "attributes": {
+            "ac": {
+                "value": 39
+            },
+            "hardness": 26,
+            "hasHealth": true,
+            "hp": {
+                "details": "",
+                "max": 104,
+                "temp": 0,
+                "tempmax": 0,
+                "value": 104
+            },
+            "stealth": {
+                "details": "<p>(master)</p>",
+                "value": 28
+            }
+        },
+        "creatureType": "",
+        "details": {
+            "description": "<p>A ceiling-mounted launcher rains resinous needles onto intruders, after which the needles melt into acid.</p>",
+            "disable": "<p>@Check[type:thievery|dc:36|name:Disable Firing Mechanism|traits:mechanical,trap,complex] to disable some firing mechanisms, making three adjacent squares in the trapped area safe to enter.</p>",
+            "isComplex": true,
+            "level": {
+                "value": 16
+            },
+            "reset": "",
+            "routine": "<p>(3 actions) The acidic needle launcher fires a needle at a random target in the area indicated on the map.</p>"
+        },
+        "saves": {
+            "fortitude": {
+                "saveDetail": "",
+                "value": 30
+            },
+            "reflex": {
+                "saveDetail": "",
+                "value": 22
+            },
+            "will": {
+                "saveDetail": "",
+                "value": 0
+            }
+        },
+        "source": {
+            "value": "Pathfinder #149: Against the Scarlet Triad"
+        },
+        "statusEffects": [],
+        "traits": {
+            "ci": [],
+            "di": {
+                "custom": "",
+                "selected": {},
+                "value": [
+                    "critical-hits",
+                    "object-immunities",
+                    "precision"
+                ]
+            },
+            "dr": [],
+            "dv": [],
+            "rarity": "common",
+            "size": {
+                "value": "med"
+            },
+            "traits": {
+                "custom": "",
+                "value": [
+                    "mechanical",
+                    "trap"
+                ]
+            }
+        }
+    },
+    "img": "systems/pf2e/icons/default-icons/hazard.svg",
+    "items": [
+        {
+            "_id": "Egs11D8l9LMkS7uI",
+            "data": {
+                "actionCategory": {
+                    "value": ""
+                },
+                "actionType": {
+                    "value": "reaction"
+                },
+                "actions": {
+                    "value": null
+                },
+                "description": {
+                    "value": "<p><strong>Trigger</strong> A creature moves into the area indicated on the map</p>\n<hr />\n<p><strong>Effect</strong> The trap shoots an acidic needle at a random target in the area indicated on the map, then rolls initiative.</p>"
+                },
+                "requirements": {
+                    "value": ""
+                },
+                "rules": [],
+                "slug": null,
+                "source": {
+                    "value": ""
+                },
+                "traits": {
+                    "custom": "",
+                    "rarity": "common",
+                    "value": [
+                        "attack"
+                    ]
+                },
+                "trigger": {
+                    "value": ""
+                },
+                "weapon": {
+                    "value": ""
+                }
+            },
+            "img": "systems/pf2e/icons/actions/Reaction.webp",
+            "name": "Needle Rain",
+            "sort": 100000,
+            "type": "action"
+        },
+        {
+            "_id": "YhBi7QJI7xdnQU10",
+            "data": {
+                "attack": {
+                    "value": ""
+                },
+                "attackEffects": {
+                    "value": []
+                },
+                "bonus": {
+                    "value": 35
+                },
+                "damageRolls": {
+                    "2vyoxmgdd8y1a0gbuz8cfk": {
+                        "damage": "8d6",
+                        "damageType": "acid"
+                    },
+                    "inmlk2yjsu9uodsggqs95": {
+                        "damage": "2d6",
+                        "damageType": "piercing"
+                    }
+                },
+                "description": {
+                    "value": ""
+                },
+                "rules": [],
+                "slug": null,
+                "source": {
+                    "value": ""
+                },
+                "traits": {
+                    "custom": "",
+                    "rarity": "common",
+                    "selected": {},
+                    "value": []
+                },
+                "weaponType": {
+                    "value": "ranged"
+                }
+            },
+            "img": "systems/pf2e/icons/default-icons/melee.svg",
+            "name": "Acidic Needle",
+            "sort": 200000,
+            "type": "melee"
+        }
+    ],
+    "name": "Acidic Needle Launcher",
+    "token": {
+        "disposition": 0,
+        "height": 1,
+        "img": "systems/pf2e/icons/default-icons/hazard.svg",
+        "name": "Acidic Needle Launcher",
+        "width": 1
+    },
+    "type": "hazard"
+}

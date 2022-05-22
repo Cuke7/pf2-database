@@ -1,0 +1,470 @@
+{
+    "_id": "29NHB8DNNAbEk5Va",
+    "data": {
+        "abilities": {
+            "cha": {
+                "mod": 0
+            },
+            "con": {
+                "mod": 6
+            },
+            "dex": {
+                "mod": 6
+            },
+            "int": {
+                "mod": -4
+            },
+            "str": {
+                "mod": 5
+            },
+            "wis": {
+                "mod": 2
+            }
+        },
+        "attributes": {
+            "ac": {
+                "details": "",
+                "value": 29
+            },
+            "allSaves": {
+                "value": ""
+            },
+            "hp": {
+                "details": "",
+                "max": 220,
+                "temp": 0,
+                "value": 220
+            },
+            "initiative": {
+                "ability": "perception"
+            },
+            "perception": {
+                "value": 18
+            },
+            "speed": {
+                "otherSpeeds": [],
+                "value": "25"
+            }
+        },
+        "details": {
+            "alignment": {
+                "value": "N"
+            },
+            "blurb": "",
+            "creatureType": "",
+            "level": {
+                "value": 10
+            },
+            "privateNotes": "",
+            "publicNotes": "",
+            "source": {
+                "value": "Pathfinder #153: Life's Long Shadows"
+            }
+        },
+        "resources": {},
+        "saves": {
+            "fortitude": {
+                "saveDetail": "",
+                "value": 22
+            },
+            "reflex": {
+                "saveDetail": "",
+                "value": 20
+            },
+            "will": {
+                "saveDetail": "",
+                "value": 14
+            }
+        },
+        "traits": {
+            "ci": [],
+            "di": {
+                "custom": "",
+                "value": [
+                    "poison"
+                ]
+            },
+            "dr": [],
+            "dv": [
+                {
+                    "label": "Cold",
+                    "type": "cold",
+                    "value": "10"
+                },
+                {
+                    "label": "Fire",
+                    "type": "fire",
+                    "value": "10"
+                }
+            ],
+            "languages": {
+                "custom": "",
+                "selected": [],
+                "value": []
+            },
+            "rarity": "common",
+            "senses": {
+                "value": "tremorsense (imprecise) 60 feet"
+            },
+            "size": {
+                "value": "lg"
+            },
+            "traits": {
+                "custom": "",
+                "value": [
+                    "plant"
+                ]
+            }
+        }
+    },
+    "img": "systems/pf2e/icons/default-icons/npc.svg",
+    "items": [
+        {
+            "_id": "T1x41KttaKGcSc4U",
+            "data": {
+                "attack": {
+                    "value": ""
+                },
+                "attackEffects": {
+                    "value": []
+                },
+                "bonus": {
+                    "value": 21
+                },
+                "damageRolls": {
+                    "gday44ad22utwko3z4ny": {
+                        "damage": "2d6+9",
+                        "damageType": "slashing"
+                    }
+                },
+                "description": {
+                    "value": ""
+                },
+                "rules": [],
+                "slug": null,
+                "source": {
+                    "value": ""
+                },
+                "traits": {
+                    "custom": "",
+                    "rarity": "common",
+                    "value": []
+                },
+                "weaponType": {
+                    "value": "melee"
+                }
+            },
+            "img": "systems/pf2e/icons/default-icons/melee.svg",
+            "name": "Vines",
+            "sort": 100000,
+            "type": "melee"
+        },
+        {
+            "_id": "kZlXyCH63GFaXGVR",
+            "data": {
+                "attack": {
+                    "value": ""
+                },
+                "attackEffects": {
+                    "value": []
+                },
+                "bonus": {
+                    "value": 23
+                },
+                "damageRolls": {
+                    "j910j4zpniriumcx6ovz": {
+                        "damage": "3d10+9",
+                        "damageType": "bludgeoning"
+                    }
+                },
+                "description": {
+                    "value": ""
+                },
+                "rules": [],
+                "slug": null,
+                "source": {
+                    "value": ""
+                },
+                "traits": {
+                    "custom": "",
+                    "rarity": "common",
+                    "value": []
+                },
+                "weaponType": {
+                    "value": "melee"
+                }
+            },
+            "img": "systems/pf2e/icons/default-icons/melee.svg",
+            "name": "Head",
+            "sort": 200000,
+            "type": "melee"
+        },
+        {
+            "_id": "gHi2vKCOAok2Xdj9",
+            "data": {
+                "actionCategory": {
+                    "value": "defensive"
+                },
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "description": {
+                    "value": "<p>Whenever the counteflora takes cold damage, it takes a -10-foot circumstance penalty to Speed for 1 round.</p>"
+                },
+                "requirements": {
+                    "value": ""
+                },
+                "rules": [],
+                "slug": null,
+                "source": {
+                    "value": ""
+                },
+                "traits": {
+                    "custom": "",
+                    "rarity": "common",
+                    "value": []
+                },
+                "trigger": {
+                    "value": ""
+                },
+                "weapon": {
+                    "value": ""
+                }
+            },
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Frost Susceptibility",
+            "sort": 300000,
+            "type": "action"
+        },
+        {
+            "_id": "SZ8U6jGsKMqKBXxd",
+            "data": {
+                "actionCategory": {
+                    "value": "defensive"
+                },
+                "actionType": {
+                    "value": "action"
+                },
+                "actions": {
+                    "value": 2
+                },
+                "description": {
+                    "value": "<p>The counteflora stiffens the specialized leaves around its flower head, protecting its sensitive seedpods. While its bracts are tightened, a counteflora gains a +2 circumstance bonus to AC and can use its head Strike and Furious Swing abilities, but it cannot use its Black Seed Cloud ability and it loses its sense of sight (so it must rely on its imprecise tremorsense when targeting other creatures). The counteflora can't use its head Strike of Furious Swing ability unless its bracts are tightened. The counteflora can loosen its bracts as a free action. Against plants and fungi, the seeds burrow into the creatures' flesh rather than infiltrate their lungs.</p>"
+                },
+                "requirements": {
+                    "value": ""
+                },
+                "rules": [],
+                "slug": null,
+                "source": {
+                    "value": ""
+                },
+                "traits": {
+                    "custom": "",
+                    "rarity": "common",
+                    "value": []
+                },
+                "trigger": {
+                    "value": ""
+                },
+                "weapon": {
+                    "value": ""
+                }
+            },
+            "img": "systems/pf2e/icons/actions/TwoActions.webp",
+            "name": "Tighten Bracts",
+            "sort": 400000,
+            "type": "action"
+        },
+        {
+            "_id": "Od9QuV4TEmA9vlH5",
+            "data": {
+                "actionCategory": {
+                    "value": "offensive"
+                },
+                "actionType": {
+                    "value": "action"
+                },
+                "actions": {
+                    "value": 2
+                },
+                "description": {
+                    "value": "<p>The counteflora releases a cloud of black seedpods in a 15-foot-radius emanation. Non-counteflora creatures in the area must succeed at a Fortitude save or breathe in the toxic seeds.</p>"
+                },
+                "requirements": {
+                    "value": ""
+                },
+                "rules": [],
+                "slug": null,
+                "source": {
+                    "value": ""
+                },
+                "traits": {
+                    "custom": "",
+                    "rarity": "common",
+                    "value": []
+                },
+                "trigger": {
+                    "value": ""
+                },
+                "weapon": {
+                    "value": ""
+                }
+            },
+            "img": "systems/pf2e/icons/actions/TwoActions.webp",
+            "name": "Black Seed Cloud",
+            "sort": 500000,
+            "type": "action"
+        },
+        {
+            "_id": "PP6cWEeflOzf6dln",
+            "data": {
+                "actionCategory": {
+                    "value": "offensive"
+                },
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "description": {
+                    "value": "<p><strong>Saving Throw</strong> @Check[type:fortitude|dc:30|traits:inhaled,poison] (@Check[type:fortitude|dc:32|name:Counteflora Toxin (Plant of Fungi)|traits:contact,poison] for plants and fungi)</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> [[/r {4d6}[poison]]]{4d6 poison damage} and enfeebled 1 (1 round)</p>\n<p><strong>Stage 2</strong> [[/r {6d6}[poison]]]{6d6 poison damage}, enfeebled 1, and fascinated (1 round)</p>"
+                },
+                "requirements": {
+                    "value": ""
+                },
+                "rules": [],
+                "slug": null,
+                "source": {
+                    "value": ""
+                },
+                "traits": {
+                    "custom": "",
+                    "rarity": "common",
+                    "value": []
+                },
+                "trigger": {
+                    "value": ""
+                },
+                "weapon": {
+                    "value": ""
+                }
+            },
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Counteflora Toxin",
+            "sort": 600000,
+            "type": "action"
+        },
+        {
+            "_id": "2tVmuiOOVxmIhIT4",
+            "data": {
+                "actionCategory": {
+                    "value": "offensive"
+                },
+                "actionType": {
+                    "value": "action"
+                },
+                "actions": {
+                    "value": 3
+                },
+                "description": {
+                    "value": "<p><strong>Requirements</strong> The counteflora's bracts are tightened</p>\n<hr />\n<p><strong>Effect</strong> The counteflora makes up to four headbutt Strikes (see Flower Headbutt), each against a different creature within reach.</p>"
+                },
+                "requirements": {
+                    "value": ""
+                },
+                "rules": [],
+                "slug": null,
+                "source": {
+                    "value": ""
+                },
+                "traits": {
+                    "custom": "",
+                    "rarity": "common",
+                    "value": [
+                        "attack"
+                    ]
+                },
+                "trigger": {
+                    "value": ""
+                },
+                "weapon": {
+                    "value": ""
+                }
+            },
+            "img": "systems/pf2e/icons/actions/ThreeActions.webp",
+            "name": "Furious Swing",
+            "sort": 700000,
+            "type": "action"
+        },
+        {
+            "_id": "DbcHR9RRUZjJmu9a",
+            "data": {
+                "description": {
+                    "value": ""
+                },
+                "mod": {
+                    "value": 23
+                },
+                "proficient": {
+                    "value": 0
+                },
+                "rules": [],
+                "slug": null,
+                "source": {
+                    "value": ""
+                },
+                "traits": {
+                    "custom": "",
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "img": "systems/pf2e/icons/default-icons/lore.svg",
+            "name": "Athletics",
+            "sort": 800000,
+            "type": "lore"
+        },
+        {
+            "_id": "NlljUPjO3NTY37sa",
+            "data": {
+                "description": {
+                    "value": ""
+                },
+                "mod": {
+                    "value": 20
+                },
+                "proficient": {
+                    "value": 0
+                },
+                "rules": [],
+                "slug": null,
+                "source": {
+                    "value": ""
+                },
+                "traits": {
+                    "custom": "",
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "img": "systems/pf2e/icons/default-icons/lore.svg",
+            "name": "Stealth",
+            "sort": 900000,
+            "type": "lore"
+        }
+    ],
+    "name": "Counteflora",
+    "token": {
+        "disposition": -1,
+        "height": 2,
+        "img": "systems/pf2e/icons/default-icons/npc.svg",
+        "name": "Counteflora",
+        "width": 2
+    },
+    "type": "npc"
+}

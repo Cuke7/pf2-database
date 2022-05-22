@@ -1,0 +1,40 @@
+{
+    "_id": "PuyvasWeofGMrhpu",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p><strong>Trigger</strong> A creature within your melee reach is hit by a melee attack from one of your allies</p>\n<hr />\n<p>When your enemy is hit by your ally, you capitalize upon the distraction. Make a Strike against the triggering creature.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "rogue"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Opportune Backstab",
+    "type": "feat"
+}

@@ -1,0 +1,60 @@
+{
+    "_id": "kEy7Uc1VisizGgtf",
+    "data": {
+        "baseItem": null,
+        "containerId": null,
+        "description": {
+            "value": "<p>Armor with this rune becomes hazy black. You gain a +1 item bonus to Stealth checks while wearing the armor.</p>"
+        },
+        "equippedBulk": {
+            "value": ""
+        },
+        "hardness": 0,
+        "hp": {
+            "brokenThreshold": 0,
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 5
+        },
+        "negateBulk": {
+            "value": "0"
+        },
+        "preciousMaterial": {
+            "value": ""
+        },
+        "preciousMaterialGrade": {
+            "value": ""
+        },
+        "price": {
+            "value": {
+                "gp": 55
+            }
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "stackGroup": "",
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "magical",
+                "transmutation"
+            ]
+        },
+        "usage": {
+            "value": "held-in-one-hand"
+        },
+        "weight": {
+            "value": "-"
+        }
+    },
+    "img": "systems/pf2e/icons/equipment/runes/armor-property-runes/armor-property-runes.webp",
+    "name": "Shadow",
+    "type": "equipment"
+}

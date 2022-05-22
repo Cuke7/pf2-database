@@ -1,0 +1,45 @@
+{
+    "_id": "XttSGDuAsRDTuvgS",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Disobeying your @Compendium[pf2e.actionspf2e.Iron Command]{Iron Command} has lasting consequences. If an enemy refuses to kneel to you, you can deal @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Mental Damage} instead of normal mental damage. You must decide whether the mental damage will be persistent before your enemy chooses whether to kneel or not. The amount of damage is unchanged.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 1
+        },
+        "location": "",
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "tyrant cause"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Advanced Player's Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "uncommon",
+            "value": [
+                "champion"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Iron Repercussions",
+    "type": "feat"
+}

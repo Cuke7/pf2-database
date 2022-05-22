@@ -1,0 +1,40 @@
+{
+    "_id": "mZcI1NKtQhteAQLn",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You learn the <em>@Compendium[pf2e.spells-srd.Silver's Refrain]{Silver's Refrain}</em> composition cantrip, which aids you when fighting devils.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder #147: Tomorrow Must Burn"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "rare",
+            "value": [
+                "bard"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Silver's Refrain",
+    "type": "feat"
+}

@@ -1,0 +1,55 @@
+{
+    "_id": "AJRWIcBGCIxXG0RS",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You gain the expert bounded spellcasting benefits.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 18
+        },
+        "location": "",
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Expert Magus Spellcasting"
+                },
+                {
+                    "value": "legendary in Arcana"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "data.proficiencies.traditions.arcane.rank",
+                "value": 3
+            }
+        ],
+        "source": {
+            "value": ""
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "archetype"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Master Magus Spellcasting",
+    "type": "feat"
+}

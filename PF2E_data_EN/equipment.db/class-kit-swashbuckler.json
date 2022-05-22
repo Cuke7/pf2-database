@@ -1,0 +1,78 @@
+{
+    "_id": "9RxYSGp86HKtK8R8",
+    "data": {
+        "description": {
+            "value": "<div><strong>Armor</strong> leather armor</div>\n<div><strong>Weapons</strong> hand crossbow with 20 bolts, rapier</div>\n<div><strong>Gear</strong> adventurer's pack</div>\n<div><strong>Options</strong> @Compendium[pf2e.equipment-srd.Buckler]{Buckler} (1 gp), @Compendium[pf2e.equipment-srd.Dueling Cape]{Dueling Cape} (5 sp), @Compendium[pf2e.equipment-srd.Clothing (Fine)]{Clothing (Fine)} (2 gp), @Compendium[pf2e.equipment-srd.Grappling Hook]{Grappling Hook} (1 sp), @Compendium[pf2e.equipment-srd.Main-Gauche]{Main-Gauche} (5 sp)</div>"
+        },
+        "equippedBulk": {
+            "value": ""
+        },
+        "items": {
+            "5w4vt": {
+                "id": "tH5GirEy7YB3ZgCk",
+                "img": "systems/pf2e/icons/equipment/weapons/rapier.webp",
+                "isContainer": false,
+                "items": {},
+                "name": "Rapier",
+                "pack": "pf2e.equipment-srd",
+                "quantity": 1
+            },
+            "h5vlg": {
+                "id": "AITVZmakiu3RgfKo",
+                "img": "systems/pf2e/icons/equipment/weapons/bolts.webp",
+                "isContainer": false,
+                "items": {},
+                "name": "Bolts",
+                "pack": "pf2e.equipment-srd",
+                "quantity": 20
+            },
+            "otigy": {
+                "id": "2req0jGaxz8hScdB",
+                "img": "systems/pf2e/icons/equipment/adventuring-gear/adventurers-pack.webp",
+                "isContainer": true,
+                "items": {},
+                "name": "Adventurer's Pack",
+                "pack": "pf2e.equipment-srd",
+                "quantity": 1
+            },
+            "vf389": {
+                "id": "4tIVTg9wj56RrveA",
+                "img": "systems/pf2e/icons/equipment/armor/leather-armor.webp",
+                "isContainer": false,
+                "items": {},
+                "name": "Leather Armor",
+                "pack": "pf2e.equipment-srd",
+                "quantity": 1
+            },
+            "wvr9k": {
+                "id": "XyA6PKV46aNlLXOd",
+                "img": "systems/pf2e/icons/equipment/weapons/hand-crossbow.webp",
+                "isContainer": false,
+                "items": {},
+                "name": "Hand Crossbow",
+                "pack": "pf2e.equipment-srd",
+                "quantity": 1
+            }
+        },
+        "price": {
+            "value": {
+                "gp": 8,
+                "sp": 7
+            }
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Advanced Player's Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "swashbuckler"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/equipment/adventuring-gear/classkit-swashbuckler.webp",
+    "name": "Class Kit (Swashbuckler)",
+    "type": "kit"
+}

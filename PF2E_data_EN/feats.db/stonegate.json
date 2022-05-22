@@ -1,0 +1,45 @@
+{
+    "_id": "UquGIEFKhutgJsEz",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Earthen barriers no longer impede your progress. You gain <em>@Compendium[pf2e.spells-srd.Passwall]{Passwall}</em> as a 7th-level divine innate spell that you can cast once per day. Unlike the spell, however, this ability can be used only to open passages through barriers of earth or stone.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 17
+        },
+        "location": null,
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Stonewalker"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Advanced Player's Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "uncommon",
+            "value": [
+                "dwarf"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Stonegate",
+    "type": "feat"
+}

@@ -1,0 +1,56 @@
+{
+    "_id": "zqKzWGLODgIvtiKf",
+    "data": {
+        "description": {
+            "value": "<p>Granted by @Compendium[pf2e.equipment-srd.Spellguard Blade]{Spellguard Blade}</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "rounds",
+            "value": 1
+        },
+        "level": {
+            "value": 7
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "label": "Spellguard Blade (vs. spells)",
+                "predicate": {
+                    "all": [
+                        "spell"
+                    ]
+                },
+                "selector": "saving-throw",
+                "type": "circumstance",
+                "value": 1
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "ac",
+                "type": "circumstance",
+                "value": 1
+            }
+        ],
+        "source": {
+            "value": ""
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "img": "systems/pf2e/icons/equipment/weapons/specific-magic-weapons/spellguard-blade.webp",
+    "name": "Effect: Spellguard Blade",
+    "type": "effect"
+}

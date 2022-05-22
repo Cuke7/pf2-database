@@ -1,0 +1,44 @@
+{
+    "_id": "Sav50NxWdLnbaDWQ",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 2
+        },
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per 10 minutes</p>\n<hr />\n<p>With heavy wing beats, you whip up a furious gust and direct it at your opponents. This air blast has the effects of <em>@Compendium[pf2e.spells-srd.Gust of Wind]{Gust of Wind}</em> with a DC equal to your class DC or spell DC, whichever is higher.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 9
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Lost Omens: Ancestry Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "air",
+                "concentrate",
+                "manipulate",
+                "strix"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Ferocious Gust",
+    "type": "feat"
+}

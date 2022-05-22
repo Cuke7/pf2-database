@@ -1,0 +1,41 @@
+{
+    "_id": "uptzvOLrZ3fctrl2",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your champion's reaction exalts nearby allies, allowing them to benefit as well. See specific causes for details.</p>"
+        },
+        "featType": {
+            "value": "classfeature"
+        },
+        "level": {
+            "value": 11
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": ""
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "champion"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "name": "Exalt",
+    "type": "feat"
+}

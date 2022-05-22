@@ -1,0 +1,52 @@
+{
+    "_id": "WjEwsu4kkexNvDcN",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>When you succeed at a @Compendium[pf2e.actionspf2e.Recall Knowledge (Arcana)]{Recall Knowledge} check, you learn an additional fact about the subject. When you critically succeed at a Recall Knowledge check, you can gain even more additional information or context than normal, at the GM's discretion.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 6
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "Note",
+                "predicate": {
+                    "all": [
+                        "action:recall-knowledge"
+                    ]
+                },
+                "selector": "skill-check",
+                "text": "<p class='compact-text'><strong>{item|name}</strong> When you roll a success at a Recall Knowledge, you learn an additional fact. When you critically succed, you can gain even more additional information or context than normal.</p>"
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Advanced Player's Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "investigator"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Thorough Research",
+    "type": "feat"
+}

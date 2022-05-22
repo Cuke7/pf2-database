@@ -1,0 +1,40 @@
+{
+    "_id": "14u6604yUXvoiIf3",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Whether your heart is pure or corrupt, you can call forth a malediction upon your foes. You can cast <em>@Compendium[pf2e.spells-srd.Bane]{Bane}</em> once per day as a 1st-level divine innate spell.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 5
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Advanced Player's Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "tiefling"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Malicious Bane",
+    "type": "feat"
+}

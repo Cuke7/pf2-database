@@ -1,0 +1,129 @@
+{
+    "_id": "KoYqhZoY3RSBEo5Y",
+    "data": {
+        "attributes": {
+            "ac": {
+                "value": 16
+            },
+            "hardness": 7,
+            "hasHealth": true,
+            "hp": {
+                "details": "",
+                "max": 24,
+                "temp": 0,
+                "value": 24
+            },
+            "stealth": {
+                "details": "<p>(trained)</p>",
+                "value": 8
+            }
+        },
+        "creatureType": "",
+        "details": {
+            "description": "<p>An immense, jagged piece of clear crystal 10 feet square and forty feet high juts up from the seafloor</p>",
+            "disable": "<p>Survival DC 13 (trained) to blunt the crystal's edges without getting cut</p>",
+            "isComplex": false,
+            "level": {
+                "value": 1
+            },
+            "reset": "<p>The hazard still damages any creature or object that enters its space, but the surface doesn't become hidden again until it settles over the course of 1 minute.</p>",
+            "routine": ""
+        },
+        "saves": {
+            "fortitude": {
+                "saveDetail": "",
+                "value": 10
+            },
+            "reflex": {
+                "saveDetail": "",
+                "value": 4
+            },
+            "will": {
+                "saveDetail": "",
+                "value": 0
+            }
+        },
+        "source": {
+            "value": ""
+        },
+        "statusEffects": [],
+        "traits": {
+            "ci": [],
+            "di": {
+                "custom": "",
+                "selected": {},
+                "value": [
+                    "precision",
+                    "critical-hits",
+                    "object-immunities"
+                ]
+            },
+            "dr": [],
+            "dv": [],
+            "rarity": "common",
+            "size": {
+                "value": "med"
+            },
+            "traits": {
+                "custom": "",
+                "value": [
+                    "environmental"
+                ]
+            }
+        }
+    },
+    "img": "systems/pf2e/icons/default-icons/hazard.svg",
+    "items": [
+        {
+            "_id": "LdduGnrZ9V9lFlPT",
+            "data": {
+                "actionCategory": {
+                    "value": "offensive"
+                },
+                "actionType": {
+                    "value": "reaction"
+                },
+                "actions": {
+                    "value": null
+                },
+                "description": {
+                    "value": "<p><strong>Trigger</strong> A creature or object moves into the shard's space.</p>\n<hr />\n<p><strong>Effect</strong> The triggering creature takes [[/r {2d6+5}[piercing]]]{2d6+5 piercing damage} (@Check[type:reflex|dc:17|basic:true] save).</p>"
+                },
+                "requirements": {
+                    "value": ""
+                },
+                "rules": [],
+                "slug": null,
+                "source": {
+                    "value": ""
+                },
+                "traits": {
+                    "custom": "",
+                    "rarity": "common",
+                    "value": [
+                        "attack"
+                    ]
+                },
+                "trigger": {
+                    "value": ""
+                },
+                "weapon": {
+                    "value": ""
+                }
+            },
+            "img": "systems/pf2e/icons/actions/Reaction.webp",
+            "name": "Shard",
+            "sort": 100000,
+            "type": "action"
+        }
+    ],
+    "name": "Submerged Shard",
+    "token": {
+        "disposition": 0,
+        "height": 1,
+        "img": "systems/pf2e/icons/default-icons/hazard.svg",
+        "name": "Submerged Shard",
+        "width": 1
+    },
+    "type": "hazard"
+}

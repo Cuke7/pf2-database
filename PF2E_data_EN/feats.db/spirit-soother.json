@@ -1,0 +1,40 @@
+{
+    "_id": "2RmsQrLySNYQ4uIn",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You are attuned to the minute sounds and sensations of restless spirits. Even if you aren't @Compendium[pf2e.actionspf2e.Search]{Searching}, you can attempt a check to find haunts that normally require you to be Searching. You still need to meet any other requirements to find the haunt.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 5
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Advanced Player's Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "duskwalker"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Spirit Soother",
+    "type": "feat"
+}

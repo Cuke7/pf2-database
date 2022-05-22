@@ -1,0 +1,37 @@
+{
+    "_id": "3LyOkV25p7wA181H",
+    "data": {
+        "description": {
+            "value": "<p>Granted when someone uses <em>@Compendium[pf2e.spells-srd.Guidance]{Guidance}</em> on you, rendering you immune to the effect of the spell for the duration.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "hours",
+            "value": 1
+        },
+        "level": {
+            "value": 1
+        },
+        "rules": [],
+        "source": {
+            "value": ""
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "img": "systems/pf2e/icons/spells/guidance-immune.webp",
+    "name": "Effect: Guidance Immunity",
+    "type": "effect"
+}

@@ -1,0 +1,55 @@
+{
+    "_id": "TOyqtUUnOkOLl1Pm",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your broad experiences translate to a range of skills.</p>\n<p>Your proficiency bonus to untrained skill checks is equal to your level.</p>\n<p>You can attempt any skill check that normally requires you to be trained, even if you are untrained. If you have legendary proficiency in Occultism, you can attempt any skill check that normally requires you to have expert proficiency, even if untrained or trained.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 8
+        },
+        "location": "",
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "polymath muse"
+                },
+                {
+                    "value": "master in Occultism"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "skill-check",
+                "type": "proficiency",
+                "value": "@actor.level"
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "bard"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Eclectic Skill",
+    "type": "feat"
+}

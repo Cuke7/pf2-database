@@ -1,0 +1,71 @@
+{
+    "_id": "Pe0zmIqyTBc2Td0I",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>During your daily preparations, after producing new @Compendium[pf2e.classfeatures.Infused Reagents]{Infused Reagents}, you can spend batches of those infused reagents to create infused alchemical items.</p>\n<p>You don't need to attempt a Crafting check to do this, and you ignore both the number of days typically required to create the items and any alchemical reagent requirements.</p>\n<p>Your advanced alchemy level is equal to your level. For each batch of infused reagents you spend, choose an alchemical item of your advanced alchemy level or lower that's in your formula book, and make a batch of two of that item.</p>\n<p>These items have the infused trait and remain potent for 24 hours or until your next daily preparations, whichever comes first.</p>"
+        },
+        "featType": {
+            "value": "classfeature"
+        },
+        "level": {
+            "value": 1
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "isAlchemical": true,
+                "isDailyPrep": true,
+                "key": "CraftingEntry",
+                "label": "PF2E.TraitAlchemist",
+                "predicate": {
+                    "all": [
+                        "class:alchemist"
+                    ]
+                },
+                "requiredTraits": [
+                    [
+                        "alchemical"
+                    ]
+                ],
+                "selector": "alchemist"
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "data.crafting.entries.alchemist.maxItemLevel",
+                "predicate": {
+                    "all": [
+                        "class:alchemist",
+                        "crafting:entry:alchemist"
+                    ]
+                },
+                "value": "@actor.level"
+            }
+        ],
+        "source": {
+            "value": ""
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "alchemist"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/classes/advanced-alchemy.webp",
+    "name": "Advanced Alchemy",
+    "type": "feat"
+}

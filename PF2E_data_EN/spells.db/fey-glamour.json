@@ -1,0 +1,98 @@
+{
+    "_id": "DdXKfIjDtORUtUvY",
+    "data": {
+        "ability": {
+            "value": ""
+        },
+        "area": {
+            "areaType": "burst",
+            "value": "30"
+        },
+        "areasize": {
+            "value": "30-foot burst or Target"
+        },
+        "category": {
+            "value": "focus"
+        },
+        "components": {
+            "material": false,
+            "somatic": true,
+            "verbal": true
+        },
+        "cost": {
+            "value": ""
+        },
+        "damage": {
+            "value": {}
+        },
+        "description": {
+            "value": "<p>You call upon fey glamours to cloak an area or the targets in illusion. This has the effect of either <em>@Compendium[pf2e.spells-srd.Illusory Scene]{Illusory Scene}</em> on the area or <em>@Compendium[pf2e.spells-srd.Veil]{Veil}</em> on the creatures, as if heightened to a level 1 level lower than fey glamour, using fey glamour's range and duration.</p>"
+        },
+        "duration": {
+            "value": "10 minutes"
+        },
+        "hasCounteractCheck": {
+            "value": false
+        },
+        "level": {
+            "value": 5
+        },
+        "location": {
+            "value": ""
+        },
+        "materials": {
+            "value": ""
+        },
+        "prepared": {
+            "value": ""
+        },
+        "primarycheck": {
+            "value": ""
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "rules": [],
+        "save": {
+            "basic": "",
+            "value": ""
+        },
+        "school": {
+            "value": "illusion"
+        },
+        "secondarycasters": {
+            "value": ""
+        },
+        "secondarycheck": {
+            "value": ""
+        },
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "spellType": {
+            "value": "utility"
+        },
+        "sustained": {
+            "value": false
+        },
+        "target": {
+            "value": "up to 10 creatures"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traditions": {
+            "value": []
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "uncommon",
+            "value": [
+                "sorcerer"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/spells/fey-glamour.webp",
+    "name": "Fey Glamour",
+    "type": "spell"
+}

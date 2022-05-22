@@ -1,0 +1,48 @@
+{
+    "_id": "s8WEmc4GGZSHSC7q",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your proficiency ranks for divine spell attack rolls and spell DCs increase to expert.</p>"
+        },
+        "featType": {
+            "value": "classfeature"
+        },
+        "level": {
+            "value": 7
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "data.proficiencies.traditions.divine.rank",
+                "value": 2
+            }
+        ],
+        "source": {
+            "value": ""
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "cleric"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/classes/cloistered-cleric.webp",
+    "name": "Third Doctrine (Cloistered Cleric)",
+    "type": "feat"
+}

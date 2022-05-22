@@ -1,0 +1,38 @@
+{
+    "_id": "VZodqtMF3qrMl8a7",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p><strong>Minor Curse</strong> The sun burns you for your transgression. You receive a sunburn that causes you to become permanently @Compendium[pf2e.conditionitems.Clumsy]{Clumsy 1}.</p>"
+        },
+        "featType": {
+            "value": "curse"
+        },
+        "level": {
+            "value": 0
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": ""
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "img": "systems/pf2e/icons/deity/Sarenrae.webp",
+    "name": "Sarenrae - Minor Curse",
+    "type": "feat"
+}

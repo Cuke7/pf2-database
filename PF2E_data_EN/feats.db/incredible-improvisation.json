@@ -1,0 +1,64 @@
+{
+    "_id": "lHcDb9oXUdFupRdi",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You attempt a check using a skill you're untrained in</p>\n<hr />\n<p>A stroke of brilliance gives you a major advantage with a skill despite your inexperience. Gain a +4 circumstance bonus to the triggering skill check.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 9
+        },
+        "location": "",
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Clever Improviser"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "predicate": {
+                    "all": [
+                        "proficiency:untrained",
+                        "incredible-improvisation"
+                    ]
+                },
+                "selector": "skill-check",
+                "type": "circumstance",
+                "value": 4
+            },
+            {
+                "domain": "skill-check",
+                "key": "RollOption",
+                "option": "incredible-improvisation",
+                "toggleable": true
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "human"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Incredible Improvisation",
+    "type": "feat"
+}

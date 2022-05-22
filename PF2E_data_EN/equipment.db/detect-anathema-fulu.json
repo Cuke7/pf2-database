@@ -1,0 +1,113 @@
+{
+    "_id": "0Wxiz4hJPERJPDAF",
+    "data": {
+        "activation": {
+            "condition": "",
+            "cost": 0,
+            "type": ""
+        },
+        "autoDestroy": {
+            "_deprecated": true,
+            "value": true
+        },
+        "autoUse": {
+            "_deprecated": true,
+            "value": true
+        },
+        "baseItem": null,
+        "charges": {
+            "_deprecated": true,
+            "max": 0,
+            "value": 0
+        },
+        "consumableType": {
+            "value": "fulu"
+        },
+        "consume": {
+            "_deprecated": true,
+            "value": ""
+        },
+        "containerId": "null",
+        "description": {
+            "value": "<p>Given to undisciplined acolytes at risk of breaking their vows, this fulu activates on its own if its wearer begins to perform an act anathema to a specific deity or cause, decided at the time of crafting. The fulu heats up when activated, giving you enough warning to correct your actions; if you proceed, the fulu immolates in a burst of flame. This deals [[/r {4d6}[fire]]]{4d6 fire damage} and brands your skin until you receive an appropriate <em>@Compendium[pf2e.spells-srd.Atone]{Atone}</em> ritual. Either way, activating the fulu consumes it.</p>\n<p><strong>Usage</strong> affixed to armor</p>"
+        },
+        "duration": {
+            "units": "",
+            "value": null
+        },
+        "equippedBulk": {
+            "value": ""
+        },
+        "hardness": 0,
+        "hp": {
+            "brokenThreshold": 0,
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 8
+        },
+        "negateBulk": {
+            "value": "0"
+        },
+        "preciousMaterial": {
+            "value": null
+        },
+        "preciousMaterialGrade": {
+            "value": null
+        },
+        "price": {
+            "value": {
+                "gp": 100
+            }
+        },
+        "quantity": 1,
+        "range": {
+            "long": null,
+            "units": "",
+            "value": null
+        },
+        "rules": [],
+        "size": "med",
+        "source": {
+            "value": "Pathfinder Secrets of Magic"
+        },
+        "spell": {
+            "data": null,
+            "heightenedLevel": null
+        },
+        "stackGroup": null,
+        "target": {
+            "type": "",
+            "units": "",
+            "value": null
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "uncommon",
+            "value": [
+                "abjuration",
+                "consumable",
+                "fulu",
+                "magical",
+                "talisman"
+            ]
+        },
+        "usage": {
+            "value": "affixed-to-armor"
+        },
+        "uses": {
+            "autoDestroy": true,
+            "autoUse": true,
+            "max": 0,
+            "per": null,
+            "value": 0
+        },
+        "weight": {
+            "value": "-"
+        }
+    },
+    "img": "systems/pf2e/icons/equipment/consumables/fulus/fulu-fancy.webp",
+    "name": "Detect Anathema Fulu",
+    "type": "consumable"
+}

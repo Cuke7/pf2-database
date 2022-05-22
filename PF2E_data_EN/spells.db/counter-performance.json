@@ -1,0 +1,101 @@
+{
+    "_id": "WILXkjU5Yq3yw10r",
+    "data": {
+        "ability": {
+            "value": ""
+        },
+        "area": {
+            "areaType": "emanation",
+            "value": "60"
+        },
+        "areasize": {
+            "value": "60-foot emanation"
+        },
+        "category": {
+            "value": "focus"
+        },
+        "components": {
+            "material": false,
+            "somatic": true,
+            "verbal": true
+        },
+        "cost": {
+            "value": ""
+        },
+        "damage": {
+            "value": {}
+        },
+        "description": {
+            "value": "<p><strong>Trigger</strong> You or an ally within 60 feet rolls a saving throw against an auditory or visual effect.</p>\n<hr />\n<p>Your performance protects you and your allies. Roll a Performance check for a type you know: an auditory performance if the trigger was auditory, or a visual one for a visual trigger. You and allies in the area can use the better result between your Performance check and the saving throw.</p>"
+        },
+        "duration": {
+            "value": ""
+        },
+        "hasCounteractCheck": {
+            "value": false
+        },
+        "level": {
+            "value": 1
+        },
+        "location": {
+            "value": ""
+        },
+        "materials": {
+            "value": ""
+        },
+        "prepared": {
+            "value": ""
+        },
+        "primarycheck": {
+            "value": ""
+        },
+        "range": {
+            "value": ""
+        },
+        "rules": [],
+        "save": {
+            "basic": "",
+            "value": ""
+        },
+        "school": {
+            "value": "enchantment"
+        },
+        "secondarycasters": {
+            "value": ""
+        },
+        "secondarycheck": {
+            "value": ""
+        },
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "spellType": {
+            "value": "utility"
+        },
+        "sustained": {
+            "value": false
+        },
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "reaction"
+        },
+        "traditions": {
+            "value": []
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "uncommon",
+            "value": [
+                "bard",
+                "composition",
+                "fortune",
+                "mental"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/spells/counter-performance.webp",
+    "name": "Counter Performance",
+    "type": "spell"
+}

@@ -1,0 +1,65 @@
+{
+    "_id": "AWvNPE4U0kEJSL1T",
+    "data": {
+        "actionCategory": {
+            "value": "offensive"
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.SneakAttack]</p>"
+        },
+        "requirements": {
+            "value": ""
+        },
+        "rules": [
+            {
+                "category": "precision",
+                "diceNumber": 1,
+                "dieSize": "d6",
+                "key": "DamageDice",
+                "predicate": {
+                    "all": [
+                        "target:condition:flat-footed",
+                        {
+                            "or": [
+                                "finesse",
+                                "agile",
+                                {
+                                    "and": [
+                                        "ranged",
+                                        {
+                                            "not": "thrown"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "selector": "strike-damage"
+            }
+        ],
+        "source": {
+            "value": ""
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": []
+        },
+        "trigger": {
+            "value": ""
+        },
+        "weapon": {
+            "value": ""
+        }
+    },
+    "img": "systems/pf2e/icons/actions/Passive.webp",
+    "name": "Sneak Attack",
+    "type": "action"
+}

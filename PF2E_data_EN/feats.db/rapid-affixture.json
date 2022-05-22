@@ -1,0 +1,45 @@
+{
+    "_id": "x9xA8P2Vlz98He7C",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You take only 1 minute to @Compendium[pf2e.actionspf2e.Affix a Talisman]{Affix a Talisman}. If you're legendary in Crafting, you can Affix a Talisman as a 3-action activity.</p>"
+        },
+        "featType": {
+            "value": "skill"
+        },
+        "level": {
+            "value": 7
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "master in Crafting"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Advanced Player's Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "general",
+                "skill"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Rapid Affixture",
+    "type": "feat"
+}

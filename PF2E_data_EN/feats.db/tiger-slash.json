@@ -1,0 +1,91 @@
+{
+    "_id": "6J2ZSGNsXPKPcJGV",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 2
+        },
+        "description": {
+            "value": "<p><strong>Requirements</strong> You are in @Compendium[pf2e.feats-srd.Tiger Stance]{Tiger Stance}</p>\n<hr />\n<p>You make a fierce swipe with both hands. Make a tiger claw Strike. It deals two extra weapon damage dice (three extra dice if you're 14th level or higher), and you can push the target 5 feet away as if you had successfully @Compendium[pf2e.actionspf2e.Shove]{Shoved} them.</p>\n<p>If the attack is a critical success and deals damage, add your Strength modifier to the @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Bleed Damage} from your tiger claw.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 6
+        },
+        "location": "",
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Tiger Stance"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "domain": "all",
+                "key": "RollOption",
+                "option": "tiger-slash",
+                "toggleable": true
+            },
+            {
+                "key": "DamageDice",
+                "label": "Tiger Slash",
+                "predicate": {
+                    "all": [
+                        "tiger-slash"
+                    ]
+                },
+                "selector": "tiger-claw-damage",
+                "value": {
+                    "brackets": [
+                        {
+                            "end": 13,
+                            "value": {
+                                "diceNumber": 2
+                            }
+                        },
+                        {
+                            "start": 14,
+                            "value": {
+                                "diceNumber": 3
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "key": "Note",
+                "outcome": [
+                    "criticalSuccess"
+                ],
+                "predicate": {
+                    "all": [
+                        "tiger-slash"
+                    ]
+                },
+                "selector": "tiger-claw-damage",
+                "text": "<p class='compact-text'><strong>Tiger Slash</strong> Add your Strength modifier to the persistent bleed damage.</p>"
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "monk"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Tiger Slash",
+    "type": "feat"
+}

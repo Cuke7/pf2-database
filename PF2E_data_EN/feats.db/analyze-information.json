@@ -1,0 +1,41 @@
+{
+    "_id": "RTxPL1reRcJhhYeG",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You can stoke your mind into a burst of analytical prowess. You can cast 3rd-level <em>@Compendium[pf2e.spells-srd.Hypercognition]{Hypercognition}</em> once per day as a divine innate spell.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 9
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Lost Omens: Ancestry Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "aphorite"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Analyze Information",
+    "type": "feat"
+}

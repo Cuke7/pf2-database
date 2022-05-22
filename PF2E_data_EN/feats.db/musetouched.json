@@ -1,0 +1,149 @@
+{
+    "_id": "eSP2938INGUG9b3w",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your blood sings with the liberating power of the azatas, living embodiments of freedom from the wild realm of Elysium.</p>\n<p>You gain a +1 circumstance bonus to @Compendium[pf2e.actionspf2e.Escape]{Escape}. When you roll a critical failure on a check to Escape, you get a failure instead, and when you roll a success, you get a critical success instead.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 1
+        },
+        "location": "",
+        "onlyLevel1": true,
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "label": "Musetouched (to Escape)",
+                "predicate": {
+                    "all": [
+                        "action:escape"
+                    ]
+                },
+                "selector": "attack",
+                "type": "circumstance",
+                "value": 1
+            },
+            {
+                "key": "FlatModifier",
+                "label": "Musetouched (to Escape)",
+                "predicate": {
+                    "all": [
+                        "action:escape"
+                    ]
+                },
+                "selector": "athletics",
+                "type": "circumstance",
+                "value": 1
+            },
+            {
+                "key": "FlatModifier",
+                "label": "Musetouched (to Escape)",
+                "predicate": {
+                    "all": [
+                        "action:escape"
+                    ]
+                },
+                "selector": "acrobatics",
+                "type": "circumstance",
+                "value": 1
+            },
+            {
+                "adjustment": {
+                    "criticalFailure": "one-degree-better",
+                    "success": "one-degree-better"
+                },
+                "key": "AdjustDegreeOfSuccess",
+                "predicate": {
+                    "all": [
+                        "action:escape"
+                    ]
+                },
+                "selector": "attack-roll"
+            },
+            {
+                "key": "Note",
+                "predicate": {
+                    "all": [
+                        "action:escape"
+                    ]
+                },
+                "selector": "attack",
+                "text": "<p class='compact-text'><strong>{item|name}</strong> When you roll a critical failure on a check to Escape, you get a failure instead, and when you roll a success, you get a critical success instead.</p>"
+            },
+            {
+                "adjustment": {
+                    "criticalFailure": "one-degree-better",
+                    "success": "one-degree-better"
+                },
+                "key": "AdjustDegreeOfSuccess",
+                "predicate": {
+                    "all": [
+                        "action:escape"
+                    ]
+                },
+                "selector": "athletics"
+            },
+            {
+                "key": "Note",
+                "predicate": {
+                    "all": [
+                        "action:escape"
+                    ]
+                },
+                "selector": "athletics",
+                "text": "<p class='compact-text'><strong>{item|name}</strong> When you roll a critical failure on a check to Escape, you get a failure instead, and when you roll a success, you get a critical success instead.</p>"
+            },
+            {
+                "adjustment": {
+                    "criticalFailure": "one-degree-better",
+                    "success": "one-degree-better"
+                },
+                "key": "AdjustDegreeOfSuccess",
+                "predicate": {
+                    "all": [
+                        "action:escape"
+                    ]
+                },
+                "selector": "acrobatics"
+            },
+            {
+                "key": "Note",
+                "predicate": {
+                    "all": [
+                        "action:escape"
+                    ]
+                },
+                "selector": "acrobatics",
+                "text": "<p class='compact-text'><strong>{item|name}</strong> When you roll a critical failure on a check to Escape, you get a failure instead, and when you roll a success, you get a critical success instead.</p>"
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Advanced Player's Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "aasimar",
+                "lineage"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Musetouched",
+    "type": "feat"
+}

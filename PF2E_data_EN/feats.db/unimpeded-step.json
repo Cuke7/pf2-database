@@ -1,0 +1,44 @@
+{
+    "_id": "epfQ2PwNDLwyY31t",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>With a burst of divine liberation, your ally's movement from your @Compendium[pf2e.actionspf2e.Liberating Step]{Liberating Step} is unaffected by difficult terrain, greater difficult terrain, narrow surfaces, and uneven ground.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "liberator cause"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "champion"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Unimpeded Step",
+    "type": "feat"
+}

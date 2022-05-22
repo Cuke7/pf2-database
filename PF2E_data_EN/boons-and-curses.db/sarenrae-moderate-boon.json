@@ -1,0 +1,38 @@
+{
+    "_id": "S1qGyGG25YImRhmS",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p><strong>Moderate Boon</strong> Your blade burns the irredeemable. Your attacks deal an additional 1d6 fire damage that ignores fire resistance.</p>"
+        },
+        "featType": {
+            "value": "deityboon"
+        },
+        "level": {
+            "value": 0
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": ""
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "img": "systems/pf2e/icons/deity/Sarenrae.webp",
+    "name": "Sarenrae - Moderate Boon",
+    "type": "feat"
+}

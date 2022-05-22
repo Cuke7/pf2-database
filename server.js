@@ -3,21 +3,29 @@ const app = express()
 const port = 3000
 const fs = require('fs')
 
-let dictionary = require('./fullDictionary.json')
+let dictionary = require('./DataProcessing/fullDictionary.json')
+
+let PROD = false
 
 app.get('/wiki', (req, res) => {
     let shortID = req.query.id
 
     let item = dictionary.find(item => item.link.split("/")[1].includes(shortID))
+    let nameFR = item.nameFR
     let category = item.link.split("/")[0]
     let id = item.link.split("/")[1]
 
-    fs.readFile("PF2E_data/" + category + "/" + id + ".htm", "utf8", function (err, data) {
+    fs.readFile("PF2E_data_FR/" + category + "/" + id + ".htm", "utf8", function (err, data) {
         if (err) {
             res.json(err)
         } else {
+            let description = null
 
-            let description = data.split("Description (fr) ------\n")[1]
+            if (!PROD) {
+                description = data.split("Description (fr) ------\r\n")[1] // NODE
+            } else {
+                description = data.split("Description (fr) ------\n")[1] // PROD
+            }
 
             if (description) {
                 let regex =
@@ -30,7 +38,7 @@ app.get('/wiki', (req, res) => {
                         "<a href='/" + match[1] + "/" + match[2] + "'>" + match[3] + "</a>"
                     );
                 }
-                res.json({ descriptionFR })
+                res.json({ nameFR, descriptionFR })
             } else {
                 res.json({ descriptionFR: null })
             }

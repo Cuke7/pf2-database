@@ -1,0 +1,76 @@
+{
+    "_id": "PodajLVxqYSAqVox",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You were raised to be ambitious and always reach for the stars, leading you to progress quickly in your chosen field. You gain a 1st-level class feat for your class. You must meet the prerequisites, but you can select the feat later in the character creation process in order to determine which prerequisites you meet.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 1
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "adjustName": false,
+                "choices": {
+                    "postFilter": {
+                        "any": [
+                            "feature:dragon-instinct",
+                            {
+                                "not": "item:draconic-arrogance"
+                            }
+                        ],
+                        "not": [
+                            "item:animal-companion",
+                            "item:animal-companion-druid",
+                            "item:bardic-lore",
+                            "item:fire-lung",
+                            "item:lingering-composition",
+                            "item:leshy-familiar",
+                            "item:martial-performance",
+                            "item:shore-step",
+                            "item:steadying-stone",
+                            "item:storm-born",
+                            "item:versatile-performance",
+                            "item:wild-shape"
+                        ]
+                    },
+                    "query": "{\"data.featType.value\":\"class\",\"data.level.value\":1,\"data.traits.value\":{\"$elemMatch\":\"{actor|data.details.class.trait}\"}}"
+                },
+                "key": "ChoiceSet",
+                "prompt": "PF2E.SpecificRule.Prompt.LevelOneClassFeat"
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "{item|flags.pf2e.rulesSelections.naturalAmbition}"
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "human"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Natural Ambition",
+    "type": "feat"
+}

@@ -1,0 +1,45 @@
+{
+    "_id": "qqe5VmcO1s8iTOfd",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You alter your appearance to blend in to the wilderness. In natural terrain, you can @Compendium[pf2e.actionspf2e.Sneak]{Sneak} even if you're observed.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 10
+        },
+        "location": "",
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "master in Stealth"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "ranger"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Camouflage",
+    "type": "feat"
+}

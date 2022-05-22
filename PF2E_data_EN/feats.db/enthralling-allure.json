@@ -1,0 +1,40 @@
+{
+    "_id": "Zz5A8Yg0jGSK8GNu",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>The powers of domination employed by your progenitors have manifested in you as well. Once per day, you can cast <em>@Compendium[pf2e.spells-srd.Charm]{Charm}</em>as a 1st-level divine innate spell.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 5
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Advanced Player's Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "dhampir"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Enthralling Allure",
+    "type": "feat"
+}

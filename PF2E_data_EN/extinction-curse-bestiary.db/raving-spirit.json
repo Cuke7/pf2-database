@@ -1,0 +1,131 @@
+{
+    "_id": "KXY9CRct0VKhiNob",
+    "data": {
+        "attributes": {
+            "ac": {
+                "value": 0
+            },
+            "hardness": 0,
+            "hasHealth": true,
+            "hp": {
+                "details": "",
+                "max": 10,
+                "temp": 0,
+                "tempmax": 0,
+                "value": 10
+            },
+            "stealth": {
+                "details": "<p>(expert)or DC 30 (master) to detect the spiritual nexus</p>",
+                "value": 20
+            }
+        },
+        "creatureType": "",
+        "details": {
+            "description": "<p>The restless spirit of Currew raves against his tormentors when someone enters his room.</p>",
+            "disable": "<p>DC 30 Intimidation (expert) to quiet the spirit for 1 round, or DC 32 Religion (master) to exorcise it</p>",
+            "isComplex": true,
+            "level": {
+                "value": 11
+            },
+            "reset": "<p>The haunt grows quiet and resets 1 minute after no creatures are in area B3.</p>",
+            "routine": "[[2-actions]] The haunts casts phantasmal killer (DC 30 Will save) on a random creature who can see Currew's bed (it can even target creatures outside of area B3, so long as the target can see the bed). Everyone affected by the phantasmal killer sees the same image: a sickly old man lies in the bed, screaming and ranting about his guilt, shame, and eventual death."
+        },
+        "saves": {
+            "fortitude": {
+                "saveDetail": "",
+                "value": 0
+            },
+            "reflex": {
+                "saveDetail": "",
+                "value": 0
+            },
+            "will": {
+                "saveDetail": "",
+                "value": 0
+            }
+        },
+        "source": {
+            "value": "Pathfinder #153: Life's Long Shadows"
+        },
+        "statusEffects": [],
+        "traits": {
+            "ci": [],
+            "di": {
+                "custom": "",
+                "selected": {},
+                "value": []
+            },
+            "dr": [],
+            "dv": [],
+            "rarity": "common",
+            "size": {
+                "value": "med"
+            },
+            "traits": {
+                "custom": "",
+                "value": [
+                    "haunt"
+                ]
+            }
+        }
+    },
+    "img": "systems/pf2e/icons/default-icons/hazard.svg",
+    "items": [
+        {
+            "_id": "qs4zOgvQbmRifUez",
+            "data": {
+                "actionCategory": {
+                    "value": ""
+                },
+                "actionType": {
+                    "value": "reaction"
+                },
+                "actions": {
+                    "value": null
+                },
+                "description": {
+                    "value": "<p><strong>Trigger</strong> A creature remains in area B3 for longer than 1 round</p>\n<hr />\n<p><strong>Effect</strong> Each creature in the sealed room is targeted by nightmare (@Check[type:will|dc:30] save). The haunt counts as having met the targets. It then rolls initiative.</p>"
+                },
+                "requirements": {
+                    "value": ""
+                },
+                "rules": [],
+                "slug": null,
+                "source": {
+                    "value": ""
+                },
+                "traits": {
+                    "custom": "",
+                    "rarity": "common",
+                    "value": [
+                        "death",
+                        "emotion",
+                        "fear",
+                        "illusion",
+                        "mental",
+                        "occult"
+                    ]
+                },
+                "trigger": {
+                    "value": ""
+                },
+                "weapon": {
+                    "value": ""
+                }
+            },
+            "img": "systems/pf2e/icons/actions/Reaction.webp",
+            "name": "Raving Diatribe",
+            "sort": 100000,
+            "type": "action"
+        }
+    ],
+    "name": "Raving Spirit",
+    "token": {
+        "disposition": 0,
+        "height": 1,
+        "img": "systems/pf2e/icons/default-icons/hazard.svg",
+        "name": "Raving Spirit",
+        "width": 1
+    },
+    "type": "hazard"
+}

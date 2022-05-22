@@ -1,0 +1,48 @@
+{
+    "_id": "O89mwKPRg0up0J0I",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>When you @Compendium[pf2e.feats-srd.Cat Nap]{Cat Nap}, you can also @Compendium[pf2e.actionspf2e.Refocus]{Refocus} as you dream of a relevant activity.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 5
+        },
+        "location": "",
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Cat Nap"
+                },
+                {
+                    "value": "Focus Pool"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Lost Omens: Ancestry Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "catfolk"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Focused Cat Nap",
+    "type": "feat"
+}

@@ -1,0 +1,55 @@
+{
+    "_id": "1k5PZAYth8u4Fqyr",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You gain the expert spellcasting benefits.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 12
+        },
+        "location": "",
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Basic Sorcerer Spellcasting"
+                },
+                {
+                    "value": "master in Arcana, Nature, Occultism, or Religion, depending on bloodline"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "data.proficiencies.traditions.{actor|data.proficiencies.aliases.sorcerer}.rank",
+                "value": 2
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "archetype"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Expert Sorcerer Spellcasting",
+    "type": "feat"
+}

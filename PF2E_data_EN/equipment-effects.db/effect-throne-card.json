@@ -1,0 +1,45 @@
+{
+    "_id": "Zb8RYgmzCI6fQE0o",
+    "data": {
+        "description": {
+            "value": "<p>Granted by @Compendium[pf2e.gmg-srd.Throne]{Throne} from the @Compendium[pf2e.equipment-srd.Deck of Many Things]{Deck of Many Things}</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "unlimited",
+            "value": -1
+        },
+        "level": {
+            "value": 0
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "label": "Throne Card",
+                "selector": "diplomacy",
+                "type": "status",
+                "value": 4
+            }
+        ],
+        "source": {
+            "value": ""
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "img": "systems/pf2e/icons/equipment/held-items/rune-card.webp",
+    "name": "Effect: Throne Card",
+    "type": "effect"
+}

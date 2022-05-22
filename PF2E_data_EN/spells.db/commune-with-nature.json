@@ -1,0 +1,97 @@
+{
+    "_id": "l4LFwY7iuzX6sDXr",
+    "data": {
+        "ability": {
+            "value": ""
+        },
+        "area": {
+            "value": ""
+        },
+        "areasize": {
+            "value": ""
+        },
+        "category": {
+            "value": "ritual"
+        },
+        "components": {
+            "material": false,
+            "somatic": false,
+            "verbal": false
+        },
+        "cost": {
+            "value": "rare incense worth a total value of 60 gp"
+        },
+        "damage": {
+            "value": {}
+        },
+        "description": {
+            "value": "<p>As <em>@Compendium[pf2e.spells-srd.Commune]{Commune}</em>, except you contact the primal spirits of nature, which know about animals, beasts, fey, plants, topography, and natural resources within a 3-mile radius of the ritual's location.</p>"
+        },
+        "duration": {
+            "value": "up to 10 minutes"
+        },
+        "hasCounteractCheck": {
+            "value": false
+        },
+        "level": {
+            "value": 6
+        },
+        "location": {
+            "value": ""
+        },
+        "materials": {
+            "value": ""
+        },
+        "prepared": {
+            "value": ""
+        },
+        "primarycheck": {
+            "value": "Nature (master)"
+        },
+        "range": {
+            "value": ""
+        },
+        "rules": [],
+        "save": {
+            "basic": "",
+            "value": ""
+        },
+        "school": {
+            "value": "divination"
+        },
+        "secondarycasters": {
+            "value": "1"
+        },
+        "secondarycheck": {
+            "value": "Nature"
+        },
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "spellType": {
+            "value": "utility"
+        },
+        "sustained": {
+            "value": false
+        },
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "1 day"
+        },
+        "traditions": {
+            "value": []
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "uncommon",
+            "value": [
+                "prediction"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/spells/commune-with-nature.webp",
+    "name": "Commune with Nature",
+    "type": "spell"
+}

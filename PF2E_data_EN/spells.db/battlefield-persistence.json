@@ -1,0 +1,119 @@
+{
+    "_id": "2jWVNdVlbJq84dfT",
+    "data": {
+        "ability": {
+            "value": ""
+        },
+        "area": {
+            "areaType": "",
+            "value": ""
+        },
+        "areasize": {
+            "value": ""
+        },
+        "category": {
+            "value": "focus"
+        },
+        "components": {
+            "material": false,
+            "somatic": false,
+            "verbal": true
+        },
+        "cost": {
+            "value": ""
+        },
+        "damage": {
+            "value": {}
+        },
+        "description": {
+            "value": "<p><strong>Trigger</strong> You are about to attempt a saving throw, but you haven't rolled yet.</p>\n<hr />\n<p>You're difficult to remove from battle. You gain a +2 status bonus to the triggering save, and if the triggering save is against an incapacitation effect, it treats you as if you were 2 levels higher.</p>"
+        },
+        "duration": {
+            "value": ""
+        },
+        "hasCounteractCheck": {
+            "value": false
+        },
+        "level": {
+            "value": 3
+        },
+        "location": {
+            "value": ""
+        },
+        "materials": {
+            "value": ""
+        },
+        "prepared": {
+            "value": ""
+        },
+        "primarycheck": {
+            "value": ""
+        },
+        "range": {
+            "value": ""
+        },
+        "rules": [
+            {
+                "domain": "all",
+                "key": "RollOption",
+                "label": "Cast Battlefield Persistence",
+                "option": "battlefield-persistence",
+                "toggleable": true
+            },
+            {
+                "key": "FlatModifier",
+                "predicate": {
+                    "all": [
+                        "battlefield-persistence"
+                    ]
+                },
+                "selector": "saving-throw",
+                "type": "status",
+                "value": 2
+            }
+        ],
+        "save": {
+            "basic": "",
+            "value": ""
+        },
+        "school": {
+            "value": "divination"
+        },
+        "secondarycasters": {
+            "value": ""
+        },
+        "secondarycheck": {
+            "value": ""
+        },
+        "source": {
+            "value": "Pathfinder Advanced Player's Guide"
+        },
+        "spellType": {
+            "value": "utility"
+        },
+        "sustained": {
+            "value": false
+        },
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "reaction"
+        },
+        "traditions": {
+            "custom": "",
+            "value": []
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "uncommon",
+            "value": [
+                "oracle",
+                "cursebound"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/spells/battlefield-persistence.webp",
+    "name": "Battlefield Persistence",
+    "type": "spell"
+}

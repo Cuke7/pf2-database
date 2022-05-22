@@ -1,0 +1,78 @@
+{
+    "_id": "ZqwHAoIZrI1dGoqK",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You have learned how to create perpetual alchemical infusions that can provide a near-infinite supply of certain simple items.</p>\n<p>You gain the ability to create two 1st-level alchemical items using @Compendium[pf2e.classfeatures.Quick Alchemy]{Quick Alchemy} without spending a batch of infused reagents. The items you can select depend on your research field and must be in your formula book.</p>"
+        },
+        "featType": {
+            "value": "classfeature"
+        },
+        "level": {
+            "value": 7
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "GrantItem",
+                "predicate": {
+                    "all": [
+                        "feature:bomber"
+                    ]
+                },
+                "uuid": "Compendium.pf2e.classfeatures.Perpetual Infusions (Bomber)"
+            },
+            {
+                "key": "GrantItem",
+                "predicate": {
+                    "all": [
+                        "feature:chirurgeon"
+                    ]
+                },
+                "uuid": "Compendium.pf2e.classfeatures.Perpetual Infusions (Chirurgeon)"
+            },
+            {
+                "key": "GrantItem",
+                "predicate": {
+                    "all": [
+                        "feature:mutagenist"
+                    ]
+                },
+                "uuid": "Compendium.pf2e.classfeatures.Perpetual Infusions (Mutagenist)"
+            },
+            {
+                "key": "GrantItem",
+                "predicate": {
+                    "all": [
+                        "feature:toxicologist"
+                    ]
+                },
+                "uuid": "Compendium.pf2e.classfeatures.Perpetual Infusions (Toxicologist)"
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "alchemist"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/classes/choice-feature.webp",
+    "name": "Perpetual Infusions",
+    "type": "feat"
+}

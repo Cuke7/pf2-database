@@ -1,0 +1,52 @@
+{
+    "_id": "akCO62yBCJLjjCZJ",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You can see through darkness. You gain @Compendium[pf2e.ancestryfeatures.Darkvision]{Darkvision}.</p>\n<p><strong>Special</strong> You can select this feat only at 1st level, and you can't retrain into or out of this feat.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 1
+        },
+        "location": "",
+        "onlyLevel1": true,
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "low-light vision"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "key": "Sense",
+                "label": "PF2E.SensesDarkvision",
+                "selector": "darkvision"
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Advanced Player's Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "aasimar"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Celestial Eyes",
+    "type": "feat"
+}

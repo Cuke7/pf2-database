@@ -1,0 +1,43 @@
+{
+    "_id": "IXS15IQXYCZ8vsmX",
+    "data": {
+        "description": {
+            "value": "<p>You grant yourself supernatural sight in areas of darkness. You gain darkvision.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "hours",
+            "value": 1
+        },
+        "level": {
+            "value": 2
+        },
+        "rules": [
+            {
+                "key": "Sense",
+                "label": "PF2E.SensesDarkvision",
+                "selector": "darkvision"
+            }
+        ],
+        "source": {
+            "value": ""
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "img": "systems/pf2e/icons/spells/darkvision.webp",
+    "name": "Spell Effect: Darkvision",
+    "type": "effect"
+}

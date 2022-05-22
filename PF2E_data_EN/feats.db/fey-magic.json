@@ -1,0 +1,41 @@
+{
+    "_id": "Qe9IUDVo7gsowMHq",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You can use faerie magic to hide yourself and expose hidden foes. You can cast <em>@Compendium[pf2e.spells-srd.Faerie Fire]{Faerie Fire}</em> and <em>@Compendium[pf2e.spells-srd.Invisibility]{Invisibility}</em> each once per day as primal innate spells.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 9
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Lost Omens: Ancestry Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "sprite"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Fey Magic",
+    "type": "feat"
+}

@@ -1,0 +1,50 @@
+{
+    "_id": "erCOcFZJPT2O3gwC",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your righteous aura dampens evil's might. You and all allies within 15 feet gain evil resistance 5.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "tenets of good"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "key": "Resistance",
+                "type": "evil",
+                "value": 5
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "champion"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/default-icons/feats.webp",
+    "name": "Aura of Righteousness",
+    "type": "feat"
+}

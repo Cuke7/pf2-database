@@ -1,0 +1,46 @@
+{
+    "_id": "lYVAGuHU47Ixyuxy",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p><strong>Archetype</strong> @Compendium[pf2e.archetypes.Juggler]{Juggler}<u></u></p>\n<p><strong>Trigger</strong> Your turn begins.</p>\n<hr />\n<p>You continue Juggling until the end of your next turn. Increase the maximum number of items you can juggle by one.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Juggler Dedication"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder #151: The Show Must Go On"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "uncommon",
+            "value": [
+                "archetype",
+                "concentrate",
+                "manipulate"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Focused Juggler",
+    "type": "feat"
+}

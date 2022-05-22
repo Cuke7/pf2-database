@@ -1,0 +1,60 @@
+{
+    "_id": "mEk2POFNU1Q0TQg2",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You grant greater healing when the gods don't interfere. When you roll a success to @Compendium[pf2e.actionspf2e.Treat Wounds]{Treat Wounds} for a creature that hasn't regained Hit Points from divine magic in the past 24 hours, you get a critical success on your check instead and restore the corresponding amount of Hit Points.</p>"
+        },
+        "featType": {
+            "value": "skill"
+        },
+        "level": {
+            "value": 2
+        },
+        "location": "",
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Godless Healing"
+                },
+                {
+                    "value": "You follow the Laws of Mortality"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "key": "Note",
+                "predicate": {
+                    "all": [
+                        "action:treat-wounds"
+                    ]
+                },
+                "selector": "medicine",
+                "text": "<p class='compact-text'><strong>{item|name}</strong> When you roll a success to @Compendium[pf2e.actionspf2e.Treat Wounds]{Treat Wounds} for a creature that hasn't regained Hit Points from divine magic in the past 24 hours, you get a critical success on your check instead and restore the corresponding amount of Hit Points.</p>"
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Lost Omens: Gods & Magic"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "general",
+                "skill"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Mortal Healing",
+    "type": "feat"
+}

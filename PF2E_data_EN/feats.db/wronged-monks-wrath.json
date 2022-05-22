@@ -1,0 +1,52 @@
+{
+    "_id": "aajcuwKYihsinPCt",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You gain the <em>@Compendium[pf2e.spells-srd.Wronged Monk's Wrath]{Wronged Monk's Wrath}</em> ki spell. Increase the number of Focus Points in your focus pool by 1.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 10
+        },
+        "location": "",
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "ki spells"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "add",
+                "path": "data.resources.focus.max",
+                "value": 1
+            }
+        ],
+        "source": {
+            "value": "Pathfinder #166: Despair on Danger Island"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "uncommon",
+            "value": [
+                "monk"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/default-icons/feats.webp",
+    "name": "Wronged Monk's Wrath",
+    "type": "feat"
+}

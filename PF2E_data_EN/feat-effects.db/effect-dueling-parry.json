@@ -1,0 +1,45 @@
+{
+    "_id": "1nCwQErK6hpkNvfw",
+    "data": {
+        "description": {
+            "value": "<p>Granted by @Compendium[pf2e.feats-srd.Dueling Parry (Swashbuckler)]{Dueling Parry (Swashbuckler)} or @Compendium[pf2e.feats-srd.Dueling Parry (Fighter)]{Dueling Parry (Fighter)}</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "rounds",
+            "value": 1
+        },
+        "level": {
+            "value": 1
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "label": "Dueling Parry",
+                "selector": "ac",
+                "type": "circumstance",
+                "value": 2
+            }
+        ],
+        "source": {
+            "value": ""
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "img": "systems/pf2e/icons/equipment/weapons/rapier.webp",
+    "name": "Effect: Dueling Parry",
+    "type": "effect"
+}

@@ -1,0 +1,48 @@
+{
+    "_id": "bAaI7h937Nr3g93U",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your practiced techniques are hard to resist. Your proficiency rank for your fighter class DC increases to expert.</p>"
+        },
+        "featType": {
+            "value": "classfeature"
+        },
+        "level": {
+            "value": 11
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "data.attributes.classDC.rank",
+                "value": 2
+            }
+        ],
+        "source": {
+            "value": ""
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "fighter"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/classes/fighter-expertise.webp",
+    "name": "Fighter Expertise",
+    "type": "feat"
+}

@@ -1,0 +1,70 @@
+{
+    "_id": "i86JRWsFRpfEJnZP",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You're particularly skilled at wielding traditional pirate weapons. You become trained with the following weapons: @Compendium[pf2e.equipment-srd.Hatchet]{Hatchet}, @Compendium[pf2e.equipment-srd.Rapier]{Rapier}, @Compendium[pf2e.equipment-srd.Scimitar]{Scimitar}, and @Compendium[pf2e.equipment-srd.Whip]{Whip}.</p>\n<p>Whenever you gain a class feature that grants you expert or greater proficiency with a given weapon or weapons, you also gain that proficiency rank for these weapons.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 4
+        },
+        "location": null,
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Pirate Dedication"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "data.martial.weapon-base-hatchet.rank",
+                "value": "@actor.data.data.martial.unarmed.rank"
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "data.martial.weapon-base-rapier.rank",
+                "value": "@actor.data.data.martial.unarmed.rank"
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "data.martial.weapon-base-scimitar.rank",
+                "value": "@actor.data.data.martial.unarmed.rank"
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "data.martial.weapon-base-whip.rank",
+                "value": "@actor.data.data.martial.unarmed.rank"
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Advanced Player's Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "archetype"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Pirate Weapon Training",
+    "type": "feat"
+}

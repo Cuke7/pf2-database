@@ -1,0 +1,66 @@
+{
+    "_id": "S3Sv7SYwxozbG554",
+    "data": {
+        "badge": null,
+        "description": {
+            "value": "<p>You gain ta +4 item bonus to your attack rolls with this weapon and to Will saves against fear effects.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "hours",
+            "value": 1
+        },
+        "level": {
+            "value": 1
+        },
+        "rules": [
+            {
+                "choices": {
+                    "ownedItems": true,
+                    "types": [
+                        "weapon"
+                    ]
+                },
+                "key": "ChoiceSet",
+                "prompt": "PF2E.SpecificRule.Prompt.Weapon"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "{item|flags.pf2e.rulesSelections.effectWarBloodMutagenMajor}-attack",
+                "type": "item",
+                "value": 4
+            },
+            {
+                "key": "FlatModifier",
+                "predicate": {
+                    "all": [
+                        "fear"
+                    ]
+                },
+                "selector": "will",
+                "type": "item",
+                "value": 4
+            }
+        ],
+        "source": {
+            "value": ""
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "img": "systems/pf2e/icons/equipment/alchemical-items/alchemical-elixirs/war-blood-mutagen.webp",
+    "name": "Effect: War Blood Mutagen (Major)",
+    "type": "effect"
+}

@@ -1,0 +1,54 @@
+{
+    "_id": "RGs4uR3CAvgbtBAA",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You learn an incredible discovery that advances your understanding of your field.</p>\n<p>You can increase the splash on your bombs to damage creatures within 10 feet, or 15 feet if you have @Compendium[pf2e.feats-srd.Expanded Splash]{Expanded Splash}.</p>"
+        },
+        "featType": {
+            "value": "classfeature"
+        },
+        "level": {
+            "value": 13
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "Note",
+                "predicate": {
+                    "all": [
+                        "alchemical",
+                        "bomb",
+                        "splash"
+                    ]
+                },
+                "selector": "strike-damage",
+                "text": "<p class='compact-text'><strong>Bomber (Greater Field Discovery)</strong> The bomb deals splash damage to every creature within 10 feet of the target, or 15 feet if you have Expanded Splash.</p>"
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "alchemist"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/classes/greater-field-discovery-bomber.webp",
+    "name": "Greater Field Discovery (Bomber)",
+    "type": "feat"
+}

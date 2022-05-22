@@ -1,0 +1,69 @@
+{
+    "_id": "bX2WI5k0afqPpCfm",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You can prepare a seemingly impossible number of snares in advance, and you're ready to spring them on unsuspecting foes. Double the number of prepared snares from Snare Specialist.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 16
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Snare Specialist"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "add",
+                "path": "data.crafting.entries.snareCrafting.maxSlots",
+                "value": {
+                    "brackets": [
+                        {
+                            "end": 2,
+                            "start": 1,
+                            "value": 4
+                        },
+                        {
+                            "end": 3,
+                            "start": 3,
+                            "value": 6
+                        },
+                        {
+                            "start": 4,
+                            "value": 8
+                        }
+                    ],
+                    "field": "actor|data.skills.cra.rank"
+                }
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "ranger"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Ubiquitous Snares",
+    "type": "feat"
+}

@@ -1,0 +1,112 @@
+{
+    "_id": "1DHjXJEdJ7GlGSzg",
+    "data": {
+        "activation": {
+            "condition": "",
+            "cost": 0,
+            "type": ""
+        },
+        "autoDestroy": {
+            "_deprecated": true,
+            "value": true
+        },
+        "autoUse": {
+            "_deprecated": true,
+            "value": true
+        },
+        "baseItem": null,
+        "charges": {
+            "_deprecated": true,
+            "max": "1",
+            "value": "1"
+        },
+        "consumableType": {
+            "value": "oil"
+        },
+        "consume": {
+            "_deprecated": true,
+            "value": null
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p><strong>Activate</strong> <span class=\"pf2-icon\">A</span> Interact</p>\n<p>When this silvery salve is applied to a melee weapon that deals piercing or slashing damage, the weapon grows sharper and more dangerous for 1 minute, granting it the benefits of the @Compendium[pf2e.equipment-srd.Keen]{Keen} rune.</p>"
+        },
+        "duration": {
+            "units": "",
+            "value": null
+        },
+        "equippedBulk": {
+            "value": ""
+        },
+        "hardness": 0,
+        "hp": {
+            "brokenThreshold": 0,
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 11
+        },
+        "negateBulk": {
+            "value": "0"
+        },
+        "preciousMaterial": {
+            "value": ""
+        },
+        "preciousMaterialGrade": {
+            "value": ""
+        },
+        "price": {
+            "value": {
+                "gp": 250
+            }
+        },
+        "quantity": 1,
+        "range": {
+            "long": null,
+            "units": "",
+            "value": null
+        },
+        "rules": [],
+        "size": "med",
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "spell": {
+            "data": null,
+            "heightenedLevel": null
+        },
+        "stackGroup": null,
+        "target": {
+            "type": "",
+            "units": "",
+            "value": null
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "uncommon",
+            "value": [
+                "consumable",
+                "magical",
+                "oil",
+                "transmutation"
+            ]
+        },
+        "usage": {
+            "value": "held-in-one-hand"
+        },
+        "uses": {
+            "autoDestroy": true,
+            "autoUse": true,
+            "max": 0,
+            "per": null,
+            "value": 0
+        },
+        "weight": {
+            "value": "L"
+        }
+    },
+    "img": "systems/pf2e/icons/equipment/consumables/oils/oil-of-keen-edges.webp",
+    "name": "Oil of Keen Edges",
+    "type": "consumable"
+}

@@ -1,0 +1,45 @@
+{
+    "_id": "6NXlg11EeCqjOmSg",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your connection to both life and undeath lets you twist the healing power of magic items to suit your own needs and aims. Whenever you Activate an Item to cast a <em>@Compendium[pf2e.spells-srd.Heal]{Heal}</em> spell, you can invert its energy to produce the effects of an equivalent <em>@Compendium[pf2e.spells-srd.Harm]{Harm}</em> spell instead.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 17
+        },
+        "location": "",
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "ability to cast heal and harm"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Lost Omens: Ancestry Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "dhampir"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Twist Healing",
+    "type": "feat"
+}

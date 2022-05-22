@@ -1,0 +1,130 @@
+{
+    "_id": "aLhAofozzdTuqfcg",
+    "data": {
+        "attributes": {
+            "ac": {
+                "value": 34
+            },
+            "hardness": 15,
+            "hasHealth": true,
+            "hp": {
+                "details": "to destroy a nozzle; <strong>Tank Hardness</strong> 20; <strong>TankHP</strong> 100 (BT 50) to damage the tank enough to stop it from spewing gas",
+                "max": 40,
+                "temp": 0,
+                "tempmax": 0,
+                "value": 40
+            },
+            "stealth": {
+                "details": "<p>(master)</p>",
+                "value": 30
+            }
+        },
+        "creatureType": "",
+        "details": {
+            "description": "<p>Five nozzles hidden across the apartment's ceiling spew thick clouds of acidic poison from a reinforced tank behind the wall.</p>",
+            "disable": "<p>DC 35 Thievery (expert) to block one of the nozzles or DC 40 Thievery (master) to shut off the tank. The trap deactivates after 5 rounds, once the tank is empty.</p>",
+            "isComplex": true,
+            "level": {
+                "value": 13
+            },
+            "reset": "",
+            "routine": "<p>(1 action) When it's triggered, the trap has five active nozzles, but at the end of its turn each round, one random nozzle deactivates. On the trap's turn, the active nozzles emit a cloud of acidic poison gas that expands to fill the apartment. The cloud deals [[/r {1d6}[acid]]]{1d6 acid damage} and [[/r {1d6}[poison]]]{1d6 poison damage} per active nozzle to each creature and object in the room (@Check[type:fortitude|dc:33|basic:true|name:Spew Cloud|traits:poison] save). Unattended objects automatically fail saves to avoid the damage.</p>"
+        },
+        "saves": {
+            "fortitude": {
+                "saveDetail": "",
+                "value": 28
+            },
+            "reflex": {
+                "saveDetail": "",
+                "value": 20
+            },
+            "will": {
+                "saveDetail": "",
+                "value": 0
+            }
+        },
+        "source": {
+            "value": "Pathfinder #159: All or Nothing"
+        },
+        "statusEffects": [],
+        "traits": {
+            "ci": [],
+            "di": {
+                "custom": "",
+                "selected": {},
+                "value": [
+                    "precision",
+                    "critical-hits",
+                    "object-immunities"
+                ]
+            },
+            "dr": [],
+            "dv": [],
+            "rarity": "common",
+            "size": {
+                "value": "med"
+            },
+            "traits": {
+                "custom": "",
+                "value": [
+                    "alchemical",
+                    "mechanical",
+                    "trap"
+                ]
+            }
+        }
+    },
+    "img": "systems/pf2e/icons/default-icons/hazard.svg",
+    "items": [
+        {
+            "_id": "iG9uOtBJolj3P4CM",
+            "data": {
+                "actionCategory": {
+                    "value": "offensive"
+                },
+                "actionType": {
+                    "value": "reaction"
+                },
+                "actions": {
+                    "value": null
+                },
+                "description": {
+                    "value": "<p><strong>Trigger</strong> Twelve seconds have passed since the door to the apartment was opened</p>\n<hr />\n<p><strong>Effect</strong> The trap rolls initiative.</p>"
+                },
+                "requirements": {
+                    "value": ""
+                },
+                "rules": [],
+                "slug": null,
+                "source": {
+                    "value": ""
+                },
+                "traits": {
+                    "custom": "",
+                    "rarity": "common",
+                    "value": []
+                },
+                "trigger": {
+                    "value": ""
+                },
+                "weapon": {
+                    "value": ""
+                }
+            },
+            "img": "systems/pf2e/icons/actions/Reaction.webp",
+            "name": "Spew Cloud",
+            "sort": 100000,
+            "type": "action"
+        }
+    ],
+    "name": "Acidic Poison Cloud Trap",
+    "token": {
+        "disposition": 0,
+        "height": 1,
+        "img": "systems/pf2e/icons/default-icons/hazard.svg",
+        "name": "Acidic Poison Cloud Trap",
+        "width": 1
+    },
+    "type": "hazard"
+}

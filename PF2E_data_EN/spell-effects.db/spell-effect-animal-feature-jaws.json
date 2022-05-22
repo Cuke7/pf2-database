@@ -1,0 +1,55 @@
+{
+    "_id": "GhGoZdAZtzZTYCzj",
+    "data": {
+        "description": {
+            "value": "<p>Granted by <em>@Compendium[pf2e.spells-srd.Animal Feature]{Animal Feature}</em>.</p>\n<p>You gain a jaws attack that deals [[/r {1d8}[piercing]]]{1d8 piercing damage} and has the unarmed trait.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "minutes",
+            "value": 1
+        },
+        "level": {
+            "value": 2
+        },
+        "rules": [
+            {
+                "category": "unarmed",
+                "damage": {
+                    "base": {
+                        "damageType": "piercing",
+                        "dice": 1,
+                        "die": "d8"
+                    }
+                },
+                "group": "brawling",
+                "key": "Strike",
+                "label": "PF2E.Weapon.Base.jaws",
+                "range": null,
+                "traits": [
+                    "unarmed"
+                ]
+            }
+        ],
+        "source": {
+            "value": ""
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "img": "systems/pf2e/icons/spells/animal-feature.webp",
+    "name": "Spell Effect: Animal Feature (Jaws)",
+    "type": "effect"
+}

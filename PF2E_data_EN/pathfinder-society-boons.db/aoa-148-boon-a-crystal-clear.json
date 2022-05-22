@@ -1,0 +1,41 @@
+{
+    "_id": "VLjkX7HpDqKaidNd",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your friendship with the elf ghost Talamira has unlocked the secrets of the ancient Crystal Keepers. You gain access to the @Compendium[pf2e.archetypes.Crystal Keeper]{Crystal Keeper} archetype and all associated feats.</p>"
+        },
+        "featType": {
+            "value": "pfsboon"
+        },
+        "identified": {
+            "value": true
+        },
+        "level": {
+            "value": 0
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": ""
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "img": "systems/pf2e/icons/default-icons/mystery-man.webp",
+    "name": "AoA #148: Boon A - Crystal Clear",
+    "type": "feat"
+}

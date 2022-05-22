@@ -1,0 +1,112 @@
+{
+    "_id": "MobYbxEL4KgxVi63",
+    "data": {
+        "activation": {
+            "condition": "",
+            "cost": 0,
+            "type": ""
+        },
+        "autoDestroy": {
+            "_deprecated": true,
+            "value": true
+        },
+        "autoUse": {
+            "_deprecated": true,
+            "value": true
+        },
+        "baseItem": null,
+        "charges": {
+            "_deprecated": true,
+            "max": "1",
+            "value": "1"
+        },
+        "consumableType": {
+            "value": "oil"
+        },
+        "consume": {
+            "_deprecated": true,
+            "value": null
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p><strong>Activate</strong> <span class=\"pf2-icon\">A</span> Interact</p>\n<p>This greenish, persistent grease can be applied to armor to make it extremely slippery for 8 hours, granting the wearer a +2 item bonus to Acrobatics checks to Escape or to Squeeze.</p>\n<p>@Compendium[pf2e.consumable-effects.Effect: Salve of Slipperiness]{Effect: Salve of Slipperiness}</p>"
+        },
+        "duration": {
+            "units": "",
+            "value": null
+        },
+        "equippedBulk": {
+            "value": ""
+        },
+        "hardness": 0,
+        "hp": {
+            "brokenThreshold": 0,
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 5
+        },
+        "negateBulk": {
+            "value": "0"
+        },
+        "preciousMaterial": {
+            "value": ""
+        },
+        "preciousMaterialGrade": {
+            "value": ""
+        },
+        "price": {
+            "value": {
+                "gp": 25
+            }
+        },
+        "quantity": 1,
+        "range": {
+            "long": null,
+            "units": "",
+            "value": null
+        },
+        "rules": [],
+        "size": "med",
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "spell": {
+            "data": null,
+            "heightenedLevel": null
+        },
+        "stackGroup": null,
+        "target": {
+            "type": "",
+            "units": "",
+            "value": null
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "consumable",
+                "magical",
+                "oil",
+                "transmutation"
+            ]
+        },
+        "usage": {
+            "value": "held-in-one-hand"
+        },
+        "uses": {
+            "autoDestroy": true,
+            "autoUse": true,
+            "max": 0,
+            "per": null,
+            "value": 0
+        },
+        "weight": {
+            "value": "L"
+        }
+    },
+    "img": "systems/pf2e/icons/equipment/consumables/oils/salve-of-slipperiness.webp",
+    "name": "Salve of Slipperiness",
+    "type": "consumable"
+}

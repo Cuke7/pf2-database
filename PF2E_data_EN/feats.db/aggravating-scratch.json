@@ -1,0 +1,55 @@
+{
+    "_id": "G6rCbMrHacYWNu1K",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your claws carry an irritant that is harmless to you but can be damaging to others. Your claw Strikes deal an additional @Localize[PF2E.PersistentDamage.Poison1d4.success] on a critical hit.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 9
+        },
+        "location": "",
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "claw unarmed attack"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "key": "Note",
+                "outcome": [
+                    "criticalSuccess"
+                ],
+                "selector": "claw-damage",
+                "text": "<p><strong>{item|name}</strong></p><p>{item|data.description.value}</p>"
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Advanced Player's Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "catfolk",
+                "disease"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Aggravating Scratch",
+    "type": "feat"
+}

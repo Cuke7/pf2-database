@@ -1,0 +1,129 @@
+{
+    "_id": "LXXodovLOERAGqWj",
+    "data": {
+        "attributes": {
+            "ac": {
+                "value": 10
+            },
+            "hardness": 5,
+            "hasHealth": true,
+            "hp": {
+                "details": "",
+                "max": 1,
+                "temp": 0,
+                "tempmax": 0,
+                "value": 1
+            },
+            "stealth": {
+                "details": "<p>(trained)</p>",
+                "value": 15
+            }
+        },
+        "creatureType": "",
+        "customModifiers": {},
+        "details": {
+            "description": "<p>The floorboards here are rotting and soft, giving way and dropping anyone above into the hole below.</p>",
+            "disable": "<p>Crafting DC 16 (trained) to reinforce the compromised floorboards.</p>",
+            "isComplex": false,
+            "level": {
+                "value": 0
+            },
+            "reset": "",
+            "routine": ""
+        },
+        "saves": {
+            "fortitude": {
+                "saveDetail": "",
+                "value": 1
+            },
+            "reflex": {
+                "saveDetail": "",
+                "value": 1
+            },
+            "will": {
+                "saveDetail": "",
+                "value": 0
+            }
+        },
+        "source": {
+            "value": ""
+        },
+        "statusEffects": [],
+        "traits": {
+            "ci": [],
+            "di": {
+                "custom": "",
+                "selected": {},
+                "value": [
+                    "critical-hits",
+                    "object-immunities",
+                    "precision"
+                ]
+            },
+            "dr": [],
+            "dv": [],
+            "rarity": "common",
+            "size": {
+                "value": "med"
+            },
+            "traits": {
+                "custom": "",
+                "value": [
+                    "mechanical"
+                ]
+            }
+        }
+    },
+    "img": "systems/pf2e/icons/default-icons/hazard.svg",
+    "items": [
+        {
+            "_id": "MQ3CKYIdF6zrMg0x",
+            "data": {
+                "actionCategory": {
+                    "value": ""
+                },
+                "actionType": {
+                    "value": "reaction"
+                },
+                "actions": {
+                    "value": null
+                },
+                "description": {
+                    "value": "<p><strong>Trigger</strong> A creature walks onto any square containing the sodden floorboards.</p>\n<hr />\n<p><strong>Effect</strong> All squares with floorboards give way. Each creature in any of the marked squares must attempt a @Check[type:reflex|dc:18] save.</p>\n<p><strong>Success</strong> The creature moves to the nearest safe square and avoids falling in.</p>\n<p><strong>Failure</strong> The creature falls 10 feet, takes 5 bludgeoning damage as a result of the fall, and is prone in the hole.</p>"
+                },
+                "requirements": {
+                    "value": ""
+                },
+                "rules": [],
+                "slug": null,
+                "source": {
+                    "value": ""
+                },
+                "traits": {
+                    "custom": "",
+                    "rarity": "common",
+                    "value": []
+                },
+                "trigger": {
+                    "value": ""
+                },
+                "weapon": {
+                    "value": ""
+                }
+            },
+            "img": "systems/pf2e/icons/actions/Reaction.webp",
+            "name": "Crumble",
+            "sort": 100000,
+            "type": "action"
+        }
+    ],
+    "name": "Sodden Floor",
+    "token": {
+        "disposition": 0,
+        "height": 1,
+        "img": "systems/pf2e/icons/default-icons/hazard.svg",
+        "name": "Sodden Floor",
+        "width": 1
+    },
+    "type": "hazard"
+}

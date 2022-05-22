@@ -1,0 +1,46 @@
+{
+    "_id": "hmShTfPOcTaKgbf4",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Ever watchful for weaknesses, you can quickly attack foes that leave an opening in their defenses. You gain the @Compendium[pf2e.actionspf2e.Attack of Opportunity]{Attack of Opportunity} reaction.</p>"
+        },
+        "featType": {
+            "value": "classfeature"
+        },
+        "level": {
+            "value": 1
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "GrantItem",
+                "uuid": "Compendium.pf2e.actionspf2e.Attack of Opportunity"
+            }
+        ],
+        "source": {
+            "value": ""
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "fighter"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/classes/attack-of-opportunity.webp",
+    "name": "Attack of Opportunity",
+    "type": "feat"
+}

@@ -1,0 +1,63 @@
+{
+    "_id": "C80vQCKQBGRaqcmq",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You've learned to split your focus between multiple classes with ease. You gain a 2nd-level multiclass dedication feat, even if you normally couldn't take another dedication feat until you take more feats from your current archetype. If you're a half-elf, you don't need to meet the feat's ability score prerequisites.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 9
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "adjustName": false,
+                "allowedDrops": {
+                    "all": [
+                        "item:level:2",
+                        "item:trait:dedication",
+                        "item:trait:multiclass",
+                        "item:type:feat"
+                    ],
+                    "label": "PF2E.SpecificRule.Multitalented.AllowedDrops"
+                },
+                "choices": {
+                    "query": "{\"data.featType.value\":\"archetype\",\"data.level.value\":2,\"$and\":[{\"data.traits.value\":{\"$elemMatch\":\"dedication\"}},{\"data.traits.value\":{\"$elemMatch\":\"multiclass\"}}],\"type\":\"feat\",\"$not\":{\"data.slug\":\"{actor|data.details.class.trait}-dedication\"}}"
+                },
+                "key": "ChoiceSet",
+                "prompt": "PF2E.SpecificRule.Multitalented.Prompt"
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "{item|flags.pf2e.rulesSelections.multitalented}"
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "human"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Multitalented",
+    "type": "feat"
+}

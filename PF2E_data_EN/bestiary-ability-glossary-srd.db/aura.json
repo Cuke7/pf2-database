@@ -1,0 +1,38 @@
+{
+    "_id": "v61oEQaDdcRpaZ9X",
+    "data": {
+        "actionCategory": {
+            "value": "defensive"
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Aura]</p>"
+        },
+        "requirements": {
+            "value": ""
+        },
+        "rules": [],
+        "source": {
+            "value": ""
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": []
+        },
+        "trigger": {
+            "value": ""
+        },
+        "weapon": {
+            "value": ""
+        }
+    },
+    "img": "systems/pf2e/icons/actions/Passive.webp",
+    "name": "Aura",
+    "type": "action"
+}

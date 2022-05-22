@@ -1,0 +1,86 @@
+{
+    "_id": "iCzJRywykSFwLto0",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You've trained in the finer points of dealing death. Whenever you critically hit using a bo staff, longbow, composite longbow, scythe, or staff, you apply the weapon's critical specialization effect.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 5
+        },
+        "location": null,
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Vanth's Weapon Familiarity"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "key": "Note",
+                "outcome": [
+                    "criticalSuccess"
+                ],
+                "selector": "staff-damage",
+                "text": "﻿<p class='compact-text'>@Localize[PF2E.WeaponDescriptionClub]</p>"
+            },
+            {
+                "key": "Note",
+                "outcome": [
+                    "criticalSuccess"
+                ],
+                "selector": "bo-staff-damage",
+                "text": "﻿<p class='compact-text'>@Localize[PF2E.WeaponDescriptionClub]</p>"
+            },
+            {
+                "key": "Note",
+                "outcome": [
+                    "criticalSuccess"
+                ],
+                "selector": "longbow-damage",
+                "text": "﻿<p class='compact-text'>@Localize[PF2E.WeaponDescriptionBow]</p>"
+            },
+            {
+                "key": "Note",
+                "outcome": [
+                    "criticalSuccess"
+                ],
+                "selector": "composite-longbow-damage",
+                "text": "﻿<p class='compact-text'>@Localize[PF2E.WeaponDescriptionBow]</p>"
+            },
+            {
+                "key": "Note",
+                "outcome": [
+                    "criticalSuccess"
+                ],
+                "selector": "sycthe-damage",
+                "text": "<p class='compact-text'>@Localize[PF2E.WeaponDescriptionPolearm]</p>"
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Lost Omens: Ancestry Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "duskwalker"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Vanth's Weapon Execution",
+    "type": "feat"
+}

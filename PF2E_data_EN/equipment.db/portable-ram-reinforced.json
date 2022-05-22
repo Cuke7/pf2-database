@@ -1,0 +1,69 @@
+{
+    "_id": "p8kyiYyXDapAUyfE",
+    "data": {
+        "baseItem": null,
+        "containerId": "null",
+        "description": {
+            "value": "<p>A portable ram is a handheld, ironshod wooden beam designed to knock open doors, gates, and other similar obstacles. You gain a +2 item bonus to checks to @Compendium[pf2e.actionspf2e.Force Open]{Force Open} these obstacles.</p>"
+        },
+        "equippedBulk": {
+            "value": ""
+        },
+        "hardness": 0,
+        "hp": {
+            "brokenThreshold": 0,
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 9
+        },
+        "negateBulk": {
+            "value": "0"
+        },
+        "preciousMaterial": {
+            "value": null
+        },
+        "preciousMaterialGrade": {
+            "value": null
+        },
+        "price": {
+            "value": {
+                "gp": 600
+            }
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "predicate": {
+                    "all": [
+                        "action:force-open"
+                    ]
+                },
+                "selector": "athletics",
+                "type": "item",
+                "value": 2
+            }
+        ],
+        "size": "med",
+        "source": {
+            "value": "Pathfinder Lost Omens: The Grand Bazaar"
+        },
+        "stackGroup": null,
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": []
+        },
+        "usage": {
+            "value": "held-in-two-hands"
+        },
+        "weight": {
+            "value": "3"
+        }
+    },
+    "img": "systems/pf2e/icons/default-icons/equipment.svg",
+    "name": "Portable Ram (Reinforced)",
+    "type": "equipment"
+}

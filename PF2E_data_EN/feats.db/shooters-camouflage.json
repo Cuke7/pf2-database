@@ -1,0 +1,45 @@
+{
+    "_id": "rqUJULinzDCUgimM",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You specialize in blending into a particular type of environment, able to disappear after taking your shot. Choose either natural or urban terrain. In the chosen terrain, you can @Compendium[pf2e.actionspf2e.Hide]{Hide} and @Compendium[pf2e.actionspf2e.Sneak]{Sneak} even without cover or being @Compendium[pf2e.conditionitems.Concealed]{Concealed}.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 12
+        },
+        "location": "",
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "master in Stealth"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Guns & Gears"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "gunslinger"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/default-icons/feats.webp",
+    "name": "Shooter's Camouflage",
+    "type": "feat"
+}

@@ -1,0 +1,37 @@
+{
+    "_id": "cT5octWchU4gjrhP",
+    "data": {
+        "description": {
+            "value": "<p>It can use up to two of its limbs as if they were hands to use manipulate actions.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "unlimited",
+            "value": -1
+        },
+        "level": {
+            "value": 1
+        },
+        "rules": [],
+        "source": {
+            "value": ""
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": false
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "img": "systems/pf2e/icons/actions/Passive.webp",
+    "name": "Manual Dexterity",
+    "type": "effect"
+}

@@ -1,0 +1,45 @@
+{
+    "_id": "lyLMiauxIVUM3oF1",
+    "data": {
+        "description": {
+            "value": "<p>Granted by <em>@Compendium[pf2e.spells-srd.Lay on Hands]{Lay on Hands}</em></p>\n<p>If the target is one of your allies, they also gain a +2 status bonus to AC for 1 round.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "rounds",
+            "value": 1
+        },
+        "level": {
+            "value": 1
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "label": "Lay on Hands",
+                "selector": "ac",
+                "type": "status",
+                "value": 2
+            }
+        ],
+        "source": {
+            "value": ""
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "img": "systems/pf2e/icons/spells/lay-on-hands.webp",
+    "name": "Spell Effect: Lay on Hands",
+    "type": "effect"
+}

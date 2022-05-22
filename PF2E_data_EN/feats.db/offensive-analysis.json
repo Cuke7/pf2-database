@@ -1,0 +1,41 @@
+{
+    "_id": "HCxmS8QGHL5O7LUf",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You can enhance your senses and mental state to consider every aspect of an attack. You can cast <em>@Compendium[pf2e.spells-srd.True Strike]{True Strike}</em> as a divine innate spell once per day.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 5
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Lost Omens: Ancestry Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "aphorite"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Offensive Analysis",
+    "type": "feat"
+}

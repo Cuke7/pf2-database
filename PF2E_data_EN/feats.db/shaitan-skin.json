@@ -1,0 +1,41 @@
+{
+    "_id": "3YByhZJi93ie5F45",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>When in danger, you can harden the stone in your skin into armor, much like a shaitan. You can cast <em>@Compendium[pf2e.spells-srd.Stoneskin]{Stoneskin}</em> on yourself only, 3 times per day as a 4th-level arcane innate spell.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 13
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Lost Omens: Ancestry Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "oread"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Shaitan Skin",
+    "type": "feat"
+}

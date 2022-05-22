@@ -1,0 +1,52 @@
+{
+    "_id": "alyNtkHLNnt98Ewz",
+    "data": {
+        "description": {
+            "value": "<p>Granted by <em>@Compendium[pf2e.spells-srd.Lay on Hands]{Lay on Hands}</em> if you have @Compendium[pf2e.feats-srd.Accelerating Touch]{Accelerating Touch}.</p>\n<p>If the target is one of your allies, they also gain a +2 status bonus to AC and a +10-foot status bonus to Speed for 1 round.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "rounds",
+            "value": 1
+        },
+        "level": {
+            "value": 1
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "label": "Lay on Hands",
+                "selector": "ac",
+                "type": "status",
+                "value": 2
+            },
+            {
+                "key": "FlatModifier",
+                "label": "Accelerating Touch",
+                "selector": "speed",
+                "type": "status",
+                "value": 10
+            }
+        ],
+        "source": {
+            "value": ""
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "img": "systems/pf2e/icons/spells/lay-on-hands.webp",
+    "name": "Spell Effect: Accelerating Touch",
+    "type": "effect"
+}

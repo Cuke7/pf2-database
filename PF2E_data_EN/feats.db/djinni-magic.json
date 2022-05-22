@@ -1,0 +1,41 @@
+{
+    "_id": "nHoRM1gLL7MtIiCS",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>The magic of djinn runs through your blood. You can cast <em>@Compendium[pf2e.spells-srd.Gust of Wind]{Gust of Wind}</em> and <em>@Compendium[pf2e.spells-srd.Invisibility]{Invisibility}</em> once per day each as 2nd-level arcane innate spells.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 9
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Lost Omens: Ancestry Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "sylph"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Djinni Magic",
+    "type": "feat"
+}

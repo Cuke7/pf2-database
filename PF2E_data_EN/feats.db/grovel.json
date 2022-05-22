@@ -1,0 +1,48 @@
+{
+    "_id": "gS9FYlD0Vt8yyZkP",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "description": {
+            "value": "<p>With obsequious words and begging gestures, you convince your foe you're less of a threat.</p>\n<p>You attempt to @Compendium[pf2e.actionspf2e.Feint]{Feint} against a creature. Unlike a normal Feint, the creature can be within 30 feet instead of in your melee reach, and you make your check against its Will DC instead of its Perception DC.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 5
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "trained in Deception"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Advanced Player's Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "auditory",
+                "concentrate",
+                "emotion",
+                "kobold",
+                "mental"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Grovel",
+    "type": "feat"
+}

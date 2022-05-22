@@ -1,0 +1,43 @@
+{
+    "_id": "uy15sDBuYNK48N3v",
+    "data": {
+        "description": {
+            "value": "<p>It gains a burrow Speed of 5 feet, allowing it to dig Tiny holes.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "unlimited",
+            "value": -1
+        },
+        "level": {
+            "value": 1
+        },
+        "rules": [
+            {
+                "key": "BaseSpeed",
+                "selector": "burrow",
+                "value": 5
+            }
+        ],
+        "source": {
+            "value": ""
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": false
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "img": "systems/pf2e/icons/actions/Passive.webp",
+    "name": "Burrower",
+    "type": "effect"
+}

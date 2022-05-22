@@ -1,0 +1,125 @@
+{
+    "_id": "5f8EKdudDgYRBmqA",
+    "data": {
+        "attributes": {
+            "ac": {
+                "value": 0
+            },
+            "hardness": 0,
+            "hasHealth": false,
+            "hp": {
+                "details": "",
+                "max": 0,
+                "temp": 0,
+                "value": 0
+            },
+            "stealth": {
+                "details": "<p>(expert)</p>",
+                "value": 22
+            }
+        },
+        "creatureType": "",
+        "details": {
+            "description": "<p>A ghostly stinger appears in the air and jabs at anyone moving through the opening.</p>",
+            "disable": "<p>@Check[type:thievery|dc:36|name:Prevent Ghostly Stinger from Forming|traits:uncommon,magical,trap] (master) to prevent the ghostly stinger from forming or <em>@Compendium[pf2e.spells-srd.Dispel Magic]{Dispel Magic}</em> (6th level; counteract DC 34).</p>",
+            "isComplex": false,
+            "level": {
+                "value": 11
+            },
+            "reset": "<p>The trap resets after 24 hours.</p>",
+            "routine": ""
+        },
+        "saves": {
+            "fortitude": {
+                "saveDetail": "",
+                "value": 0
+            },
+            "reflex": {
+                "saveDetail": "",
+                "value": 0
+            },
+            "will": {
+                "saveDetail": "",
+                "value": 0
+            }
+        },
+        "source": {
+            "value": ""
+        },
+        "statusEffects": [],
+        "traits": {
+            "ci": [],
+            "di": {
+                "custom": "",
+                "selected": {},
+                "value": []
+            },
+            "dr": [],
+            "dv": [],
+            "rarity": "uncommon",
+            "size": {
+                "value": "med"
+            },
+            "traits": {
+                "custom": "",
+                "value": [
+                    "magical",
+                    "trap"
+                ]
+            }
+        }
+    },
+    "img": "systems/pf2e/icons/default-icons/hazard.svg",
+    "items": [
+        {
+            "_id": "5v0abcv7hftaq55z",
+            "data": {
+                "actionCategory": {
+                    "value": "offensive"
+                },
+                "actionType": {
+                    "value": "reaction"
+                },
+                "actions": {
+                    "value": null
+                },
+                "description": {
+                    "value": "<p><strong>Trigger</strong> A creature who isn't wearing a religious symbol of Norgorber moves the trapdoor</p><hr />\n<p><strong>Effect</strong> The trap targets the creature with <em>@Compendium[pf2e.equipment-srd.Purple Worm Venom]{Purple Worm} sting</em> (@Check[type:fortitude|dc:30|traits:trap,uncommon,magical] save).</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> [[/r {5d6}[poison]]]{5d6 poison damage} and @Compendium[pf2e.conditionitems.Enfeebled]{Enfeebled 2} (1 round)</p>\n<p><strong>Stage 2</strong> [[/r {6d6}[poison]]]{6d6 poison damage} and enfeebled 2 (1 round)</p>\n<p><strong>Stage 3</strong> [[/r {8d6}[poison]]]{8d6 poison damage} and enfeebled 2 (1 round)</p>"
+                },
+                "requirements": {
+                    "value": ""
+                },
+                "rules": [],
+                "slug": null,
+                "source": {
+                    "value": ""
+                },
+                "traits": {
+                    "custom": "",
+                    "rarity": "common",
+                    "value": [
+                        "divine",
+                        "necromancy",
+                        "poison"
+                    ]
+                },
+                "trigger": {
+                    "value": ""
+                }
+            },
+            "img": "systems/pf2e/icons/actions/Reaction.webp",
+            "name": "Deadly Sting",
+            "sort": 0,
+            "type": "action"
+        }
+    ],
+    "name": "Stinger Ward Trap",
+    "token": {
+        "disposition": 0,
+        "height": 1,
+        "img": "systems/pf2e/icons/default-icons/hazard.svg",
+        "name": "Stinger Ward Trap",
+        "width": 1
+    },
+    "type": "hazard"
+}

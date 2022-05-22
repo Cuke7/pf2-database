@@ -1,0 +1,41 @@
+{
+    "_id": "OdIUybJ3ddfL7wzj",
+    "data": {
+        "actionCategory": {
+            "value": "interaction"
+        },
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "description": {
+            "value": "<p>You stand up from @Compendium[pf2e.conditionitems.Prone]{Prone}.</p>"
+        },
+        "requirements": {
+            "value": ""
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "move",
+                "general"
+            ]
+        },
+        "trigger": {
+            "value": ""
+        },
+        "weapon": {
+            "value": ""
+        }
+    },
+    "img": "systems/pf2e/icons/actions/OneAction.webp",
+    "name": "Stand",
+    "type": "action"
+}

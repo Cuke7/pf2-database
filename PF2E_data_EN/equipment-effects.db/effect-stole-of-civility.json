@@ -1,0 +1,42 @@
+{
+    "_id": "i0tm2ZHekp7rGGR3",
+    "data": {
+        "description": {
+            "value": "<p>Granted by @Compendium[pf2e.equipment-srd.Stole of Civility]{Stole of Civility}</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "minutes",
+            "value": 10
+        },
+        "level": {
+            "value": 9
+        },
+        "rules": [
+            {
+                "key": "TempHP",
+                "value": 10
+            }
+        ],
+        "source": {
+            "value": ""
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "img": "systems/pf2e/icons/equipment/worn-items/other-worn-items/stole-of-civility.webp",
+    "name": "Effect: Stole of Civility",
+    "type": "effect"
+}

@@ -1,0 +1,41 @@
+{
+    "_id": "n82gTpAENgr6XjCM",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your body is translucent while underwater. Whenever you are fully submerged in water, you can Hide from other creatures even if you don't have cover against them and aren't @Compendium[pf2e.conditionitems.Concealed]{Concealed} from them.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 13
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Lost Omens: Ancestry Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "undine"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Translucent Skin",
+    "type": "feat"
+}

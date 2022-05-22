@@ -1,0 +1,43 @@
+{
+    "_id": "SxWYVgqNMsq0OijU",
+    "data": {
+        "description": {
+            "value": "<p>Increase the familiar's climb Speed from 25 feet to 40 feet.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "unlimited",
+            "value": -1
+        },
+        "level": {
+            "value": 1
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "climb-speed",
+                "value": 15
+            }
+        ],
+        "source": {
+            "value": ""
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": false
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "img": "systems/pf2e/icons/actions/Passive.webp",
+    "name": "Fast Movement: Climb",
+    "type": "effect"
+}

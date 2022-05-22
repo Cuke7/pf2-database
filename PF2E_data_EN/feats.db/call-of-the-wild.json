@@ -1,0 +1,41 @@
+{
+    "_id": "ZvPgibovxwiN8Wse",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You call upon the creatures of nature to come to your aid. You can spend 10 minutes in concert with nature to replace one of the spells you've prepared in one of your druid spell slots with a <em>@Compendium[pf2e.spells-srd.Summon Animal]{Summon Animal}</em> or <em>@Compendium[pf2e.spells-srd.Summon Plant or Fungus]{Summon Plant or Fungus}</em> spell of the same level.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 2
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "druid"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Call of the Wild",
+    "type": "feat"
+}

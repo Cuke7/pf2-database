@@ -1,0 +1,72 @@
+{
+    "_id": "h08Vfel5iIAARWdy",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Divine energy fills your weapon. Whenever you critically hit a foe with Blade of Justice or a Retributive Strike, your attack adds an extra damage die, and the target is slowed 1 on its next turn.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 16
+        },
+        "location": "",
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "divine ally (blade)"
+                },
+                {
+                    "value": "tenets of good"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "critical": true,
+                "diceNumber": 1,
+                "key": "DamageDice",
+                "predicate": {
+                    "any": [
+                        "blade-justice",
+                        "retributive-strike"
+                    ]
+                },
+                "selector": "strike-damage"
+            },
+            {
+                "key": "Note",
+                "predicate": {
+                    "any": [
+                        "blade-justice",
+                        "retributive-strike"
+                    ]
+                },
+                "selector": "strike-damage",
+                "text": "<p class='compact-text'><strong>{item|name}</strong> Whenever you critically hit a foe with Blade of Justice or a Retributive Strike, the target is slowed 1 on its next turn.</p>"
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "champion"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Instrument of Zeal",
+    "type": "feat"
+}

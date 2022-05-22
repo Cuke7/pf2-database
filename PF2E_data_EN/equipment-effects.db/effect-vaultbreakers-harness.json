@@ -1,0 +1,50 @@
+{
+    "_id": "7MgpgF8tOXOiDEwv",
+    "data": {
+        "description": {
+            "value": "<p>Granted by @Compendium[pf2e.equipment-srd.Vaultbreaker's Harness]{Vaultbreaker's Harness}</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "minutes",
+            "value": 1
+        },
+        "level": {
+            "value": 6
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "stealth",
+                "type": "item",
+                "value": 1
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "speed",
+                "type": "item",
+                "value": 10
+            }
+        ],
+        "source": {
+            "value": ""
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "img": "systems/pf2e/icons/equipment/worn-items/other-worn-items/vaultbreakers-harness.webp",
+    "name": "Effect: Vaultbreaker's Harness",
+    "type": "effect"
+}

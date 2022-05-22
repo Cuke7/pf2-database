@@ -1,0 +1,96 @@
+{
+    "_id": "zcNBG8cMnILqXMFd",
+    "data": {
+        "description": {
+            "value": "<div><strong>Armor</strong> studded leather armor</div>\n<div><strong>Weapons</strong> sap, shortsword, crossbow with 20 bolts</div>\n<div><strong>Gear</strong> adventurer's pack, crowbar</div>\n<div><strong>Options</strong> @Compendium[pf2e.equipment-srd.Alchemist's Tools]{Alchemist's Tools} (3 gp), @Compendium[pf2e.equipment-srd.Manacles (Simple)]{Manacles (Simple)} (3 gp), @Compendium[pf2e.equipment-srd.Writing Set]{Writing Set} (1 gp)</div>"
+        },
+        "equippedBulk": {
+            "value": ""
+        },
+        "items": {
+            "a9fsb": {
+                "id": "44F1mfJei4GY8f2X",
+                "img": "systems/pf2e/icons/equipment/adventuring-gear/crowbar.webp",
+                "isContainer": false,
+                "items": {},
+                "name": "Crowbar",
+                "pack": "pf2e.equipment-srd",
+                "quantity": 1
+            },
+            "bp44h": {
+                "id": "62nnVQvGhoVLLl2K",
+                "img": "systems/pf2e/icons/equipment/weapons/crossbow.webp",
+                "isContainer": false,
+                "items": {},
+                "name": "Crossbow",
+                "pack": "pf2e.equipment-srd",
+                "quantity": 1
+            },
+            "e5hjw": {
+                "id": "2req0jGaxz8hScdB",
+                "img": "systems/pf2e/icons/equipment/adventuring-gear/adventurers-pack.webp",
+                "isContainer": true,
+                "items": {},
+                "name": "Adventurer's Pack",
+                "pack": "pf2e.equipment-srd",
+                "quantity": 1
+            },
+            "etdgp": {
+                "id": "TLQErnOpM9Luy7rL",
+                "img": "systems/pf2e/icons/equipment/weapons/sap.webp",
+                "isContainer": false,
+                "items": {},
+                "name": "Sap",
+                "pack": "pf2e.equipment-srd",
+                "quantity": 1
+            },
+            "eu2ka": {
+                "id": "AITVZmakiu3RgfKo",
+                "img": "systems/pf2e/icons/equipment/weapons/bolts.webp",
+                "isContainer": false,
+                "items": {},
+                "name": "Bolts",
+                "pack": "pf2e.equipment-srd",
+                "quantity": 20
+            },
+            "okyjd": {
+                "id": "ewQZ0VeL38v3qFnN",
+                "img": "systems/pf2e/icons/equipment/armor/studded-leather-armor.webp",
+                "isContainer": false,
+                "items": {},
+                "name": "Studded Leather Armor",
+                "pack": "pf2e.equipment-srd",
+                "quantity": 1
+            },
+            "vfj6r": {
+                "id": "7tKkkF8eZ4iCLJtp",
+                "img": "systems/pf2e/icons/equipment/weapons/shortsword.webp",
+                "isContainer": false,
+                "items": {},
+                "name": "Shortsword",
+                "pack": "pf2e.equipment-srd",
+                "quantity": 1
+            }
+        },
+        "price": {
+            "value": {
+                "gp": 9,
+                "sp": 2
+            }
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Advanced Player's Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "investigator"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/equipment/adventuring-gear/classkit-investigator.webp",
+    "name": "Class Kit (Investigator)",
+    "type": "kit"
+}

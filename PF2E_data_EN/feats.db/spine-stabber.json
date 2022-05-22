@@ -1,0 +1,63 @@
+{
+    "_id": "Bn9yK3FBndHkbVsu",
+    "data": {
+        "actionCategory": {
+            "value": "offensive"
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>The quills on your arms are particularly sharp and sturdy. You gain a quills unarmed attack that deals [[/r {1d6}[piercing]]]{1d6 piercing damage}. Your quills are in the knife weapon group and have the finesse and unarmed traits.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 1
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "category": "unarmed",
+                "damage": {
+                    "base": {
+                        "damageType": "piercing",
+                        "dice": 1,
+                        "die": "d6"
+                    }
+                },
+                "group": "knife",
+                "key": "Strike",
+                "label": "Quills",
+                "options": [
+                    "shisk-quills"
+                ],
+                "range": null,
+                "traits": [
+                    "finesse",
+                    "unarmed"
+                ]
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Lost Omens: The Mwangi Expanse"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "shisk"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/default-icons/feats.webp",
+    "name": "Spine Stabber",
+    "type": "feat"
+}

@@ -1,0 +1,103 @@
+{
+    "_id": "IQchIYUwbsVTa9Mc",
+    "data": {
+        "ability": {
+            "value": ""
+        },
+        "area": {
+            "areaType": "",
+            "value": null
+        },
+        "areasize": {
+            "value": ""
+        },
+        "category": {
+            "value": "focus"
+        },
+        "components": {
+            "material": false,
+            "somatic": false,
+            "verbal": true
+        },
+        "cost": {
+            "value": ""
+        },
+        "damage": {
+            "value": {}
+        },
+        "description": {
+            "value": "<p>You perform rapidly, speeding up your ally. The ally becomes @Compendium[pf2e.conditionitems.Quickened]{Quickened} and can use the additional action to Strike, Stride, or Step.</p>"
+        },
+        "duration": {
+            "value": "1 round"
+        },
+        "hasCounteractCheck": {
+            "value": false
+        },
+        "level": {
+            "value": 7
+        },
+        "location": {
+            "value": ""
+        },
+        "materials": {
+            "value": ""
+        },
+        "prepared": {
+            "value": ""
+        },
+        "primarycheck": {
+            "value": ""
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "rules": [],
+        "save": {
+            "basic": "",
+            "value": ""
+        },
+        "school": {
+            "value": "enchantment"
+        },
+        "secondarycasters": {
+            "value": ""
+        },
+        "secondarycheck": {
+            "value": ""
+        },
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "spellType": {
+            "value": "utility"
+        },
+        "sustained": {
+            "value": false
+        },
+        "target": {
+            "value": "1 ally"
+        },
+        "time": {
+            "value": "1"
+        },
+        "traditions": {
+            "custom": "",
+            "value": []
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "uncommon",
+            "value": [
+                "bard",
+                "cantrip",
+                "composition",
+                "emotion",
+                "mental"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/spells/allegro.webp",
+    "name": "Allegro",
+    "type": "spell"
+}

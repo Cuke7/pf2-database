@@ -1,0 +1,40 @@
+{
+    "_id": "1k3H7cnARIzAVCsm",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Fear makes your foes weak and more vulnerable to your attacks.</p>\n<p>You gain a circumstance bonus to damage rolls for Strikes against @Compendium[pf2e.conditionitems.Frightened]{Frightened} creatures. The bonus is equal to double the target's frightened value.</p>\n<p>If you have master proficiency in Intimidation, increase the bonus to triple the target's frightened value.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "fighter"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Fearsome Brute",
+    "type": "feat"
+}

@@ -1,0 +1,48 @@
+{
+    "_id": "LnSMRHjMArCkE4w1",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your devotion to your mount manifests as a surge of positive energy.</p>\n<p>When you cast <em>@Compendium[pf2e.spells-srd.Lay on Hands]{Lay on Hands}</em> on your mount, you can restore 10 Hit Points, plus 10 for each heightened level.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 8
+        },
+        "location": "",
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "divine ally (steed)"
+                },
+                {
+                    "value": "devotion spell (lay on hands)"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "champion"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Heal Mount",
+    "type": "feat"
+}

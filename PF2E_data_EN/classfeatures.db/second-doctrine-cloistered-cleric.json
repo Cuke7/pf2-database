@@ -1,0 +1,48 @@
+{
+    "_id": "sa7BWfnyCswAvBVa",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your proficiency rank for Fortitude saves increases to expert.</p>"
+        },
+        "featType": {
+            "value": "classfeature"
+        },
+        "level": {
+            "value": 3
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "data.saves.fortitude.rank",
+                "value": 2
+            }
+        ],
+        "source": {
+            "value": ""
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "cleric"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/classes/cloistered-cleric.webp",
+    "name": "Second Doctrine (Cloistered Cleric)",
+    "type": "feat"
+}

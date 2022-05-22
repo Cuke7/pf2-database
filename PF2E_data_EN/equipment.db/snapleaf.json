@@ -1,0 +1,112 @@
+{
+    "_id": "5KYn9J1Hj4IG3Z0X",
+    "data": {
+        "activation": {
+            "condition": "",
+            "cost": 0,
+            "type": ""
+        },
+        "autoDestroy": {
+            "_deprecated": true,
+            "value": true
+        },
+        "autoUse": {
+            "_deprecated": true,
+            "value": true
+        },
+        "baseItem": null,
+        "charges": {
+            "_deprecated": true,
+            "max": 1,
+            "value": 1
+        },
+        "consumableType": {
+            "value": "talisman"
+        },
+        "consume": {
+            "_deprecated": true,
+            "value": ""
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p><strong>Usage</strong> affixed to armor</p>\n<p><strong>Activate</strong> <span class=\"pf2-icon\">R</span> Interact</p>\n<p><strong>Trigger</strong> You begin to fall</p>\n<p>This small, crystalline carving takes the shape of a tree leaf and attaches to armor or clothing with a simple strap.</p>\n<p>When you activate the <em>snapleaf</em>, you gain the benefits of <em>@Compendium[pf2e.spells-srd.Feather Fall]{Feather Fall}</em> and a 2nd-level <em>@Compendium[pf2e.spells-srd.Invisibility]{Invisibility}</em> spell for 1 minute or until you stop falling, whichever comes first.</p>"
+        },
+        "duration": {
+            "units": "",
+            "value": null
+        },
+        "equippedBulk": {
+            "value": ""
+        },
+        "hardness": 0,
+        "hp": {
+            "brokenThreshold": 0,
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 3
+        },
+        "negateBulk": {
+            "value": "0"
+        },
+        "preciousMaterial": {
+            "value": ""
+        },
+        "preciousMaterialGrade": {
+            "value": ""
+        },
+        "price": {
+            "value": {
+                "gp": 9
+            }
+        },
+        "quantity": 1,
+        "range": {
+            "long": null,
+            "units": "",
+            "value": null
+        },
+        "rules": [],
+        "size": "med",
+        "source": {
+            "value": "Pathfinder Lost Omens: Character Guide"
+        },
+        "spell": {
+            "data": null,
+            "heightenedLevel": null
+        },
+        "stackGroup": null,
+        "target": {
+            "type": "",
+            "units": "",
+            "value": null
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "consumable",
+                "illusion",
+                "magical",
+                "talisman"
+            ]
+        },
+        "usage": {
+            "value": "affixed-to-armor"
+        },
+        "uses": {
+            "autoDestroy": true,
+            "autoUse": true,
+            "max": 0,
+            "per": null,
+            "value": 0
+        },
+        "weight": {
+            "value": "-"
+        }
+    },
+    "img": "systems/pf2e/icons/equipment/consumables/talismans/snapleaf.webp",
+    "name": "Snapleaf",
+    "type": "consumable"
+}

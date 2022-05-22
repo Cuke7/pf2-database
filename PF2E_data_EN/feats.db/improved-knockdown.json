@@ -1,0 +1,44 @@
+{
+    "_id": "yTh9QwAf0hadP91j",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You can dash your foe to the ground with a single blow.</p>\n<p>When you use @Compendium[pf2e.feats-srd.Knockdown]{Knockdown}, instead of making a Strike followed by a @Compendium[pf2e.actionspf2e.Trip]{Trip}, you can attempt a single Strike. If you do and your Strike hits, you also apply the critical success effect of a Trip.</p>\n<p>If you used a two-handed melee weapon for the Strike, you can use the weapon's damage die size instead of the regular die size for the damage from a critical Trip.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Knockdown"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "fighter"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Improved Knockdown",
+    "type": "feat"
+}

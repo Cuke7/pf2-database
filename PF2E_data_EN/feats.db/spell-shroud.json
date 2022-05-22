@@ -1,0 +1,42 @@
+{
+    "_id": "DT1O80hPD7MX6oWp",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "description": {
+            "value": "<p>Your spell shrouds you in a billowing cloud. If your next action is to @Compendium[pf2e.actionspf2e.Cast a Spell]{Cast a Spell} that targets you, you surround yourself in a @Template[type:emanation|distance:15] of dense magical mist that lasts until the start of your next turn.</p>\n<p>All creatures within the cloud become @Compendium[pf2e.conditionitems.Concealed]{Concealed}, and all creatures outside the cloud are concealed to creatures within it.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Advanced Player's Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "concentrate",
+                "metamagic",
+                "sorcerer"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Spell Shroud",
+    "type": "feat"
+}

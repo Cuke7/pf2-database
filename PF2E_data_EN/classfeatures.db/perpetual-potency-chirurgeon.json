@@ -1,0 +1,41 @@
+{
+    "_id": "VS5vkqUQu4n7E28Y",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your perpetual infusions improve, allowing you to use @Compendium[pf2e.classfeatures.Quick Alchemy]{Quick Alchemy} to create more powerful items with no cost. The items you can select depend on your research field and must be in your formula book.</p>\n<p>Moderate @Compendium[pf2e.equipment-srd.Antidote (Moderate)]{Antidote} and @Compendium[pf2e.equipment-srd.Antiplague (Moderate)]{Antiplague}.</p>"
+        },
+        "featType": {
+            "value": "classfeature"
+        },
+        "level": {
+            "value": 11
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "alchemist"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/classes/perpetual-potency-chirurgeon.webp",
+    "name": "Perpetual Potency (Chirurgeon)",
+    "type": "feat"
+}

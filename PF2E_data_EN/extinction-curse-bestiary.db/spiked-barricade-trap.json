@@ -1,0 +1,175 @@
+{
+    "_id": "RVPH12vtOWMuJx0L",
+    "data": {
+        "attributes": {
+            "ac": {
+                "value": 34
+            },
+            "hardness": 22,
+            "hasHealth": true,
+            "hp": {
+                "details": "",
+                "max": 88,
+                "temp": 0,
+                "tempmax": 0,
+                "value": 88
+            },
+            "stealth": {
+                "details": "<p>(expert)</p>",
+                "value": 32
+            }
+        },
+        "creatureType": "",
+        "details": {
+            "description": "<p>Spring-loaded wedges of sharpened stone pop out of the wooden barricade.</p>",
+            "disable": "<p>DC 33 Thievery (expert) to suppress the spring mechanism for one 5-foot segment of the barricade</p>",
+            "isComplex": false,
+            "level": {
+                "value": 13
+            },
+            "reset": "<p>The trap must be manually reset by pushing the wedges back into place.</p>",
+            "routine": ""
+        },
+        "saves": {
+            "fortitude": {
+                "saveDetail": "",
+                "value": 26
+            },
+            "reflex": {
+                "saveDetail": "",
+                "value": 18
+            },
+            "will": {
+                "saveDetail": "",
+                "value": 0
+            }
+        },
+        "source": {
+            "value": "Pathfinder #154: Siege of the Dinosaurs"
+        },
+        "statusEffects": [],
+        "traits": {
+            "ci": [],
+            "di": {
+                "custom": "",
+                "selected": {},
+                "value": [
+                    "critical-hits",
+                    "object-immunities",
+                    "precision"
+                ]
+            },
+            "dr": [],
+            "dv": [
+                {
+                    "type": "fire",
+                    "value": 10
+                }
+            ],
+            "rarity": "common",
+            "size": {
+                "value": "med"
+            },
+            "traits": {
+                "custom": "",
+                "value": []
+            }
+        }
+    },
+    "img": "systems/pf2e/icons/default-icons/hazard.svg",
+    "items": [
+        {
+            "_id": "u7gy4Uzdf1tEa3xv",
+            "data": {
+                "attack": {
+                    "value": ""
+                },
+                "attackEffects": {
+                    "value": []
+                },
+                "bonus": {
+                    "value": 31
+                },
+                "damageRolls": {
+                    "54y05qkw1842odiyzpyzv": {
+                        "damage": "6d12+24",
+                        "damageType": "slashing"
+                    }
+                },
+                "description": {
+                    "value": "<p>No Multiple Attack Penalty</p>"
+                },
+                "rules": [],
+                "slug": null,
+                "source": {
+                    "value": ""
+                },
+                "traits": {
+                    "custom": "",
+                    "rarity": "common",
+                    "value": [
+                        "reach-10"
+                    ]
+                },
+                "weaponType": {
+                    "value": "melee"
+                }
+            },
+            "img": "systems/pf2e/icons/default-icons/melee.svg",
+            "name": "Spike",
+            "sort": 100000,
+            "type": "melee"
+        },
+        {
+            "_id": "sDwP6nXN8KQIiRuR",
+            "data": {
+                "actionCategory": {
+                    "value": ""
+                },
+                "actionType": {
+                    "value": "reaction"
+                },
+                "actions": {
+                    "value": null
+                },
+                "description": {
+                    "value": "<p><strong>Trigger</strong> A creature enters the area adjacent to a barrier</p>\n<hr />\n<p><strong>Effect</strong> Wedges of sharpened stone extend from the barricade in all directions and attack all creatures within 10 feet.</p>"
+                },
+                "requirements": {
+                    "value": ""
+                },
+                "rules": [],
+                "slug": null,
+                "source": {
+                    "value": ""
+                },
+                "traits": {
+                    "custom": "",
+                    "rarity": "common",
+                    "value": [
+                        "attack"
+                    ]
+                },
+                "trigger": {
+                    "value": ""
+                },
+                "weapon": {
+                    "value": ""
+                }
+            },
+            "img": "systems/pf2e/icons/actions/Reaction.webp",
+            "name": "Spike Jab",
+            "sort": 200000,
+            "type": "action"
+        }
+    ],
+    "name": "Spiked Barricade Trap",
+    "token": {
+        "disposition": 0,
+        "height": 1,
+        "img": "systems/pf2e/icons/default-icons/hazard.svg",
+        "name": "Spiked Barricade Trap",
+        "width": 1
+    },
+    "type": "hazard"
+}

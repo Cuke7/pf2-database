@@ -1,0 +1,60 @@
+{
+    "_id": "7E3sWotW56biNttA",
+    "data": {
+        "description": {
+            "value": "<div><strong>Armor</strong> leather armor</div>\n<div><strong>Weapons</strong> dagger</div>\n<div><strong>Gear</strong> adventurer's pack</div>\n<div><strong>Options</strong> @Compendium[pf2e.equipment-srd.Longbow]{longbow} with 20 @Compendium[pf2e.equipment-srd.Arrows]{arrows} (6 gp, 2 sp), @Compendium[pf2e.equipment-srd.Longsword]{longsword} and @Compendium[pf2e.equipment-srd.Steel Shield]{steel shield} (3 gp), 2 @Compendium[pf2e.equipment-srd.Shortsword]{shortswords} (1 gp, 8 sp), @Compendium[pf2e.equipment-srd.Snare Kit]{snare kit} (5 gp)</div>"
+        },
+        "equippedBulk": {
+            "value": ""
+        },
+        "items": {
+            "1s5n9": {
+                "id": "rQWaJhI5Bko5x14Z",
+                "img": "systems/pf2e/icons/equipment/weapons/dagger.webp",
+                "isContainer": false,
+                "items": {},
+                "name": "Dagger",
+                "pack": "pf2e.equipment-srd",
+                "quantity": 1
+            },
+            "ha88j": {
+                "id": "2req0jGaxz8hScdB",
+                "img": "systems/pf2e/icons/equipment/adventuring-gear/adventurers-pack.webp",
+                "isContainer": true,
+                "items": {},
+                "name": "Adventurer's Pack",
+                "pack": "pf2e.equipment-srd",
+                "quantity": 1
+            },
+            "scw2h": {
+                "id": "4tIVTg9wj56RrveA",
+                "img": "systems/pf2e/icons/equipment/armor/leather-armor.webp",
+                "isContainer": false,
+                "items": {},
+                "name": "Leather Armor",
+                "pack": "pf2e.equipment-srd",
+                "quantity": 1
+            }
+        },
+        "price": {
+            "value": {
+                "gp": 3,
+                "sp": 7
+            }
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "ranger"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/equipment/adventuring-gear/classkit-ranger.webp",
+    "name": "Class Kit (Ranger)",
+    "type": "kit"
+}

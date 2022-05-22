@@ -1,0 +1,45 @@
+{
+    "_id": "aiHbS8FGNYAQBF62",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your healing energies are infused with bounding energy. A creature that recovers Hit Points from your <em>@Compendium[pf2e.spells-srd.Lay on Hands]{Lay on Hands}</em> gains a +10-foot status bonus to its Speed until the end of its next turn.</p>\n<p>@Compendium[pf2e.spell-effects.Spell Effect: Accelerating Touch]{Spell Effect: Accelerating Touch}</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 4
+        },
+        "location": "",
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "devotion spell (lay on hands)"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Advanced Player's Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "champion"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Accelerating Touch",
+    "type": "feat"
+}

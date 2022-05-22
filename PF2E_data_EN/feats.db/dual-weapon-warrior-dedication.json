@@ -1,0 +1,47 @@
+{
+    "_id": "YhnCjiHNlS3nCeoC",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You're exceptional in your use of two weapons. You gain the @Compendium[pf2e.feats-srd.Double Slice]{Double Slice} fighter feat. This serves as Double Slice for the purpose of meeting prerequisites.</p>\n<p><strong>Special</strong> You can't select another dedication feat until you gain two other feats from the dual-weapon warrior archetype.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 2
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "GrantItem",
+                "uuid": "Compendium.pf2e.feats-srd.Double Slice"
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Advanced Player's Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "archetype",
+                "dedication"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Dual-Weapon Warrior Dedication",
+    "type": "feat"
+}

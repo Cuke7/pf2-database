@@ -1,0 +1,115 @@
+{
+    "_id": "Zmh4ynfnCtwKeAYl",
+    "data": {
+        "ability": {
+            "value": ""
+        },
+        "area": {
+            "areaType": "",
+            "value": null
+        },
+        "areasize": {
+            "value": ""
+        },
+        "category": {
+            "value": "focus"
+        },
+        "components": {
+            "material": false,
+            "somatic": true,
+            "verbal": false
+        },
+        "cost": {
+            "value": ""
+        },
+        "damage": {
+            "value": {
+                "0": {
+                    "type": {
+                        "categories": [],
+                        "value": "healing"
+                    },
+                    "value": "1d8"
+                }
+            }
+        },
+        "description": {
+            "value": "<p>You heal an animal's wounds, restoring 1d8 Hit Points to the target. The number of actions spent Casting this Spell determines its effect.</p>\n<ul>\n<li><span class=\"pf2-icon\">1</span> <strong>somatic</strong> The spell has a range of touch.</li>\n<li><span class=\"pf2-icon\">2</span> <strong>somatic, verbal</strong> The spell has a range of 30 feet and restores an additional 8 Hit Points to the target.</li>\n</ul>\n<hr />\n<p><strong>Heightened (+1)</strong> The amount of healing increases by 1d8, and the additional healing for the 2-action version increases by 8.</p>"
+        },
+        "duration": {
+            "value": ""
+        },
+        "hasCounteractCheck": {
+            "value": false
+        },
+        "heightening": {
+            "damage": {
+                "0": "1d8"
+            },
+            "interval": 1,
+            "type": "interval"
+        },
+        "level": {
+            "value": 1
+        },
+        "location": {
+            "value": ""
+        },
+        "materials": {
+            "value": ""
+        },
+        "prepared": {
+            "value": ""
+        },
+        "primarycheck": {
+            "value": ""
+        },
+        "range": {
+            "value": "varies"
+        },
+        "rules": [],
+        "save": {
+            "basic": "",
+            "value": ""
+        },
+        "school": {
+            "value": "necromancy"
+        },
+        "secondarycasters": {
+            "value": ""
+        },
+        "secondarycheck": {
+            "value": ""
+        },
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "spellType": {
+            "value": "heal"
+        },
+        "sustained": {
+            "value": false
+        },
+        "target": {
+            "value": "1 willing living animal creature"
+        },
+        "time": {
+            "value": "1 to 2"
+        },
+        "traditions": {
+            "value": []
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "uncommon",
+            "value": [
+                "druid",
+                "healing",
+                "positive"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/spells/heal-animal.webp",
+    "name": "Heal Animal",
+    "type": "spell"
+}

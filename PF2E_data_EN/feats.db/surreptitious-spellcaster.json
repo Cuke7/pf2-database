@@ -1,0 +1,50 @@
+{
+    "_id": "fHWYICk6cSePr30c",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You've learned that it pays for a Pathfinder to be able to cast spells without being noticed. You gain the @Compendium[pf2e.feats-srd.Conceal Spell]{Conceal Spell} wizard class feat, though it's not a wizard feat for you. You also gain a +2 circumstance bonus to Stealth checks to Conceal a Spell and to Deception checks to conceal verbal components.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 8
+        },
+        "location": "",
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Spellmaster Dedication "
+                }
+            ]
+        },
+        "rules": [
+            {
+                "key": "GrantItem",
+                "uuid": "Compendium.pf2e.feats-srd.Conceal Spell"
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Lost Omens: Character Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "archetype"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Surreptitious Spellcaster",
+    "type": "feat"
+}

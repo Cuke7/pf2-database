@@ -1,0 +1,62 @@
+{
+    "_id": "l4QUaedYofnfXig0",
+    "data": {
+        "description": {
+            "value": "<p>Granted by @Compendium[pf2e.feats-srd.Multishot Stance]{Multishot Stance}.</p>\n<p>While you are in this stance, your penalty for Double Shot is reduced to -1, or -2 if you add the extra action to make three Strikes. If you move from your position, this stance ends.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "encounter",
+            "value": -1
+        },
+        "level": {
+            "value": 16
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "label": "Double Shot (Multishot Stance)",
+                "predicate": {
+                    "all": [
+                        "ranged",
+                        "double-shot"
+                    ]
+                },
+                "selector": "attack",
+                "value": -1
+            },
+            {
+                "key": "FlatModifier",
+                "label": "Triple Shot (Multishot Stance)",
+                "predicate": {
+                    "all": [
+                        "ranged",
+                        "triple-shot"
+                    ]
+                },
+                "selector": "attack",
+                "value": -2
+            }
+        ],
+        "source": {
+            "value": ""
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "img": "systems/pf2e/icons/equipment/consumables/ammunition/sleep-arrow.webp",
+    "name": "Stance: Multishot Stance",
+    "type": "effect"
+}

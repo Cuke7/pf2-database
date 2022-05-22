@@ -1,0 +1,51 @@
+{
+    "_id": "hxCqQPjlyVI57vQt",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You can see in the darkness as easily as a psychopomp. You gain @Compendium[pf2e.ancestryfeatures.Darkvision]{Darkvision}.</p>\n<p><strong>Special</strong> You can select this feat only at 1st level, and you can't retrain into or out of this feat.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 1
+        },
+        "location": null,
+        "onlyLevel1": true,
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "low-light vision"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "key": "Sense",
+                "selector": "darkvision"
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Advanced Player's Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "duskwalker"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Gravesight",
+    "type": "feat"
+}

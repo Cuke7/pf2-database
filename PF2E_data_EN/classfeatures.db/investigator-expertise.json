@@ -1,0 +1,48 @@
+{
+    "_id": "PFvB79O2VFdiAeSj",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You've refined your investigative techniques to an exceptional degree. Your circumstance bonus from @Compendium[pf2e.actionspf2e.Pursue a Lead]{Pursue a Lead} increases to +2. Your proficiency rank for your investigator class DC increases to expert.</p>\n<p>@Compendium[pf2e.feat-effects.Effect: Clue In (Expertise)]{Effect: Clue In (Expertise)}</p>\n<p>If you have @Compendium[pf2e.feats-srd.Detective's Readiness]{Detective's Readiness}, @Compendium[pf2e.feat-effects.Effect: Clue In (Detective's Readiness, Expertise)]{Effect: Clue In (Detective's Readiness, Expertise)}</p>"
+        },
+        "featType": {
+            "value": "classfeature"
+        },
+        "level": {
+            "value": 9
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "data.attributes.classDC.rank",
+                "value": 2
+            }
+        ],
+        "source": {
+            "value": ""
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "investigator"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/classes/investigator-expertise.webp",
+    "name": "Investigator Expertise",
+    "type": "feat"
+}

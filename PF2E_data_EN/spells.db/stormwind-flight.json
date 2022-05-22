@@ -1,0 +1,99 @@
+{
+    "_id": "gSFg9zKwgcNZLMEs",
+    "data": {
+        "ability": {
+            "value": ""
+        },
+        "area": {
+            "areaType": "",
+            "value": null
+        },
+        "areasize": {
+            "value": ""
+        },
+        "category": {
+            "value": "focus"
+        },
+        "components": {
+            "material": false,
+            "somatic": true,
+            "verbal": true
+        },
+        "cost": {
+            "value": ""
+        },
+        "damage": {
+            "value": {}
+        },
+        "description": {
+            "value": "<p>Powerful winds carry you smoothly through the air, giving you a fly Speed equal to your Speed. When this spell's duration would end, if you're still flying, you float to the ground, as <em>@Compendium[pf2e.spells-srd.Feather Fall]{Feather Fall}</em>.</p>\n<p>@Compendium[pf2e.spell-effects.Spell Effect: Stormwind Flight]{Spell Effect: Stormwind Flight}</p>\n<hr />\n<p><strong>Heightened (6th)</strong> When you fly using stormwind flight, you don't count flying against the wind as difficult terrain.</p>"
+        },
+        "duration": {
+            "value": "1 minute"
+        },
+        "hasCounteractCheck": {
+            "value": false
+        },
+        "level": {
+            "value": 4
+        },
+        "location": {
+            "value": ""
+        },
+        "materials": {
+            "value": ""
+        },
+        "prepared": {
+            "value": ""
+        },
+        "primarycheck": {
+            "value": ""
+        },
+        "range": {
+            "value": ""
+        },
+        "rules": [],
+        "save": {
+            "basic": "",
+            "value": ""
+        },
+        "school": {
+            "value": "transmutation"
+        },
+        "secondarycasters": {
+            "value": ""
+        },
+        "secondarycheck": {
+            "value": ""
+        },
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "spellType": {
+            "value": "utility"
+        },
+        "sustained": {
+            "value": false
+        },
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "2"
+        },
+        "traditions": {
+            "value": []
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "uncommon",
+            "value": [
+                "air",
+                "druid"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/spells/stormwind-flight.webp",
+    "name": "Stormwind Flight",
+    "type": "spell"
+}

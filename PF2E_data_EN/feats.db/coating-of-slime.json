@@ -1,0 +1,55 @@
+{
+    "_id": "pr7e8xzrl8OLp6U9",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>An acidic ooze coats your limbs. Your unarmed attacks deal an additional [[/r {1d4}[persistent,acid]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Acid Damage} on a critical hit.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 9
+        },
+        "location": null,
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "Note",
+                "outcome": [
+                    "criticalSuccess"
+                ],
+                "predicate": {
+                    "all": [
+                        "unarmed"
+                    ]
+                },
+                "selector": "damage",
+                "text": "<p class='compact-text'>{item|name} @Localize[PF2E.SpecificRule.Fleshwarp.CoatingOfSlime.CriticalHit]</p>"
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Lost Omens: Ancestry Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "fleshwarp"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Coating Of Slime",
+    "type": "feat"
+}

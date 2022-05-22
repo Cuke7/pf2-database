@@ -1,0 +1,45 @@
+{
+    "_id": "DtazfQJaRRe46Sej",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Whenever possible, you follow the serene path and encourage others to do the same. You can cast <em>@Compendium[pf2e.spells-srd.Sanctuary]{Sanctuary}</em> once per day as a 1st-level divine innate spell.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 5
+        },
+        "location": "",
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Idyllkin"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Lost Omens: Ancestry Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "aasimar"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Tranquil Sanctuary",
+    "type": "feat"
+}

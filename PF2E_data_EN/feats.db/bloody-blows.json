@@ -1,0 +1,58 @@
+{
+    "_id": "JvTSfyCkG70bmY7f",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your lethal unarmed attacks leave bloody gouges or cause severe internal bleeding. When you critically hit with a Strike using an unarmed attack that isn't nonlethal, the target takes @Localize[PF2E.PersistentDamage.Bleed1d4.success].</p>\n<p>This can be because you're taking the penalty to use a fist for a lethal attack or because you have an unarmed attack without the nonlethal trait due to @Compendium[pf2e.feats-srd.Iron Fists]{Iron Fists}, @Compendium[pf2e.feats-srd.Tusks (Orc)]{Tusks}, or a similar ability.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 5
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "Note",
+                "outcome": [
+                    "criticalSuccess"
+                ],
+                "predicate": {
+                    "all": [
+                        "unarmed"
+                    ],
+                    "not": [
+                        "nonlethal"
+                    ]
+                },
+                "selector": "strike-damage",
+                "text": "<p class='compact-text'><strong>{item|name}</strong> When you critically hit with a Strike using an unarmed attack that isn't nonlethal, the target takes @Localize[PF2E.PersistentDamage.Bleed1d4.success]."
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Advanced Player's Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "orc"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Bloody Blows",
+    "type": "feat"
+}

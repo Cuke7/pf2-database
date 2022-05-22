@@ -1,0 +1,45 @@
+{
+    "_id": "FAUqvzfZDpRG44q0",
+    "data": {
+        "actionCategory": {
+            "value": "defensive"
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your spines grow back much faster than other shisks. You can use the @Compendium[pf2e.actionspf2e.Barbed Quills]{Barbed Quills} reaction once every 10 minutes.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 5
+        },
+        "location": "",
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "quillcoat shisk heritage"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Lost Omens: The Mwangi Expanse"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "shisk"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/default-icons/feats.webp",
+    "name": "Renewing Quills",
+    "type": "feat"
+}

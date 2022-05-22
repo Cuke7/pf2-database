@@ -1,0 +1,44 @@
+{
+    "_id": "I3EMC4pqkEWrodpq",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You're skilled at navigating bogs and marshes, even for a paddler shoony. You gain a swim Speed of 15 feet.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 5
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "paddler shoony"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder #153: Life's Long Shadow"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "shoony"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Practiced Paddler",
+    "type": "feat"
+}

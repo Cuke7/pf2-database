@@ -1,0 +1,115 @@
+{
+    "_id": "pkcr9w5x6bKzl3om",
+    "data": {
+        "badge": null,
+        "description": {
+            "value": "<p><strong>Requirements</strong> You are unarmored.</p>\n<p>You relax your posture and loosen your joints, allowing yourself to move with incredible fluidity. You can make stinging lash attacks that deal 1d8 slashing damage. These attacks are in the brawling group, and have the finesse, nonlethal, reach, and unarmed traits.</p>\n<p>While in Jellyfish Stance, you gain a +2 circumstance bonus to Reflex saves and on checks to @Compendium[pf2e.actionspf2e.Escape]{Escape} and @Compendium[pf2e.actionspf2e.Squeeze]{Squeeze}.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "encounter",
+            "value": -1
+        },
+        "level": {
+            "value": 1
+        },
+        "rules": [
+            {
+                "category": "unarmed",
+                "damage": {
+                    "base": {
+                        "damageType": "slashing",
+                        "dice": 1,
+                        "die": "d8"
+                    }
+                },
+                "group": "brawling",
+                "key": "Strike",
+                "label": "Stinging Lash",
+                "range": null,
+                "traits": [
+                    "unarmed",
+                    "reach",
+                    "finesse",
+                    "nonlethal"
+                ]
+            },
+            {
+                "key": "FlatModifier",
+                "label": "Jellyfish Stance",
+                "selector": "reflex",
+                "type": "circumstance",
+                "value": 2
+            },
+            {
+                "key": "FlatModifier",
+                "label": "Escape",
+                "predicate": {
+                    "all": [
+                        "action:escape"
+                    ]
+                },
+                "selector": "athletics",
+                "type": "circumstance",
+                "value": 2
+            },
+            {
+                "key": "FlatModifier",
+                "label": "Escape",
+                "predicate": {
+                    "any": [
+                        "action:escape"
+                    ]
+                },
+                "selector": "acrobatics",
+                "type": "circumstance",
+                "value": 2
+            },
+            {
+                "key": "FlatModifier",
+                "label": "Escape",
+                "predicate": {
+                    "all": [
+                        "action:escape",
+                        "unarmed"
+                    ]
+                },
+                "selector": "attack",
+                "type": "circumstance",
+                "value": 2
+            },
+            {
+                "key": "FlatModifier",
+                "label": "Squeeze",
+                "predicate": {
+                    "any": [
+                        "action:squeeze"
+                    ]
+                },
+                "selector": "acrobatics",
+                "type": "circumstance",
+                "value": 2
+            }
+        ],
+        "source": {
+            "value": ""
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "img": "systems/pf2e/icons/spells/tempest-of-shades.webp",
+    "name": "Stance: Jellyfish Stance",
+    "type": "effect"
+}

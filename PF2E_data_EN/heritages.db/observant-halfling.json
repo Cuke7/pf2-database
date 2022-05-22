@@ -1,0 +1,42 @@
+{
+    "_id": "Lp7ywxabmm88Gei6",
+    "data": {
+        "ancestry": {
+            "name": "Halfling",
+            "uuid": "Compendium.pf2e.ancestries.GgZAHbrjnzWOZy2v"
+        },
+        "description": {
+            "value": "<p>Your finely honed senses quickly clue you in to danger or trickery. You gain a +1 circumstance bonus to your Perception DC, though not to your Perception checks.</p>"
+        },
+        "rules": [
+            {
+                "domain": "all",
+                "key": "RollOption",
+                "option": "observantHalfling",
+                "toggleable": true
+            },
+            {
+                "key": "FlatModifier",
+                "predicate": {
+                    "all": [
+                        "observantHalfling"
+                    ]
+                },
+                "selector": "perception",
+                "type": "circumstance",
+                "value": 1
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Lost Omens: Character Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "img": "systems/pf2e/icons/features/ancestry/observant-halfling.webp",
+    "name": "Observant Halfling",
+    "type": "heritage"
+}

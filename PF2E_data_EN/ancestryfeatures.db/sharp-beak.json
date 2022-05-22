@@ -1,0 +1,63 @@
+{
+    "_id": "qJD3PJdoSXFrZEwr",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>With your Sharp Beak, you are never without a weapon. You have a beak unarmed attack that deals [[/r {1d6}[piercing]]]{1d6 piercing damage}. Your beak is in the brawling weapon group and has the finesse and unarmed traits.</p>"
+        },
+        "featType": {
+            "value": "ancestryfeature"
+        },
+        "level": {
+            "value": 0
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "category": "unarmed",
+                "damage": {
+                    "base": {
+                        "damageType": "piercing",
+                        "dice": 1,
+                        "die": "d6"
+                    }
+                },
+                "group": "brawling",
+                "key": "Strike",
+                "label": "PF2E.BattleForm.Attack.Beak",
+                "range": null,
+                "traits": [
+                    "finesse",
+                    "unarmed"
+                ]
+            }
+        ],
+        "source": {
+            "value": ""
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "uncommon",
+            "selected": {
+                "tengu": "Tengu"
+            },
+            "value": [
+                "tengu"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/ancestry/sharp-beak.webp",
+    "name": "Sharp Beak",
+    "type": "feat"
+}

@@ -1,0 +1,48 @@
+{
+    "_id": "0mJTp4LdEHBLInoe",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your training and your deity protect you from harm. Your proficiency rank in unarmored defense increases to expert.</p>"
+        },
+        "featType": {
+            "value": "classfeature"
+        },
+        "level": {
+            "value": 13
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "data.martial.unarmored.rank",
+                "value": 2
+            }
+        ],
+        "source": {
+            "value": ""
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "cleric"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/classes/divine-defense.webp",
+    "name": "Divine Defense",
+    "type": "feat"
+}

@@ -1,0 +1,68 @@
+{
+    "_id": "uXEp1rPU5fY4OiBf",
+    "data": {
+        "description": {
+            "value": "<p>Granted by @Compendium[pf2e.equipment-srd.Clandestine Cloak (Greater)]{Clandestine Cloak (Greater)}</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "unlimited",
+            "value": -1
+        },
+        "level": {
+            "value": 10
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "stealth",
+                "type": "item",
+                "value": 2
+            },
+            {
+                "key": "FlatModifier",
+                "label": "Clandestine Cloak, Greater (Impersonate forgettable person)",
+                "predicate": {
+                    "any": [
+                        "impersonate"
+                    ]
+                },
+                "selector": "deception",
+                "type": "item",
+                "value": 2
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "diplomacy",
+                "type": "item",
+                "value": -1
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "intimidation",
+                "type": "item",
+                "value": -1
+            }
+        ],
+        "source": {
+            "value": ""
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "img": "systems/pf2e/icons/equipment/worn-items/other-worn-items/clandestine-cloak.webp",
+    "name": "Effect: Clandestine Cloak (Greater)",
+    "type": "effect"
+}

@@ -1,0 +1,61 @@
+{
+    "_id": "PiUe3tpv7UVtnfvS",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You craft flawless creations with great efficiency. Whenever you roll a success at a Crafting check to make an item of the type you chose with @Compendium[pf2e.feats-srd.Specialty Crafting]{Specialty Crafting}, you get a critical success instead.</p>"
+        },
+        "featType": {
+            "value": "skill"
+        },
+        "level": {
+            "value": 7
+        },
+        "location": "",
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "master in Crafting"
+                },
+                {
+                    "value": "Specialty Crafting"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "key": "Note",
+                "predicate": {
+                    "all": [
+                        "action:craft",
+                        "speciality"
+                    ]
+                },
+                "selector": "crafting",
+                "text": "<p class='compact-text'><strong>{item|name}</strong> Whenever you roll a success at a Crafting check to make an item of the type you chose with Specialty Crafting, you get a critical success instead.</p>"
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "general",
+                "skill"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Impeccable Crafting",
+    "type": "feat"
+}

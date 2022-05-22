@@ -1,0 +1,110 @@
+{
+    "_id": "Hnc7eGi7vyZenAIm",
+    "data": {
+        "ability": {
+            "value": ""
+        },
+        "area": {
+            "areaType": "",
+            "value": null
+        },
+        "areasize": {
+            "value": ""
+        },
+        "category": {
+            "value": "spell"
+        },
+        "components": {
+            "material": false,
+            "somatic": false,
+            "verbal": true
+        },
+        "cost": {
+            "value": ""
+        },
+        "damage": {
+            "value": {
+                "0": {
+                    "applyMod": true,
+                    "type": {
+                        "categories": [],
+                        "value": "healing"
+                    },
+                    "value": "4d8"
+                }
+            }
+        },
+        "description": {
+            "value": "<p><strong>Trigger</strong> A living creature within range would die.</p>\n<hr />\n<p>Your blessing revives a creature at the moment of its death. You prevent the target from @Compendium[pf2e.conditionitems.Dying]{Dying} and restore Hit Points to the target equal to 4d8 plus your spellcasting ability modifier. You can't use breath of life if the triggering effect was disintegrate or a death effect.</p>"
+        },
+        "duration": {
+            "value": ""
+        },
+        "hasCounteractCheck": {
+            "value": false
+        },
+        "level": {
+            "value": 5
+        },
+        "location": {
+            "value": ""
+        },
+        "materials": {
+            "value": ""
+        },
+        "prepared": {
+            "value": ""
+        },
+        "primarycheck": {
+            "value": ""
+        },
+        "range": {
+            "value": "60 feet"
+        },
+        "rules": [],
+        "save": {
+            "basic": "",
+            "value": ""
+        },
+        "school": {
+            "value": "necromancy"
+        },
+        "secondarycasters": {
+            "value": ""
+        },
+        "secondarycheck": {
+            "value": ""
+        },
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "spellType": {
+            "value": "heal"
+        },
+        "sustained": {
+            "value": false
+        },
+        "target": {
+            "value": "the triggering creature"
+        },
+        "time": {
+            "value": "reaction"
+        },
+        "traditions": {
+            "value": [
+                "divine"
+            ]
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "healing",
+                "positive"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/spells/breath-of-life.webp",
+    "name": "Breath of Life",
+    "type": "spell"
+}

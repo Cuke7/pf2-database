@@ -1,0 +1,214 @@
+{
+    "_id": "UkmM3bjBoBld0uzS",
+    "data": {
+        "attributes": {
+            "ac": {
+                "value": 23
+            },
+            "hardness": 13,
+            "hasHealth": true,
+            "hp": {
+                "details": "",
+                "max": 52,
+                "temp": 0,
+                "tempmax": 0,
+                "value": 52
+            },
+            "stealth": {
+                "details": "<p>(trained) or DC 23 (expert) to spot the glyph</p>",
+                "value": 10
+            }
+        },
+        "creatureType": "",
+        "details": {
+            "description": "<p>An invisible magical glyph on the guillotine's blade detects living creatures in the room, which causes the guillotine to fly off its hinges and attack.</p>",
+            "disable": "<p>DC 20 Thievery (trained) to erase the glyph (which requires a successful unarmed attack roll if the blade is already active) or <em>@Compendium[pf2e.spells-srd.Dispel Magic]{Dispel Magic}</em> (3rd level; counteract DC 20) to counteract it. The trap has a secret bypass known only to Ralso and Pratchett: as long as the guillotine can see a creature in the room touching thumb and pinky together with an empty hand, it remains dormant.</p>",
+            "isComplex": true,
+            "level": {
+                "value": 5
+            },
+            "reset": "<p>After 1 minute, the trap deactivates, though the door remains locked. The trap rearms itself each day at dawn.</p>",
+            "routine": "<p>(1 action) The blade @Compendium[pf2e.actionspf2e.Fly]{Flies} up to 20 feet and Strikes any creatures whose squares it passes through. It cannot target the same creature more than once per round. The blade cannot be grappled and doesn't take a multiple attack penalty.</p>"
+        },
+        "saves": {
+            "fortitude": {
+                "saveDetail": "",
+                "value": 9
+            },
+            "reflex": {
+                "saveDetail": "",
+                "value": 17
+            },
+            "will": {
+                "saveDetail": "",
+                "value": 0
+            }
+        },
+        "source": {
+            "value": "Pathfinder #157: Devil at the Dreaming Palace"
+        },
+        "statusEffects": [],
+        "traits": {
+            "ci": [],
+            "di": {
+                "custom": "",
+                "selected": {},
+                "value": [
+                    "precision",
+                    "critical-hits",
+                    "object-immunities"
+                ]
+            },
+            "dr": [],
+            "dv": [],
+            "rarity": "common",
+            "size": {
+                "value": "med"
+            },
+            "traits": {
+                "custom": "",
+                "value": [
+                    "magical",
+                    "trap"
+                ]
+            }
+        }
+    },
+    "img": "systems/pf2e/icons/default-icons/hazard.svg",
+    "items": [
+        {
+            "_id": "dDvj6Zila83uSsch",
+            "data": {
+                "actionCategory": {
+                    "value": ""
+                },
+                "actionType": {
+                    "value": "reaction"
+                },
+                "actions": {
+                    "value": null
+                },
+                "description": {
+                    "value": "<p><strong>Trigger</strong> A living creature enters the room</p>\n<hr />\n<p><strong>Effect</strong> One round after a creature enters the room, the door to the room slams shut and locks (two <span data-pf2-action=\"pickALock\" data-pf2-dc=\"20\" data-pf2-glyph=\"D\" data-pf2-show-dc=\"gm\">Thievery</span> checks to pick), and the guillotine blade detaches from its housing and begins flying around the room as the trap rolls initiative.</p>"
+                },
+                "requirements": {
+                    "value": ""
+                },
+                "rules": [],
+                "slug": null,
+                "source": {
+                    "value": ""
+                },
+                "traits": {
+                    "custom": "",
+                    "rarity": "common",
+                    "value": [
+                        "abjuration",
+                        "arcane",
+                        "attack"
+                    ]
+                },
+                "trigger": {
+                    "value": ""
+                },
+                "weapon": {
+                    "value": ""
+                }
+            },
+            "img": "systems/pf2e/icons/actions/Reaction.webp",
+            "name": "Flying Blade",
+            "sort": 100000,
+            "type": "action"
+        },
+        {
+            "_id": "JJiuY4l7O3Ujlg8S",
+            "data": {
+                "actionCategory": {
+                    "value": ""
+                },
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "description": {
+                    "value": "<p>fly 20 feet</p>"
+                },
+                "requirements": {
+                    "value": ""
+                },
+                "rules": [],
+                "slug": null,
+                "source": {
+                    "value": ""
+                },
+                "traits": {
+                    "custom": "",
+                    "rarity": "common",
+                    "value": []
+                },
+                "trigger": {
+                    "value": ""
+                },
+                "weapon": {
+                    "value": ""
+                }
+            },
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Speed",
+            "sort": 200000,
+            "type": "action"
+        },
+        {
+            "_id": "pUqjSa0MTNAe7fLX",
+            "data": {
+                "attack": {
+                    "value": ""
+                },
+                "attackEffects": {
+                    "custom": "",
+                    "value": []
+                },
+                "bonus": {
+                    "value": 15
+                },
+                "damageRolls": {
+                    "1eff89shq9ki0ol8wqn3": {
+                        "damage": "2d8+7",
+                        "damageType": "slashing"
+                    }
+                },
+                "description": {
+                    "value": ""
+                },
+                "rules": [],
+                "slug": null,
+                "source": {
+                    "value": ""
+                },
+                "traits": {
+                    "custom": "",
+                    "rarity": "common",
+                    "value": []
+                },
+                "weaponType": {
+                    "value": "melee"
+                }
+            },
+            "img": "systems/pf2e/icons/default-icons/melee.svg",
+            "name": "Guillotine Blade",
+            "sort": 300000,
+            "type": "melee"
+        }
+    ],
+    "name": "Flying Guillotine",
+    "token": {
+        "disposition": 0,
+        "height": 1,
+        "img": "systems/pf2e/icons/default-icons/hazard.svg",
+        "name": "Flying Guillotine",
+        "width": 1
+    },
+    "type": "hazard"
+}

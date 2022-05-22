@@ -1,0 +1,38 @@
+{
+    "_id": "V7FYIgphCCkYsEXF",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p><strong>Moderate Curse</strong> The sun shines its light on everything you say.</p>\n<p>You become unable to tell @Compendium[pf2e.actionspf2e.Lie]{Lies}, and if you attempt to do so, you instead compulsively blurt out the truth on the matter in question. You are still able to withhold information or lie by omission.</p>"
+        },
+        "featType": {
+            "value": "curse"
+        },
+        "level": {
+            "value": 0
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": ""
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "img": "systems/pf2e/icons/deity/Sarenrae.webp",
+    "name": "Sarenrae - Moderate Curse",
+    "type": "feat"
+}

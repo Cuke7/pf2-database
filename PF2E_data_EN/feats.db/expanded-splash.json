@@ -1,0 +1,72 @@
+{
+    "_id": "gyVcJfZTmBytLsXq",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You can throw bombs at just the right trajectory to create especially large and powerful explosions. When you throw an alchemical bomb and that bomb has the splash trait, you can add your Intelligence modifier to the bomb's usual splash damage, and it deals splash damage to every creature within 10 feet of the target.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 10
+        },
+        "location": "",
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Calculated Splash"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "label": "Expanded Splash",
+                "predicate": {
+                    "all": [
+                        "alchemical",
+                        "splash",
+                        "bomb"
+                    ]
+                },
+                "selector": "strike-damage",
+                "type": "untyped",
+                "value": "@actor.abilities.int.mod"
+            },
+            {
+                "key": "Note",
+                "predicate": {
+                    "all": [
+                        "alchemical",
+                        "bomb",
+                        "splash"
+                    ]
+                },
+                "selector": "strike-damage",
+                "text": "<p class='compact-text'><strong>{item|name}</strong> The bomb deals splash damage to every creature within 10 feet of the target.</p>"
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "alchemist"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Expanded Splash",
+    "type": "feat"
+}

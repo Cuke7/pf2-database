@@ -1,0 +1,45 @@
+{
+    "_id": "etJW0w4CiSFgMrWP",
+    "data": {
+        "description": {
+            "value": "<p>Granted by activating @Compendium[pf2e.equipment-srd.Aeon Stone (Orange Prism)]{Aeon Stone (Orange Prism)} when the last spell you cast was a Primal spell.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "unlimited",
+            "value": -1
+        },
+        "level": {
+            "value": 16
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "label": "Aeon Stone (Orange Prism)",
+                "selector": "nature",
+                "type": "item",
+                "value": 2
+            }
+        ],
+        "source": {
+            "value": ""
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "img": "systems/pf2e/icons/equipment/worn-items/other-worn-items/aeon-stone-orange-prism.webp",
+    "name": "Effect: Aeon Stone (Orange Prism) (Nature)",
+    "type": "effect"
+}

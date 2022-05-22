@@ -1,0 +1,111 @@
+{
+    "_id": "3M7iB9tfrsWTccZ0",
+    "data": {
+        "activation": {
+            "condition": "",
+            "cost": 0,
+            "type": ""
+        },
+        "autoDestroy": {
+            "_deprecated": true,
+            "value": true
+        },
+        "autoUse": {
+            "_deprecated": true,
+            "value": true
+        },
+        "baseItem": null,
+        "charges": {
+            "_deprecated": true,
+            "max": 0,
+            "value": 0
+        },
+        "consumableType": {
+            "value": "catalyst"
+        },
+        "consume": {
+            "_deprecated": true,
+            "value": ""
+        },
+        "containerId": "null",
+        "description": {
+            "value": "<p><strong>Activate</strong> Cast a Spell</p>\n<hr />\n<p>An astringent aroma from rare succulent plants wafts off these soothing cloth patches. Adding this material component to a heal spell bestows an additional 15 temporary Hit Points to one target healed by the spell. These temporary Hit Points last for 1 minute.</p>\n<p>@Compendium[pf2e.equipment-effects.Equipment Effect: Greater Healer's Gel]{Equipment Effect: Greater Healer's Gel}</p>"
+        },
+        "duration": {
+            "units": "",
+            "value": null
+        },
+        "equippedBulk": {
+            "value": ""
+        },
+        "hardness": 0,
+        "hp": {
+            "brokenThreshold": 0,
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 13
+        },
+        "negateBulk": {
+            "value": "0"
+        },
+        "preciousMaterial": {
+            "value": null
+        },
+        "preciousMaterialGrade": {
+            "value": null
+        },
+        "price": {
+            "value": {
+                "gp": 500
+            }
+        },
+        "quantity": 1,
+        "range": {
+            "long": null,
+            "units": "",
+            "value": null
+        },
+        "rules": [],
+        "size": "med",
+        "source": {
+            "value": "Pathfinder Secrets of Magic"
+        },
+        "spell": {
+            "data": null,
+            "heightenedLevel": null
+        },
+        "stackGroup": "",
+        "target": {
+            "type": "",
+            "units": "",
+            "value": null
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "catalyst",
+                "consumable",
+                "magical"
+            ]
+        },
+        "usage": {
+            "value": "held-in-one-hand"
+        },
+        "uses": {
+            "autoDestroy": true,
+            "autoUse": true,
+            "max": 0,
+            "per": null,
+            "value": 0
+        },
+        "weight": {
+            "value": "L"
+        }
+    },
+    "img": "systems/pf2e/icons/equipment/alchemical-items/alchemical-tools/skinitch-salve.webp",
+    "name": "Healer's Gel (Greater)",
+    "type": "consumable"
+}

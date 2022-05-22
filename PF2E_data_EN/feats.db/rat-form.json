@@ -1,0 +1,44 @@
+{
+    "_id": "SuEmijj909yxmYOO",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "description": {
+            "value": "<p>You can transform into an innocuous-looking rat to scout an area or slip through tight spaces. You gain the effects of a 1st-level <em>@Compendium[pf2e.spells-srd.Pest Form]{Pest Form}</em> spell, except that you must assume the battle form of a Tiny rat.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 9
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Advanced Player's Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "concentrate",
+                "polymorph",
+                "primal",
+                "ratfolk",
+                "transmutation"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Rat Form",
+    "type": "feat"
+}

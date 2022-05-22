@@ -1,0 +1,46 @@
+{
+    "_id": "WHOCaVobY7N3UTtA",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>The divine might provided by your bloodline fiows through you. You gain an additional spell slot of your highest level, which you can use only to cast your choice of <em>@Compendium[pf2e.spells-srd.Heal]{Heal}</em> or <em>@Compendium[pf2e.spells-srd.Harm]{Harm}</em>. You can cast either of these spells using that spell slot, even if they aren't in your spell repertoire.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 4
+        },
+        "location": "",
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "bloodline that grants divine spells"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "divine",
+                "sorcerer"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Divine Evolution",
+    "type": "feat"
+}

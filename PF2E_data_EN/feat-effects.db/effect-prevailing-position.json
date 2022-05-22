@@ -1,0 +1,52 @@
+{
+    "_id": "COsdMolZraFRTdP8",
+    "data": {
+        "description": {
+            "value": "<p>Granted by using @Compendium[pf2e.feats-srd.Prevailing Position]{Prevailing Position}</p>\n<p>You leave the stance you were in, gaining a +4 circumstance bonus to the triggering saving throw or to your AC against the triggering attack.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "unlimited",
+            "value": -1
+        },
+        "level": {
+            "value": 16
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "label": "Prevailing Position",
+                "selector": "ac",
+                "type": "circumstance",
+                "value": 4
+            },
+            {
+                "key": "FlatModifier",
+                "label": "Prevailing Position",
+                "selector": "reflex",
+                "type": "circumstance",
+                "value": 4
+            }
+        ],
+        "source": {
+            "value": ""
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "img": "systems/pf2e/icons/spells/elemental-tempest.webp",
+    "name": "Effect: Prevailing Position",
+    "type": "effect"
+}

@@ -1,0 +1,71 @@
+{
+    "_id": "AP9PXXaP4a2sMdt2",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You never fail to strike down the ever-expanding reaches of chaos. All your weapon and unarmed Strikes deal 1 additional lawful damage and have the lawful and magical traits.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 13
+        },
+        "location": null,
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Lawbringer"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "damageType": "lawful",
+                "key": "FlatModifier",
+                "predicate": {
+                    "all": [
+                        "target:trait:chaotic"
+                    ]
+                },
+                "selector": "strike-damage",
+                "value": 1
+            },
+            {
+                "definition": {},
+                "key": "AdjustStrike",
+                "mode": "add",
+                "property": "traits",
+                "value": "lawful"
+            },
+            {
+                "definition": {},
+                "key": "AdjustStrike",
+                "mode": "add",
+                "property": "traits",
+                "value": "magical"
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Lost Omens: Ancestry Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "aasimar"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Enforced Order",
+    "type": "feat"
+}

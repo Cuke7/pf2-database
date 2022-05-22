@@ -1,0 +1,47 @@
+{
+    "_id": "YeyOqNFKaeuOTiJr",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "description": {
+            "value": "<p>You refuse to let foes past your guard. As long as you are in this stance, when you critically hit with an @Compendium[pf2e.feats-srd.Attack of Opportunity (Fighter)]{Attack of Opportunity} triggered by a move action, you disrupt that move action.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 8
+        },
+        "location": "",
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Attack of Opportunity"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Lost Omens: Character Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "uncommon",
+            "value": [
+                "champion",
+                "fighter",
+                "stance"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Impassable Wall Stance",
+    "type": "feat"
+}

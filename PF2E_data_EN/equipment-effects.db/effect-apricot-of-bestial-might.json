@@ -1,0 +1,55 @@
+{
+    "_id": "WQ0DxUzMgAvo0zy9",
+    "data": {
+        "description": {
+            "value": ""
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "unlimited",
+            "value": -1
+        },
+        "level": {
+            "value": 1
+        },
+        "rules": [
+            {
+                "category": "unarmed",
+                "damage": {
+                    "base": {
+                        "damageType": "piercing",
+                        "dice": 1,
+                        "die": "d10"
+                    }
+                },
+                "key": "Strike",
+                "label": "Tusk",
+                "range": null,
+                "traits": [
+                    "unarmed",
+                    "deadly-d10"
+                ]
+            }
+        ],
+        "source": {
+            "value": ""
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "img": "systems/pf2e/icons/equipment/consumables/other-consumables/panacea-fruit.webp",
+    "name": "Effect: Apricot of Bestial Might",
+    "type": "effect"
+}

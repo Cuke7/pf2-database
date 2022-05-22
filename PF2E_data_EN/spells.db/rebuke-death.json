@@ -1,0 +1,118 @@
+{
+    "_id": "4nHYSMHito1GUXlm",
+    "data": {
+        "ability": {
+            "value": ""
+        },
+        "area": {
+            "areaType": "emanation",
+            "value": "20"
+        },
+        "areasize": {
+            "value": "20-foot emanation"
+        },
+        "category": {
+            "value": "focus"
+        },
+        "components": {
+            "focus": false,
+            "material": false,
+            "somatic": true,
+            "verbal": false
+        },
+        "cost": {
+            "value": ""
+        },
+        "damage": {
+            "value": {
+                "0": {
+                    "applyMod": false,
+                    "type": {
+                        "categories": [],
+                        "subtype": "",
+                        "value": "healing"
+                    },
+                    "value": "3d6"
+                }
+            }
+        },
+        "description": {
+            "value": "<p>You snatch creatures from the jaws of death. You can spend 1 to 3 actions Casting this Spell, and you can target a number of creatures equal to the actions spent. Each target regains 3d6 Hit Points. If the target had the @Compendium[pf2e.conditionitems.Dying]{Dying} condition, coming back from Dying due to this healing doesn't increase its @Compendium[pf2e.conditionitems.Wounded]{Wounded} condition.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> Increase the healing by 1d6.</p>"
+        },
+        "duration": {
+            "value": ""
+        },
+        "hasCounteractCheck": {
+            "value": false
+        },
+        "heightening": {
+            "damage": {
+                "0": "1d6"
+            },
+            "interval": 1,
+            "type": "interval"
+        },
+        "level": {
+            "value": 4
+        },
+        "location": {
+            "value": ""
+        },
+        "materials": {
+            "value": ""
+        },
+        "prepared": {
+            "value": ""
+        },
+        "primarycheck": {
+            "value": ""
+        },
+        "range": {
+            "value": ""
+        },
+        "rules": [],
+        "save": {
+            "basic": "",
+            "value": ""
+        },
+        "school": {
+            "value": "necromancy"
+        },
+        "secondarycasters": {
+            "value": ""
+        },
+        "secondarycheck": {
+            "value": ""
+        },
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "spellType": {
+            "value": "heal"
+        },
+        "sustained": {
+            "value": false
+        },
+        "target": {
+            "value": "1 living creature per action spent to cast this spell"
+        },
+        "time": {
+            "value": "1 to 3"
+        },
+        "traditions": {
+            "value": []
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "uncommon",
+            "value": [
+                "cleric",
+                "healing",
+                "positive"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/spells/rebuke-death.webp",
+    "name": "Rebuke Death",
+    "type": "spell"
+}

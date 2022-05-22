@@ -1,0 +1,57 @@
+{
+    "_id": "N7dTFxpjXGn4ddq8",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p><strong>(Druid)</strong> You infuse your familiar with additional primal energy, increasing its abilities.</p>\n<p><strong>(Sorcerer, Wizard, Witch)</strong> You infuse your familiar with additional magical energy.</p>\n<p><strong>(Magus)</strong> You infuse your familiar with more magical energy.</p>\n<hr />\n<p>You can select four familiar or master abilities each day, instead of two.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 2
+        },
+        "location": "",
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "a familiar"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "data.attributes.familiarAbilities.value",
+                "priority": 9,
+                "value": 4
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Advanced Player's Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "druid",
+                "magus",
+                "sorcerer",
+                "witch",
+                "wizard"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Enhanced Familiar",
+    "type": "feat"
+}

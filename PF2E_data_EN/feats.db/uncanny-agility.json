@@ -1,0 +1,46 @@
+{
+    "_id": "qpVB9F9DURW4Lti1",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You have near-supernatural poise that lets you move swiftly across the most unsteady surfaces. You gain the @Compendium[pf2e.feats-srd.Steady Balance]{Steady Balance} skill feat. You can Step into difficult terrain caused by uneven ground, such as a rocky field or hilly incline.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 1
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "GrantItem",
+                "uuid": "Compendium.pf2e.feats-srd.Steady Balance"
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Lost Omens: Ancestry Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "tengu"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Uncanny Agility",
+    "type": "feat"
+}

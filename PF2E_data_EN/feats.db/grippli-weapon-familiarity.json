@@ -1,0 +1,84 @@
+{
+    "_id": "CvtJ98EZvBGSCLOX",
+    "data": {
+        "actionCategory": {
+            "value": "interaction"
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You've trained with weapons ideally suited to marshes and dense forests. You are trained with @Compendium[pf2e.equipment-srd.Blowgun]{Blowguns}, @Compendium[pf2e.equipment-srd.Hatchet]{Hatchets}, @Compendium[pf2e.equipment-srd.Scythe]{Scythes}, @Compendium[pf2e.equipment-srd.Shortbow]{Shortbows}, and @Compendium[pf2e.equipment-srd.Composite Shortbow]{Composite Shortbows}.</p>\n<p>You also gain access to all uncommon grippli weapons. For the purpose of determining your proficiency, martial grippli weapons are simple weapons, and advanced grippli weapons are martial weapons.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 1
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "data.martial.weapon-base-blowgun.rank",
+                "value": 1
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "data.martial.weapon-base-hatchet.rank",
+                "value": 1
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "data.martial.weapon-base-sycthe.rank",
+                "value": 1
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "data.martial.weapon-base-shortbow.rank",
+                "value": 1
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "data.martial.weapon-base-composite-shortbow.rank",
+                "value": 1
+            },
+            {
+                "definition": {
+                    "all": [
+                        "weapon:trait:grippli",
+                        "weapon:category:martial"
+                    ]
+                },
+                "key": "MartialProficiency",
+                "label": "PF2E.SpecificRule.MartialProficiency.MartialGrippliWeapons",
+                "sameAs": "simple",
+                "slug": "martial-grippli-weapons"
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Lost Omens: The Mwangi Expanse"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "grippli"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Grippli Weapon Familiarity",
+    "type": "feat"
+}

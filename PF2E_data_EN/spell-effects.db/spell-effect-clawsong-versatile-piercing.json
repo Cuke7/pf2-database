@@ -1,0 +1,47 @@
+{
+    "_id": "g4E9l4uA62LcRBJS",
+    "data": {
+        "badge": null,
+        "description": {
+            "value": "<p>The target's claw attack gains the versatile (piercing) trait.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": true,
+            "unit": "minutes",
+            "value": 1
+        },
+        "level": {
+            "value": 2
+        },
+        "rules": [
+            {
+                "damageType": "slashing",
+                "key": "DamageDice",
+                "selector": "claw-damage",
+                "traits": [
+                    "versatile-p"
+                ]
+            }
+        ],
+        "source": {
+            "value": "Pathfinder #171: Hurricane's Howl"
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "img": "systems/pf2e/icons/spells/clawsong.webp",
+    "name": "Spell Effect: Clawsong (Versatile Piercing)",
+    "type": "effect"
+}

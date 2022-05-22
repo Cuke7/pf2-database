@@ -1,0 +1,13 @@
+{
+    "_id": "0GU2sdy3r2MeC56x",
+    "actorIds": [],
+    "author": "4rlSA43v1xPa1vsy",
+    "command": "game.pf2e.actions.restForTheNight({ actors: [token?.actor ?? actor ?? game.user.character].filter((actor) => actor) })",
+    "img": "icons/svg/sleep.svg",
+    "name": "Rest for the Night",
+    "permission": {
+        "default": 1
+    },
+    "scope": "global",
+    "type": "script"
+}

@@ -1,0 +1,46 @@
+{
+    "_id": "k31sg0xBIwvkfWyg",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>To you, crocodilians, giant lizards, and dinosaurs are loyal steeds, not monsters. You gain the @Compendium[pf2e.feats-srd.Ride]{Ride} feat, even if you don't meet the prerequisites. You gain a +1 circumstance bonus to Nature checks to Handle an Animal as long as the animal is a reptile, dinosaur, or even a non-sapient dragon.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 1
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "GrantItem",
+                "uuid": "Compendium.pf2e.feats-srd.Ride"
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Lost Omens: Ancestry Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "lizardfolk"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Reptile Rider",
+    "type": "feat"
+}

@@ -1,0 +1,73 @@
+{
+    "_id": "QWPFf6NOObxaZJwW",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You've learned every possible edge to use against your foes.</p>\n<p>When you use @Compendium[pf2e.actionspf2e.Hunt Prey]{Hunt Prey} you can gain a different hunter's edge benefit instead of the one you selected at 1st level.</p>\n<p>This feat grants @Compendium[pf2e.classfeatures.Flurry]{Flurry}.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 18
+        },
+        "location": "",
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "hunter's edge"
+                },
+                {
+                    "value": "masterful hunter"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "key": "MultipleAttackPenalty",
+                "predicate": {
+                    "all": [
+                        "agile",
+                        "hunted-prey"
+                    ]
+                },
+                "selector": "attack",
+                "value": -2
+            },
+            {
+                "key": "MultipleAttackPenalty",
+                "predicate": {
+                    "all": [
+                        "hunted-prey"
+                    ],
+                    "not": [
+                        "agile"
+                    ]
+                },
+                "selector": "attack",
+                "value": -3
+            }
+        ],
+        "source": {
+            "value": ""
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "ranger"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Manifold Edge (Flurry)",
+    "type": "feat"
+}

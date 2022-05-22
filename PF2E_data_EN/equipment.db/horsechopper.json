@@ -1,0 +1,118 @@
+{
+    "_id": "YnwEttFE1bJacLDh",
+    "data": {
+        "MAP": {
+            "value": ""
+        },
+        "baseItem": "horsechopper",
+        "bonus": {
+            "value": 0
+        },
+        "bonusDamage": {
+            "value": 0
+        },
+        "category": "martial",
+        "containerId": null,
+        "damage": {
+            "damageType": "slashing",
+            "dice": 1,
+            "die": "d8",
+            "value": ""
+        },
+        "description": {
+            "value": "<p>Created by goblins to battle horses, this weapon is essentially a long shaft ending in a blade with a large hook.</p>"
+        },
+        "equippedBulk": {
+            "value": ""
+        },
+        "group": "polearm",
+        "hardness": 0,
+        "hp": {
+            "brokenThreshold": 0,
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "negateBulk": {
+            "value": "0"
+        },
+        "potencyRune": {
+            "value": null
+        },
+        "preciousMaterial": {
+            "value": ""
+        },
+        "preciousMaterialGrade": {
+            "value": ""
+        },
+        "price": {
+            "value": {
+                "sp": 9
+            }
+        },
+        "property1": {
+            "critDamage": "",
+            "critDamageType": "",
+            "critDice": null,
+            "critDie": "",
+            "criticalConditionType": "",
+            "criticalConditionValue": null,
+            "damageType": "",
+            "dice": null,
+            "die": "",
+            "strikeConditionType": "",
+            "strikeConditionValue": null,
+            "value": ""
+        },
+        "propertyRune1": {
+            "value": ""
+        },
+        "propertyRune2": {
+            "value": ""
+        },
+        "propertyRune3": {
+            "value": ""
+        },
+        "propertyRune4": {
+            "value": ""
+        },
+        "quantity": 1,
+        "range": null,
+        "reload": {
+            "value": ""
+        },
+        "rules": [],
+        "size": "med",
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "splashDamage": {
+            "value": null
+        },
+        "stackGroup": null,
+        "strikingRune": {
+            "value": ""
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "uncommon",
+            "value": [
+                "goblin",
+                "reach",
+                "trip",
+                "versatile-p"
+            ]
+        },
+        "usage": {
+            "value": "held-in-two-hands"
+        },
+        "weight": {
+            "value": "2"
+        }
+    },
+    "img": "systems/pf2e/icons/equipment/weapons/horsechopper.webp",
+    "name": "Horsechopper",
+    "type": "weapon"
+}

@@ -1,0 +1,334 @@
+{
+    "_id": "kapPWNOxXOLcd4VF",
+    "data": {
+        "abilities": {
+            "cha": {
+                "mod": -5
+            },
+            "con": {
+                "mod": 3
+            },
+            "dex": {
+                "mod": -2
+            },
+            "int": {
+                "mod": -5
+            },
+            "str": {
+                "mod": 0
+            },
+            "wis": {
+                "mod": 0
+            }
+        },
+        "attributes": {
+            "ac": {
+                "details": "",
+                "value": 9
+            },
+            "allSaves": {
+                "value": ""
+            },
+            "hp": {
+                "details": "",
+                "max": 35,
+                "temp": 0,
+                "value": 35
+            },
+            "initiative": {
+                "ability": "perception"
+            },
+            "perception": {
+                "value": 3
+            },
+            "speed": {
+                "otherSpeeds": [
+                    {
+                        "type": "climb",
+                        "value": "5"
+                    },
+                    {
+                        "type": "swim",
+                        "value": "10"
+                    }
+                ],
+                "value": "5"
+            }
+        },
+        "details": {
+            "alignment": {
+                "value": "N"
+            },
+            "blurb": "",
+            "creatureType": "Ooze",
+            "level": {
+                "value": 1
+            },
+            "privateNotes": "",
+            "publicNotes": "<p>An amoeba swarm consists of thousands of individual single-celled organisms held together by acrid-smelling slime. As ravenous as they are mindless, amoeba swarms use no tactics.</p>",
+            "source": {
+                "value": "Pathfinder Bestiary 2"
+            }
+        },
+        "resources": {},
+        "saves": {
+            "fortitude": {
+                "saveDetail": "",
+                "value": 8
+            },
+            "reflex": {
+                "saveDetail": "",
+                "value": 1
+            },
+            "will": {
+                "saveDetail": "",
+                "value": 3
+            }
+        },
+        "traits": {
+            "attitude": {
+                "value": "hostile"
+            },
+            "ci": [],
+            "di": {
+                "custom": "",
+                "value": [
+                    "acid",
+                    "critical-hits",
+                    "mental",
+                    "precision",
+                    "unconscious",
+                    "visual"
+                ]
+            },
+            "dr": [
+                {
+                    "label": "Slashing",
+                    "type": "slashing",
+                    "value": "4"
+                },
+                {
+                    "label": "Piercing",
+                    "type": "piercing",
+                    "value": "4"
+                }
+            ],
+            "dv": [
+                {
+                    "label": "Area Damage",
+                    "type": "area-damage",
+                    "value": "3"
+                },
+                {
+                    "label": "Fire",
+                    "type": "fire",
+                    "value": "3"
+                },
+                {
+                    "label": "Splash Damage",
+                    "type": "splash-damage",
+                    "value": "3"
+                }
+            ],
+            "languages": {
+                "custom": "",
+                "selected": [],
+                "value": []
+            },
+            "rarity": "common",
+            "senses": {
+                "value": "motion sense 60 feet, no vision"
+            },
+            "size": {
+                "value": "lg"
+            },
+            "traits": {
+                "custom": "",
+                "value": [
+                    "amphibious",
+                    "mindless",
+                    "ooze",
+                    "swarm"
+                ]
+            }
+        }
+    },
+    "img": "systems/pf2e/icons/default-icons/npc.svg",
+    "items": [
+        {
+            "_id": "fO8E1sNI1DHDU5Dq",
+            "data": {
+                "actionCategory": {
+                    "value": "interaction"
+                },
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "description": {
+                    "value": "<p>An amoeba swarm can sense nearby creatures through vibration and air or water movement.</p>"
+                },
+                "requirements": {
+                    "value": ""
+                },
+                "rules": [],
+                "slug": null,
+                "source": {
+                    "value": ""
+                },
+                "traits": {
+                    "custom": "",
+                    "rarity": "common",
+                    "value": []
+                },
+                "trigger": {
+                    "value": ""
+                },
+                "weapon": {
+                    "value": ""
+                }
+            },
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Motion Sense 60 feet",
+            "sort": 100000,
+            "type": "action"
+        },
+        {
+            "_id": "DsM9HKBiut2efUZZ",
+            "data": {
+                "actionCategory": {
+                    "value": "offensive"
+                },
+                "actionType": {
+                    "value": "action"
+                },
+                "actions": {
+                    "value": 1
+                },
+                "description": {
+                    "value": "<p>The amoeba swarm slithers over each creature in its space, dealing [[/r {1d6}[acid]]]{1d6 acid damage} (@Check[type:reflex|dc:14|basic:true] save). A creature that critically fails is @Compendium[pf2e.conditionitems.Sickened]{Sickened 1}.</p>"
+                },
+                "requirements": {
+                    "value": ""
+                },
+                "rules": [],
+                "slug": null,
+                "source": {
+                    "value": ""
+                },
+                "traits": {
+                    "custom": "",
+                    "rarity": "common",
+                    "value": []
+                },
+                "trigger": {
+                    "value": ""
+                },
+                "weapon": {
+                    "value": ""
+                }
+            },
+            "img": "systems/pf2e/icons/actions/OneAction.webp",
+            "name": "Swarming Slither",
+            "sort": 200000,
+            "type": "action"
+        },
+        {
+            "_id": "zEg1F3xL2SCNwVj7",
+            "data": {
+                "actionCategory": {
+                    "value": "offensive"
+                },
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "description": {
+                    "value": "<p>An amoeba's acid damages only organic material-not metal, stone, or other inorganic substances.</p>"
+                },
+                "requirements": {
+                    "value": ""
+                },
+                "rules": [],
+                "slug": null,
+                "source": {
+                    "value": ""
+                },
+                "traits": {
+                    "custom": "",
+                    "rarity": "common",
+                    "value": []
+                },
+                "trigger": {
+                    "value": ""
+                },
+                "weapon": {
+                    "value": ""
+                }
+            },
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Weak Acid",
+            "sort": 300000,
+            "type": "action"
+        },
+        {
+            "_id": "1yoCf7iLNmn7SD5D",
+            "data": {
+                "description": {
+                    "value": ""
+                },
+                "mod": {
+                    "value": 1
+                },
+                "proficient": {
+                    "value": 0
+                },
+                "rules": [
+                    {
+                        "key": "FlatModifier",
+                        "label": "PF2E.SkillVariant.Water",
+                        "predicate": {
+                            "all": [
+                                "terrain:water"
+                            ]
+                        },
+                        "selector": "stealth",
+                        "value": 2
+                    }
+                ],
+                "slug": null,
+                "source": {
+                    "value": ""
+                },
+                "traits": {
+                    "custom": "",
+                    "rarity": "common",
+                    "value": []
+                },
+                "variants": {
+                    "0": {
+                        "label": "+3 in Water",
+                        "options": "terrain:water"
+                    }
+                }
+            },
+            "img": "systems/pf2e/icons/default-icons/lore.svg",
+            "name": "Stealth",
+            "sort": 400000,
+            "type": "lore"
+        }
+    ],
+    "name": "Amoeba Swarm",
+    "token": {
+        "disposition": -1,
+        "height": 2,
+        "img": "systems/pf2e/icons/default-icons/npc.svg",
+        "name": "Amoeba Swarm",
+        "width": 2
+    },
+    "type": "npc"
+}

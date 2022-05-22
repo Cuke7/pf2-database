@@ -1,0 +1,45 @@
+{
+    "_id": "8PMxl8o5YXET58Pn",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your lungs are infused with the resilience of iron. Treat the result of your save against an inhaled poison as one degree of success better than you rolled. Additionally, you gain the @Compendium[pf2e.adventure-specific-actions.Exhale Poison]{Exhale Poison} ability.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 14
+        },
+        "location": null,
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Golem Grafter Dedication"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder #153: Life's Long Shadow"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "archetype"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Iron Lung",
+    "type": "feat"
+}

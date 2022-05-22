@@ -1,0 +1,66 @@
+{
+    "_id": "F0MYBfiyOD8YHq5t",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You understand the fundamental elements of nature such that you can imbue them into your body and manifest as a living embodiment of those elements.</p>\n<p>Add the forms in <em>@Compendium[pf2e.spells-srd.Elemental Form]{Elemental Form}</em> to your <em>wild shape</em> list.</p>\n<p>Whenever you're polymorphed into another form using <em>wild shape</em>, you gain resistance 5 to fire.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 10
+        },
+        "location": "",
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Wild Shape"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "key": "Resistance",
+                "predicate": {
+                    "all": [
+                        "spell-effect-wild-shape"
+                    ],
+                    "any": [
+                        "battle-form",
+                        "spell-effect-humanoid-form"
+                    ],
+                    "not": [
+                        "spell-effect-elemental-form-air",
+                        "spell-effect-elemental-form-earth",
+                        "spell-effect-elemental-form-fire",
+                        "spell-effect-elemental-form-water"
+                    ]
+                },
+                "type": "fire",
+                "value": 5
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "druid"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Elemental Shape",
+    "type": "feat"
+}

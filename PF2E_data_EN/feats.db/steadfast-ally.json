@@ -1,0 +1,44 @@
+{
+    "_id": "s0OqtQOeYOGkBMYG",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your presence alone is enough to provide your allies with emotional support. You can use the @Compendium[pf2e.actionspf2e.Aid]{Aid} reaction to grant a bonus to another creature's Will saving throw even when you haven't prepared to help.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 13
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Loyal Empath"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder #153: Life's Long Shadow"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "shoony"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Steadfast Ally",
+    "type": "feat"
+}

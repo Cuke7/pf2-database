@@ -1,0 +1,45 @@
+{
+    "_id": "hkU92nqUYBQLQSMt",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day.</p>\n<p><strong>Trigger</strong> Your turn begins.</p>\n<hr />\n<p>You explode in flame. Enemies in a @Template[type:emanation|distance:20] take [[/r {7d6}[fire]]]{7d6 fire damage} (basic Reflex save using your class DC or spell DC, whichever is higher). Allies in the area are @Compendium[pf2e.conditionitems.Quickened]{Quickened} for 1 round and can use the additional action to Strike or Stride.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 17
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Lost Omens: Ancestry Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "concentrate",
+                "evocation",
+                "fire",
+                "ifrit",
+                "primal"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Blazing Aura",
+    "type": "feat"
+}

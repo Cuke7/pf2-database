@@ -1,0 +1,127 @@
+{
+    "_id": "qy53ECS2agScE7G3",
+    "data": {
+        "attributes": {
+            "ac": {
+                "value": 0
+            },
+            "hardness": 0,
+            "hasHealth": true,
+            "hp": {
+                "details": "",
+                "max": 10,
+                "temp": 0,
+                "value": 10
+            },
+            "stealth": {
+                "details": "",
+                "value": 33
+            }
+        },
+        "creatureType": "",
+        "details": {
+            "description": "<p>A hidden glyph suddenly lights up and dominates the mind of any creature not bearing the sigil of Kharnas the Angel-Binder.</p>",
+            "disable": "<p>Disable DC 46 Thievery (legendary) to destroy the glyph, DC 42 Arcana (master) to harmlessly divert the glyph's power, or <em>@Compendium[pf2e.spells-srd.Dispel Magic]{Dispel Magic}</em> (7th level; counteract DC 38) to counteract the glyph</p>",
+            "isComplex": false,
+            "level": {
+                "value": 17
+            },
+            "reset": "<p>The glyph can affect two creatures before it deactivates for 5 minutes and automatically resets.</p>",
+            "routine": null
+        },
+        "saves": {
+            "fortitude": {
+                "saveDetail": "",
+                "value": 0
+            },
+            "reflex": {
+                "saveDetail": "",
+                "value": 0
+            },
+            "will": {
+                "saveDetail": "",
+                "value": 0
+            }
+        },
+        "source": {
+            "value": "Pathfinder #162: Ruins of the Radiant Siege"
+        },
+        "statusEffects": [],
+        "traits": {
+            "ci": [],
+            "di": {
+                "custom": "",
+                "selected": {},
+                "value": []
+            },
+            "dr": [],
+            "dv": [],
+            "rarity": "common",
+            "size": {
+                "value": "med"
+            },
+            "traits": {
+                "custom": "",
+                "value": [
+                    "magical",
+                    "trap"
+                ]
+            }
+        }
+    },
+    "img": "systems/pf2e/icons/default-icons/hazard.svg",
+    "items": [
+        {
+            "_id": "HGIf9bu9E1RjDKaF",
+            "data": {
+                "actionCategory": {
+                    "value": ""
+                },
+                "actionType": {
+                    "value": "reaction"
+                },
+                "actions": {
+                    "value": null
+                },
+                "description": {
+                    "value": "<p><strong>Trigger</strong> A creature who doesn't bear the sigil of Kharnas attempts to open the door</p>\n<hr />\n<p><strong>Effect</strong> A surge of the Radiant Spark's latent power courses through the glyph and washes over the triggering creature. If the creature is undead, it takes [[/r {10d10}[positive]]]{10d10 positive damage}. If it's living, it instead regains [[/r {10d10}[healing]]]{10d10 Hit Points}. It then must succeed at a @Check[type:will|dc:40|traits:incapcitation,mental] save or be affected by a 6th-level <em>@Compendium[pf2e.spells-srd.Dominate]{Dominate}</em> spell.</p>\n<p>The spell commands the affected creature to attack the nearest creature who doesn't bear the sigil of Kharnas.</p>"
+                },
+                "requirements": {
+                    "value": ""
+                },
+                "rules": [],
+                "slug": null,
+                "source": {
+                    "value": ""
+                },
+                "traits": {
+                    "custom": "",
+                    "rarity": "common",
+                    "value": [
+                        "arcane",
+                        "enchantment"
+                    ]
+                },
+                "trigger": {
+                    "value": ""
+                },
+                "weapon": {
+                    "value": ""
+                }
+            },
+            "img": "systems/pf2e/icons/actions/Reaction.webp",
+            "name": "Dominate",
+            "sort": 100000,
+            "type": "action"
+        }
+    ],
+    "name": "Kharnas's Lesser Glyph",
+    "token": {
+        "disposition": 0,
+        "height": 1,
+        "img": "systems/pf2e/icons/default-icons/hazard.svg",
+        "name": "Kharnas's Lesser Glyph",
+        "width": 1
+    },
+    "type": "hazard"
+}

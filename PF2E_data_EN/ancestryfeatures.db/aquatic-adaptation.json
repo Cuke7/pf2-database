@@ -1,0 +1,49 @@
+{
+    "_id": "AzGJN1wwLFaLJIeo",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your reptilian biology allows you to hold your breath for a long time. You gain the @Compendium[pf2e.feats-srd.Breath Control]{Breath Control} general feat as a bonus feat.</p>"
+        },
+        "featType": {
+            "value": "ancestryfeature"
+        },
+        "level": {
+            "value": 0
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "GrantItem",
+                "uuid": "Compendium.pf2e.feats-srd.Breath Control"
+            }
+        ],
+        "source": {
+            "value": ""
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "selected": {
+                "lizardfolk": "Lizardfolk"
+            },
+            "value": [
+                "lizardfolk"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/ancestry//aquatic-adaptation.webp",
+    "name": "Aquatic Adaptation",
+    "type": "feat"
+}

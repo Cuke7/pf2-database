@@ -1,0 +1,41 @@
+{
+    "_id": "TRw4oBZBFZG96jKO",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your inherent magic pervades your entire being. All your Strikes are magical, whether with unarmed attacks or weapons.</p>"
+        },
+        "featType": {
+            "value": "ancestryfeature"
+        },
+        "level": {
+            "value": 0
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": ""
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "sprite"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "name": "Magical Strikes",
+    "type": "feat"
+}

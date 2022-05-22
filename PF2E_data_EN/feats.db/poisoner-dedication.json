@@ -1,0 +1,70 @@
+{
+    "_id": "y7DDs03GtDnmhxFp",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You make a point of always having a few toxins near at hand-you never know when some arsenic or the like might prove useful.</p>\n<p>You gain the basic alchemy benefits, though they can be used only for alchemical poisons. You gain batches of infused reagents per day equal to your level. Your advanced alchemy level for creating these is 1 and doesn't increase on its own.</p>\n<p><strong>Special</strong> You can't select another dedication feat until you have gained at least two other feats from the poisoner archetype.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "trained in Crafting"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "isAlchemical": true,
+                "isDailyPrep": true,
+                "key": "CraftingEntry",
+                "label": "PF2E.SpecificRule.DedicationCraftingEntry.Poisoner",
+                "maxItemLevel": 1,
+                "requiredTraits": [
+                    [
+                        "alchemical",
+                        "poison"
+                    ]
+                ],
+                "selector": "poisoner"
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "data.resources.crafting.infusedReagents.max",
+                "value": "@actor.level"
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "Compendium.pf2e.feats-srd.Alchemical Crafting"
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Advanced Player's Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "archetype",
+                "dedication"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Poisoner Dedication",
+    "type": "feat"
+}

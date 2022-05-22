@@ -1,0 +1,69 @@
+{
+    "_id": "zs2FFGI88zB7EaBT",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Others' attempts to scare you often grant you insights about your would-be bullies that you can then exploit. If you roll a success on a saving throw against a fear effect, you get a critical success instead, and the source of the fear effect is @Compendium[pf2e.conditionitems.Flat-Footed]{Flat-Footed} to you until the end of your next turn.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 1
+        },
+        "location": null,
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "umbral gnome heritage"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "adjustment": {
+                    "success": "one-degree-better"
+                },
+                "key": "AdjustDegreeOfSuccess",
+                "predicate": {
+                    "all": [
+                        "fear"
+                    ]
+                },
+                "selector": "saving-throw",
+                "type": "save"
+            },
+            {
+                "key": "Note",
+                "predicate": {
+                    "any": [
+                        "fear"
+                    ]
+                },
+                "selector": "saving-throw",
+                "text": "{item|name} @Localize[PF2E.SpecificRule.Gnome.GrimInsight.SaveNote]"
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Lost Omens: Character Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "gnome"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Grim Insight",
+    "type": "feat"
+}

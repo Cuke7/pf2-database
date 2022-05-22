@@ -1,0 +1,60 @@
+{
+    "_id": "PLz1oIEGJojVUBsW",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You gain 3 additional Hit Points for each fighter archetype class feat you have. As you continue selecting fighter archetype class feats, you continue to gain additional Hit Points in this way.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 4
+        },
+        "location": "",
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Fighter Dedication"
+                },
+                {
+                    "value": "class granting no more Hit Points per level than 8 + your Constitution modifier"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "add",
+                "path": "data.custom.modifiers.fighter-dedication-count",
+                "value": 1
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "hp",
+                "value": "3 * @actor.data.data.custom.modifiers.fighter-dedication-count"
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "archetype"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Fighter Resiliency",
+    "type": "feat"
+}

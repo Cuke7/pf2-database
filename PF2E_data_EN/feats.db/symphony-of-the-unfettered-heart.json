@@ -1,0 +1,40 @@
+{
+    "_id": "VJl2xHDKr0HxTUrs",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You learn the <em>@Compendium[pf2e.spells-srd.Symphony of the Unfettered Heart]{Symphony of the Unfettered Heart}</em> composition spell, which enables you to protect an ally against incapacitating conditions.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Advanced Player's Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "bard"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Symphony Of The Unfettered Heart",
+    "type": "feat"
+}

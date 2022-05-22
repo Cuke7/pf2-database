@@ -1,0 +1,41 @@
+{
+    "_id": "Zz7isE8Td2xDWqR8",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You've picked up a few magical tricks. During your daily preparations, choose <em>@Compendium[pf2e.spells-srd.Daze]{Daze}</em>, <em>@Compendium[pf2e.spells-srd.Forbidding Ward]{Forbidding Ward}</em>, or <em>@Compendium[pf2e.spells-srd.Ghost Sound]{Ghost Sound}</em>. Until your next daily preparations, you can cast this cantrip as a divine innate spell at will. A cantrip is heightened to a spell level equal to half your level rounded up.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 1
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Lost Omens: Ancestry Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "kitsune"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Kitsune Spell Familiarity",
+    "type": "feat"
+}

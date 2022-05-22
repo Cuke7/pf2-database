@@ -1,0 +1,69 @@
+{
+    "_id": "lyD6eXl4wc7Pq61q",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You've compiled a vast repository of information that touches on nearly every subject. You are trained in Loremaster Lore, a special Lore skill that can be used only to @Compendium[pf2e.actionspf2e.Recall Knowledge (Lore)]{Recall Knowledge}, but on any topic.</p>\n<p>If you have legendary proficiency in a skill used to Decipher Writing, you gain expert proficiency in Loremaster Lore, but you can't increase your proficiency rank in Loremaster Lore by any other means.</p>\n<p>You can take feats in the loremaster's additional feats entry even if you don't meet the @Compendium[pf2e.classfeatures.Enigma]{enigma muse} prerequisite.</p>\n<p>If you have the @Compendium[pf2e.feats-srd.Bardic Lore]{Bardic Lore} class feat, you gain a +1 circumstance bonus to skill checks with Bardic Lore.</p>\n<p><strong>Special</strong> You can't select another dedication feat until you have gained two other feats from the loremaster archetype.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 2
+        },
+        "location": "",
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "trained in at least one skill to Decipher Writing"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "predicate": {
+                    "any": [
+                        "bardicKnowledge"
+                    ]
+                },
+                "selector": "bardic",
+                "type": "circumstance",
+                "value": 1
+            },
+            {
+                "key": "FlatModifier",
+                "predicate": {
+                    "any": [
+                        "bardicKnowledge"
+                    ]
+                },
+                "selector": "bardic-lore",
+                "type": "circumstance",
+                "value": 1
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Advanced Player's Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "archetype",
+                "dedication"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Loremaster Dedication",
+    "type": "feat"
+}

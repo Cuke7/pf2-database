@@ -1,0 +1,44 @@
+{
+    "_id": "sL1hHxrHdMNIZVAd",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>When you fall, you take only half the normal damage and don't land @Compendium[pf2e.conditionitems.Prone]{Prone}.</p>"
+        },
+        "featType": {
+            "value": "ancestryfeature"
+        },
+        "level": {
+            "value": 0
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": ""
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "selected": {
+                "catfolk": "Catfolk"
+            },
+            "value": [
+                "catfolk"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/ancestry/land-on-your-feet.webp",
+    "name": "Land on Your Feet",
+    "type": "feat"
+}

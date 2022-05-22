@@ -1,0 +1,44 @@
+{
+    "_id": "chmQgMamyaZX90Tc",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You've learned those tidbits of magic that are most conducive to furthering your acquisition and transmission of knowledge. You gain <em>@Compendium[pf2e.spells-srd.Guidance]{Guidance}</em>, <em>@Compendium[pf2e.spells-srd.Message]{Message}</em><em>,</em> and <em>@Compendium[pf2e.spells-srd.Sigil]{Sigil}</em> as innate occult cantrips.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Loremaster Dedication"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Advanced Player's Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "archetype"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Magical Edification",
+    "type": "feat"
+}

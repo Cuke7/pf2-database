@@ -1,0 +1,45 @@
+{
+    "_id": "Cgk4By6gEomD2bJ0",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>At the start of each of your turns, you gain an additional reaction that you can use only to perform a @Compendium[pf2e.feats-srd.Twin Riposte]{Twin Riposte} against your hunted prey. You can use this extra reaction even if you are not benefiting from @Compendium[pf2e.feats-srd.Twin Parry]{Twin Parry}.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 16
+        },
+        "location": "",
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Twin Riposte"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "ranger"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Improved Twin Riposte (Ranger)",
+    "type": "feat"
+}

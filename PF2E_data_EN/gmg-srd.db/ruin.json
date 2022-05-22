@@ -1,0 +1,8 @@
+{
+    "_id": "x0vU6WsHcXUNY20y",
+    "content": "<p>You lose all your nonmagical possessions, including any wealth and property.</p>",
+    "name": "Ruin",
+    "permission": {
+        "default": 0
+    }
+}

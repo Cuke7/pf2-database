@@ -1,0 +1,54 @@
+{
+    "_id": "AWd7uZBfba5mNXeT",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your hair unarmed attack deals 1d6 bludgeoning damage and gains the grapple trait.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 6
+        },
+        "location": "",
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Living Hair"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "diceNumber": 0,
+                "key": "DamageDice",
+                "override": {
+                    "dieSize": "d6"
+                },
+                "selector": "hair-damage"
+            }
+        ],
+        "source": {
+            "value": "Pathfinder #166: Despair on Danger Island"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "uncommon",
+            "value": [
+                "witch"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/default-icons/feats.webp",
+    "name": "Syu Tak-nwa's Deadly Hair",
+    "type": "feat"
+}

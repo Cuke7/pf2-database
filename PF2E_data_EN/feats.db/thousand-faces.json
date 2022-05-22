@@ -1,0 +1,45 @@
+{
+    "_id": "cxwDj2gZ7kJdP4hs",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your form is as mutable as the weather, changing to meet your whim. You add the forms listed in <em>@Compendium[pf2e.spells-srd.Humanoid Form]{Humanoid Form}</em> to your <em>wild shape</em> list.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 4
+        },
+        "location": "",
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "wild shape"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "druid"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Thousand Faces",
+    "type": "feat"
+}

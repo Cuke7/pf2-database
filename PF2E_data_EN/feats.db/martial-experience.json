@@ -1,0 +1,127 @@
+{
+    "_id": "qXl2cOh3wL3QszCy",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You've crossed blades with a wide variety of foes wielding a wide variety of weapons, and you've learned the basics of fighting with nearly any of them.</p>\n<p>When wielding a weapon you aren't proficient with, treat your level as your proficiency bonus. At 11th level, you become trained in all weapons.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 5
+        },
+        "location": null,
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "hideIfDisabled": true,
+                "key": "FlatModifier",
+                "predicate": {
+                    "all": [
+                        {
+                            "lte": [
+                                "self:level",
+                                10
+                            ]
+                        }
+                    ]
+                },
+                "selector": "mundane-attack",
+                "type": "proficiency",
+                "value": "@actor.level"
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "data.martial.unarmed.rank",
+                "phase": "beforeDerived",
+                "predicate": {
+                    "all": [
+                        {
+                            "gte": [
+                                "self:level",
+                                11
+                            ]
+                        }
+                    ]
+                },
+                "value": 1
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "data.martial.simple.rank",
+                "phase": "beforeDerived",
+                "predicate": {
+                    "all": [
+                        {
+                            "gte": [
+                                "self:level",
+                                11
+                            ]
+                        }
+                    ]
+                },
+                "value": 1
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "data.martial.martial.rank",
+                "phase": "beforeDerived",
+                "predicate": {
+                    "all": [
+                        {
+                            "gte": [
+                                "self:level",
+                                11
+                            ]
+                        }
+                    ]
+                },
+                "value": 1
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "data.martial.advanced.rank",
+                "phase": "beforeDerived",
+                "predicate": {
+                    "all": [
+                        {
+                            "gte": [
+                                "self:level",
+                                11
+                            ]
+                        }
+                    ]
+                },
+                "value": 1
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Advanced Player's Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "elf"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Martial Experience",
+    "type": "feat"
+}

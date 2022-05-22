@@ -1,0 +1,124 @@
+{
+    "_id": "PRKe5rWYZMZgEpFU",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You are a student of peoples and their histories, and are in constant pursuit of knowledge and artifacts from the past. You become an expert in Society and Thievery, and you gain a +1 circumstance bonus to @Compendium[pf2e.actionspf2e.Recall Knowledge (Lore)]{Recall Knowledge} about ancient history, peoples, and cultures.</p>\n<p><strong>Special</strong> You can't select another dedication feat until you have gained two other feats from the archaeologist archetype.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 2
+        },
+        "location": "",
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "trained in Perception, Society, and Thievery"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "label": "Knowledge of Ancient History",
+                "predicate": {
+                    "all": [
+                        "action:recall-knowledge",
+                        "ancient-history"
+                    ]
+                },
+                "selector": "society",
+                "type": "circumstance",
+                "value": 1
+            },
+            {
+                "key": "FlatModifier",
+                "label": "Knowledge of Ancient History",
+                "predicate": {
+                    "all": [
+                        "action:recall-knowledge",
+                        "ancient-history"
+                    ]
+                },
+                "selector": "religion",
+                "type": "circumstance",
+                "value": 1
+            },
+            {
+                "key": "FlatModifier",
+                "label": "Knowledge of Ancient History",
+                "predicate": {
+                    "all": [
+                        "action:recall-knowledge",
+                        "ancient-history"
+                    ]
+                },
+                "selector": "arcana",
+                "type": "circumstance",
+                "value": 1
+            },
+            {
+                "key": "FlatModifier",
+                "label": "Knowledge of Ancient History",
+                "predicate": {
+                    "all": [
+                        "action:recall-knowledge",
+                        "ancient-history"
+                    ]
+                },
+                "selector": "nature",
+                "type": "circumstance",
+                "value": 1
+            },
+            {
+                "key": "FlatModifier",
+                "label": "Knowledge of Ancient History",
+                "predicate": {
+                    "all": [
+                        "action:recall-knowledge",
+                        "ancient-history"
+                    ]
+                },
+                "selector": "occultism",
+                "type": "circumstance",
+                "value": 1
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "data.skills.soc.rank",
+                "value": 2
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "data.skills.thi.rank",
+                "value": 2
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Advanced Player's Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "archetype",
+                "dedication"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Archaeologist Dedication",
+    "type": "feat"
+}

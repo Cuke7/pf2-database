@@ -1,0 +1,45 @@
+{
+    "_id": "8ersuvNJXX00XaIQ",
+    "data": {
+        "description": {
+            "value": "<p>Granted by @Compendium[pf2e.gmg-srd.Euryale (curse)]{Euryale (curse)} from the @Compendium[pf2e.equipment-srd.Deck of Many Things]{Deck of Many Things}</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "unlimited",
+            "value": -1
+        },
+        "level": {
+            "value": 0
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "label": "Euryale Curse",
+                "selector": "saving-throw",
+                "type": "untyped",
+                "value": -1
+            }
+        ],
+        "source": {
+            "value": ""
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "img": "systems/pf2e/icons/equipment/cursed-items/euryale-curse-card.webp",
+    "name": "Effect: Euryale (Curse) Card",
+    "type": "effect"
+}

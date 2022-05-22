@@ -1,0 +1,81 @@
+{
+    "_id": "i4yRvVwvXbGZDsD1",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your avoidance or observation is beyond the ken of most in your profession. Choose Fortitude saves, Reflex saves, Will saves, or Perception. You become an expert in your choice. At 17th level, you become a master in your choice.</p>"
+        },
+        "featType": {
+            "value": "general"
+        },
+        "level": {
+            "value": 1
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "choices": [
+                    {
+                        "label": "PF2E.SavesFortitude",
+                        "value": "data.saves.fortitude.rank"
+                    },
+                    {
+                        "label": "PF2E.SavesReflex",
+                        "value": "data.saves.reflex.rank"
+                    },
+                    {
+                        "label": "PF2E.SavesWill",
+                        "value": "data.saves.will.rank"
+                    },
+                    {
+                        "label": "PF2E.PerceptionLabel",
+                        "value": "data.attributes.perception.rank"
+                    }
+                ],
+                "key": "ChoiceSet"
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "{item|flags.pf2e.rulesSelections.cannyAcumen}",
+                "value": {
+                    "brackets": [
+                        {
+                            "end": 16,
+                            "start": 1,
+                            "value": 2
+                        },
+                        {
+                            "start": 17,
+                            "value": 3
+                        }
+                    ]
+                }
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "general"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Canny Acumen",
+    "type": "feat"
+}

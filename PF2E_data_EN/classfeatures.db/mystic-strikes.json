@@ -1,0 +1,57 @@
+{
+    "_id": "D2AE8RfMlZ3D1FuV",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Focusing your will into your physical attacks imbues them with mystical energy. Your unarmed attacks become magical, allowing them to get past resistances to non-magical attacks. However, you still need an item such as @Compendium[pf2e.equipment-srd.Handwraps of Mighty Blows]{Handwraps of Mighty Blows (+1)} to gain an item bonus to attack rolls or increase your attacks' weapon damage dice.</p>"
+        },
+        "featType": {
+            "value": "classfeature"
+        },
+        "level": {
+            "value": 3
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "DamageDice",
+                "predicate": {
+                    "all": [
+                        "unarmed"
+                    ],
+                    "not": [
+                        "suppress-mystic-strike"
+                    ]
+                },
+                "selector": "strike-damage",
+                "traits": [
+                    "magical"
+                ]
+            }
+        ],
+        "source": {
+            "value": ""
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "monk"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/classes/mystic-strikes.webp",
+    "name": "Mystic Strikes",
+    "type": "feat"
+}

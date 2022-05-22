@@ -1,0 +1,44 @@
+{
+    "_id": "05wQPB1Z20DOy4rH",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You have a deep connection to the fiendish realms, allowing you to summon a fiend matching your own lineage. Once per day, you can cast <em>@Compendium[pf2e.spells-srd.Summon Fiend]{Summon Fiend}</em> as a 5th-level divine innate spell. The fiend you summon must match your own lineage.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 13
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "any tiefling lineage feat"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Advanced Player's Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "tiefling"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Summon Fiendish Kin",
+    "type": "feat"
+}

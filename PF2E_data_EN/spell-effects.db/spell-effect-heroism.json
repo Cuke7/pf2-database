@@ -1,0 +1,137 @@
+{
+    "_id": "l9HRQggofFGIxEse",
+    "data": {
+        "description": {
+            "value": "<p>Granted by <em>@Compendium[pf2e.spells-srd.Heroism]{Heroism}</em></p>\n<p>Tapping into your inner heroism, you get a +1 status bonus to attack rolls, Perception checks, saving throws, and skill checks.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "minutes",
+            "value": 10
+        },
+        "level": {
+            "value": 3
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "label": "Heroism",
+                "selector": "attack",
+                "type": "status",
+                "value": {
+                    "brackets": [
+                        {
+                            "end": 5,
+                            "start": 3,
+                            "value": 1
+                        },
+                        {
+                            "end": 8,
+                            "start": 6,
+                            "value": 2
+                        },
+                        {
+                            "start": 9,
+                            "value": 3
+                        }
+                    ],
+                    "field": "item|data.level.value"
+                }
+            },
+            {
+                "key": "FlatModifier",
+                "label": "Heroism",
+                "selector": "perception",
+                "type": "status",
+                "value": {
+                    "brackets": [
+                        {
+                            "end": 5,
+                            "start": 3,
+                            "value": 1
+                        },
+                        {
+                            "end": 8,
+                            "start": 6,
+                            "value": 2
+                        },
+                        {
+                            "start": 9,
+                            "value": 3
+                        }
+                    ],
+                    "field": "item|data.level.value"
+                }
+            },
+            {
+                "key": "FlatModifier",
+                "label": "Heroism",
+                "selector": "saving-throw",
+                "type": "status",
+                "value": {
+                    "brackets": [
+                        {
+                            "end": 5,
+                            "start": 3,
+                            "value": 1
+                        },
+                        {
+                            "end": 8,
+                            "start": 6,
+                            "value": 2
+                        },
+                        {
+                            "start": 9,
+                            "value": 3
+                        }
+                    ],
+                    "field": "item|data.level.value"
+                }
+            },
+            {
+                "key": "FlatModifier",
+                "label": "Heroism",
+                "selector": "skill-check",
+                "type": "status",
+                "value": {
+                    "brackets": [
+                        {
+                            "end": 5,
+                            "start": 3,
+                            "value": 1
+                        },
+                        {
+                            "end": 8,
+                            "start": 6,
+                            "value": 2
+                        },
+                        {
+                            "start": 9,
+                            "value": 3
+                        }
+                    ],
+                    "field": "item|data.level.value"
+                }
+            }
+        ],
+        "source": {
+            "value": ""
+        },
+        "start": {
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "img": "systems/pf2e/icons/spells/heroism.webp",
+    "name": "Spell Effect: Heroism",
+    "type": "effect"
+}

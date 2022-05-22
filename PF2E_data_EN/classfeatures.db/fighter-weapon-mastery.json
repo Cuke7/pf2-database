@@ -1,0 +1,299 @@
+{
+    "_id": "gApJtAdNb9ST4Ms9",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Hours spent training with your preferred weapons, learning and developing new combat techniques, have made you particularly effective with your weapons of choice. Choose one weapon group. Your proficiency rank increases to master with the simple weapons, martial weapons, and unarmed attack in that group, and to expert with the advanced weapons in that group. You gain access to the critical specialization effects of all weapons for which you have master proficiency.</p>"
+        },
+        "featType": {
+            "value": "classfeature"
+        },
+        "level": {
+            "value": 5
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "choices": "weaponGroups",
+                "key": "ChoiceSet",
+                "prompt": "PF2E.SpecificRule.Prompt.WeaponGroup"
+            },
+            {
+                "definition": {
+                    "all": [
+                        "weapon:group:{item|flags.pf2e.rulesSelections.fighterWeaponMastery}"
+                    ],
+                    "any": [
+                        "weapon:category:unarmed",
+                        "weapon:category:simple",
+                        "weapon:category:martial"
+                    ]
+                },
+                "key": "MartialProficiency",
+                "label": "PF2E.SpecificRule.FighterWeaponMasteryLegend.SimpleMartial.{item|flags.pf2e.rulesSelections.fighterWeaponMastery}",
+                "slug": "weapon-mastery-simple-martial",
+                "value": 3
+            },
+            {
+                "definition": {
+                    "all": [
+                        "weapon:category:advanced",
+                        "weapon:group:{item|flags.pf2e.rulesSelections.fighterWeaponMastery}"
+                    ]
+                },
+                "key": "MartialProficiency",
+                "label": "PF2E.SpecificRule.FighterWeaponMasteryLegend.Advanced.{item|flags.pf2e.rulesSelections.fighterWeaponMastery}",
+                "slug": "weapon-mastery-advanced",
+                "value": 2
+            },
+            {
+                "key": "Note",
+                "outcome": [
+                    "criticalSuccess"
+                ],
+                "predicate": {
+                    "any": [
+                        "proficiency:master",
+                        "proficiency:legendary"
+                    ]
+                },
+                "selector": "axe-weapon-group-damage",
+                "text": "<p class='compact-text'>@Localize[PF2E.WeaponDescriptionAxe]</p>"
+            },
+            {
+                "key": "Note",
+                "outcome": [
+                    "criticalSuccess"
+                ],
+                "predicate": {
+                    "any": [
+                        "proficiency:master",
+                        "proficiency:legendary"
+                    ]
+                },
+                "selector": "bomb-weapon-group-damage",
+                "text": "<p class='compact-text'>@Localize[PF2E.WeaponDescriptionBomb]</p>"
+            },
+            {
+                "key": "Note",
+                "outcome": [
+                    "criticalSuccess"
+                ],
+                "predicate": {
+                    "any": [
+                        "proficiency:master",
+                        "proficiency:legendary"
+                    ]
+                },
+                "selector": "bow-weapon-group-damage",
+                "text": "<p class='compact-text'>@Localize[PF2E.WeaponDescriptionBow]</p>"
+            },
+            {
+                "key": "Note",
+                "outcome": [
+                    "criticalSuccess"
+                ],
+                "predicate": {
+                    "any": [
+                        "proficiency:master",
+                        "proficiency:legendary"
+                    ]
+                },
+                "selector": "brawling-weapon-group-damage",
+                "text": "<p class='compact-text'>@Localize[PF2E.WeaponDescriptionBrawling]</p>"
+            },
+            {
+                "key": "Note",
+                "outcome": [
+                    "criticalSuccess"
+                ],
+                "predicate": {
+                    "any": [
+                        "proficiency:master",
+                        "proficiency:legendary"
+                    ]
+                },
+                "selector": "club-weapon-group-damage",
+                "text": "<p class='compact-text'>@Localize[PF2E.WeaponDescriptionClub]</p>"
+            },
+            {
+                "key": "Note",
+                "outcome": [
+                    "criticalSuccess"
+                ],
+                "predicate": {
+                    "any": [
+                        "proficiency:master",
+                        "proficiency:legendary"
+                    ]
+                },
+                "selector": "dart-weapon-group-damage",
+                "text": "<p class='compact-text'>@Localize[PF2E.WeaponDescriptionDart]</p>"
+            },
+            {
+                "key": "Note",
+                "outcome": [
+                    "criticalSuccess"
+                ],
+                "predicate": {
+                    "any": [
+                        "proficiency:master",
+                        "proficiency:legendary"
+                    ]
+                },
+                "selector": "flail-weapon-group-damage",
+                "text": "<p class='compact-text'>@Localize[PF2E.WeaponDescriptionFlail]</p>"
+            },
+            {
+                "key": "Note",
+                "outcome": [
+                    "criticalSuccess"
+                ],
+                "predicate": {
+                    "any": [
+                        "proficiency:master",
+                        "proficiency:legendary"
+                    ]
+                },
+                "selector": "hammer-weapon-group-damage",
+                "text": "<p class='compact-text'>@Localize[PF2E.WeaponDescriptionHammer]</p>"
+            },
+            {
+                "key": "Note",
+                "outcome": [
+                    "criticalSuccess"
+                ],
+                "predicate": {
+                    "any": [
+                        "proficiency:master",
+                        "proficiency:legendary"
+                    ]
+                },
+                "selector": "knife-weapon-group-damage",
+                "text": "<p class='compact-text'>@Localize[PF2E.WeaponDescriptionKnife]</p>"
+            },
+            {
+                "key": "Note",
+                "outcome": [
+                    "criticalSuccess"
+                ],
+                "predicate": {
+                    "any": [
+                        "proficiency:master",
+                        "proficiency:legendary"
+                    ]
+                },
+                "selector": "pick-weapon-group-damage",
+                "text": "<p class='compact-text'>@Localize[PF2E.WeaponDescriptionPick]</p>"
+            },
+            {
+                "key": "Note",
+                "outcome": [
+                    "criticalSuccess"
+                ],
+                "predicate": {
+                    "any": [
+                        "proficiency:master",
+                        "proficiency:legendary"
+                    ]
+                },
+                "selector": "polearm-weapon-group-damage",
+                "text": "<p class='compact-text'>@Localize[PF2E.WeaponDescriptionPolearm]</p>"
+            },
+            {
+                "key": "Note",
+                "outcome": [
+                    "criticalSuccess"
+                ],
+                "predicate": {
+                    "any": [
+                        "proficiency:master",
+                        "proficiency:legendary"
+                    ]
+                },
+                "selector": "shield-weapon-group-damage",
+                "text": "<p class='compact-text'>@Localize[PF2E.WeaponDescriptionShield]</p>"
+            },
+            {
+                "key": "Note",
+                "outcome": [
+                    "criticalSuccess"
+                ],
+                "predicate": {
+                    "any": [
+                        "proficiency:master",
+                        "proficiency:legendary"
+                    ]
+                },
+                "selector": "sling-weapon-group-damage",
+                "text": "<p class='compact-text'>@Localize[PF2E.WeaponDescriptionSling]</p>"
+            },
+            {
+                "key": "Note",
+                "outcome": [
+                    "criticalSuccess"
+                ],
+                "predicate": {
+                    "any": [
+                        "proficiency:master",
+                        "proficiency:legendary"
+                    ]
+                },
+                "selector": "spear-weapon-group-damage",
+                "text": "<p class='compact-text'>@Localize[PF2E.WeaponDescriptionSpear]</p>"
+            },
+            {
+                "key": "Note",
+                "outcome": [
+                    "criticalSuccess"
+                ],
+                "predicate": {
+                    "any": [
+                        "proficiency:master",
+                        "proficiency:legendary"
+                    ]
+                },
+                "selector": "sword-weapon-group-damage",
+                "text": "<p class='compact-text'>@Localize[PF2E.WeaponDescriptionSword]</p>"
+            },
+            {
+                "key": "Note",
+                "outcome": [
+                    "criticalSuccess"
+                ],
+                "predicate": {
+                    "any": [
+                        "proficiency:master",
+                        "proficiency:legendary"
+                    ]
+                },
+                "selector": "firearm-weapon-group-damage",
+                "text": "<p class='compact-text'>@Localize[PF2E.WeaponDescriptionFirearm]</p>"
+            }
+        ],
+        "source": {
+            "value": ""
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "fighter"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/classes/fighter-weapon-mastery.webp",
+    "name": "Fighter Weapon Mastery",
+    "type": "feat"
+}

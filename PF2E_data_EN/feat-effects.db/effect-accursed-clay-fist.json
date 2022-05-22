@@ -1,0 +1,51 @@
+{
+    "_id": "bvk5rwYSoTtz8QGf",
+    "data": {
+        "badge": null,
+        "description": {
+            "value": "<p>Granted by @Compendium[pf2e.feats-srd.Accursed Clay Fist]{Accursed Clay Fist}</p>\n<p>You take a -2 status penalty to saving throws against curse effects for 1 hour.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "hours",
+            "value": 1
+        },
+        "level": {
+            "value": 1
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "label": "Accursed Clay Fist (vs. curses)",
+                "predicate": {
+                    "all": [
+                        "curse"
+                    ]
+                },
+                "selector": "will",
+                "type": "status",
+                "value": -2
+            }
+        ],
+        "source": {
+            "value": "Pathfinder #153: Life's Long Shadows"
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/accursed-clay-fist.webp",
+    "name": "Effect: Accursed Clay Fist",
+    "type": "effect"
+}

@@ -1,0 +1,60 @@
+{
+    "_id": "fo6Yhq5mbQXsnZs0",
+    "data": {
+        "baseItem": null,
+        "containerId": null,
+        "description": {
+            "value": "<p>Weapons with wounding runes are said to thirst for blood. When you hit a creature with a wounding weapon, you deal an extra @Localize[PF2E.PersistentDamage.Bleed1d6.success]. On a critical hit, it instead deals [[/r {1d12}[persistent,bleed]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Bleed Damage}.</p>"
+        },
+        "equippedBulk": {
+            "value": ""
+        },
+        "hardness": 0,
+        "hp": {
+            "brokenThreshold": 0,
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 7
+        },
+        "negateBulk": {
+            "value": "0"
+        },
+        "preciousMaterial": {
+            "value": ""
+        },
+        "preciousMaterialGrade": {
+            "value": ""
+        },
+        "price": {
+            "value": {
+                "gp": 340
+            }
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "stackGroup": null,
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "magical",
+                "necromancy"
+            ]
+        },
+        "usage": {
+            "value": "held-in-one-hand"
+        },
+        "weight": {
+            "value": "-"
+        }
+    },
+    "img": "systems/pf2e/icons/equipment/runes/weapon-property-runes/weapon-property-runes.webp",
+    "name": "Wounding",
+    "type": "equipment"
+}

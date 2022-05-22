@@ -1,0 +1,62 @@
+{
+    "_id": "NE7Fm5YnUhD4ySX3",
+    "data": {
+        "description": {
+            "value": "<p>Granted by @Compendium[pf2e.equipment-srd.Earplugs]{Earplugs}</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "unlimited",
+            "value": -1
+        },
+        "level": {
+            "value": 0
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "label": "Earplugs (vs. auditory)",
+                "predicate": {
+                    "all": [
+                        "auditory"
+                    ]
+                },
+                "selector": "saving-throw",
+                "type": "item",
+                "value": 1
+            },
+            {
+                "key": "FlatModifier",
+                "label": "Earplugs (hearing)",
+                "predicate": {
+                    "all": [
+                        "hearing"
+                    ]
+                },
+                "selector": "perception",
+                "type": "item",
+                "value": -2
+            }
+        ],
+        "source": {
+            "value": ""
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "img": "systems/pf2e/icons/equipment/adventuring-gear/earplugs.webp",
+    "name": "Effect: Earplugs",
+    "type": "effect"
+}

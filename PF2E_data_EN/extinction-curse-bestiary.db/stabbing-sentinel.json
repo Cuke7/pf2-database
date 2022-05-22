@@ -1,0 +1,216 @@
+{
+    "_id": "J3mRwgqkOlOi44Xv",
+    "data": {
+        "attributes": {
+            "ac": {
+                "value": 41
+            },
+            "hardness": 30,
+            "hasHealth": true,
+            "hp": {
+                "details": "",
+                "max": 120,
+                "temp": 0,
+                "tempmax": 0,
+                "value": 120
+            },
+            "stealth": {
+                "details": "<p>DC 45 (master)</p>",
+                "value": 35
+            }
+        },
+        "creatureType": "",
+        "details": {
+            "description": "<p>A petrified creature momentarily animates to attack an adjacent creature.</p>",
+            "disable": "<p>DC 40 Thievery (master) to remove the animating magic without triggering the trap, or dispel magic (8th level; counteract DC 38) to counteract the animating magic</p>",
+            "isComplex": false,
+            "level": {
+                "value": 18
+            },
+            "reset": "<p>The magical energy that animates the statue builds up again over 24 hours and the trap resets.</p>",
+            "routine": ""
+        },
+        "saves": {
+            "fortitude": {
+                "saveDetail": "",
+                "value": 36
+            },
+            "reflex": {
+                "saveDetail": "",
+                "value": 27
+            },
+            "will": {
+                "saveDetail": "",
+                "value": 0
+            }
+        },
+        "source": {
+            "value": ""
+        },
+        "statusEffects": [],
+        "traits": {
+            "ci": [],
+            "di": {
+                "custom": "",
+                "selected": {},
+                "value": [
+                    "critical-hits",
+                    "object-immunities",
+                    "precision"
+                ]
+            },
+            "dr": [],
+            "dv": [],
+            "rarity": "common",
+            "size": {
+                "value": "med"
+            },
+            "traits": {
+                "custom": "",
+                "value": [
+                    "magical",
+                    "mechanical"
+                ]
+            }
+        }
+    },
+    "img": "systems/pf2e/icons/default-icons/hazard.svg",
+    "items": [
+        {
+            "_id": "VZsSOXRGbGwz6dqc",
+            "data": {
+                "actionCategory": {
+                    "value": ""
+                },
+                "actionType": {
+                    "value": "reaction"
+                },
+                "actions": {
+                    "value": null
+                },
+                "description": {
+                    "value": "<p><strong>Trigger</strong> A living or undead creature moves within 5 feet of the stabbing sentinel</p>\n<hr />\n<p><strong>Effect</strong> The stabbing sentinel animates, making one Strike against the triggering creature.</p>"
+                },
+                "requirements": {
+                    "value": ""
+                },
+                "rules": [],
+                "slug": null,
+                "source": {
+                    "value": ""
+                },
+                "traits": {
+                    "custom": "",
+                    "rarity": "common",
+                    "value": [
+                        "attack",
+                        "necromancy",
+                        "transmutation"
+                    ]
+                },
+                "trigger": {
+                    "value": ""
+                },
+                "weapon": {
+                    "value": ""
+                }
+            },
+            "img": "systems/pf2e/icons/actions/Reaction.webp",
+            "name": "Animated Attack",
+            "sort": 100000,
+            "type": "action"
+        },
+        {
+            "_id": "OYivzyUv9rlanxFD",
+            "data": {
+                "attack": {
+                    "value": ""
+                },
+                "attackEffects": {
+                    "custom": "",
+                    "value": [
+                        "petrification-overcharge"
+                    ]
+                },
+                "bonus": {
+                    "value": 38
+                },
+                "damageRolls": {
+                    "y6s2ku6swg3wbz0i0p4gg": {
+                        "damage": "6d12+40",
+                        "damageType": "piercing"
+                    }
+                },
+                "description": {
+                    "value": ""
+                },
+                "rules": [],
+                "slug": null,
+                "source": {
+                    "value": ""
+                },
+                "traits": {
+                    "custom": "",
+                    "rarity": "common",
+                    "value": []
+                },
+                "weaponType": {
+                    "value": "melee"
+                }
+            },
+            "img": "systems/pf2e/icons/default-icons/melee.svg",
+            "name": "Blade",
+            "sort": 200000,
+            "type": "melee"
+        },
+        {
+            "_id": "LI5f4Jm5rjlsXN34",
+            "data": {
+                "actionCategory": {
+                    "value": ""
+                },
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "description": {
+                    "value": "<p>On a critical hit, the target is @Compendium[pf2e.conditionitems.Petrified]{Petrified} for 1 round. Additionally, if another stabbing sentinel has already been triggered, that sentinel immediately resets. If no other stabbing sentinels have been triggered, then another random statue in the room becomes infused with animating magic and becomes another stabbing sentinel hazard (to a maximum of four at a time).</p>"
+                },
+                "requirements": {
+                    "value": ""
+                },
+                "rules": [],
+                "slug": null,
+                "source": {
+                    "value": ""
+                },
+                "traits": {
+                    "custom": "",
+                    "rarity": "common",
+                    "value": []
+                },
+                "trigger": {
+                    "value": ""
+                },
+                "weapon": {
+                    "value": ""
+                }
+            },
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Petrification Overcharge",
+            "sort": 300000,
+            "type": "action"
+        }
+    ],
+    "name": "Stabbing Sentinel",
+    "token": {
+        "disposition": 0,
+        "height": 1,
+        "img": "systems/pf2e/icons/default-icons/hazard.svg",
+        "name": "Stabbing Sentinel",
+        "width": 1
+    },
+    "type": "hazard"
+}

@@ -1,0 +1,113 @@
+{
+    "_id": "0G3OmRIlDaPZyurj",
+    "data": {
+        "activation": {
+            "condition": "",
+            "cost": 0,
+            "type": ""
+        },
+        "autoDestroy": {
+            "_deprecated": true,
+            "value": true
+        },
+        "autoUse": {
+            "_deprecated": true,
+            "value": true
+        },
+        "baseItem": null,
+        "charges": {
+            "_deprecated": true,
+            "max": 0,
+            "value": 0
+        },
+        "consumableType": {
+            "value": "snare"
+        },
+        "consume": {
+            "_deprecated": true,
+            "value": ""
+        },
+        "containerId": "null",
+        "description": {
+            "value": "<p>A hidden copper plate conceals a bag of electric eels. When a creature steps on the plate, the eels become agitated, and the creature takes [[/r {4d8}[electricity]]]{4d8 electricity damage} (@Check[type:reflex|dc:21|basic:true|traits:uncommon|showDC:all]). On a critical failure, the current causes the creature to become @Compendium[pf2e.conditionitems.Stunned]{Stunned 2}. The eels are unharmed after use, but the mechanism is broken as usual for snares.</p>"
+        },
+        "duration": {
+            "units": "",
+            "value": null
+        },
+        "equippedBulk": {
+            "value": ""
+        },
+        "hardness": 0,
+        "hp": {
+            "brokenThreshold": 0,
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 5
+        },
+        "negateBulk": {
+            "value": "0"
+        },
+        "preciousMaterial": {
+            "value": null
+        },
+        "preciousMaterialGrade": {
+            "value": null
+        },
+        "price": {
+            "value": {
+                "gp": 25
+            }
+        },
+        "quantity": 1,
+        "range": {
+            "long": null,
+            "units": "",
+            "value": null
+        },
+        "rules": [],
+        "size": "med",
+        "source": {
+            "value": "Pathfinder Lost Omens: The Grand Bazaar"
+        },
+        "spell": {
+            "data": null,
+            "heightenedLevel": null
+        },
+        "stackGroup": null,
+        "target": {
+            "type": "",
+            "units": "",
+            "value": null
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "uncommon",
+            "value": [
+                "consumable",
+                "electricity",
+                "mechanical",
+                "snare",
+                "trap"
+            ]
+        },
+        "usage": {
+            "value": "held-in-one-hand"
+        },
+        "uses": {
+            "autoDestroy": true,
+            "autoUse": true,
+            "max": 0,
+            "per": null,
+            "value": 0
+        },
+        "weight": {
+            "value": "-"
+        }
+    },
+    "img": "systems/pf2e/icons/default-icons/consumable.svg",
+    "name": "Wet Shock Snare",
+    "type": "consumable"
+}

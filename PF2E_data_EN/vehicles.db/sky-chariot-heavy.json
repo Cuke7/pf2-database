@@ -1,0 +1,86 @@
+{
+    "_id": "Y2XrhWFdiGcVAUsz",
+    "data": {
+        "attributes": {
+            "ac": {
+                "check": 0,
+                "details": "",
+                "value": 29
+            },
+            "collisionDC": {
+                "value": 31
+            },
+            "collisionDamage": {
+                "value": "9d10"
+            },
+            "hardness": 20,
+            "hp": {
+                "brokenThreshold": 5,
+                "details": "",
+                "max": 230,
+                "temp": 0,
+                "value": 230
+            }
+        },
+        "details": {
+            "AC": 0,
+            "crew": "1 pilot",
+            "description": "",
+            "level": {
+                "value": 1
+            },
+            "passengers": "7",
+            "pilotingCheck": "Arcana (DC 33), Nature (DC 33 to 41, depending on pulling creature), or Piloting Lore (DC 31)",
+            "price": "9000",
+            "space": {
+                "high": 8,
+                "long": 20,
+                "wide": 20
+            },
+            "speed": "the fly Speed of the slowest pulling creature (pulled by 6 Large creatures, 2 Huge creatures, or 1 Gargantuan creature)"
+        },
+        "saves": {
+            "fortitude": {
+                "item": 0,
+                "rank": 0,
+                "saveDetail": "",
+                "value": 23
+            }
+        },
+        "source": {
+            "value": "Pathfinder #167: Ready? Fight!"
+        },
+        "traits": {
+            "ci": [],
+            "di": {
+                "custom": "",
+                "value": [
+                    "critical-hits",
+                    "object-immunities",
+                    "precision"
+                ]
+            },
+            "dr": [],
+            "dv": [],
+            "rarity": "uncommon",
+            "size": {
+                "value": "lg"
+            },
+            "traits": {
+                "custom": "",
+                "value": []
+            }
+        }
+    },
+    "img": "systems/pf2e/icons/default-icons/vehicle.svg",
+    "items": [],
+    "name": "Sky Chariot, Heavy",
+    "token": {
+        "disposition": 0,
+        "height": 4,
+        "img": "systems/pf2e/icons/default-icons/vehicle.svg",
+        "name": "Sky Chariot, Heavy",
+        "width": 4
+    },
+    "type": "vehicle"
+}

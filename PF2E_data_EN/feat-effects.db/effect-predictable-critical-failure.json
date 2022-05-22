@@ -1,0 +1,67 @@
+{
+    "_id": "KgR1myc4OLzVxfxn",
+    "data": {
+        "description": {
+            "value": "<p>Granted if you critically fail with @Compendium[pf2e.feats-srd.Predictable!]{Predictable!}</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "rounds",
+            "value": 1
+        },
+        "level": {
+            "value": 1
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "predicate": {
+                    "all": [
+                        "predicatable"
+                    ]
+                },
+                "selector": "ac",
+                "type": "circumstance",
+                "value": -1
+            },
+            {
+                "key": "FlatModifier",
+                "predicate": {
+                    "all": [
+                        "predicatable"
+                    ]
+                },
+                "selector": "reflex",
+                "type": "circumstance",
+                "value": -1
+            },
+            {
+                "domain": "all",
+                "key": "RollOption",
+                "label": "Defending against target of Predictable!",
+                "option": "predicable",
+                "toggleable": true
+            }
+        ],
+        "source": {
+            "value": ""
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "img": "systems/pf2e/icons/equipment/shields/precious-material-shields/orichalcum-buckler.webp",
+    "name": "Effect: Predictable! (Critical Failure)",
+    "type": "effect"
+}

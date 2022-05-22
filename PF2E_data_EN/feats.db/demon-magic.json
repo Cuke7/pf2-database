@@ -1,0 +1,44 @@
+{
+    "_id": "3N6T7AQETVKaAwiR",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You can channel the power of the Abyss through your heritage, producing terrible tangible effects. You can cast <em>@Compendium[pf2e.spells-srd.Paranoia]{Paranoia}</em> and <em>@Compendium[pf2e.spells-srd.Shatter]{Shatter}</em> each once per day as 2nd-level divine innate spells.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 9
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Pitborn"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Advanced Player's Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "tiefling"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Demon Magic",
+    "type": "feat"
+}

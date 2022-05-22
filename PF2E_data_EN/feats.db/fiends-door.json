@@ -1,0 +1,43 @@
+{
+    "_id": "rCajlx2KjGxzabAJ",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Like many fiends, you have the supernatural ability to teleport yourself to safety. Once per day, you can cast <em>@Compendium[pf2e.spells-srd.Dimension Door]{Dimension Door}</em> as a 5th-level divine innate spell.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 13
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Advanced Player's Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "selected": {
+                "tiefling": "Tiefling"
+            },
+            "value": [
+                "tiefling"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Fiend's Door",
+    "type": "feat"
+}

@@ -1,0 +1,41 @@
+{
+    "_id": "8tS5NzytLmgbq5hF",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "description": {
+            "value": "<p>You make a controlled attack, fully accounting for your momentum. Make a Strike. The Strike gains the following failure effect.</p>\n<p><strong>Failure</strong> This attack does not count toward your multiple attack penalty.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "fighter",
+                "press"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Exacting Strike",
+    "type": "feat"
+}

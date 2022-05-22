@@ -1,0 +1,99 @@
+{
+    "_id": "2jB9eyX7YekwoCvA",
+    "data": {
+        "ability": {
+            "value": ""
+        },
+        "area": {
+            "areaType": "",
+            "value": null
+        },
+        "areasize": {
+            "value": ""
+        },
+        "category": {
+            "value": "focus"
+        },
+        "components": {
+            "material": false,
+            "somatic": false,
+            "verbal": true
+        },
+        "cost": {
+            "value": ""
+        },
+        "damage": {
+            "value": {}
+        },
+        "description": {
+            "value": "<p>You utter a liberating word of power that frees a creature. You suppress one of the following conditions of your choice: @Compendium[pf2e.conditionitems.Confused]{Confused}, @Compendium[pf2e.conditionitems.Frightened]{Frightened}, @Compendium[pf2e.conditionitems.Grabbed]{Grabbed}, or @Compendium[pf2e.conditionitems.Paralyzed]{Paralyzed}. The target isn't affected by the chosen condition, and if you suppress the Grabbed condition, the target automatically breaks free from any grab affecting it when you Cast the Spell.</p>\n<p>If you don't remove the effect that provided the condition, the condition returns after the spell ends. For example, if a spell was making the target Confused for 1 minute, word of freedom would let the target act normally for a round, but the Confused condition would return afterward.</p>"
+        },
+        "duration": {
+            "value": "1 round"
+        },
+        "hasCounteractCheck": {
+            "value": false
+        },
+        "level": {
+            "value": 4
+        },
+        "location": {
+            "value": ""
+        },
+        "materials": {
+            "value": ""
+        },
+        "prepared": {
+            "value": ""
+        },
+        "primarycheck": {
+            "value": ""
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "rules": [],
+        "save": {
+            "basic": "",
+            "value": ""
+        },
+        "school": {
+            "value": "enchantment"
+        },
+        "secondarycasters": {
+            "value": ""
+        },
+        "secondarycheck": {
+            "value": ""
+        },
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "spellType": {
+            "value": "utility"
+        },
+        "sustained": {
+            "value": false
+        },
+        "target": {
+            "value": "1 creature"
+        },
+        "time": {
+            "value": "1"
+        },
+        "traditions": {
+            "value": []
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "uncommon",
+            "value": [
+                "cleric",
+                "mental"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/spells/word-of-freedom.webp",
+    "name": "Word of Freedom",
+    "type": "spell"
+}

@@ -1,0 +1,41 @@
+{
+    "_id": "L7fhh2RTCq4FlVSN",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your ancestral feud with humans gives you experience dealing with vicious foes, and your vengeance knows no bounds. You gain a +1 circumstance bonus to Intimidation, Perception, and Survival checks against humans, as well as on damage rolls against humans with weapons and unarmed attacks. However, your hatred of humans is immediately obvious, giving you a -2 circumstance penalty to Diplomacy checks against them and usually starting their attitude one step worse towards you.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 1
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Lost Omens: Ancestry Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "strix"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Strix Defender",
+    "type": "feat"
+}

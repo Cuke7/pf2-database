@@ -1,0 +1,119 @@
+{
+    "_id": "UCK8zXKb0Gi6uyum",
+    "data": {
+        "MAP": {
+            "value": ""
+        },
+        "baseItem": "spear",
+        "bonus": {
+            "value": 0
+        },
+        "bonusDamage": {
+            "value": 0
+        },
+        "category": "martial",
+        "containerId": "null",
+        "damage": {
+            "damageType": "piercing",
+            "dice": 1,
+            "die": "d8",
+            "value": ""
+        },
+        "description": {
+            "value": "<p>A hollow receptacle inside this spear's head can store a single dose of poison. A sliding trigger along the spear's shaft can inject the loaded poison into a damaged target.</p>"
+        },
+        "equippedBulk": {
+            "value": ""
+        },
+        "group": "spear",
+        "hardness": 0,
+        "hp": {
+            "brokenThreshold": 0,
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "negateBulk": {
+            "value": "0"
+        },
+        "potencyRune": {
+            "value": null
+        },
+        "preciousMaterial": {
+            "value": null
+        },
+        "preciousMaterialGrade": {
+            "value": null
+        },
+        "price": {
+            "value": {
+                "gp": 3
+            }
+        },
+        "property1": {
+            "critDamage": "",
+            "critDamageType": "",
+            "critDice": 0,
+            "critDie": "",
+            "criticalConditionType": "",
+            "criticalConditionValue": null,
+            "damageType": "",
+            "dice": 0,
+            "die": "",
+            "strikeConditionType": "",
+            "strikeConditionValue": null,
+            "value": ""
+        },
+        "propertyRune1": {
+            "value": null
+        },
+        "propertyRune2": {
+            "value": null
+        },
+        "propertyRune3": {
+            "value": null
+        },
+        "propertyRune4": {
+            "value": null
+        },
+        "quantity": 1,
+        "range": null,
+        "reload": {
+            "value": ""
+        },
+        "rules": [],
+        "size": "med",
+        "source": {
+            "value": "Pathfinder Guns & Gears"
+        },
+        "specific": {
+            "value": false
+        },
+        "splashDamage": {
+            "value": 0
+        },
+        "stackGroup": null,
+        "strikingRune": {
+            "value": ""
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "uncommon",
+            "value": [
+                "injection",
+                "reach"
+            ]
+        },
+        "usage": {
+            "value": "held-in-one-hand"
+        },
+        "weight": {
+            "value": "1"
+        }
+    },
+    "img": "systems/pf2e/icons/default-icons/weapon.svg",
+    "name": "Injection Spear",
+    "type": "weapon"
+}

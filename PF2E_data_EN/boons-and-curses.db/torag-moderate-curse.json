@@ -1,0 +1,38 @@
+{
+    "_id": "AfuH02H6ib4KYS6C",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p><strong>Moderate Curse</strong> You must prove your skills at a craft by providing your own equipment.</p>\n<p>You gain item bonuses only from items you make yourself.</p>"
+        },
+        "featType": {
+            "value": "curse"
+        },
+        "level": {
+            "value": 0
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": ""
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "img": "systems/pf2e/icons/deity/Torag.webp",
+    "name": "Torag - Moderate Curse",
+    "type": "feat"
+}

@@ -1,0 +1,78 @@
+{
+    "_id": "MGn2wezOr3VAdO3U",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your perpetual infusions improve, allowing you to use @Compendium[pf2e.classfeatures.Quick Alchemy]{Quick Alchemy} to create more powerful items with no cost. The items you can select depend on your research field and must be in your formula book.</p>"
+        },
+        "featType": {
+            "value": "classfeature"
+        },
+        "level": {
+            "value": 11
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "GrantItem",
+                "predicate": {
+                    "all": [
+                        "feature:bomber"
+                    ]
+                },
+                "uuid": "Compendium.pf2e.classfeatures.Perpetual Potency (Bomber)"
+            },
+            {
+                "key": "GrantItem",
+                "predicate": {
+                    "all": [
+                        "feature:chirurgeon"
+                    ]
+                },
+                "uuid": "Compendium.pf2e.classfeatures.Perpetual Potency (Chirurgeon)"
+            },
+            {
+                "key": "GrantItem",
+                "predicate": {
+                    "all": [
+                        "feature:mutagenist"
+                    ]
+                },
+                "uuid": "Compendium.pf2e.classfeatures.Perpetual Potency (Mutagenist)"
+            },
+            {
+                "key": "GrantItem",
+                "predicate": {
+                    "all": [
+                        "feature:toxicologist"
+                    ]
+                },
+                "uuid": "Compendium.pf2e.classfeatures.Perpetual Potency (Toxicologist)"
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "alchemist"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/classes/choice-feature.webp",
+    "name": "Perpetual Potency",
+    "type": "feat"
+}

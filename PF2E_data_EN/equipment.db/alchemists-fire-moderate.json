@@ -1,0 +1,136 @@
+{
+    "_id": "gWr4q4HiyGhETA8H",
+    "data": {
+        "MAP": {
+            "value": ""
+        },
+        "baseItem": "alchemical-bomb",
+        "bonus": {
+            "value": 1
+        },
+        "bonusDamage": {
+            "value": 0
+        },
+        "category": "martial",
+        "containerId": null,
+        "damage": {
+            "damageType": "fire",
+            "dice": 2,
+            "die": "d8",
+            "value": ""
+        },
+        "description": {
+            "value": "<p><strong>Activate</strong> <span class=\"pf2-icon\">A</span> Strike</p>\n<p>Alchemist's fire is a combination of volatile liquids that ignite when exposed to air. Alchemist's fire deals 2d8 fire damage, 2 persistent fire damage, and 2 fire splash damage. You gain a +1 item bonus to attack rolls.</p>"
+        },
+        "equippedBulk": {
+            "value": ""
+        },
+        "group": "bomb",
+        "hardness": 0,
+        "hp": {
+            "brokenThreshold": 0,
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 3
+        },
+        "negateBulk": {
+            "value": "0"
+        },
+        "potencyRune": {
+            "value": null
+        },
+        "preciousMaterial": {
+            "value": ""
+        },
+        "preciousMaterialGrade": {
+            "value": ""
+        },
+        "price": {
+            "value": {
+                "gp": 10
+            }
+        },
+        "property1": {
+            "critDamage": "",
+            "critDamageType": "",
+            "critDice": null,
+            "critDie": "",
+            "criticalConditionType": "",
+            "criticalConditionValue": null,
+            "damageType": "",
+            "dice": null,
+            "die": "",
+            "strikeConditionType": "",
+            "strikeConditionValue": null,
+            "value": ""
+        },
+        "propertyRune1": {
+            "value": ""
+        },
+        "propertyRune2": {
+            "value": ""
+        },
+        "propertyRune3": {
+            "value": ""
+        },
+        "propertyRune4": {
+            "value": ""
+        },
+        "quantity": 1,
+        "range": 20,
+        "reload": {
+            "value": ""
+        },
+        "rules": [
+            {
+                "key": "Note",
+                "outcome": [
+                    "success"
+                ],
+                "selector": "{item|_id}-damage",
+                "text": "<p class='compact-text'>@Localize[PF2E.BombNotes.AlchemistsFire.Moderate.success]</p>"
+            },
+            {
+                "key": "Note",
+                "outcome": [
+                    "criticalSuccess"
+                ],
+                "selector": "{item|_id}-damage",
+                "text": "<p class='compact-text'>@Localize[PF2E.BombNotes.AlchemistsFire.Moderate.criticalSuccess]</p>"
+            }
+        ],
+        "size": "med",
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "splashDamage": {
+            "value": 2
+        },
+        "stackGroup": null,
+        "strikingRune": {
+            "value": ""
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "alchemical",
+                "bomb",
+                "consumable",
+                "fire",
+                "splash"
+            ]
+        },
+        "usage": {
+            "value": "held-in-one-hand"
+        },
+        "weight": {
+            "value": "L"
+        }
+    },
+    "img": "systems/pf2e/icons/equipment/alchemical-items/alchemical-bombs/alchemists-fire.webp",
+    "name": "Alchemist's Fire (Moderate)",
+    "type": "weapon"
+}

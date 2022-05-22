@@ -1,0 +1,45 @@
+{
+    "_id": "ftntYtiKGoPBpvcv",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You've deeply studied the secrets of your blood and can force reality to act against its own wishes. You can cast <em>@Compendium[pf2e.spells-srd.Blur]{Blur}</em> and <em>@Compendium[pf2e.spells-srd.Silence]{Silence}</em> once per day each as 2nd-level divine innate spells.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 9
+        },
+        "location": "",
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Riftmarked"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Lost Omens: Ancestry Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "tiefling"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Qlippoth Magic",
+    "type": "feat"
+}

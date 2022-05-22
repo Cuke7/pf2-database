@@ -1,0 +1,100 @@
+{
+    "_id": "X9dkmh23lFwMjrYd",
+    "data": {
+        "ability": {
+            "value": ""
+        },
+        "area": {
+            "areaType": "",
+            "value": ""
+        },
+        "areasize": {
+            "value": ""
+        },
+        "category": {
+            "value": "spell"
+        },
+        "components": {
+            "focus": false,
+            "material": false,
+            "somatic": true,
+            "verbal": true
+        },
+        "cost": {
+            "value": ""
+        },
+        "damage": {
+            "value": {}
+        },
+        "description": {
+            "value": "<p>You reinforce the target's musculoskeletal system to bear more weight. The target can carry 3 more Bulk than normal before becoming @Compendium[pf2e.conditionitems.Encumbered]{Encumbered} and up to a maximum of 6 more Bulk.</p>\n<p>@Compendium[pf2e.spell-effects.Spell Effect: Ant Haul]{Spell Effect: Ant Haul}</p>"
+        },
+        "duration": {
+            "value": "8 hours"
+        },
+        "hasCounteractCheck": {
+            "value": false
+        },
+        "level": {
+            "value": 1
+        },
+        "location": {
+            "value": ""
+        },
+        "materials": {
+            "value": ""
+        },
+        "prepared": {
+            "value": ""
+        },
+        "primarycheck": {
+            "value": ""
+        },
+        "range": {
+            "value": "touch"
+        },
+        "rules": [],
+        "save": {
+            "basic": "",
+            "value": ""
+        },
+        "school": {
+            "value": "transmutation"
+        },
+        "secondarycasters": {
+            "value": ""
+        },
+        "secondarycheck": {
+            "value": ""
+        },
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "spellType": {
+            "value": "utility"
+        },
+        "sustained": {
+            "value": false
+        },
+        "target": {
+            "value": "1 creature"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traditions": {
+            "value": [
+                "arcane",
+                "primal"
+            ]
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "img": "systems/pf2e/icons/spells/ant-haul.webp",
+    "name": "Ant Haul",
+    "type": "spell"
+}

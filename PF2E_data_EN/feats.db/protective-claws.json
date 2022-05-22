@@ -1,0 +1,57 @@
+{
+    "_id": "f9YlMYWMjd0zoyy0",
+    "data": {
+        "actionCategory": {
+            "value": "offensive"
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>The chitin on your claws is so hard you can defend against attacks with them. Your claw unarmed attack from the vicious goloma heritage gains the parry weapon trait.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 5
+        },
+        "location": null,
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "vicious goloma heritage"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "definition": {
+                    "all": [
+                        "weapon:claw"
+                    ]
+                },
+                "key": "AdjustStrike",
+                "mode": "add",
+                "property": "traits",
+                "value": "parry"
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Lost Omens: The Mwangi Expanse"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "goloma"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/default-icons/feats.webp",
+    "name": "Protective Claws",
+    "type": "feat"
+}

@@ -1,0 +1,48 @@
+{
+    "_id": "KW6K5Zv4J7ClWkKA",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You can rig a snare in only moments. You can Craft snares that normally take 1 minute to @Compendium[pf2e.actionspf2e.Craft]{Craft} with 3 @Compendium[pf2e.actionspf2e.Interact]{Interact} actions, even if you haven't prepared them.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 6
+        },
+        "location": "",
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "expert in Crafting"
+                },
+                {
+                    "value": "Snare Specialist"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "ranger"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Quick Snares",
+    "type": "feat"
+}

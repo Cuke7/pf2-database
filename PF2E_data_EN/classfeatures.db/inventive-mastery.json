@@ -1,0 +1,48 @@
+{
+    "_id": "Uu8VnpAo3XZZEKPd",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your inventions are incredibly effective. Your proficiency rank for your inventor class DC increases to master.</p>"
+        },
+        "featType": {
+            "value": "classfeature"
+        },
+        "level": {
+            "value": 17
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "data.attributes.classDC.rank",
+                "value": 3
+            }
+        ],
+        "source": {
+            "value": ""
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "inventor"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/classes/inventive-mastery.webp",
+    "name": "Inventive Mastery",
+    "type": "feat"
+}

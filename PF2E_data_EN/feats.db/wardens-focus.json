@@ -1,0 +1,45 @@
+{
+    "_id": "2aFtxqRPnC4OXUGC",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your connection with your surroundings grows deeper as you focus. If you have spent at least 2 Focus Points since the last time you @Compendium[pf2e.actionspf2e.Refocus]{Refocused}, you recover 2 Focus Points when you Refocus instead of 1.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 12
+        },
+        "location": "",
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "warden spells"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Advanced Player's Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "ranger"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Warden's Focus",
+    "type": "feat"
+}

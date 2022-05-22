@@ -1,0 +1,48 @@
+{
+    "_id": "5csEOLLbYUWJDJoS",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You have a nearly encyclopedic knowledge of all creatures of the world. You can use Nature to @Compendium[pf2e.actionspf2e.Recall Knowledge (Nature)]{Recall Knowledge} to identify any creature. In addition, you gain the benefits of @Compendium[pf2e.feats-srd.Monster Hunter]{Monster Hunter} (and @Compendium[pf2e.feats-srd.Monster Warden]{Monster Warden}, if you have it) on a success as well as a critical success.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 10
+        },
+        "location": "",
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "master in Nature"
+                },
+                {
+                    "value": "Monster Hunter"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "ranger"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Master Monster Hunter",
+    "type": "feat"
+}

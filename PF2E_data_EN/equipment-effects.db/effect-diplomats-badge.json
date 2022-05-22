@@ -1,0 +1,50 @@
+{
+    "_id": "pAMyEbJzWBoYoGhs",
+    "data": {
+        "description": {
+            "value": "<p>Granted by activating @Compendium[pf2e.equipment-srd.Diplomat's Badge]{Diplomat's Badge}.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "days",
+            "value": 1
+        },
+        "level": {
+            "value": 5
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "label": "Diplomat's Badge (specific group)",
+                "predicate": {
+                    "all": [
+                        "group"
+                    ]
+                },
+                "selector": "diplomacy",
+                "type": "item",
+                "value": 2
+            }
+        ],
+        "source": {
+            "value": ""
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "img": "systems/pf2e/icons/equipment/worn-items/other-worn-items/diplomats-badge.webp",
+    "name": "Effect: Diplomat's Badge",
+    "type": "effect"
+}

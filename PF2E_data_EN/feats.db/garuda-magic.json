@@ -1,0 +1,45 @@
+{
+    "_id": "IHFqUHxNChCPZPml",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You are descended from the wondrous garudas, and their keen senses manifest in your magical prowess. You can cast <em>@Compendium[pf2e.spells-srd.Blur]{Blur}</em> and <em>@Compendium[pf2e.spells-srd.See Invisibility]{See Invisibility}</em> each once per day as 2nd-level divine innate spells.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 9
+        },
+        "location": "",
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Plumekith"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Lost Omens: Ancestry Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "aasimar"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Garuda Magic",
+    "type": "feat"
+}

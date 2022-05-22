@@ -1,0 +1,182 @@
+{
+    "_id": "k7M9jedvt31AJ5ZR",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your rage comes from a deep and purely personal well within you. You use your rage as you choose.</p>\n<h2 class=\"title\">Anathema and Instinct Ability</h2>\n<p>You don't have an anathema or an instinct ability. Instead, you gain an additional 1st-level barbarian feat.</p>\n<h2 class=\"title\">Specialization Ability</h2>\n<p>Increase the additional damage from Rage from 2 to 6. If you have greater weapon specialization, instead increase the additional damage from Rage to 12.</p>\n<h2 class=\"title\">Raging Resistance</h2>\n<p>You resist physical weapon damage, but not physical damage from other sources (such as unarmed attacks).</p>"
+        },
+        "featType": {
+            "value": "classfeature"
+        },
+        "level": {
+            "value": 1
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "label": "PF2E.TraitRage",
+                "predicate": {
+                    "all": [
+                        "rage"
+                    ],
+                    "not": [
+                        "barbarian-dedication"
+                    ]
+                },
+                "selector": "ac",
+                "value": -1
+            },
+            {
+                "key": "FlatModifier",
+                "label": "PF2E.TraitRage",
+                "predicate": {
+                    "all": [
+                        "rage"
+                    ],
+                    "not": [
+                        "agile",
+                        "ranged",
+                        "barbarian-dedication"
+                    ]
+                },
+                "selector": "strike-damage",
+                "value": {
+                    "brackets": [
+                        {
+                            "end": 6,
+                            "value": 2
+                        },
+                        {
+                            "end": 14,
+                            "start": 7,
+                            "value": 6
+                        },
+                        {
+                            "start": 15,
+                            "value": 12
+                        }
+                    ]
+                }
+            },
+            {
+                "key": "FlatModifier",
+                "label": "PF2E.TraitRage",
+                "predicate": {
+                    "all": [
+                        "rage",
+                        "agile"
+                    ],
+                    "not": [
+                        "ranged",
+                        "barbarian-dedication"
+                    ]
+                },
+                "selector": "strike-damage",
+                "slug": "rage-agile",
+                "value": {
+                    "brackets": [
+                        {
+                            "end": 6,
+                            "value": 1
+                        },
+                        {
+                            "end": 14,
+                            "start": 7,
+                            "value": 3
+                        },
+                        {
+                            "start": 15,
+                            "value": 6
+                        }
+                    ]
+                }
+            },
+            {
+                "key": "FlatModifier",
+                "label": "PF2E.TraitRage",
+                "predicate": {
+                    "all": [
+                        "rage",
+                        "instinct-ability"
+                    ],
+                    "not": [
+                        "agile",
+                        "ranged"
+                    ]
+                },
+                "selector": "strike-damage",
+                "slug": "dedication-instinct-rage",
+                "value": 2
+            },
+            {
+                "key": "FlatModifier",
+                "label": "PF2E.TraitRage",
+                "predicate": {
+                    "all": [
+                        "rage",
+                        "agile",
+                        "instinct-ability"
+                    ],
+                    "not": [
+                        "ranged"
+                    ]
+                },
+                "selector": "strike-damage",
+                "slug": "dedication-instinct-rage-agile",
+                "value": 1
+            },
+            {
+                "adjustName": false,
+                "choices": {
+                    "postFilter": {
+                        "not": [
+                            "item:draconic-arrogance"
+                        ]
+                    },
+                    "query": "{\"data.featType.value\":\"class\",\"data.level.value\":1,\"data.traits.value\":{\"$elemMatch\":\"barbarian\"}}"
+                },
+                "key": "ChoiceSet",
+                "predicate": {
+                    "all": [
+                        "class:barbarian"
+                    ]
+                },
+                "prompt": "PF2E.SpecificRule.Prompt.LevelOneClassFeat"
+            },
+            {
+                "key": "GrantItem",
+                "predicate": {
+                    "all": [
+                        "class:barbarian"
+                    ]
+                },
+                "uuid": "{item|flags.pf2e.rulesSelections.furyInstinct}"
+            }
+        ],
+        "source": {
+            "value": ""
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "barbarian"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/classes/fury-instinct.webp",
+    "name": "Fury Instinct",
+    "type": "feat"
+}

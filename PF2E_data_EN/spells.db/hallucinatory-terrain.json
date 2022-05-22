@@ -1,0 +1,100 @@
+{
+    "_id": "HBJPsonQnWcC3qdX",
+    "data": {
+        "ability": {
+            "value": ""
+        },
+        "area": {
+            "areaType": "burst",
+            "value": "50"
+        },
+        "areasize": {
+            "value": "50-foot burst"
+        },
+        "category": {
+            "value": "spell"
+        },
+        "components": {
+            "material": true,
+            "somatic": true,
+            "verbal": true
+        },
+        "cost": {
+            "value": ""
+        },
+        "damage": {
+            "value": {}
+        },
+        "description": {
+            "value": "<p>You create an illusion that causes natural terrain to look, sound, feel, and smell like a different kind of terrain. This doesn't disguise any structures or creatures in the area. Any creature that touches the illusion or uses the Seek action to examine it can attempt to disbelieve your illusion.</p>\n<hr />\n<p><strong>Heightened (5th)</strong> Your image can also disguise structures or create illusory structures (but still doesn't disguise creatures).</p>"
+        },
+        "duration": {
+            "value": "until the next time you make your daily preparations"
+        },
+        "hasCounteractCheck": {
+            "value": false
+        },
+        "level": {
+            "value": 4
+        },
+        "location": {
+            "value": ""
+        },
+        "materials": {
+            "value": ""
+        },
+        "prepared": {
+            "value": ""
+        },
+        "primarycheck": {
+            "value": ""
+        },
+        "range": {
+            "value": "500 feet"
+        },
+        "rules": [],
+        "save": {
+            "basic": "",
+            "value": ""
+        },
+        "school": {
+            "value": "illusion"
+        },
+        "secondarycasters": {
+            "value": ""
+        },
+        "secondarycheck": {
+            "value": ""
+        },
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "spellType": {
+            "value": "utility"
+        },
+        "sustained": {
+            "value": false
+        },
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "10 minutes"
+        },
+        "traditions": {
+            "value": [
+                "arcane",
+                "occult",
+                "primal"
+            ]
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "uncommon",
+            "value": []
+        }
+    },
+    "img": "systems/pf2e/icons/spells/hallucinatory-terrain.webp",
+    "name": "Hallucinatory Terrain",
+    "type": "spell"
+}

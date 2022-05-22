@@ -1,0 +1,70 @@
+{
+    "_id": "70qdCBokXBvKIUIQ",
+    "data": {
+        "description": {
+            "value": "<p>Granted by <em>@Compendium[pf2e.spells-srd.Vision of Weakness]{Vision of Weakness}</em></p>"
+        },
+        "duration": {
+            "expiry": "turn-end",
+            "sustained": false,
+            "unit": "rounds",
+            "value": 0
+        },
+        "level": {
+            "value": 2
+        },
+        "rules": [
+            {
+                "domain": "all",
+                "key": "RollOption",
+                "label": "Attacking target of Vision of Weakness",
+                "option": "vision-of-weakness",
+                "toggleable": true
+            },
+            {
+                "key": "FlatModifier",
+                "label": "Against target of Vision of Weakness",
+                "predicate": {
+                    "all": [
+                        "vision-of-weakness"
+                    ]
+                },
+                "selector": "attack",
+                "type": "status",
+                "value": 2
+            },
+            {
+                "key": "FlatModifier",
+                "label": "Part of an Attack action against Vision of Weakness target",
+                "predicate": {
+                    "all": [
+                        "attack",
+                        "vision-of-weakness"
+                    ]
+                },
+                "selector": "skill-check",
+                "type": "status",
+                "value": 2
+            }
+        ],
+        "source": {
+            "value": ""
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "img": "systems/pf2e/icons/spells/vision-of-weakness.webp",
+    "name": "Spell Effect: Vision of Weakness",
+    "type": "effect"
+}

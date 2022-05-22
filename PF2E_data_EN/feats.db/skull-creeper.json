@@ -1,0 +1,41 @@
+{
+    "_id": "VV7vbDzcO8vdD3OO",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You wear skulls to demoralize foes. You become trained in Intimidation and gain the @Compendium[pf2e.feats-srd.Intimidating Glare]{Intimidating Glare} skill feat. If you're already trained in Intimidation, you instead become trained in a skill of your choice. If you pay 50 gp for a @Compendium[pf2e.equipment-srd.Splendid Skull Mask]{Splendid Skull Mask}, the mask grants you a +1 item bonus to Intimidation; its usage is worn (mask).</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 1
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Lost Omens: Ancestry Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "ratfolk"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Skull Creeper",
+    "type": "feat"
+}

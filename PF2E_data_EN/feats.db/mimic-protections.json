@@ -1,0 +1,44 @@
+{
+    "_id": "mjdLmXLCNaRgMLVw",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>By adopting resonant reflections, you have learned to copy the abilities of other creatures as well. When you use @Compendium[pf2e.actionspf2e.Hunt Prey]{Hunt Prey} on a foe within 100 feet, you gain resistance 10 to all damage types that target has resistance or immunity to for as long as the foe remains within 100 feet.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 20
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder #156: The Apocalypse Prophet"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "uncommon",
+            "selected": {
+                "ranger": "Ranger"
+            },
+            "value": [
+                "ranger"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Mimic Protections",
+    "type": "feat"
+}

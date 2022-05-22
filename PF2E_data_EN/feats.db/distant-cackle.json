@@ -1,0 +1,45 @@
+{
+    "_id": "P19AnciwNcSqxU7z",
+    "data": {
+        "actionCategory": {
+            "value": "interaction"
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>It takes a very brave person to enter the laughter-haunted forest where you dwell. You can cast <em>@Compendium[pf2e.spells-srd.Ventriloquism]{Ventriloquism}</em> once per day as a 1st-level occult innate spell.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 5
+        },
+        "location": "",
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Witch Gnoll Heritage"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Lost Omens: The Mwangi Expanse"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "gnoll"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/default-icons/feats.webp",
+    "name": "Distant Cackle",
+    "type": "feat"
+}

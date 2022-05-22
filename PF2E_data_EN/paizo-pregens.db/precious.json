@@ -1,0 +1,547 @@
+{
+    "_id": "lpIV82IVlgatyQvO",
+    "data": {
+        "abilities": {
+            "cha": {
+                "value": 10
+            },
+            "con": {
+                "value": 12
+            },
+            "dex": {
+                "value": 16
+            },
+            "int": {
+                "value": 2
+            },
+            "str": {
+                "value": 14
+            },
+            "wis": {
+                "value": 14
+            }
+        },
+        "attributes": {
+            "bonusEncumbranceBulk": 0,
+            "bonusLimitBulk": 0,
+            "classDC": {
+                "rank": 0
+            },
+            "flatbonushp": 0,
+            "flatbonussp": 0,
+            "hp": {
+                "details": "",
+                "temp": 0,
+                "value": 5
+            },
+            "initiative": {
+                "ability": ""
+            },
+            "levelbonushp": 6,
+            "levelbonussp": 0,
+            "perception": {
+                "rank": 1
+            },
+            "resolve": {
+                "max": 0,
+                "value": 0
+            },
+            "sp": {
+                "details": "",
+                "max": 0,
+                "min": 0,
+                "value": 0
+            },
+            "speed": {
+                "otherSpeeds": [],
+                "value": "25"
+            }
+        },
+        "crafting": {
+            "entries": {},
+            "formulas": []
+        },
+        "details": {
+            "age": {
+                "value": ""
+            },
+            "alignment": {
+                "value": "N"
+            },
+            "ancestry": {
+                "value": ""
+            },
+            "background": {
+                "value": ""
+            },
+            "biography": {
+                "allies": "",
+                "appearance": "",
+                "attitude": "",
+                "backstory": "",
+                "beliefs": "",
+                "birthPlace": "",
+                "campaignNotes": "",
+                "catchphrases": "",
+                "dislikes": "",
+                "enemies": "",
+                "likes": "",
+                "organaizations": ""
+            },
+            "class": {
+                "value": ""
+            },
+            "deity": {
+                "image": "systems/pf2e/assets/sheet/deity.webp",
+                "value": ""
+            },
+            "ethnicity": {
+                "value": ""
+            },
+            "gender": {
+                "value": ""
+            },
+            "height": {
+                "value": ""
+            },
+            "heritage": {
+                "value": ""
+            },
+            "keyability": {
+                "value": "str"
+            },
+            "level": {
+                "min": 1,
+                "value": 1
+            },
+            "nationality": {
+                "value": ""
+            },
+            "weight": {
+                "value": ""
+            },
+            "xp": {
+                "max": 1000,
+                "min": 0,
+                "pct": 0,
+                "value": 0
+            }
+        },
+        "martial": {},
+        "pfs": {
+            "characterNumber": "",
+            "currentFaction": "EA",
+            "fame": 0,
+            "levelBump": false,
+            "playerNumber": "",
+            "reputation": {
+                "EA": 0,
+                "GA": 0,
+                "HH": 0,
+                "RO": 0,
+                "VS": 0,
+                "VW": 0
+            },
+            "school": "none"
+        },
+        "resources": {
+            "heroPoints": {
+                "max": 3,
+                "value": 0
+            }
+        },
+        "saves": {
+            "fortitude": {
+                "rank": 1,
+                "value": 0
+            },
+            "reflex": {
+                "rank": 1,
+                "value": 0
+            },
+            "will": {
+                "rank": 1,
+                "value": 0
+            }
+        },
+        "skills": {
+            "acr": {
+                "rank": 1
+            },
+            "arc": {
+                "rank": 0
+            },
+            "ath": {
+                "rank": 1
+            },
+            "cra": {
+                "rank": 0
+            },
+            "dec": {
+                "rank": 0
+            },
+            "dip": {
+                "rank": 0
+            },
+            "itm": {
+                "rank": 0
+            },
+            "med": {
+                "rank": 0
+            },
+            "nat": {
+                "rank": 0
+            },
+            "occ": {
+                "rank": 0
+            },
+            "prf": {
+                "rank": 0
+            },
+            "rel": {
+                "rank": 0
+            },
+            "soc": {
+                "rank": 0
+            },
+            "ste": {
+                "rank": 1
+            },
+            "sur": {
+                "rank": 0
+            },
+            "thi": {
+                "rank": 0
+            }
+        },
+        "traits": {
+            "ci": [],
+            "di": {
+                "custom": "",
+                "value": []
+            },
+            "dr": [],
+            "dv": [],
+            "languages": {
+                "custom": "",
+                "selected": [],
+                "value": []
+            },
+            "rarity": "common",
+            "senses": [
+                {
+                    "exceptions": "",
+                    "label": "Low-Light Vision",
+                    "type": "lowLightVision",
+                    "value": ""
+                },
+                {
+                    "type": "scent",
+                    "value": 30
+                }
+            ],
+            "traits": {
+                "custom": "cat",
+                "value": [
+                    "minion"
+                ]
+            }
+        }
+    },
+    "img": "systems/pf2e/icons/default-icons/npc.svg",
+    "items": [
+        {
+            "_id": "FO6042uwC3k3rMjo",
+            "data": {
+                "additionalLanguages": {
+                    "count": 0,
+                    "custom": "",
+                    "value": []
+                },
+                "boosts": {
+                    "0": {
+                        "value": []
+                    },
+                    "1": {
+                        "value": []
+                    },
+                    "2": {
+                        "value": []
+                    }
+                },
+                "description": {
+                    "value": "<p>Animal Companion - Cat</p>"
+                },
+                "flaws": {
+                    "0": {
+                        "value": []
+                    }
+                },
+                "hp": 4,
+                "items": {},
+                "languages": {
+                    "custom": "",
+                    "value": []
+                },
+                "reach": 5,
+                "rules": [],
+                "size": "sm",
+                "slug": "empty-ancestry",
+                "source": {
+                    "value": ""
+                },
+                "speed": 35,
+                "traits": {
+                    "custom": "",
+                    "rarity": "common",
+                    "value": []
+                },
+                "vision": "normal"
+            },
+            "flags": {
+                "core": {
+                    "sourceId": "Compendium.pf2e.ancestries.mDtlRBBUWqUzYSHs"
+                }
+            },
+            "img": "systems/pf2e/icons/default-icons/mystery-man.svg",
+            "name": "Cat",
+            "sort": 100000,
+            "type": "ancestry"
+        },
+        {
+            "_id": "H8lOHuUm9RhvAKid",
+            "data": {
+                "actionCategory": {
+                    "value": ""
+                },
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "description": {
+                    "value": "<p>Precious deals 1d4 extra precision damage against @Compendium[pf2e.conditionitems.Flat-Footed]{Flat-Footed} targets.</p>"
+                },
+                "requirements": {
+                    "value": ""
+                },
+                "rules": [
+                    {
+                        "category": "precision",
+                        "diceNumber": 1,
+                        "dieSize": "d4",
+                        "key": "DamageDice",
+                        "predicate": {
+                            "all": [
+                                "target:condition:flat-footed",
+                                {
+                                    "or": [
+                                        "finesse",
+                                        "agile",
+                                        {
+                                            "and": [
+                                                "ranged",
+                                                {
+                                                    "not": "thrown"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "selector": "strike-damage"
+                    }
+                ],
+                "slug": null,
+                "source": {
+                    "value": ""
+                },
+                "traits": {
+                    "custom": "",
+                    "rarity": "common",
+                    "value": []
+                },
+                "trigger": {
+                    "value": ""
+                },
+                "weapon": {
+                    "value": ""
+                }
+            },
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Special",
+            "sort": 300000,
+            "type": "action"
+        },
+        {
+            "_id": "rTcZ9vYlESzYBnZY",
+            "data": {
+                "actionCategory": {
+                    "value": ""
+                },
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "description": {
+                    "value": ""
+                },
+                "featType": {
+                    "value": "ancestry"
+                },
+                "level": {
+                    "value": 0
+                },
+                "location": "",
+                "prerequisites": {
+                    "value": []
+                },
+                "rules": [
+                    {
+                        "category": "unarmed",
+                        "damage": {
+                            "base": {
+                                "damageType": "piercing",
+                                "dice": 1,
+                                "die": "d6"
+                            }
+                        },
+                        "group": "brawling",
+                        "key": "Strike",
+                        "range": null,
+                        "traits": [
+                            "unarmed",
+                            "finesse"
+                        ]
+                    }
+                ],
+                "slug": null,
+                "source": {
+                    "value": ""
+                },
+                "traits": {
+                    "custom": "",
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Jaws",
+            "sort": 400000,
+            "type": "feat"
+        },
+        {
+            "_id": "CC97GeBsxJnLngqF",
+            "data": {
+                "actionCategory": {
+                    "value": ""
+                },
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "description": {
+                    "value": ""
+                },
+                "featType": {
+                    "value": "ancestry"
+                },
+                "level": {
+                    "value": 0
+                },
+                "location": "",
+                "prerequisites": {
+                    "value": []
+                },
+                "rules": [
+                    {
+                        "category": "unarmed",
+                        "damage": {
+                            "base": {
+                                "damageType": "slashing",
+                                "dice": 1,
+                                "die": "d4"
+                            }
+                        },
+                        "group": "brawling",
+                        "key": "Strike",
+                        "range": null,
+                        "traits": [
+                            "unarmed",
+                            "agile",
+                            "finesse"
+                        ]
+                    }
+                ],
+                "slug": null,
+                "source": {
+                    "value": ""
+                },
+                "traits": {
+                    "custom": "",
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Claw",
+            "sort": 500000,
+            "type": "feat"
+        },
+        {
+            "_id": "yfiv6h226TAEQpOf",
+            "data": {
+                "actionCategory": {
+                    "value": ""
+                },
+                "actionType": {
+                    "value": "action"
+                },
+                "actions": {
+                    "value": null
+                },
+                "description": {
+                    "value": "<p>Precious throws your enemies off-balance when you create an opening. Until the start of your next turn, your Strikes that deal damage to a creature that Precious threatens make the target @Compendium[pf2e.conditionitems.Flat-Footed]{Flat-Footed} until the end of your next turn.</p>"
+                },
+                "requirements": {
+                    "value": ""
+                },
+                "rules": [],
+                "slug": null,
+                "source": {
+                    "value": ""
+                },
+                "traits": {
+                    "custom": "",
+                    "rarity": "common",
+                    "value": []
+                },
+                "trigger": {
+                    "value": ""
+                },
+                "weapon": {
+                    "value": ""
+                }
+            },
+            "img": "systems/pf2e/icons/actions/OneAction.webp",
+            "name": "Support Benefit",
+            "sort": 600000,
+            "type": "action"
+        }
+    ],
+    "name": "Precious",
+    "token": {
+        "disposition": 1,
+        "height": 1,
+        "img": "systems/pf2e/icons/default-icons/npc.svg",
+        "name": "Precious",
+        "width": 1
+    },
+    "type": "character"
+}

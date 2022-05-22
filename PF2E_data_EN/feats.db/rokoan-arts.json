@@ -1,0 +1,41 @@
+{
+    "_id": "Xwk41o4fERfM07NR",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Ancestral spirits have begun to bond themselves to you, granting you powers characteristic of a rokoa. You can cast <em>@Compendium[pf2e.spells-srd.Speak with Animals]{Speak with Animals}</em> and <em>@Compendium[pf2e.spells-srd.Status]{Status}</em><em> </em>as primal innate spells once per day each.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 9
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Lost Omens: Ancestry Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "strix"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Rokoan Arts",
+    "type": "feat"
+}

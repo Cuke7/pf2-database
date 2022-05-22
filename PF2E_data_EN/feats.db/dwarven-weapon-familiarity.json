@@ -1,0 +1,84 @@
+{
+    "_id": "CXS0ryG2SODSobm9",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your kin have instilled in you an affinity for hard-hitting weapons, and you prefer these to more elegant arms. You are trained with the @Compendium[pf2e.equipment-srd.Battle Axe]{Battle Axe}, @Compendium[pf2e.equipment-srd.Pick]{Pick}, and @Compendium[pf2e.equipment-srd.Warhammer]{Warhammer}.</p>\n<p>You also gain access to all uncommon dwarf weapons. For the purpose of determining your proficiency, martial dwarf weapons are simple weapons and advanced dwarf weapons are martial weapons.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 1
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "data.martial.weapon-base-battle-axe.rank",
+                "value": 1
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "data.martial.weapon-base-pick.rank",
+                "value": 1
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "data.martial.weapon-base-warhammer.rank",
+                "value": 1
+            },
+            {
+                "definition": {
+                    "all": [
+                        "weapon:trait:dwarf",
+                        "weapon:category:advanced"
+                    ]
+                },
+                "key": "MartialProficiency",
+                "label": "PF2E.SpecificRule.MartialProficiency.AdvancedDwarfWeapons",
+                "sameAs": "martial",
+                "slug": "advanced-dwarf-weapons"
+            },
+            {
+                "definition": {
+                    "all": [
+                        "weapon:trait:dwarf",
+                        "weapon:category:martial"
+                    ]
+                },
+                "key": "MartialProficiency",
+                "label": "PF2E.SpecificRule.MartialProficiency.MartialDwarfWeapons",
+                "sameAs": "simple",
+                "slug": "martial-dwarf-weapons"
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "dwarf"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Dwarven Weapon Familiarity",
+    "type": "feat"
+}

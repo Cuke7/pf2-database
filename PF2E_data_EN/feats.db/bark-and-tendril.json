@@ -1,0 +1,40 @@
+{
+    "_id": "2kAyZ3LB28BDhXKa",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You wield primal magic. You can cast <em>@Compendium[pf2e.spells-srd.Barkskin]{Barkskin}</em> and <em>@Compendium[pf2e.spells-srd.Entangle]{Entangle}</em> as 2nd-level primal innate spells once per day each.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 9
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Lost Omens: Character Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "leshy"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Bark and Tendril",
+    "type": "feat"
+}

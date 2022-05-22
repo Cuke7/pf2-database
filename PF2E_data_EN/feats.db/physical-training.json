@@ -1,0 +1,64 @@
+{
+    "_id": "8Sdw31YToKhBJ4v4",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You spend a lot of time focusing on your physical fitness. You increase your proficiency rank in Acrobatics and Athletics from expert to master.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 8
+        },
+        "location": null,
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Swordmaster Dedication"
+                },
+                {
+                    "value": "expert in Athletics"
+                },
+                {
+                    "value": "expert in Acrobatics"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "data.skills.acr.rank",
+                "value": 3
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "data.skills.ath.rank",
+                "value": 3
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Lost Omens: Pathfinder Society Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "archetype"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Physical Training",
+    "type": "feat"
+}

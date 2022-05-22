@@ -1,0 +1,41 @@
+{
+    "_id": "OWhTAowdMvBZnCrT",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You are as light as a leaf whirling in the breeze. When you @Compendium[pf2e.actionspf2e.Leap]{Leap} or succeed at a @Compendium[pf2e.actionspf2e.High Jump]{High Jump} or @Compendium[pf2e.actionspf2e.Long Jump]{Long Jump}, increase the distance you jump by 5 feet. When calculating the damage you take from falling, don't count any distance fallen while you are adjacent to a wall.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 2
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "monk"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Dancing Leaf",
+    "type": "feat"
+}

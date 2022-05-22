@@ -1,0 +1,46 @@
+{
+    "_id": "8aRa9VHoDKl9B1Z1",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Once per day, you can spend 10 minutes studying your surroundings in search of omens related to a particular course of action to cast <em>@Compendium[pf2e.spells-srd.Augury]{Augury}</em> as an innate divine spell. Unless the result of the<em>augury</em>was \"nothing,\" you gain the @Compendium[pf2e.actionspf2e.Call Upon the Brightness]{Call Upon the Brightness} reaction for the next 30 minutes.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 9
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "GrantItem",
+                "uuid": "Compendium.pf2e.actionspf2e.Call Upon the Brightness"
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Lost Omens: Character Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "elf"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Brightness Seeker",
+    "type": "feat"
+}

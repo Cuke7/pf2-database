@@ -1,0 +1,39 @@
+{
+    "_id": "zoJjzir97Ie7tbp0",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p><strong>Moderate Boon</strong> You are inspired to create great works and become a virtuoso at all arts. You gain the @Compendium[pf2e.feats-srd.Specialty Crafting]{Specialty Crafting} feat and the @Compendium[pf2e.feats-srd.Virtuosic Performer]{Virtuosic Performer} feat in all categories of Crafting and Performance.</p>"
+        },
+        "featType": {
+            "value": "deityboon"
+        },
+        "level": {
+            "value": 0
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": ""
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "img": "systems/pf2e/icons/deity/Shelyn.webp",
+    "name": "Shelyn - Moderate Boon",
+    "type": "feat"
+}

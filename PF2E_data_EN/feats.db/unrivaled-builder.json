@@ -1,0 +1,44 @@
+{
+    "_id": "wHxXVknciaD4X8Ch",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Building things is like solving a puzzle, and you know how to use anything at your disposal to get the job done. You gain <em>creation</em> as a 5th-level innate primal spell. You must have an equivalent Bulk of material to create an item, such as wood or scrap metal to make a wheelbarrow. You can cast this spell once each day.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 13
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Handy with Your Paws"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder #153: Life's Long Shadow"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "shoony"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Unrivaled Builder",
+    "type": "feat"
+}

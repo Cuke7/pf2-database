@@ -1,0 +1,276 @@
+{
+    "_id": "ZHabYxSgYK0XbjhM",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>The blood of dragons flows through your veins. These beasts are both fearsome in combat and skilled at magic</p>\n<p><strong>Spell List</strong> arcane</p>\n<p><strong>Bloodline Skills</strong> Arcana, Intimidation</p>\n<p><strong>Granted Spells</strong> cantrip <em>@Compendium[pf2e.spells-srd.Shield]{Shield}</em>, 1st: <em>@Compendium[pf2e.spells-srd.True Strike]{True Strike}</em>, 2nd: <em>@Compendium[pf2e.spells-srd.Resist Energy]{Resist Energy}</em>, 3rd: <em>@Compendium[pf2e.spells-srd.Haste]{Haste}</em>, 4th: <em>@Compendium[pf2e.spells-srd.Spell Immunity]{Spell Immunity}</em>, 5th: <em>@Compendium[pf2e.spells-srd.Chromatic Wall]{Chromatic Wall}</em>, 6th: <em>@Compendium[pf2e.spells-srd.Dragon Form]{Dragon Form}</em>, 7th: <em>@Compendium[pf2e.spells-srd.Mask of Terror]{Mask of Terror}</em>, 8th: <em>@Compendium[pf2e.spells-srd.Prismatic Wall]{Prismatic Wall}</em>, 9th: <em>@Compendium[pf2e.spells-srd.Overwhelming Presence]{Overwhelming Presence}</em></p>\n<p><strong>Bloodline Spells</strong> initial: <em>@Compendium[pf2e.spells-srd.Dragon Claws]{Dragon Claws}</em>, advanced: <em>@Compendium[pf2e.spells-srd.Dragon Breath]{Dragon Breath}</em>, greater: <em>@Compendium[pf2e.spells-srd.Dragon Wings]{Dragon Wings}</em></p>\n<p><strong>Blood Magic</strong> Draconic scales grow briefly on you or one target, granting a +1 status bonus to AC for 1 round.</p>\n<p>@Compendium[pf2e.feature-effects.Effect: Draconic Blood Magic]{Effect: Draconic Blood Magic}</p>\n<h2 class=\"title\">Dragon Type</h2>\n<p>At 1st level, choose the type of dragon that influenced your bloodline. You can't change your dragon type later. This affects how some of your bloodline spells function.</p>\n<p>The good metallic dragons and their damage types are brass (fire), bronze (electricity), copper (acid), gold (fire), and silver (cold).</p>\n<p>The evil chromatic dragons and their damage types are black (acid), blue (electricity), green (poison), red (fire), and white (cold).</p>\n<h2 class=\"title\">Related bloodline</h2>\n<p>Because the wyrmblessed and draconic bloodlines have similar origins, they count the same as each other for the purposes of prerequisites and access requirements.</p>"
+        },
+        "featType": {
+            "value": "classfeature"
+        },
+        "level": {
+            "value": 1
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "data.resources.focus.max",
+                "predicate": {
+                    "all": [
+                        "class:sorcerer"
+                    ]
+                },
+                "priority": 10,
+                "value": 1
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "data.skills.arc.rank",
+                "value": 1
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "data.skills.itm.rank",
+                "value": 1
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "override",
+                "path": "data.proficiencies.aliases.sorcerer",
+                "priority": 39,
+                "value": "arcane"
+            },
+            {
+                "adjustName": true,
+                "choices": [
+                    {
+                        "label": "Black Dragon",
+                        "value": "feature:bloodline:draconic:black"
+                    },
+                    {
+                        "label": "Brine Dragon",
+                        "value": "feature:bloodline:draconic:brine"
+                    },
+                    {
+                        "label": "Copper Dragon",
+                        "value": "feature:bloodline:draconic:copper"
+                    },
+                    {
+                        "label": "Blue Dragon",
+                        "value": "feature:bloodline:draconic:blue"
+                    },
+                    {
+                        "label": "Bronze Dragon",
+                        "value": "feature:bloodline:draconic:bronze"
+                    },
+                    {
+                        "label": "Cloud Dragon",
+                        "value": "feature:bloodline:draconic:cloud"
+                    },
+                    {
+                        "label": "Sky Dragon",
+                        "value": "feature:bloodline:draconic:sky"
+                    },
+                    {
+                        "label": "Brass Dragon",
+                        "value": "feature:bloodline:draconic:brass"
+                    },
+                    {
+                        "label": "Underworld Dragon",
+                        "value": "feature:bloodline:draconic:underworld"
+                    },
+                    {
+                        "label": "Crystal Dragon",
+                        "value": "feature:bloodline:draconic:crystal"
+                    },
+                    {
+                        "label": "Forest Dragon",
+                        "value": "feature:bloodline:draconic:forest"
+                    },
+                    {
+                        "label": "Green Dragon",
+                        "value": "feature:bloodline:draconic:green"
+                    },
+                    {
+                        "label": "Sea Dragon",
+                        "value": "feature:bloodline:draconic:sea"
+                    },
+                    {
+                        "label": "Silver Dragon",
+                        "value": "feature:bloodline:draconic:silver"
+                    },
+                    {
+                        "label": "White Dragon",
+                        "value": "feature:bloodline:draconic:white"
+                    },
+                    {
+                        "label": "Sovereign Dragon",
+                        "value": "feature:bloodline:draconic:sovereign"
+                    },
+                    {
+                        "label": "Umbral Dragon",
+                        "value": "feature:bloodline:draconic:umbral"
+                    },
+                    {
+                        "label": "Red Dragon",
+                        "value": "feature:bloodline:draconic:red"
+                    },
+                    {
+                        "label": "Gold Dragon",
+                        "value": "feature:bloodline:draconic:gold"
+                    },
+                    {
+                        "label": "Magma Dragon",
+                        "value": "feature:bloodline:draconic:magma"
+                    }
+                ],
+                "flag": "dragonChoice",
+                "key": "ChoiceSet",
+                "prompt": "PF2E.UI.RuleElements.ChoiceSet.Prompt"
+            },
+            {
+                "domain": "all",
+                "key": "RollOption",
+                "option": "{item|flags.pf2e.rulesSelections.dragonChoice}"
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "override",
+                "path": "data.custom.dragonBloodline.damageType",
+                "predicate": {
+                    "any": [
+                        "feature:bloodline:draconic:black",
+                        "feature:bloodline:draconic:brine",
+                        "feature:bloodline:draconic:copper"
+                    ]
+                },
+                "value": "acid"
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "override",
+                "path": "data.custom.dragonBloodline.damageType",
+                "predicate": {
+                    "any": [
+                        "feature:bloodline:draconic:blue",
+                        "feature:bloodline:draconic:bronze",
+                        "feature:bloodline:draconic:cloud",
+                        "feature:bloodline:draconic:sky"
+                    ]
+                },
+                "value": "electricity"
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "override",
+                "path": "data.custom.dragonBloodline.damageType",
+                "predicate": {
+                    "any": [
+                        "feature:bloodline:draconic:brass",
+                        "feature:bloodline:draconic:gold",
+                        "feature:bloodline:draconic:magma",
+                        "feature:bloodline:draconic:red",
+                        "feature:bloodline:draconic:underworld"
+                    ]
+                },
+                "value": "fire"
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "override",
+                "path": "data.custom.dragonBloodline.damageType",
+                "predicate": {
+                    "any": [
+                        "feature:bloodline:draconic:crystal",
+                        "feature:bloodline:draconic:forest"
+                    ]
+                },
+                "value": "piercing"
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "override",
+                "path": "data.custom.dragonBloodline.damageType",
+                "predicate": {
+                    "any": [
+                        "feature:bloodline:draconic:green"
+                    ]
+                },
+                "value": "poison"
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "override",
+                "path": "data.custom.dragonBloodline.damageType",
+                "predicate": {
+                    "any": [
+                        "feature:bloodline:draconic:sea"
+                    ]
+                },
+                "value": "bludgeoning"
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "override",
+                "path": "data.custom.dragonBloodline.damageType",
+                "predicate": {
+                    "any": [
+                        "feature:bloodline:draconic:silver",
+                        "feature:bloodline:draconic:white"
+                    ]
+                },
+                "value": "cold"
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "override",
+                "path": "data.custom.dragonBloodline.damageType",
+                "predicate": {
+                    "any": [
+                        "feature:bloodline:draconic:sovereign"
+                    ]
+                },
+                "value": "mental"
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "override",
+                "path": "data.custom.dragonBloodline.damageType",
+                "predicate": {
+                    "any": [
+                        "feature:bloodline:draconic:umbral"
+                    ]
+                },
+                "value": "negative"
+            }
+        ],
+        "source": {
+            "value": ""
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "sorcerer"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/classes/draconic.webp",
+    "name": "Bloodline: Draconic",
+    "type": "feat"
+}

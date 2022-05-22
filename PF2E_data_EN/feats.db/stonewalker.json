@@ -1,0 +1,41 @@
+{
+    "_id": "KTLdk65OOAVixqtY",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You have a deep reverence for and connection to stone. You gain <em>@Compendium[pf2e.spells-srd.Meld into Stone]{Meld into Stone}</em> as a 3rd-level divine innate spell that you can cast once per day. If you have the @Compendium[pf2e.feats-srd.Stonecunning]{Stonecunning} dwarf ancestry feat, you can attempt to find unusual stonework and stonework traps that require legendary proficiency in Perception. If you have both Stonecunning and legendary proficiency in Perception, when you're not Seeking and the GM rolls a secret check for you to notice unusual stonework,you keep the bonus from Stonecunning and don't take the -2 circumstance penalty.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 9
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "dwarf"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Stonewalker",
+    "type": "feat"
+}

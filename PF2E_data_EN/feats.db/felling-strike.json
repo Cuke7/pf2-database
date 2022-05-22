@@ -1,0 +1,40 @@
+{
+    "_id": "Ad0XBuETAkMD6doj",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 2
+        },
+        "description": {
+            "value": "<p>Your attack can ground an airborne foe.</p>\n<p>Make a Strike. If it hits and deals damage to a flying target, the target falls up to 120 feet. The fall is gradual enough that if it causes the target to hit the ground, the target takes no damage from the fall.</p>\n<p>If the attack is a critical hit, the target can't @Compendium[pf2e.actionspf2e.Fly]{Fly}, @Compendium[pf2e.actionspf2e.Leap]{Leap}, levitate, or otherwise leave the ground until the end of your next turn.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "fighter"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Felling Strike",
+    "type": "feat"
+}

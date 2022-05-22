@@ -1,0 +1,41 @@
+{
+    "_id": "hgfRHSS5BsoyQ9Fj",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You channel the magic of marids. You can cast <em>@Compendium[pf2e.spells-srd.Hydraulic Push]{Hydraulic Push}</em> and <em>@Compendium[pf2e.spells-srd.Obscuring Mist]{Obscuring Mist}</em> each once per day as 2nd-level arcane innate spells.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 9
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Lost Omens: Ancestry Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "undine"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Marid Magic",
+    "type": "feat"
+}

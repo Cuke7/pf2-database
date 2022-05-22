@@ -1,0 +1,49 @@
+{
+    "_id": "1WfvvjjObPKeZyid",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You provide emotional and spiritual care. Add @Compendium[pf2e.conditionitems.Frightened]{Frightened}, @Compendium[pf2e.conditionitems.Stupefied]{Stupefied}, and @Compendium[pf2e.conditionitems.Stunned]{Stunned} to the list of conditions you can reduce with @Compendium[pf2e.feats-srd.Treat Condition]{Treat Condition}. If the stunned condition has a duration instead of a value, you can't use Treat Condition to reduce it.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 6
+        },
+        "location": "",
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "trained in Diplomacy"
+                },
+                {
+                    "value": "Treat Condition"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Advanced Player's Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "archetype",
+                "skill"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Holistic Care",
+    "type": "feat"
+}

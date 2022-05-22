@@ -1,0 +1,38 @@
+{
+    "_id": "DcMAGJWq2G5kGRWn",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p><strong>[Slotless]</strong></p>\n<hr />\n<p><strong>Effect</strong> Bhopanese culture has numerous traditions that involve bloodletting as a sign of respect or a show of bravery. You participated in at least one of these traditions. This boon will have an effect in future scenarios.</p>"
+        },
+        "featType": {
+            "value": "pfsboon"
+        },
+        "level": {
+            "value": 0
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": ""
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "img": "systems/pf2e/icons/default-icons/mystery-man.webp",
+    "name": "S1-16 - Blood Offering",
+    "type": "feat"
+}

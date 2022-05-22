@@ -1,0 +1,45 @@
+{
+    "_id": "QpnZwabXOVICJL5i",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your additives contain panaceas that can remedy a plethora of maladies. When you use @Compendium[pf2e.feats-srd.Merciful Elixir]{Merciful Elixir}, your elixir can instead attempt to counteract the @Compendium[pf2e.conditionitems.Blinded]{Blinded}, @Compendium[pf2e.conditionitems.Deafened]{Deafened}, @Compendium[pf2e.conditionitems.Sickened]{Sickened}, or @Compendium[pf2e.conditionitems.Slowed]{Slowed} condition.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 14
+        },
+        "location": "",
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Merciful Elixir"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "alchemist"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Greater Merciful Elixir",
+    "type": "feat"
+}

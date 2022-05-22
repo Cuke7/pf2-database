@@ -1,0 +1,41 @@
+{
+    "_id": "A1RzkLCj7mXJI1IY",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p><strong>Access</strong> Uhlam ethnicity</p>\n<hr />\n<p>Your family instilled the values of care and patience into you from a young age. You gain a +1 circumstance bonus to checks to perform a downtime activity.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 1
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Lost Omens: Character Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "uncommon",
+            "value": [
+                "halfling"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Unassuming Dedication",
+    "type": "feat"
+}

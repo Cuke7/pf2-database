@@ -1,0 +1,51 @@
+{
+    "_id": "4uy4Ygf5KD2WrtGW",
+    "data": {
+        "badge": null,
+        "description": {
+            "value": "<p>You gain a +2 item bonus to Diplomacy checks to make a request.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "unlimited",
+            "value": -1
+        },
+        "level": {
+            "value": 12
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "label": "Nosoi Charm (Make A request)",
+                "predicate": {
+                    "all": [
+                        "action:make-a-request"
+                    ]
+                },
+                "selector": "diplomacy",
+                "type": "item",
+                "value": 2
+            }
+        ],
+        "source": {
+            "value": ""
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": false
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "img": "systems/pf2e/icons/equipment/held-items/nosoi-charm.webp",
+    "name": "Effect: Nosoi Charm (Diplomacy)",
+    "type": "effect"
+}

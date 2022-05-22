@@ -1,0 +1,67 @@
+{
+    "_id": "MD33E76f2olLnDZb",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your limbs produce strange, sucker-like growths that allow you to adhere to walls, objects, and most other surfaces. You gain a @Compendium[pf2e.actionspf2e.Climb]{Climb} Speed equal to your half your land Speed (minimum 5 feet). If you have the @Compendium[pf2e.feats-srd.Quick Climb]{Quick Climb} feat, your climb Speed is equal to your land Speed. In addition, you gain a +2 circumstance bonus to your Reflex DC to avoid being @Compendium[pf2e.actionspf2e.Disarm]{Disarmed}.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 12
+        },
+        "location": "",
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Oozemorph Dedication"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "add",
+                "path": "data.custom.modifiers.oozemorphDedicationCount",
+                "value": 1
+            },
+            {
+                "key": "FlatModifier",
+                "label": "vs. disarm (Uncanny Suction)",
+                "predicate": {
+                    "all": [
+                        "action:disarm"
+                    ]
+                },
+                "selector": "reflex",
+                "type": "circumstance",
+                "value": 2
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Adventure: The Slithering"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "selected": {
+                "archetype": "Archetype"
+            },
+            "value": [
+                "archetype"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Uncanny Suction",
+    "type": "feat"
+}

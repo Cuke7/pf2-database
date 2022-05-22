@@ -1,0 +1,45 @@
+{
+    "_id": "AKMx0GYKLjy7jTXl",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You leave little sign when attempting to remain unseen. When you @Compendium[pf2e.actionspf2e.Avoid Notice]{Avoid Notice}, you also gain the benefits of @Compendium[pf2e.actionspf2e.Cover Tracks]{Cover Tracks} unless you choose not to.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 9
+        },
+        "location": "",
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "expert in Survival"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Lost Omens: Ancestry Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "catfolk"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "No Evidence",
+    "type": "feat"
+}

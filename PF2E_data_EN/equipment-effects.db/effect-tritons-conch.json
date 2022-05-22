@@ -1,0 +1,50 @@
+{
+    "_id": "9PASRixhNM0ogqmG",
+    "data": {
+        "description": {
+            "value": "<p>Granted by @Compendium[pf2e.equipment-srd.Triton's Conch]{Triton's Conch}</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "minutes",
+            "value": 1
+        },
+        "level": {
+            "value": 9
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "label": "Triton's Conch (Swim)",
+                "predicate": {
+                    "all": [
+                        "swim"
+                    ]
+                },
+                "selector": "athletics",
+                "type": "item",
+                "value": 2
+            }
+        ],
+        "source": {
+            "value": ""
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "img": "systems/pf2e/icons/equipment/held-items/tritons-conch.webp",
+    "name": "Effect: Triton's Conch",
+    "type": "effect"
+}

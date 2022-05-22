@@ -1,0 +1,67 @@
+{
+    "_id": "i5LtFOpsUR5S74pC",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You gain the @Compendium[pf2e.classfeatures.Sneak Attack]{Sneak Attack} class feature. You don't increase the number of dice as you gain levels.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 6
+        },
+        "location": "",
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Butterfly Blade Dedication"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "category": "precision",
+                "diceNumber": 1,
+                "dieSize": "d6",
+                "key": "DamageDice",
+                "predicate": {
+                    "all": [
+                        "target:condition:flat-footed"
+                    ],
+                    "any": [
+                        "finesse",
+                        "agile",
+                        "ranged"
+                    ]
+                },
+                "selector": "strike-damage"
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "Compendium.pf2e.classfeatures.Sneak Attack"
+            }
+        ],
+        "source": {
+            "value": "Pathfinder #166: Despair on Danger Island"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "archetype"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/default-icons/feats.webp",
+    "name": "Butterfly's Sting",
+    "type": "feat"
+}

@@ -1,0 +1,114 @@
+{
+    "_id": "xDWUGwLpKLm8WdQP",
+    "data": {
+        "activation": {
+            "condition": "",
+            "cost": 0,
+            "type": ""
+        },
+        "autoDestroy": {
+            "_deprecated": true,
+            "value": true
+        },
+        "autoUse": {
+            "_deprecated": true,
+            "value": true
+        },
+        "baseItem": null,
+        "charges": {
+            "_deprecated": true,
+            "max": 0,
+            "value": 0
+        },
+        "consumableType": {
+            "value": "potion"
+        },
+        "consume": {
+            "_deprecated": true,
+            "value": ""
+        },
+        "containerId": "null",
+        "description": {
+            "value": "<p>Burnt fulu ashes float in this liquid, lending a distinctive red color and imparting it with a variety of purifying effects. Unlike many fulu items, fu water must be created using divine magic.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"pf2-icon\">1</span> Interact</p>\n<hr />\n<p><strong>Effect</strong> This potion functions as a bottle of holy water. Like holy water, you throw it as a Strike. It's a simple thrown weapon with a range increment of 20 feet. Unlike an alchemical bomb, it doesn't add the manipulate trait to the attack made with it.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"pf2-icon\">1</span> Interact</p>\n<hr />\n<p><strong>Effect</strong> You drink the fu water to counteract ailments within yourself. Attempt a counteract check with a +9 counteract modifier and a counteract level of 3 against one effect that imposes the @Compendium[pf2e.conditionitems.Confused]{Confused}, @Compendium[pf2e.conditionitems.Fascinated]{Fascinated}, @Compendium[pf2e.conditionitems.Frightened]{Frightened}, or @Compendium[pf2e.conditionitems.Stupefied]{Stupefied} condition. You are then @Compendium[pf2e.conditionitems.Sickened]{Sickened 1}.</p>"
+        },
+        "duration": {
+            "units": "",
+            "value": null
+        },
+        "equippedBulk": {
+            "value": ""
+        },
+        "hardness": 0,
+        "hp": {
+            "brokenThreshold": 0,
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 5
+        },
+        "negateBulk": {
+            "value": "0"
+        },
+        "preciousMaterial": {
+            "value": null
+        },
+        "preciousMaterialGrade": {
+            "value": null
+        },
+        "price": {
+            "value": {
+                "gp": 21
+            }
+        },
+        "quantity": 1,
+        "range": {
+            "long": null,
+            "units": "",
+            "value": null
+        },
+        "rules": [],
+        "size": "med",
+        "source": {
+            "value": "Pathfinder Secrets of Magic"
+        },
+        "spell": {
+            "data": null,
+            "heightenedLevel": null
+        },
+        "stackGroup": "",
+        "target": {
+            "type": "",
+            "units": "",
+            "value": null
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "consumable",
+                "divine",
+                "good",
+                "necromancy",
+                "potion",
+                "splash"
+            ]
+        },
+        "usage": {
+            "value": "held-in-one-hand"
+        },
+        "uses": {
+            "autoDestroy": true,
+            "autoUse": true,
+            "max": 0,
+            "per": null,
+            "value": 0
+        },
+        "weight": {
+            "value": "-"
+        }
+    },
+    "img": "systems/pf2e/icons/equipment/consumables/potions/fu-water.webp",
+    "name": "Fu Water",
+    "type": "consumable"
+}

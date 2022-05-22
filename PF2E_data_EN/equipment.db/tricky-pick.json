@@ -1,0 +1,118 @@
+{
+    "_id": "zO6Fvq7ghEXpJgJR",
+    "data": {
+        "MAP": {
+            "value": ""
+        },
+        "baseItem": "tricky-pick",
+        "bonus": {
+            "value": 0
+        },
+        "bonusDamage": {
+            "value": 0
+        },
+        "category": "advanced",
+        "containerId": null,
+        "damage": {
+            "damageType": "bludgeoning",
+            "dice": 1,
+            "die": "d6",
+            "value": ""
+        },
+        "description": {
+            "value": "<p>This ingenious kobold pick conceals several hidden traps, which the wielder can activate to trick and befuddle foes with a variety of damaging blades and bludgeoning surfaces.</p>"
+        },
+        "equippedBulk": {
+            "value": ""
+        },
+        "group": "pick",
+        "hardness": 0,
+        "hp": {
+            "brokenThreshold": 0,
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "negateBulk": {
+            "value": "0"
+        },
+        "potencyRune": {
+            "value": null
+        },
+        "preciousMaterial": {
+            "value": ""
+        },
+        "preciousMaterialGrade": {
+            "value": ""
+        },
+        "price": {
+            "value": {
+                "gp": 10
+            }
+        },
+        "property1": {
+            "critDamage": "",
+            "critDamageType": "",
+            "critDice": 0,
+            "critDie": "",
+            "criticalConditionType": "",
+            "criticalConditionValue": null,
+            "damageType": "",
+            "dice": 0,
+            "die": "",
+            "strikeConditionType": "",
+            "strikeConditionValue": null,
+            "value": ""
+        },
+        "propertyRune1": {
+            "value": ""
+        },
+        "propertyRune2": {
+            "value": ""
+        },
+        "propertyRune3": {
+            "value": ""
+        },
+        "propertyRune4": {
+            "value": ""
+        },
+        "quantity": 1,
+        "range": null,
+        "reload": {
+            "value": ""
+        },
+        "rules": [],
+        "size": "med",
+        "source": {
+            "value": "Pathfinder Lost Omens: Ancestry Guide"
+        },
+        "splashDamage": {
+            "value": 0
+        },
+        "stackGroup": null,
+        "strikingRune": {
+            "value": ""
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "uncommon",
+            "value": [
+                "backstabber",
+                "fatal-d10",
+                "kobold",
+                "modular-b-P-or-s"
+            ]
+        },
+        "usage": {
+            "value": "held-in-one-hand"
+        },
+        "weight": {
+            "value": "1"
+        }
+    },
+    "img": "systems/pf2e/icons/equipment/weapons/tricky-pick.webp",
+    "name": "Tricky Pick",
+    "type": "weapon"
+}

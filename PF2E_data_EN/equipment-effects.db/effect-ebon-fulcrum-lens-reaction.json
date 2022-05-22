@@ -1,0 +1,81 @@
+{
+    "_id": "IZkHdaqWBJIIWO7F",
+    "data": {
+        "badge": null,
+        "description": {
+            "value": "<p>For the first 24 hours after you rejuvenate, you gain a +1 item bonus to attack rolls, saving throws, and DCs.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "days",
+            "value": 1
+        },
+        "level": {
+            "value": 1
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "label": "Ebon Fulcrum Lens Reaction",
+                "selector": "attack",
+                "type": "item",
+                "value": 1
+            },
+            {
+                "key": "FlatModifier",
+                "label": "Ebon Fulcrum Lens Reaction",
+                "selector": "saving-throw",
+                "type": "item",
+                "value": 1
+            },
+            {
+                "key": "FlatModifier",
+                "label": "Ebon Fulcrum Lens Reaction",
+                "selector": "skill-check",
+                "type": "item",
+                "value": 1
+            },
+            {
+                "key": "FlatModifier",
+                "label": "Ebon Fulcrum Lens Reaction",
+                "selector": "ac",
+                "type": "item",
+                "value": 1
+            },
+            {
+                "key": "FlatModifier",
+                "label": "Ebon Fulcrum Lens Reaction",
+                "selector": "perception",
+                "type": "item",
+                "value": 1
+            },
+            {
+                "key": "FlatModifier",
+                "label": "Ebon Fulcrum Lens Reaction",
+                "selector": "class",
+                "type": "item",
+                "value": 1
+            }
+        ],
+        "source": {
+            "value": ""
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "img": "systems/pf2e/icons/equipment/other/ebon-fulcrum-lenses.webp",
+    "name": "Effect: Ebon Fulcrum Lens (Reaction)",
+    "type": "effect"
+}

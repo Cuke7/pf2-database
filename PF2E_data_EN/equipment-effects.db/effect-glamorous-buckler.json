@@ -1,0 +1,50 @@
+{
+    "_id": "iEkH8BKLMUa2wxLX",
+    "data": {
+        "description": {
+            "value": "<p>Granted by @Compendium[pf2e.equipment-srd.Glamorous Buckler]{Glamorous Buckler}.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "unlimited",
+            "value": -1
+        },
+        "level": {
+            "value": 2
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "label": "Glamorous Buckler (Feint)",
+                "predicate": {
+                    "all": [
+                        "action:feint"
+                    ]
+                },
+                "selector": "deception",
+                "type": "item",
+                "value": 1
+            }
+        ],
+        "source": {
+            "value": ""
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "img": "systems/pf2e/icons/equipment/shields/specific-shields/glamorous-buckler.webp",
+    "name": "Effect: Glamorous Buckler",
+    "type": "effect"
+}

@@ -1,0 +1,38 @@
+{
+    "_id": "845vvISfgkk6sei0",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p><strong>Minor Curse</strong> Shoddy artisanship makes itself known. Whenever an item you're using takes damage, it is @Compendium[pf2e.conditionitems.Broken]{Broken}.</p>"
+        },
+        "featType": {
+            "value": "curse"
+        },
+        "level": {
+            "value": 0
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": ""
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "img": "systems/pf2e/icons/deity/Torag.webp",
+    "name": "Torag - Minor Curse",
+    "type": "feat"
+}

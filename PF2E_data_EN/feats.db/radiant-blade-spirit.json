@@ -1,0 +1,45 @@
+{
+    "_id": "h5ksUZlrVGBjq6p4",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your divine ally radiates power, enhancing your chosen weapon.</p>\n<p>When you choose the weapon for your blade ally during your daily preparations, add the following property runes to the list of effects you can choose from: @Compendium[pf2e.feat-effects.Effect: Blade Ally Flaming Rune]{Effect: Blade Ally Flaming Rune} and any aligned properties (@Compendium[pf2e.feat-effects.Effect: Blade Ally Anarchic Rune]{Effect: Blade Ally Anarchic Rune}, @Compendium[pf2e.feat-effects.Effect: Blade Ally Axiomatic Rune]{Effect: Blade Ally Axiomatic Rune}, @Compendium[pf2e.feat-effects.Effect: Blade Ally Holy Rune]{Effect: Blade Ally Holy Rune}, or @Compendium[pf2e.feat-effects.Effect: Blade Ally Unholy Rune]{Effect: Blade Ally Unholy Rune}) that match your cause's alignment.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 10
+        },
+        "location": "",
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "divine ally (blade)"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "champion"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Radiant Blade Spirit",
+    "type": "feat"
+}

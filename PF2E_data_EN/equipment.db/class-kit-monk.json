@@ -1,0 +1,78 @@
+{
+    "_id": "drY7DJ9rMQEP0et8",
+    "data": {
+        "description": {
+            "value": "<div><strong>Weapons</strong> 10 darts</div>\n<div><strong>Gear</strong> adventurer's pack, climbing kit, grappling hook, lesser smokestick</div>\n<p><strong>Options</strong> @Compendium[pf2e.equipment-srd.Staff]{Staff} (0 gp), @Compendium[pf2e.equipment-srd.Longspear]{Longspear} (5 sp)</p>"
+        },
+        "equippedBulk": {
+            "value": ""
+        },
+        "items": {
+            "3gkoq": {
+                "id": "Tt4Qw64fwrxhr5gT",
+                "img": "systems/pf2e/icons/equipment/weapons/dart.webp",
+                "isContainer": false,
+                "items": {},
+                "name": "Dart",
+                "pack": "pf2e.equipment-srd",
+                "quantity": 10
+            },
+            "7r1bn": {
+                "id": "9UJbMaglf35GVzaZ",
+                "img": "systems/pf2e/icons/equipment/adventuring-gear/climbing-kit.webp",
+                "isContainer": false,
+                "items": {},
+                "name": "Climbing Kit",
+                "pack": "pf2e.equipment-srd",
+                "quantity": 1
+            },
+            "dm363": {
+                "id": "2req0jGaxz8hScdB",
+                "img": "systems/pf2e/icons/equipment/adventuring-gear/adventurers-pack.webp",
+                "isContainer": true,
+                "items": {},
+                "name": "Adventurer's Pack",
+                "pack": "pf2e.equipment-srd",
+                "quantity": 1
+            },
+            "e3xor": {
+                "id": "6DCy7tEF1cxaIJMy",
+                "img": "systems/pf2e/icons/equipment/adventuring-gear/grapling-hook.webp",
+                "isContainer": false,
+                "items": {},
+                "name": "Grappling Hook",
+                "pack": "pf2e.equipment-srd",
+                "quantity": 1
+            },
+            "of5k3": {
+                "id": "MoBlVd36uD9xVvZC",
+                "img": "systems/pf2e/icons/equipment/alchemical-items/alchemical-tools/smokestick.webp",
+                "isContainer": false,
+                "items": {},
+                "name": "Smokestick (Lesser)",
+                "pack": "pf2e.equipment-srd",
+                "quantity": 1
+            }
+        },
+        "price": {
+            "value": {
+                "gp": 5,
+                "sp": 3
+            }
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Core Rulebook"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "monk"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/equipment/adventuring-gear/classkit-monk.webp",
+    "name": "Class Kit (Monk)",
+    "type": "kit"
+}

@@ -1,0 +1,46 @@
+{
+    "_id": "Jtn7IugykXDlIoZq",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You turn the tables on foes who fumble, capitalizing immediately on their mistake. You gain the @Compendium[pf2e.actionspf2e.Opportune Riposte]{Opportune Riposte} reaction.</p>"
+        },
+        "featType": {
+            "value": "classfeature"
+        },
+        "level": {
+            "value": 3
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "GrantItem",
+                "uuid": "Compendium.pf2e.actionspf2e.Opportune Riposte"
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Advanced Player's Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "swashbuckler"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/classes/opportune-riposte.webp",
+    "name": "Opportune Riposte",
+    "type": "feat"
+}

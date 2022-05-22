@@ -1,0 +1,168 @@
+{
+    "_id": "P9xoZGN9pSqNPbRK",
+    "data": {
+        "attributes": {
+            "ac": {
+                "value": 14
+            },
+            "hardness": 5,
+            "hasHealth": true,
+            "hp": {
+                "details": "",
+                "max": 14,
+                "temp": 0,
+                "value": 14
+            },
+            "stealth": {
+                "details": "<p>(trained)</p>",
+                "value": 6
+            }
+        },
+        "creatureType": "",
+        "details": {
+            "description": "<p>Mechanical jaws bolted to the stone beneath a camouflaged floor tile.</p>",
+            "disable": "<p>@Check[type:theivery|dc:12] (trained) on the jaw mechanism.</p>",
+            "isComplex": false,
+            "level": {
+                "value": 0
+            },
+            "reset": "",
+            "routine": ""
+        },
+        "saves": {
+            "fortitude": {
+                "saveDetail": "",
+                "value": 8
+            },
+            "reflex": {
+                "saveDetail": "",
+                "value": 2
+            },
+            "will": {
+                "saveDetail": "",
+                "value": 0
+            }
+        },
+        "source": {
+            "value": "Pathfinder Society Scenario #2-13: A Gilded Test"
+        },
+        "statusEffects": [],
+        "traits": {
+            "ci": [],
+            "di": {
+                "custom": "",
+                "selected": {},
+                "value": [
+                    "precision",
+                    "critical-hits",
+                    "object-immunities"
+                ]
+            },
+            "dr": [],
+            "dv": [],
+            "rarity": "common",
+            "size": {
+                "value": "med"
+            },
+            "traits": {
+                "custom": "",
+                "value": [
+                    "mechanical",
+                    "trap"
+                ]
+            }
+        }
+    },
+    "img": "systems/pf2e/icons/default-icons/hazard.svg",
+    "items": [
+        {
+            "_id": "OHkELWtl2Y7kpm4E",
+            "data": {
+                "actionCategory": {
+                    "value": ""
+                },
+                "actionType": {
+                    "value": "reaction"
+                },
+                "actions": {
+                    "value": null
+                },
+                "description": {
+                    "value": "<p><strong>Trigger</strong> A creature walks on the tile.</p>\n<hr />\n<p><strong>Effect</strong> The jaws of the trap snap shut, Striking the triggering creature. The triggering creature is @Compendium[pf2e.conditionitems.Immobilized]{Immobilized} until the trap is disabled or a creature succeeds at a <span data-pf2-action=\"forceOpen\" data-pf2-glyph=\"A\" data-pf2-dc=\"12\" data-pf2-show-dc=\"gm\">Athletics</span> check to Force it Open. A creature who critically fails the check to Force it Open instead tightens the trap, dealing [[/r {1d6+3}[piercing]]]{1d6+3 piercing damage} to the immobilized creature.</p>"
+                },
+                "requirements": {
+                    "value": ""
+                },
+                "rules": [],
+                "slug": null,
+                "source": {
+                    "value": ""
+                },
+                "traits": {
+                    "custom": "",
+                    "rarity": "common",
+                    "value": []
+                },
+                "trigger": {
+                    "value": ""
+                },
+                "weapon": {
+                    "value": ""
+                }
+            },
+            "img": "systems/pf2e/icons/actions/Reaction.webp",
+            "name": "Jaws",
+            "sort": 100000,
+            "type": "action"
+        },
+        {
+            "_id": "FOebF7z3Pl8xpsjA",
+            "data": {
+                "attack": {
+                    "value": ""
+                },
+                "attackEffects": {
+                    "value": []
+                },
+                "bonus": {
+                    "value": 10
+                },
+                "damageRolls": {
+                    "7jq93flns2fx2mg9l272": {
+                        "damage": "1d6+3",
+                        "damageType": "piercing"
+                    }
+                },
+                "description": {
+                    "value": ""
+                },
+                "rules": [],
+                "slug": null,
+                "source": {
+                    "value": ""
+                },
+                "traits": {
+                    "custom": "",
+                    "rarity": "common",
+                    "value": []
+                },
+                "weaponType": {
+                    "value": "melee"
+                }
+            },
+            "img": "systems/pf2e/icons/default-icons/melee.svg",
+            "name": "Jaws",
+            "sort": 200000,
+            "type": "melee"
+        }
+    ],
+    "name": "Mechanical Jaws (1-2)",
+    "token": {
+        "disposition": 0,
+        "height": 1,
+        "img": "systems/pf2e/icons/default-icons/hazard.svg",
+        "name": "Mechanical Jaws",
+        "width": 1
+    },
+    "type": "hazard"
+}

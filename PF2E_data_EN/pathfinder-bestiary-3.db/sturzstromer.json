@@ -1,0 +1,979 @@
+{
+    "_id": "cWlntwaa4HPFEf3u",
+    "data": {
+        "abilities": {
+            "cha": {
+                "mod": 2
+            },
+            "con": {
+                "mod": 8
+            },
+            "dex": {
+                "mod": 10
+            },
+            "int": {
+                "mod": -1
+            },
+            "str": {
+                "mod": 8
+            },
+            "wis": {
+                "mod": 6
+            }
+        },
+        "attributes": {
+            "ac": {
+                "details": "",
+                "value": 41
+            },
+            "allSaves": {
+                "value": null
+            },
+            "hp": {
+                "details": "",
+                "max": 280,
+                "temp": 0,
+                "value": 280
+            },
+            "initiative": {
+                "ability": "perception"
+            },
+            "perception": {
+                "value": 33
+            },
+            "speed": {
+                "otherSpeeds": [
+                    {
+                        "type": "burrow",
+                        "value": "20"
+                    }
+                ],
+                "value": "50"
+            }
+        },
+        "details": {
+            "alignment": {
+                "value": "N"
+            },
+            "blurb": "",
+            "creatureType": "",
+            "level": {
+                "value": 19
+            },
+            "privateNotes": "",
+            "publicNotes": "<p>Cobble mites resemble squarish stones a few inches across with mouths like split geodes. Though indolent and harmless alone, they're dangerous in large groups.</p>\n<hr />\n<p>Cobble mites that remain a cohesive swarm for many years become dangerous living landslides.</p>",
+            "source": {
+                "value": "Pathfinder Bestiary 3"
+            }
+        },
+        "resources": {
+            "focus": {
+                "max": 0,
+                "value": 0
+            }
+        },
+        "saves": {
+            "fortitude": {
+                "saveDetail": "",
+                "value": 33
+            },
+            "reflex": {
+                "saveDetail": "",
+                "value": 35
+            },
+            "will": {
+                "saveDetail": "",
+                "value": 29
+            }
+        },
+        "traits": {
+            "attitude": {
+                "value": "hostile"
+            },
+            "ci": [],
+            "di": {
+                "custom": "",
+                "value": [
+                    "precision",
+                    "swarm-mind",
+                    "visual"
+                ]
+            },
+            "dr": [
+                {
+                    "exceptions": "",
+                    "label": "Piercing",
+                    "type": "piercing",
+                    "value": 20
+                },
+                {
+                    "exceptions": "",
+                    "label": "Slashing",
+                    "type": "slashing",
+                    "value": 20
+                }
+            ],
+            "dv": [
+                {
+                    "type": "area-damage",
+                    "value": 12
+                },
+                {
+                    "type": "splash-damage",
+                    "value": 12
+                }
+            ],
+            "languages": {
+                "custom": "",
+                "selected": [],
+                "value": [
+                    "terran"
+                ]
+            },
+            "rarity": "uncommon",
+            "senses": {
+                "value": "no vision, tremorsense (precise) 120 feet"
+            },
+            "size": {
+                "value": "huge"
+            },
+            "traits": {
+                "custom": "",
+                "value": [
+                    "aberration",
+                    "earth",
+                    "swarm"
+                ]
+            }
+        }
+    },
+    "img": "systems/pf2e/icons/default-icons/npc.svg",
+    "items": [
+        {
+            "_id": "I8CbkVxSimtMhKmm",
+            "data": {
+                "autoHeightenLevel": {
+                    "value": null
+                },
+                "description": {
+                    "value": ""
+                },
+                "displayLevels": {},
+                "prepared": {
+                    "flexible": false,
+                    "value": "innate"
+                },
+                "proficiency": {
+                    "value": 0
+                },
+                "rules": [],
+                "showSlotlessLevels": {
+                    "value": true
+                },
+                "showUnpreparedSpells": {
+                    "value": false
+                },
+                "slots": {
+                    "slot0": {
+                        "max": 0,
+                        "prepared": {},
+                        "value": 0
+                    },
+                    "slot1": {
+                        "max": 0,
+                        "prepared": {},
+                        "value": 0
+                    },
+                    "slot10": {
+                        "max": 1,
+                        "prepared": {
+                            "0": {
+                                "id": "dngovzi7aJxv4KYU"
+                            }
+                        },
+                        "value": 1
+                    },
+                    "slot11": {
+                        "max": 0,
+                        "prepared": {},
+                        "value": 0
+                    },
+                    "slot2": {
+                        "max": 0,
+                        "prepared": {},
+                        "value": 0
+                    },
+                    "slot3": {
+                        "max": 0,
+                        "prepared": {},
+                        "value": 0
+                    },
+                    "slot4": {
+                        "max": 0,
+                        "prepared": {},
+                        "value": 0
+                    },
+                    "slot5": {
+                        "max": 0,
+                        "prepared": {},
+                        "value": 0
+                    },
+                    "slot6": {
+                        "max": 0,
+                        "prepared": {},
+                        "value": 0
+                    },
+                    "slot7": {
+                        "max": 0,
+                        "prepared": {},
+                        "value": 0
+                    },
+                    "slot8": {
+                        "max": 5,
+                        "prepared": {
+                            "1": {
+                                "id": "dngovzi7aJxv4KYU"
+                            },
+                            "2": {
+                                "id": "dngovzi7aJxv4KYU"
+                            },
+                            "3": {
+                                "id": "dngovzi7aJxv4KYU"
+                            },
+                            "4": {
+                                "id": "hl0vrYpbdWoHItSy"
+                            }
+                        },
+                        "value": 5
+                    },
+                    "slot9": {
+                        "max": 0,
+                        "prepared": {},
+                        "value": 0
+                    }
+                },
+                "slug": null,
+                "source": {
+                    "value": ""
+                },
+                "spelldc": {
+                    "dc": 41,
+                    "item": 0,
+                    "mod": 0,
+                    "value": 31
+                },
+                "tradition": {
+                    "value": "divine"
+                },
+                "traits": {
+                    "custom": "",
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "img": "systems/pf2e/icons/default-icons/spellcastingEntry.svg",
+            "name": "Primal Innate Spells",
+            "sort": 100000,
+            "type": "spellcastingEntry"
+        },
+        {
+            "_id": "dngovzi7aJxv4KYU",
+            "data": {
+                "ability": {
+                    "value": ""
+                },
+                "area": {
+                    "areaType": "burst",
+                    "value": "60"
+                },
+                "areasize": {
+                    "value": "60-foot burst"
+                },
+                "category": {
+                    "value": "spell"
+                },
+                "components": {
+                    "focus": false,
+                    "material": false,
+                    "somatic": true,
+                    "verbal": true
+                },
+                "cost": {
+                    "value": ""
+                },
+                "damage": {
+                    "value": {
+                        "0": {
+                            "type": {
+                                "categories": [],
+                                "value": "bludgeoning"
+                            },
+                            "value": "11d6"
+                        }
+                    }
+                },
+                "description": {
+                    "value": "<p>You shake the ground, topple creatures into fissures, and collapse structures. The GM might add additional effects in certain areas. Cliffs might collapse, causing creatures to fall, or a lake might drain as fissures open up below its surface, leaving a morass of quicksand. Shaking Ground The ground is difficult terrain, and creatures on it take a -2 circumstance penalty to attack rolls, AC, and skill checks. Fissures Each creature on the ground must attempt a Reflex save at the start of its turn to keep its footing and avoid falling into 40-foot-deep fissures that open beneath it. The fissures are permanent, and their sides require DC 15 Athletics to Climb. Collapse Structures and ceilings might collapse. The GM rolls a flat check for each (DC 16 for a sturdy structure, DC 14 for an average structure and most natural formations, DC 9 for a shoddy structure, all adjusted higher or lower as the GM sees fit). A collapse deals 11d6 bludgeoning damage; each creature caught in a collapse must attempt a Reflex save to avoid it.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature takes half the collapse damage.</p>\n<p><strong>Success</strong> The creature takes half the collapse damage and falls @Compendium[pf2e.conditionitems.Prone]{Prone}.</p>\n<p><strong>Failure</strong> The creature takes the full collapse damage and falls Prone.</p>\n<p><strong>Critical Failure</strong> The creature takes the full collapse damage and falls into a fissure.</p>\n<hr />\n<p><strong>Heightened (10th)</strong> You create a massive earthquake that can devastate a settlement. The range increases to half a mile and the area to a quarter-mile burst.</p>"
+                },
+                "duration": {
+                    "value": "1 round"
+                },
+                "hasCounteractCheck": {
+                    "value": false
+                },
+                "level": {
+                    "value": 10
+                },
+                "location": {
+                    "uses": {
+                        "max": 4,
+                        "value": 4
+                    },
+                    "value": "I8CbkVxSimtMhKmm"
+                },
+                "materials": {
+                    "value": ""
+                },
+                "prepared": {
+                    "value": ""
+                },
+                "primarycheck": {
+                    "value": ""
+                },
+                "range": {
+                    "value": "500 feet"
+                },
+                "rules": [],
+                "save": {
+                    "basic": "",
+                    "value": "reflex"
+                },
+                "school": {
+                    "value": "evocation"
+                },
+                "secondarycasters": {
+                    "value": ""
+                },
+                "secondarycheck": {
+                    "value": ""
+                },
+                "slug": "earthquake",
+                "source": {
+                    "value": ""
+                },
+                "spellType": {
+                    "value": "utility"
+                },
+                "sustained": {
+                    "value": false
+                },
+                "target": {
+                    "value": ""
+                },
+                "time": {
+                    "value": "2"
+                },
+                "traditions": {
+                    "value": [
+                        "arcane",
+                        "primal"
+                    ]
+                },
+                "traits": {
+                    "custom": "",
+                    "rarity": "common",
+                    "value": [
+                        "earth"
+                    ]
+                }
+            },
+            "flags": {
+                "core": {
+                    "sourceId": "Compendium.pf2e.spells-srd.x7SPrsRxGb2Vy2nu"
+                }
+            },
+            "img": "systems/pf2e/icons/spells/earthquake.webp",
+            "name": "Earthquake",
+            "sort": 200000,
+            "type": "spell"
+        },
+        {
+            "_id": "qb5cDNrESCYTKyAg",
+            "data": {
+                "ability": {
+                    "value": ""
+                },
+                "area": {
+                    "areaType": "",
+                    "value": null
+                },
+                "areasize": {
+                    "value": ""
+                },
+                "category": {
+                    "value": "spell"
+                },
+                "components": {
+                    "focus": false,
+                    "material": false,
+                    "somatic": true,
+                    "verbal": true
+                },
+                "cost": {
+                    "value": ""
+                },
+                "damage": {
+                    "value": {}
+                },
+                "description": {
+                    "value": "<p>Using the weight of earth, you hamper a target's flight, with effects based on its Fortitude save. If the creature reaches the ground safely, it doesn't take falling damage.</p>\n<hr /><strong>Critical Success</strong> The target is unaffected.\n<p><strong>Success</strong> The target falls safely up to 120 feet.</p>\n<p><strong>Failure</strong> The target falls safely up to 120 feet. If it hits the ground, it can't Fly, levitate, or otherwise leave the ground for 1 round.</p>\n<p><strong>Critical Failure</strong> The target falls safely up to 120 feet. If it hits the ground, it can't Fly, levitate, or otherwise leave the ground for 1 minute.</p>"
+                },
+                "duration": {
+                    "value": "varies"
+                },
+                "hasCounteractCheck": {
+                    "value": false
+                },
+                "level": {
+                    "value": 8
+                },
+                "location": {
+                    "value": "I8CbkVxSimtMhKmm"
+                },
+                "materials": {
+                    "value": ""
+                },
+                "prepared": {
+                    "value": ""
+                },
+                "primarycheck": {
+                    "value": ""
+                },
+                "range": {
+                    "value": "120 feet"
+                },
+                "rules": [],
+                "save": {
+                    "basic": "",
+                    "value": "fortitude"
+                },
+                "school": {
+                    "value": "transmutation"
+                },
+                "secondarycasters": {
+                    "value": ""
+                },
+                "secondarycheck": {
+                    "value": ""
+                },
+                "slug": "earthbind",
+                "source": {
+                    "value": ""
+                },
+                "spellType": {
+                    "value": "save"
+                },
+                "sustained": {
+                    "value": false
+                },
+                "target": {
+                    "value": "1 flying creature"
+                },
+                "time": {
+                    "value": "2"
+                },
+                "traditions": {
+                    "value": [
+                        "arcane",
+                        "primal"
+                    ]
+                },
+                "traits": {
+                    "custom": "",
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "flags": {
+                "core": {
+                    "sourceId": "Compendium.pf2e.spells-srd.gPvtmKMRpg9I9D7H"
+                }
+            },
+            "img": "systems/pf2e/icons/spells/earthbind.webp",
+            "name": "Earthbind (At Will)",
+            "sort": 300000,
+            "type": "spell"
+        },
+        {
+            "_id": "hl0vrYpbdWoHItSy",
+            "data": {
+                "ability": {
+                    "value": ""
+                },
+                "area": {
+                    "areaType": "",
+                    "value": null
+                },
+                "areasize": {
+                    "value": ""
+                },
+                "category": {
+                    "value": "spell"
+                },
+                "components": {
+                    "focus": false,
+                    "material": false,
+                    "somatic": true,
+                    "verbal": true
+                },
+                "cost": {
+                    "value": ""
+                },
+                "damage": {
+                    "value": {}
+                },
+                "description": {
+                    "value": "<p>You can ask questions of and receive answers from natural or worked stone. While stone is not intelligent, you speak with the natural spirits of the stone, which have a personality colored by the type of stone, as well as by the type of structure the stone is part of, for worked stone. A stone's perspective, perception, and knowledge give it a worldview different enough from a human's that it doesn't consider the same details important. Stones can mostly answer questions about creatures that touched them in the past and what is concealed beneath or behind them.</p>"
+                },
+                "duration": {
+                    "value": "10 minutes"
+                },
+                "hasCounteractCheck": {
+                    "value": false
+                },
+                "level": {
+                    "value": 8
+                },
+                "location": {
+                    "value": "I8CbkVxSimtMhKmm"
+                },
+                "materials": {
+                    "value": ""
+                },
+                "prepared": {
+                    "value": ""
+                },
+                "primarycheck": {
+                    "value": ""
+                },
+                "range": {
+                    "value": ""
+                },
+                "rules": [],
+                "save": {
+                    "basic": "",
+                    "value": ""
+                },
+                "school": {
+                    "value": "evocation"
+                },
+                "secondarycasters": {
+                    "value": ""
+                },
+                "secondarycheck": {
+                    "value": ""
+                },
+                "slug": "stone-tell",
+                "source": {
+                    "value": ""
+                },
+                "spellType": {
+                    "value": "utility"
+                },
+                "sustained": {
+                    "value": false
+                },
+                "target": {
+                    "value": ""
+                },
+                "time": {
+                    "value": "2"
+                },
+                "traditions": {
+                    "value": [
+                        "divine",
+                        "primal"
+                    ]
+                },
+                "traits": {
+                    "custom": "",
+                    "rarity": "common",
+                    "value": [
+                        "earth"
+                    ]
+                }
+            },
+            "flags": {
+                "core": {
+                    "sourceId": "Compendium.pf2e.spells-srd.YIMampGpij4Y30yE"
+                }
+            },
+            "img": "systems/pf2e/icons/spells/stone-tell.webp",
+            "name": "Stone Tell",
+            "sort": 400000,
+            "type": "spell"
+        },
+        {
+            "_id": "CZssvJPvNJ6BM9S2",
+            "data": {
+                "actionCategory": {
+                    "value": "interaction"
+                },
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "description": {
+                    "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Tremorsense]</p>"
+                },
+                "requirements": {
+                    "value": ""
+                },
+                "rules": [],
+                "slug": "tremorsense",
+                "source": {
+                    "value": ""
+                },
+                "traits": {
+                    "custom": "",
+                    "rarity": "common",
+                    "value": []
+                },
+                "trigger": {
+                    "value": ""
+                },
+                "weapon": {
+                    "value": ""
+                }
+            },
+            "flags": {
+                "core": {
+                    "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.j2wsK6IsW5yMW1jW"
+                }
+            },
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Tremorsense (Imprecise) 240 feet",
+            "sort": 500000,
+            "type": "action"
+        },
+        {
+            "_id": "o6JjnOLT6w85TVvN",
+            "data": {
+                "actionCategory": {
+                    "value": "interaction"
+                },
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "description": {
+                    "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Tremorsense]</p>"
+                },
+                "requirements": {
+                    "value": ""
+                },
+                "rules": [],
+                "slug": "tremorsense",
+                "source": {
+                    "value": ""
+                },
+                "traits": {
+                    "custom": "",
+                    "rarity": "common",
+                    "value": []
+                },
+                "trigger": {
+                    "value": ""
+                },
+                "weapon": {
+                    "value": ""
+                }
+            },
+            "flags": {
+                "core": {
+                    "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.j2wsK6IsW5yMW1jW"
+                }
+            },
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Tremorsense (Precise) 120 feet",
+            "sort": 600000,
+            "type": "action"
+        },
+        {
+            "_id": "NNtG56XbAhdoWSdA",
+            "data": {
+                "actionCategory": {
+                    "value": "interaction"
+                },
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "description": {
+                    "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.AtWillSpells]</p>"
+                },
+                "requirements": {
+                    "value": ""
+                },
+                "rules": [],
+                "slug": "at-will-spells",
+                "source": {
+                    "value": ""
+                },
+                "traits": {
+                    "custom": "",
+                    "rarity": "common",
+                    "value": []
+                },
+                "trigger": {
+                    "value": ""
+                },
+                "weapon": {
+                    "value": ""
+                }
+            },
+            "flags": {
+                "core": {
+                    "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.2YRDYVnC1eljaXKK"
+                }
+            },
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "At-Will Spells",
+            "sort": 700000,
+            "type": "action"
+        },
+        {
+            "_id": "zTdgUNL0sTJoxpwC",
+            "data": {
+                "actionCategory": {
+                    "value": "defensive"
+                },
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "description": {
+                    "value": "<p>The sturzstromer's space is greater difficult terrain.</p>"
+                },
+                "requirements": {
+                    "value": ""
+                },
+                "rules": [],
+                "slug": null,
+                "source": {
+                    "value": ""
+                },
+                "traits": {
+                    "custom": "",
+                    "rarity": "common",
+                    "value": []
+                },
+                "trigger": {
+                    "value": ""
+                },
+                "weapon": {
+                    "value": ""
+                }
+            },
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Clutching Stones",
+            "sort": 800000,
+            "type": "action"
+        },
+        {
+            "_id": "EknlSoHchVPvAGPA",
+            "data": {
+                "actionCategory": {
+                    "value": "offensive"
+                },
+                "actionType": {
+                    "value": "action"
+                },
+                "actions": {
+                    "value": 2
+                },
+                "description": {
+                    "value": "<p>The sturzstromer attempts an Athletics check and compares the result to the Fortitude DC of each creature in its space. This counts as two attacks for the sturzstromer's multiple attack penalty.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature falls prone, takes [[/r {1d6}[bludgeoning]]]{1d6 bludgeoning damage}, and @Compendium[pf2e.conditionitems.Restrained]{Restrained} until the end of the sturzstromer's next turn.</p>\n<p><strong>Success</strong> The creature is @Compendium[pf2e.conditionitems.Grabbed]{Grabbed}.</p>"
+                },
+                "requirements": {
+                    "value": ""
+                },
+                "rules": [],
+                "slug": null,
+                "source": {
+                    "value": ""
+                },
+                "traits": {
+                    "custom": "",
+                    "rarity": "common",
+                    "value": [
+                        "attack"
+                    ]
+                },
+                "trigger": {
+                    "value": ""
+                },
+                "weapon": {
+                    "value": ""
+                }
+            },
+            "img": "systems/pf2e/icons/actions/TwoActions.webp",
+            "name": "Grasping Bites",
+            "sort": 900000,
+            "type": "action"
+        },
+        {
+            "_id": "k6bhkrULfZctxZZa",
+            "data": {
+                "actionCategory": {
+                    "value": "offensive"
+                },
+                "actionType": {
+                    "value": "free"
+                },
+                "actions": {
+                    "value": null
+                },
+                "description": {
+                    "value": "<p><strong>Requirements</strong> The sturzstromer's most recent action was to cast <em>@Compendium[pf2e.spells-srd.Earthquake]{Earthquake}</em></p>\n<hr />\n<p><strong>Effect</strong> The sturzstromer closes a fissure it made, choosing one creature that fell in. That creature must succeed at a @Check[type:reflex|dc:41] save or be buried as in an avalanche.</p>"
+                },
+                "requirements": {
+                    "value": ""
+                },
+                "rules": [],
+                "slug": null,
+                "source": {
+                    "value": ""
+                },
+                "traits": {
+                    "custom": "",
+                    "rarity": "common",
+                    "value": []
+                },
+                "trigger": {
+                    "value": ""
+                },
+                "weapon": {
+                    "value": ""
+                }
+            },
+            "img": "systems/pf2e/icons/actions/FreeAction.webp",
+            "name": "Landslide",
+            "sort": 1000000,
+            "type": "action"
+        },
+        {
+            "_id": "SPB7FRg5vvaLT9yY",
+            "data": {
+                "actionCategory": {
+                    "value": "offensive"
+                },
+                "actionType": {
+                    "value": "action"
+                },
+                "actions": {
+                    "value": 1
+                },
+                "description": {
+                    "value": "<p>Each foe in the sturzstromer's space takes [[/r {4d10}[bludgeoning]]]{4d10 bludgeoning damage} (@Check[type:reflex|dc:41|basic:true] save).</p>"
+                },
+                "requirements": {
+                    "value": ""
+                },
+                "rules": [],
+                "slug": null,
+                "source": {
+                    "value": ""
+                },
+                "traits": {
+                    "custom": "",
+                    "rarity": "common",
+                    "value": []
+                },
+                "trigger": {
+                    "value": ""
+                },
+                "weapon": {
+                    "value": ""
+                }
+            },
+            "img": "systems/pf2e/icons/actions/OneAction.webp",
+            "name": "Pummeling Assault",
+            "sort": 1100000,
+            "type": "action"
+        },
+        {
+            "_id": "BB4RDQtC8VQqWj1P",
+            "data": {
+                "description": {
+                    "value": ""
+                },
+                "mod": {
+                    "value": 37
+                },
+                "proficient": {
+                    "value": 0
+                },
+                "rules": [],
+                "slug": null,
+                "source": {
+                    "value": ""
+                },
+                "traits": {
+                    "custom": "",
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "img": "systems/pf2e/icons/default-icons/lore.svg",
+            "name": "Athletics",
+            "sort": 1200000,
+            "type": "lore"
+        },
+        {
+            "_id": "xmLo2SyWlOmGLR9q",
+            "data": {
+                "description": {
+                    "value": ""
+                },
+                "mod": {
+                    "value": 35
+                },
+                "proficient": {
+                    "value": 0
+                },
+                "rules": [],
+                "slug": null,
+                "source": {
+                    "value": ""
+                },
+                "traits": {
+                    "custom": "",
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "img": "systems/pf2e/icons/default-icons/lore.svg",
+            "name": "Stealth",
+            "sort": 1300000,
+            "type": "lore"
+        }
+    ],
+    "name": "Sturzstromer",
+    "token": {
+        "disposition": -1,
+        "height": 3,
+        "img": "systems/pf2e/icons/default-icons/npc.svg",
+        "name": "Sturzstromer",
+        "width": 3
+    },
+    "type": "npc"
+}

@@ -1,0 +1,41 @@
+{
+    "_id": "v6he7HLxYGzaMnvL",
+    "data": {
+        "actionCategory": {
+            "value": "defensive"
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>The zombie is covered in pustules that rupture when it takes any piercing damage or any critical hit.</p>\n<p>In either case, adjacent creatures are hit with vile fluid, causing them to become @Compendium[pf2e.conditionitems.Sickened]{Sickened 1} unless they succeed at a @Check[type:fortitude|dc:|name:Disgusting Pustules] save.</p>"
+        },
+        "requirements": {
+            "value": ""
+        },
+        "rules": [],
+        "source": {
+            "value": "Pathfinder Bestiary"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "disease",
+                "necromancy"
+            ]
+        },
+        "trigger": {
+            "value": ""
+        },
+        "weapon": {
+            "value": ""
+        }
+    },
+    "img": "systems/pf2e/icons/actions/Passive.webp",
+    "name": "(Zombie) Disgusting Pustules",
+    "type": "action"
+}

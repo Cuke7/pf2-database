@@ -1,0 +1,67 @@
+{
+    "_id": "Wwr8VilSybQgVtin",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Surviving in hostile terrain has given you a great talent for mobility. Whenever you roll a success on an Athletics check to @Compendium[pf2e.actionspf2e.Climb]{Climb} or @Compendium[pf2e.actionspf2e.Swim]{Swim}, you get a critical success instead.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 5
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "adjustment": {
+                    "success": "one-degree-better"
+                },
+                "key": "AdjustDegreeOfSuccess",
+                "predicate": {
+                    "any": [
+                        "action:climb",
+                        "action:swim"
+                    ]
+                },
+                "selector": "athletics",
+                "type": "skill"
+            },
+            {
+                "key": "Note",
+                "predicate": {
+                    "any": [
+                        "action:climb",
+                        "action:swim"
+                    ]
+                },
+                "selector": "athletics",
+                "text": "<p class='compact-text'><strong>{item|name}</strong> Whenever you roll a success on an Athletics check to Climb or Swim, you get a critical success instead.</p>"
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Advanced Player's Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "orc"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Athletic Might",
+    "type": "feat"
+}

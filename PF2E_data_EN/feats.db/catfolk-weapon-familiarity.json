@@ -1,0 +1,96 @@
+{
+    "_id": "bEh5qUgX5eFaQwzU",
+    "data": {
+        "actionCategory": {
+            "value": ""
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You favor weapons that you can use with quick, darting slashes like a cat's claws. You are trained with the @Compendium[pf2e.equipment-srd.Hatchet]{Hatchet}, @Compendium[pf2e.equipment-srd.Kama]{Kama}, @Compendium[pf2e.equipment-srd.Kukri]{Kukri}, @Compendium[pf2e.equipment-srd.Scimitar]{Scimitar}, and @Compendium[pf2e.equipment-srd.Sickle]{Sickle}.</p>\n<p>In addition, you gain access to kama, kukris, and all uncommon catfolk weapons. For you, martial catfolk weapons are simple weapons and advanced catfolk weapons are martial weapons.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 1
+        },
+        "location": "",
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "data.martial.weapon-base-hatchet.rank",
+                "value": 1
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "data.martial.weapon-base-kama.rank",
+                "value": 1
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "data.martial.weapon-base-kukri.rank",
+                "value": 1
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "data.martial.weapon-base-scimitar.rank",
+                "value": 1
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "data.martial.weapon-base-sickle.rank",
+                "value": 1
+            },
+            {
+                "definition": {
+                    "all": [
+                        "weapon:trait:catfolk",
+                        "weapon:category:advanced"
+                    ]
+                },
+                "key": "MartialProficiency",
+                "label": "PF2E.SpecificRule.MartialProficiency.AdvancedCatfolkWeapons",
+                "sameAs": "martial",
+                "slug": "advanced-catfolk-weapons"
+            },
+            {
+                "definition": {
+                    "all": [
+                        "weapon:trait:catfolk",
+                        "weapon:category:martial"
+                    ]
+                },
+                "key": "MartialProficiency",
+                "label": "PF2E.SpecificRule.MartialProficiency.MartialCatfolkWeapons",
+                "sameAs": "simple",
+                "slug": "martial-catfolk-weapons"
+            }
+        ],
+        "source": {
+            "value": "Pathfinder Advanced Player's Guide"
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": [
+                "catfolk"
+            ]
+        }
+    },
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Catfolk Weapon Familiarity",
+    "type": "feat"
+}

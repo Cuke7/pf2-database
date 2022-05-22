@@ -1,0 +1,87 @@
+{
+    "_id": "tAsFXMzNkpj964X4",
+    "data": {
+        "description": {
+            "value": "<p>Granted by @Compendium[pf2e.feats-srd.Esoteric Oath (Liberator)]{Esoteric Oath (Liberator)}.</p>\n<p>If you use Liberating Step triggered by an evil aberration, your ally gains a +4 circumstance bonus to checks granted by your Liberating Step, and the ally can Step twice afterward.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "unlimited",
+            "value": -1
+        },
+        "level": {
+            "value": 2
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "label": "Liberating Step (vs. aberration)",
+                "predicate": {
+                    "all": [
+                        "action:escape"
+                    ]
+                },
+                "selector": "athletics",
+                "type": "circumstance",
+                "value": 4
+            },
+            {
+                "key": "FlatModifier",
+                "label": "Liberating Step (vs. aberration)",
+                "predicate": {
+                    "all": [
+                        "action:escape"
+                    ]
+                },
+                "selector": "acrobatics",
+                "type": "circumstance",
+                "value": 4
+            },
+            {
+                "key": "FlatModifier",
+                "label": "Liberating Step (vs. aberration)",
+                "predicate": {
+                    "all": [
+                        "action:escape",
+                        "unarmed"
+                    ]
+                },
+                "selector": "attack",
+                "type": "circumstance",
+                "value": 4
+            },
+            {
+                "key": "FlatModifier",
+                "label": "Liberating Step (vs. aberration)",
+                "predicate": {
+                    "all": [
+                        "action:escape"
+                    ]
+                },
+                "selector": "saving-throw",
+                "type": "circumstance",
+                "value": 4
+            }
+        ],
+        "source": {
+            "value": ""
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "custom": "",
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "img": "systems/pf2e/icons/spells/aberrant-whispers.webp",
+    "name": "Effect: Liberating Step (vs. Aberration)",
+    "type": "effect"
+}
