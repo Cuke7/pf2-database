@@ -3,7 +3,7 @@ const app = express()
 const port = 3000
 const fs = require('fs')
 
-let dictionary = require('./DataProcessing/fullDictionary.json')
+let dictionary = require('./fullDictionary.json')
 
 let PROD = true
 
