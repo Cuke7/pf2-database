@@ -59,15 +59,11 @@ app.get('/getDataSets', (req, res) => {
 async function readFiles(files) {
     let out = {}
     for (const file of files) {
-        // console.log(file)
         const data = await fs.promises.readFile(file);
         let nameEN = file.split("/")[2].split(".json")[0]
         let fileData = Buffer.from(data);
         out[nameEN] = JSON.parse(fileData.toString())
-        // out.push(temp)
-        // out.push({ nameEN, data: JSON.parse(fileData.toString()) })
     }
-    // console.log(out)
     return out
 }
 
