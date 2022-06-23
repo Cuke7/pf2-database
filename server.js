@@ -42,7 +42,7 @@ app.post('/pdf', (req, res) => {
             console.log("ERROR: ", util.inspect(error))
 
         })
-    res.json(spells)
+    // res.json(spells)
 })
 
 app.get('/wiki', (req, res) => {
