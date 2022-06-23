@@ -3,10 +3,47 @@ var glob = require("glob")
 const app = express()
 const port = 3000
 const fs = require('fs')
+const prince = require('prince')
 
 let dictionary = require('./fullDictionary.json')
 
+const allowedOrigins = ["http://127.0.0.1:3000", "http://localhost:3000"];
+
 let PROD = true
+
+app.use(express.json());
+app.use(function (req, res, next) {
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
+    res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type');
+    res.setHeader('Access-Control-Allow-Credentials', true);
+    next();
+});
+
+app.post('/pdf', (req, res) => {
+    let spells = req.body
+    let html = '<div style="column-count: 2;margin-left: auto; margin-right: auto;">'
+    for (const spell of spells) {
+        html += spell.data.description.value
+    }
+    console.log(prince())
+    prince()
+        .inputs(html)
+        .output("./player.pdf")
+        .execute()
+        .then(function () {
+            var file = fs.createReadStream('./player.pdf');
+            var stat = fs.statSync('./player.pdf');
+            res.setHeader('Content-Length', stat.size);
+            res.setHeader('Content-Type', 'application/pdf');
+            res.setHeader('Content-Disposition', 'attachment; filename=quote.pdf');
+            file.pipe(res);
+        }, function (error) {
+            console.log("ERROR: ", util.inspect(error))
+
+        })
+    res.json(spells)
+})
 
 app.get('/wiki', (req, res) => {
     let shortID = req.query.id
@@ -76,6 +113,6 @@ app.get('/', (req, res) => {
     res.send("Hello, I\'m a databse for Pathfinder 2!")
 })
 
-app.listen(process.env.PORT || 3000, () => {
+app.listen(process.env.PORT || 3001, () => {
     console.log(`Example app listening on port ${port}`)
 })
