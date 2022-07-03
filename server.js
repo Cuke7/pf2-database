@@ -7,7 +7,6 @@ const prince = require('prince')
 
 let dictionary = require('./fullDictionary.json')
 
-const allowedOrigins = ["http://127.0.0.1:3000", "http://localhost:3000"];
 
 let PROD = true
 
@@ -72,9 +71,13 @@ app.get('/wiki', (req, res) => {
                     let descriptionFR = description;
                     let matchs = descriptionFR.matchAll(regex);
                     for (const match of matchs) {
+                        // descriptionFR = descriptionFR.replace(
+                        //     match[0],
+                        //     "<a href='/" + match[1] + "/" + match[2] + "'>" + match[3] + "</a>"
+                        // );
                         descriptionFR = descriptionFR.replace(
                             match[0],
-                            "<a href='/" + match[1] + "/" + match[2] + "'>" + match[3] + "</a>"
+                            "<b>" + match[3] + "</b>"
                         );
                     }
                     res.json({ nameFR, descriptionFR })
