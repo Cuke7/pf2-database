@@ -7,7 +7,7 @@ const fs = require('fs')
 let dictionary = require('./fullDictionary.json')
 
 
-let PROD = false
+let PROD = true
 
 app.use(express.json());
 app.use(function (req, res, next) {
