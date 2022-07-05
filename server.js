@@ -7,7 +7,7 @@ const fs = require('fs')
 let dictionary = require('./fullDictionary.json')
 
 
-let PROD = true
+let PROD = false
 
 app.use(express.json());
 app.use(function (req, res, next) {
@@ -58,6 +58,7 @@ async function getItemByID(shortID, getReferences) {
                             /@Compendium\[pf2e\.[ ]*?([A-z-0-9]*?)\.[ ]*?([A-z0-9]*?)\]\{(.*?)[\}|\]*]/gm;
                         let descriptionFR = description;
                         let matchs = descriptionFR.matchAll(regex);
+                        let count = '*';
                         for (const match of matchs) {
 
                             // descriptionFR = descriptionFR.replace(
@@ -67,13 +68,14 @@ async function getItemByID(shortID, getReferences) {
 
                             descriptionFR = descriptionFR.replace(
                                 match[0],
-                                "<b>" + match[3] + "</b>"
+                                "<b>" + match[3] + count + "</b>"
                             );
                             references.push({
                                 name: match[3],
                                 id: match[2],
                             })
 
+                            count += "*"
                         }
                         if (getReferences) {
                             resolve({ nameFR, descriptionFR, references })
